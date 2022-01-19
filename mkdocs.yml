@@ -1,0 +1,28 @@
+site_name: Platform Development Documentation Repository
+theme:
+  name: material
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.tabs
+  plugins:
+    - search
+    - mermaid2
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default      
+      primary: pink
+      accent: dark orange
+      toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: dark orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  markdown_extensions:
+  - abbr
+        
