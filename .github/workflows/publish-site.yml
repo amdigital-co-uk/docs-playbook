@@ -1,5 +1,7 @@
 name: documentation
-workflow_dispatch:
+
+on:
+  workflow_dispatch:
 
 env:
   PYTHON_VERSION: 3.x
