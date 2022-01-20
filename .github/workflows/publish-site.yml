@@ -1,0 +1,25 @@
+name: Deploy Site
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  documentation:
+    name: Build site
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install MKdocs and theme
+        run: |
+          pip install mkdocs-material
+      
+      - name: Deploy MKdocs site
+        run: |
+          mkdocs gh-deploy --force
+          mkdocs --version
