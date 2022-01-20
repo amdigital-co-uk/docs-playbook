@@ -28,7 +28,7 @@ next-review: 01-04-2022
 
 ## Ownership
 - The creator / reviewer is responsible for determining the next review date
-**// TODO: Need to identify document ownership strategy**
+'`// TODO: Need to identify document ownership strategy**
 
 ## Reviewing
 

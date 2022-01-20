@@ -1,4 +1,11 @@
-[[_TOC_]]
+---
+title: Lean Entrypoints
+authors: 
+  - Dave Arther
+reviewed: 
+reviewer:
+next-review: 01-04-2022
+---
 
 ## Code Structure
 
@@ -19,7 +26,7 @@ Virtually all endpoints in Quartex are implemented as actions within MVC Control
 
 ### Endpoint Best Practices
 
-* Follow the [endpoint naming](/Platform-Development-Playbook/Engineering/Quality-Standards/Endpoint-Naming-Conventions) best practices
+* Follow the [endpoint naming](/6.-Engineering/Quality-Standards/Endpoint-Naming-Conventions) best practices
 * Controllers should be very lean:
     * Collect the input from the request
     * Perform basic validation (e.g. are all required parameters correct? More complex validation e.g. does an asset exist for a given ID should belong in the controller)

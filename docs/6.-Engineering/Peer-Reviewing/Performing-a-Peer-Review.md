@@ -1,7 +1,17 @@
+---
+title: Performing a Peer Review
+authors: 
+  - Dave Arther
+  - Rhodri Hewitson
+reviewed: 
+reviewer:
+next-review: 01-04-2022
+---
+
 The engineer performing the review must:
 
 * Copy and paste the template checklist (below) into their a new comment on the PR in GitHub
-* Start reviewing the changes with respect to the [Quality Standards](/Platform-Development-Playbook/Engineering/Quality-Standards)
+* Start reviewing the changes with respect to the [Quality Standards](/6.-Engineering/Quality-Standards)
 * When the reviewer is happy that a particular guideline has been met, the relevant item in the checklist is checked
 * If any guidelines are **not** met, the reviewer should add a comment (either a general comment, or next to the offending portion of code) to explain why
 

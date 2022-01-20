@@ -1,4 +1,11 @@
-[[_TOC_]]
+---
+title: Distributed Locks
+authors: 
+  - Dave Arther
+reviewed: 
+reviewer:
+next-review: 01-04-2022
+---
 
 Quartex is a distributed system, with multiple microservices doing different things at the same time. This can be a recipe for race conditions to creep in and create strange bugs, especially at scale.
 

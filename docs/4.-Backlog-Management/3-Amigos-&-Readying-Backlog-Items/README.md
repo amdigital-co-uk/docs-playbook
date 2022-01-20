@@ -30,7 +30,7 @@ The three amigos approach aims to ensure that the _smallest group of people poss
 
 The three Amigos will work with other stakeholders from across the business as they go through Definition phase. For example, the Tech Lead should consult with other engineers and the Architect.
 
-// TODO: Who should determine the 3 Amigos? How and When is this done?
+`// TODO:  Who should determine the 3 Amigos? How and When is this done?
 
 ### Responsibilities
 
@@ -42,12 +42,12 @@ The Three Amigos are collectively responsible for:
 - planning and executing the definition work
 - supporting the build and release phase by resolving queries and updating requirements
 
-// TODO: Set out the specific responsibilities of each of the 3A roles.
+`// TODO:  Set out the specific responsibilities of each of the 3A roles.
 
 
 # Backlog Prioritisation
-// Todo: describe impact & urgency ranking
+`// TODO:  describe impact & urgency ranking
 
 
 # Sprint Candidates
-// Todo: describe impact & urgency ranking
+`// TODO:  describe impact & urgency ranking

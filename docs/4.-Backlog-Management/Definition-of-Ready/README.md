@@ -28,8 +28,8 @@ Information regarding producing each artefact type can be found within the [3 Am
 > Note: The Definition of Ready should be considered a guide rather than a set of hard rules. The artefacts actually needed will vary depending on the nature of the backlog item. It is up to the [3 Amigos team](/4.-Backlog-Management/3-Amigos-%26-Readying-Backlog-Items/) to determine what readiness means for each backlog item as they go through the definition processes.
 
 # Backlog Prioritisation
-// Todo: describe impact & urgency ranking
+`// TODO:  describe impact & urgency ranking
 
 
 # Sprint Candidates
-// Todo: describe impact & urgency ranking
+`// TODO:  describe impact & urgency ranking

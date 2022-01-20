@@ -34,7 +34,7 @@ next-review:
 ```
 
 # Structure
-// TODO : What are the structures that should be used (subpages, headings, TOCs, tags etc)
+`// TODO: : What are the structures that should be used (subpages, headings, TOCs, tags etc)
 
 # Reviewing
 Documents should be peer reviewed after initial publication, and following significant revisions. They should also be subject to periodic reviews to ensure they are up to date, relevant, and accurate.

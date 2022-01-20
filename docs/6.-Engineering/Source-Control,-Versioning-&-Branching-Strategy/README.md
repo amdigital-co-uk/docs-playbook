@@ -1,26 +1,26 @@
 ---
-Authors: 
+title: Source Control, Versioning & Branching Strategy
+authors: 
 - Ed Earle
 - Rob Cloutman
 - Dave Arthur
-Next Review Date: 2021-01-06
-Last Review Date: 
-Last Reviewed By: 
+reviewed: 
+reviewer:
+next-review: 2021-01-06
 ---
 
-[[_TOC_]]
+## Who is this for?
 
-# Purpose & Audience
-**Purpose:** Outlines the current source control techniques for our codebases, referred to as our "branching strategy". 
+Outlines the current source control techniques for our codebases, referred to as our "branching strategy". 
 
-**Audience:** This is targeted at any member of the team who performs work against any of the codebases, including code changes and reviews. 
+This is targeted at any member of the team who performs work against any of the codebases, including code changes and reviews. 
 
-# Source Control
+## Source Control
 Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 
-# Branching Strategy
+## Branching Strategy
 
-**IMPORTANT NOTE:** This strategy applies to all repositions with the **exception of any shared code repositories** which generate NuGet packages which are  dependencies of multiple other repos/solutions. Please see the specific [Branching & Versioning Shared Repositories](/Platform-Development-Playbook/Engineering/Source-Control,-Versioning-&-Branching-Strategy/Branching-&-Versioning-Shared-Code-Repositories) documentation. 
+**IMPORTANT NOTE:** This strategy applies to all repositions with the **exception of any shared code repositories** which generate NuGet packages which are  dependencies of multiple other repos/solutions. Please see the specific [Branching & Versioning Shared Repositories](/6.-Engineering/Source-Control,-Versioning-&-Branching-Strategy/Branching-&-Versioning-Shared-Code-Repositories) documentation. 
 
 | **Branch** | **Key Purpose** | **Naming** |
 |--|--|--|
@@ -29,18 +29,20 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 | **Feature** | Contains all the changes required for a specific feature or bug, only. Note that the term "feature branch is used as it is common practice, but it is synonymous with a backlog item - an independent, releasable, valuable product increment. | `feature/{Feature-Name}` <br> OR <br> `bug/{Bug-Name}` |
 | **Work** | Contains only the work of an individual within the team. Work is only ever done against a work branch | `work/{Engineer Name}/[feature|bug]/{Feature Name}`|
 
-## Strategy Basics
+### Strategy Basics
+
 1. When work is started on a feature a **Feature** [branch](https://git-scm.com/docs/git-branch) is created from the **Main** branch.
 1. Each engineer who needs to make changed to that branch must create their own **Work** branch, against which they can commit all changes. Regular and small [commits](https://git-scm.com/docs/git-commit) are recommended, and should be regularly [pushed](https://git-scm.com/docs/git-push). 
 1. Each commit must be accompanied by a useful description of the change made.
-1. If multiple engineers are working concurrently on a single feature, and their work is interdependent (i.e. could not be usefully tested independently), each should use their own **Work** branch and one **Work** branch should be merged into another, via a [pull request (PR)](#Merging-and-Pull-Request) . 
-1. When the engineer has completed their work, and it is ready for test, a [PR](#Merging-and-Pull-Request) can be submitted to merge it into the **Feature** branch.
-1. The [PR](#Merging-and-Pull-Request) should be actioned by another member of the team, who should perform a [peer review](/Platform-Development-Playbook/Engineering/Peer-Reviewing) at this time.
+1. If multiple engineers are working concurrently on a single feature, and their work is interdependent (i.e. could not be usefully tested independently), each should use their own **Work** branch and one **Work** branch should be merged into another, via a [pull request (PR)](#merging-and-pull-requestss) . 
+1. When the engineer has completed their work, and it is ready for test, a [PR](#merging-and-pull-requestss) can be submitted to merge it into the **Feature** branch.
+1. The [PR](#merging-and-pull-requestss) should be actioned by another member of the team, who should perform a [peer review](/6.-Engineering/Peer-Reviewing) at this time.
 1. Changes required should be performed by the original engineer against the merging **Work** branch, but any other member of the team should do this in their absence. 
-1. When a [PR](#Merging-and-Pull-Request) is completed and the **Feature** branch has been updated, a build will be automatically kicked off and a releasable package created. This can then be deployed into any available QA environment for testing or PO review.
-1. When a feature has passed testing and PO review, the **Feature** branch can be merged into either a **Release** branch, the the **Main** branch, by performing a [PR](#Merging-and-Pull-Request):
+1. When a [PR](#merging-and-pull-requestss) is completed and the **Feature** branch has been updated, a build will be automatically kicked off and a releasable package created. This can then be deployed into any available QA environment for testing or PO review.
+1. When a feature has passed testing and PO review, the **Feature** branch can be merged into either a **Release** branch, the the **Main** branch, by performing a [PR](#merging-and-pull-requests):
     1.  **Release Branches:** 
         > Do this if:  the feature will be released alongside other features, **or** is required to undergo BAT.
+
         1.  `TBC- A Test Engineer will review and assess the PR to ensure that only the correct features are included for a release`
         1. A new **Release** branch is created by branching from the **Main** branch if one does not already exists. 
         1. Ensure that the feature branch is up-to-date with the **Main** branch and regression tested before merging it into the **Release** branch
@@ -59,35 +61,35 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 `// TODO: include images of each step and overall map view`
 
 
-## Creating a Feature Branch
+### Creating a Feature Branch
 
-## Creating a Release Branch
+### Creating a Release Branch
 
-## Merging and Pull Request
+### Merging and Pull Requests
 
-### Merging Upstream
-Upstream merges occur when changes need to pulled into a parent branch. When this is done, a [Pull Request (PR)](https://git-scm.com/docs/git-request-pull) must be submitted and a [peer review performed](/Platform-Development-Playbook/Engineering/Peer-Reviewing) by another member of the team.
+#### Merging Upstream
+Upstream merges occur when changes need to pulled into a parent branch. When this is done, a [Pull Request (PR)](https://git-scm.com/docs/git-request-pull) must be submitted and a [peer review performed](/6.-Engineering/Peer-Reviewing) by another member of the team.
 
 You should only merge _good work_ upstream. I.e. it should already be known to pass all quality standards and tests.
 
-### Merging Downstream 
+#### Merging Downstream 
 Downstream mergers occur when changes need to be pulled from a parent branch into a child branch. For example, a release has occurred while a feature is being worked on. In this case the master branch has changed since the feature branch was created, so the feature branch must be updated with the changes. Any work branches relating to that feature branch would also need to be updated.
 
 These changes should be merged and tested prior to attempting a merge up to the parent.
 
-# Deploying Packages
+## Deploying Packages
 
-# Tooling
-// TODO: Recommended source control tooling such as Source Tree/ VS Code Plugins etc
-// TODO: High-level GitHub overview
+## Tooling
+`// TODO:  Recommended source control tooling such as Source Tree/ VS Code Plugins etc
+`// TODO:  High-level GitHub overview
 
-# Related Training
+## Related Training
 You should have a good understanding of Git principals. Our branching strategy details the usual activities, but you may need to perform more advanced git commands occasionally.
 
-## Pluralsight
+### Pluralsight
 [Course: Managing Source Code with Git](https://app.pluralsight.com/paths/skill/managing-source-code-with-git)
 This course contains a series of training videos from beginner to advanced user need.
 
-## Git Documentation
+### Git Documentation
 The [reference documentation](https://git-scm.com/docs) can provide quick information on commands and their purpose. and there is an advanced user book [Pro Git](https://git-scm.com/book/en/v2) available online as well
 

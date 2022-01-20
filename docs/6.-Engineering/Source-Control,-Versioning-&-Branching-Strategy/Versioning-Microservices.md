@@ -1,9 +1,10 @@
 ---
-Authors: 
-- Ed Earle
-Next Review Date: 2021-01-10
-Last Review Date: 
-Last Reviewed By: 
+title: Versioning Microservices
+authors: 
+- Dave Arthur
+reviewed: 
+reviewer:
+next-review: 2021-11-06
 ---
 
 

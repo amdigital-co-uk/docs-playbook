@@ -1,8 +1,13 @@
-site_name: AM Platform Development Playbook
+site_name: Platform Development Playbook
 repo_url: https://github.com/amdigital-co-uk/amdigital-co-uk.github.io/
 repo_name: GitHub
+edit_uri: edit/main/docs/
+extra_css:
+  - stylesheets/extra.css
 theme:
+  logo: assets/logo.jfif
   name: material
+  favicon: assets/favicon.ico
   features:
     - header.autohide
     - navigation.instant    
@@ -13,30 +18,31 @@ theme:
     - git-revision-date-localized
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default      
-      primary: teal
-      accent: deep orange
+      scheme: AM      
       toggle:
           icon: material/eye-outline
           name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: deep orange
       toggle:
         icon: material/eye
         name: Switch to light mode
-  markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - markdown-checklist
-  - abbr    
-  - toc:
-        permalink: #
-  - pymdownx.tabbed:
-      alternate_style: true       
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/company/adam-matthew-digital-ltd/mycompany/
+    - icon: octicons/person-add-16
+      link: https://careers.amdigital.co.uk/departments/platform-development
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- abbr
+- attr_list
+- md_in_html
+- toc:
+      permalink: true      
+      title: On this page
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg

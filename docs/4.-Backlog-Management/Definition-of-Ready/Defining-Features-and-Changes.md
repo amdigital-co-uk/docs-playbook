@@ -36,7 +36,7 @@ Ready Features and Change Backlog Items should:
 
 
 # Definition Process Flow
-// TODO: Determine diagramming needs. Is Mermaid sufficient? Should we link out to Miro, import images, or use something else?
+`// TODO:  Determine diagramming needs. Is Mermaid sufficient? Should we link out to Miro, import images, or use something else?
 
 The process flow details an example of the way a roadmap item is understood and eventually turned into well defined backlog items. 
 
@@ -84,13 +84,13 @@ The 3As must split the roadmap item into backlog items. Initially this is done b
 Turning large solutions into discrete deliverables is an art form! Our definition of ready provides some guidelines of what a backlog item should be, generally centred around the INVEST principals. Further reading and learning on this topic is highly recommended. 
 
 ## High Res designs
-// TODO: complete high res designs section
+`// TODO:  complete high res designs section
 
 ## Functional and Non-Functional Requirements
-// TODO: complete Reqs section
+`// TODO:  complete Reqs section
 
 ## Technical approach
-// TODO: complete tech approach section
+`// TODO:  complete tech approach section
 
 ## Team Review
-// TODO: complete review section
+`// TODO:  complete review section
