@@ -1,0 +1,32 @@
+name: documentation
+workflow_dispatch:
+
+env:
+  PYTHON_VERSION: 3.x
+
+jobs:
+  documentation:
+    name: Build site
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2.3.1
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Python dependencies
+        run: |
+          pip install .
+          pip install \
+            mkdocs-minify-plugin>=0.3 \
+            mkdocs-redirects>=1.0 \
+            mkdocs-rss-plugin>=0.17
+      
+      - name: Deploy documentation
+        run: |
+          mkdocs gh-deploy --force
+          mkdocs --version
