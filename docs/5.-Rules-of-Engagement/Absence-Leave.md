@@ -12,7 +12,7 @@ next-review: 01-04-2022
 
 Follow the HR guidelines on communicating unplanned absence.
 
-Additionally, if you are able to, send a message using Teams to key channels (e.g. the relevant Delivery Team channel, any [3As groups](/Platform-Development-Playbook/Backlog-Management/Definition-of-Ready/Defining-Features-and-Changes#3-Amigos) etc) to inform them that you are not working. This will help the team to rapidly re-plan any work as required.
+Additionally, if you are able to, send a message using Teams to key channels (e.g. the relevant Delivery Team channel, any [3As groups](/4.-Backlog-Management/) etc) to inform them that you are not working. This will help the team to rapidly re-plan any work as required.
 
 > **Engineers Tip** - You should always commit and push changes to your working branch at the end of the working day, including descriptive comments about the work in progress. You can never guarantee you'll be in a position to pick up where you left off the next day!
 

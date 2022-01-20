@@ -10,8 +10,6 @@ next-review: 01-04-2022
 
 # Definition of Ready 
 
-:smile: 
-
 Ready Features and Change Backlog Items should:
 
 1. Meet [INVEST](https://www.agilealliance.org/glossary/invest/) criteria and 
