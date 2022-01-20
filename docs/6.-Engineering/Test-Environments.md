@@ -1,0 +1,114 @@
+---
+Authors: 
+- Karen Farrell
+- Rhod Hewitson
+- Ed Earle
+- Dave Arthur 
+Next Review Date: 2022-02-01
+Last Reviewed By:
+Last Review Date:
+---
+
+# Purpose
+This page documents our test environments and the process a Feature/Change follows from being developed to being released to Live.
+
+These practices will be being reviewed and updated rapidly as we work to reduce dependencies and blockers in the development, test, and deployment cycle.
+
+# Guiding Principals
+> There should be no inherent link between test environment type and development lifecycle stage. We must avoid principals such as "QA is for testing, then it goes to stage, before it can go live". We must ensure we perform good testing, but should not be constrained by imagined barriers. 
+
+
+- The many "QA environments" can be used for any type of testing, include PO
+- The single "Stage" environment is used for Business Acceptance Testing (BAT) only. This is because BAT has specific test data in it at present, so the QA environments are not sufficient
+- Turn on and off your QA environments when you start and finish using them - they cost money to keep on!
+- Always ensure every component (i.e. each microservice) within a QA environment has the latest main branch (i.e. live) deployed to it before deploying the feature(s) under test.
+
+
+# Test Environment Overview
+We currently have 6 QA environments (namely QA & QA-1 thru 5) and one Stage environment (Note: We plan to soon have 10 QA environments – QA & QA-1 thru 9).
+
+The QA environments are predominately used by the Delivery Team to test the Feature/Change
+
+The Stage environment is used by Stakeholders for BAT
+
+Only environments that are currently in use are ever switched on
+
+# Deploying to Test Environments
+## Delivery Team Testing
+A Feature/Change has been developed and is ready for testing -
+1. Switch on a QA environment
+1. Deploy the latest microservices along with the Feature/Change under test to the QA environment
+1. Test the Feature/Change
+1. Any defects raised at this phase are fixed and released to same QA environment
+   * On release, ensure the latest microservices are deployed
+1. On completion of this test phase, check all deployed microservices are the same version as Live
+   * If the microservices remain the latest, the Feature/Change can move to the next phase i.e. PO Sign-Off
+   * If the microservices no longer match Live:
+     * Deploy the latest versions to the QA environment
+     * Smoke Test
+     * Move to the next phase i.e. PO Sign-Off
+
+For further information on the release process, please see [Deploying to Test Environments](https://dev.azure.com/AMDigitalTech/Platform%20Development/_wiki/wikis/AMD-Technology.wiki/94/Deploying-to-Test-Environments)
+
+##PO Sign-Off
+PO Sign-Off takes place on the QA environment with the latest versions of the microservices deployed (i.e. as close to Live as possible)
+
+Ideally, PO will be able to sign-off the release promptly to prevent further smoke testing should the microservices fall out of sync with Live.
+
+* Any defects raised at this phase are fixed and released to same QA environment
+  * On release, ensure the latest microservices are deployed
+
+Once PO Sign-Off is obtained, the next phase depends on whether BAT is required or not
+
+
+
+##BAT Phase Not Required
+Testing is complete and PO have signed off the Feature/Change against the latest microservices.  The Feature/Change is now ready to be released to Demo & Live.
+##BAT Phase Required
+Testing is complete and PO have signed off the Feature/Change against the latest microservices.  The Feature/Change is now ready to be released to Stage for BAT.
+1. Check no BAT session is currently taking place on the Stage environment
+1. Switch on the Stage environment
+1. Deploy the latest microservices along with the Feature/Change under test to the Stage environment
+1. Smoke test where required
+1. BAT can commence
+
+Following sign-off from Stakeholders, a smoke test may be required should the microservices no longer be up to date (i.e. release to Live occurred during this time).
+
+The Feature/Change is now ready to be released to Demo & Live.
+
+##Following Release to Live
+
+On completion of the release:
+1. Follow the [branching strategy guidelines](/Platform-Development-Playbook/Engineering/Source-Control,-Versioning-&-Branching-Strategy) to ensure the main branch is updated
+1. The relevant QA environment and Stage (if not being used by another BAT session) must be switched off
+
+##WorkFlow Diagram
+::: mermaid
+graph TD
+A[Development Complete] --> |Switch on QA Environment| B[Deploy latest microservices]
+B --> C[Deploy Code Changes]
+C --> D{Defects Found}
+D --> |Yes| A
+D --> |No| E{Latest microservices still deployed?}
+E --> |No| F[Deploy latest Microservices]
+F --> G[Smoke Test]
+G --> H[PO Sign Off]
+E --> |Yes| H
+H --> I{Defects Found}
+I --> |Yes| A
+I --> |No| J{Latest microservices still deployed?}
+J --> |No| K[Deploy latest Microservices]
+K --> L[Smoke Test]
+L --> M{BAT Required?}
+J --> |Yes| M
+M --> |No| N[Release to Demo & Live]
+M --> |Yes| O[Switch on Stage Environment]
+O --> P[Deploy latest microservices]
+P --> Q[Deploy Code Changes]
+Q --> R[BAT Signed Off]
+R --> |Yes| S{Latest microservices still deployed?}
+S --> |No| T[Deploy latest Microservices]
+T --> U[Smoke Test]
+U --> N
+S --> |Yes| N
+:::

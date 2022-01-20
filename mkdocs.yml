@@ -1,28 +1,42 @@
-site_name: Platform Development Documentation Repository
+site_name: AM Platform Development Playbook
+repo_url: https://github.com/amdigital-co-uk/amdigital-co-uk.github.io/
+repo_name: GitHub
 theme:
   name: material
   features:
     - header.autohide
-    - navigation.instant
-    - navigation.tabs
+    - navigation.instant    
+    - navigation.tracking
   plugins:
     - search
     - mermaid2
+    - git-revision-date-localized
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default      
-      primary: pink
+      primary: silver
       accent: dark orange
       toggle:
           icon: material/toggle-switch-off-outline
           name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
+      primary: silver
       accent: dark orange
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
   markdown_extensions:
-  - abbr
-        
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - markdown-checklist
+  - abbr    
+  - toc:
+        permalink: #
+  - pymdownx.tabbed:
+      alternate_style: true       
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  
