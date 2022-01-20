@@ -1,12 +1,10 @@
-name: documentation
+name: Deploy Site
 
 on:
   workflow_dispatch:
   push:
     branches:
       - main
-env:
-  PYTHON_VERSION: 3.x
 
 jobs:
   documentation:
@@ -17,20 +15,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Setup Python
-        uses: actions/setup-python@v2.3.1
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Install Python dependencies
+      - name: Install MKdocs and theme
         run: |
-          pip install .
-          pip install \
-            mkdocs-minify-plugin>=0.3 \
-            mkdocs-redirects>=1.0 \
-            mkdocs-rss-plugin>=0.17
+          pip install mkdocs-material
       
-      - name: Deploy documentation
+      - name: Deploy MKdocs site
         run: |
           mkdocs gh-deploy --force
           mkdocs --version
