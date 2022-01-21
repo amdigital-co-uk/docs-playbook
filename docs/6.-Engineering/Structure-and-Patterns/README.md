@@ -1,9 +1,10 @@
 ---
-Authors: 
-- Dave Arthur
-Next Review Date: 2021-10-15
-Last Reviewed By:
-Last Review Date:
+title: Structure and Patterns
+authors: 
+  - Dave Arthur
+reviewed: 
+reviewer:
+next-review: 2021-10-15
 ---
 
 

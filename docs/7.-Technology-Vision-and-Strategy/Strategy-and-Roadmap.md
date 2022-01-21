@@ -50,7 +50,7 @@ Validation means ensuring it is valuable, feasible, and aligned with our vision 
 - Each backlog item does not need to be delivered at the same time! We can add value gradually. This plan should be captured in the parent Roadmap Item.
 
 
-// TODO:
+`// TODO
 Define actual mechanisms for assigning leads, reviewing backlog/ideas repo
 Define "ready"
 Summarise practice for getting work into sprints i.e. pre-planning

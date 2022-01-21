@@ -1,10 +1,28 @@
+---
+title: Technology Vision and Strategy
+authors: 
+- Dave Arthur
+- Ed Earle
+- Rhodri Hewitson
+reviewed: 
+reviewer:
+next-review: 2022-01-04
+---
+
 # Who is this for?
 This section describes the way in which we plan ahead to ensure our technology estate will continue to serve the business and product needs in the future.
 
 All members of Platform Development will have an interest in ensuring that this approach is fit for purpose, and engineers need to engage with the vision and strategy by offering their expertise and insights to help us define and refine the path ahead
 
 # Vision
-<div style="color:#D22C46; text-align:center; font-size:1.5em; border:1px solid silver">Continually improve our effectiveness, <br>by improving our ability to deliver value fast and sustainably, <br>whilst meeting quality, security, stability and performance needs <br> to increase the longevity of our technology while increasing the rate at which we deliver value </div>
+
+
+<div class="am-block">
+<p>Continually improve our effectiveness, </p>
+<p>by improving our ability to deliver value fast and sustainably, </p>
+<p>whilst meeting quality, security, stability and performance needs</p>
+<p>to increase the longevity of our technology while increasing the rate at which we deliver value</p>
+ </div>
 
 
 # Guiding Principals

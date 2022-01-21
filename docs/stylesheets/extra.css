@@ -1,0 +1,39 @@
+  [data-md-color-scheme="AM"] {
+    --md-primary-fg-color:      #650a34;
+    --md-accent-fg-color:      #00347a;
+    --md-typeset-a-color:        #650a34; 
+    
+  }
+
+  [data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #650a34;
+    --md-accent-fg-color:       #849abd;
+    --md-typeset-a-color:       #b36d8d;
+  }
+
+  .am-block {
+    width:99%;
+    margin:5px;
+    margin:30px;     
+    font-size:1.5em;
+    border: 1px solid;
+  }
+
+  
+  [data-md-color-scheme="slate"] .am-block {
+    border: 1px solid #b36d8d;
+  }
+  [data-md-color-scheme="AM"] .am-block {
+    border: 1px solid #650a34;
+  }
+
+  .am-block p{
+    text-align: center;
+  }
+
+  [data-md-color-scheme="slate"] .am-block p:hover{
+    color: #b36d8d;
+  }
+  [data-md-color-scheme="AM"] .am-block p:hover{
+    color: #650a34;
+  }
