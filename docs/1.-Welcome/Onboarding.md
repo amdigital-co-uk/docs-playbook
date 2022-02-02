@@ -24,10 +24,12 @@ Much of this should be covered during your induction. The playbook is your compa
 
 # Development Practices
 This section will be most relevant to Software Engineers, but all team members are encouraged to read.
+
 // TODO
 
 # Testing Practices
 This section will be most relevant to Test Engineers, but all team members are encouraged to read.
+
 // TODO
 
 # Releasing Practices

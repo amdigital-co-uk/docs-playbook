@@ -27,13 +27,15 @@ next-review: 01-04-2022
 - Repository readmes should always be reviewed and updated when related code is changed
 
 ## Ownership
-- The creator / reviewer is responsible for determining the next review date
-'`// TODO: Need to identify document ownership strategy**
+The creator / reviewer is responsible for determining the next review date
+
+Everyone is responsible for ensuring documentation remains up to date.
 
 ## Reviewing
 
 # Documentation Types
 We can perceive documentation as having different _"levels"_. From high level documentation covering ways of working with the widest audience, to lowest level documentation covering the function of modules or even lines of code.
+
 Within each level there are a number of types of documentation. Specific guidelines for each of these levels and their types are detailed in the subpages of this section of the wiki.
 
 | **Level** | **Types** | **Locations** |
