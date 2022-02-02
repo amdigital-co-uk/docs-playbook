@@ -7,7 +7,8 @@ extra_css:
 theme:
   logo: assets/logo.jfif
   name: material
-  favicon: assets/favicon.ico
+  favicon: assets/favicon.ico  
+  custom_dir: mkdocs-overrides
   features:
     - header.autohide
     - navigation.instant    
