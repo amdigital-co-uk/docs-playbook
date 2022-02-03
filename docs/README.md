@@ -8,7 +8,7 @@ Review-Date: 2022-04-19
 ---
 
 
-Welcome to our playbook. This document aims help our engineering, product, and design teams to operate within a clear framework of practices and acheive [our mission]().
+Welcome to our playbook. This document aims help our engineering, product, and design teams to operate within a clear framework of practices and acheive [our mission](1.-Welcome\Mission).
 
 ## Who is this for?
 
