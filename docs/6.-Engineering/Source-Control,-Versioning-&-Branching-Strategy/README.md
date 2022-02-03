@@ -25,9 +25,10 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 | **Branch** | **Key Purpose** | **Naming** |
 |--|--|--|
 | **Main** | Reflection of production environments. At any point you should be able to branch from Main absolutely confident that it will match what is  | `main` |
-| **Release** | A release branch is used when EITHER of following conditions are met: <br> 1. multiple features are being released together <br> 2. BAT is required. | `release/{Release-Name]` |
-| **Feature** | Contains all the changes required for a specific feature or bug, only. Note that the term "feature branch is used as it is common practice, but it is synonymous with a backlog item - an independent, releasable, valuable product increment. | `feature/{Feature-Name}` <br> OR <br> `bug/{Bug-Name}` |
+| **Release** | A release branch is used when EITHER of following conditions are met: <br> 1. multiple features are being released together <br> 2. BAT is required | `release/{Release-Name}` |
+| **Feature** | Contains all the changes required for a specific feature or bug, only. Note that the term "feature branch is used as it is common practice, but it is synonymous with a backlog item - an independent, releasable, valuable product increment | `feature/{Feature-Name}` <br> OR <br> `bug/{Bug-Name}` |
 | **Work** | Contains only the work of an individual within the team. Work is only ever done against a work branch | `work/{Engineer Name}/[feature|bug]/{Feature Name}`|
+| **Documentation** | Contains changes to any documentation within the codebase where the changes to the documentation aren't a result of a code change | `document/{Change-Name}`|
 
 ### Strategy Basics
 
@@ -57,6 +58,10 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
         1. A [release plan]() should be created, including the package ID. 
         1. Once the release to production environments is complete, the **Feature** branch can be merged into **Main** via a PR.
 1. Once **Main** has been updated, **communicate the change to all Platform Development teams** so that any WIP branches can be updated and regression tests can be performed.
+
+### Non-Functional Changes
+
+If you are deploying non-functional changes (such as documentation or linting), then merging from your work branch to main is fine. This should **only** be done if the changes are non-functional, if any functional code is changed, your work branch **must** be merged into a feature branch. 
 
 `// TODO: include images of each step and overall map view`
 
