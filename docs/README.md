@@ -8,7 +8,7 @@ Review-Date: 2022-04-19
 ---
 
 
-Welcome to our playbook. This document aims help our engineering, product, and design teams to operate within a clear framework of practices and acheive [our mission]().
+Welcome to our playbook. This document aims help our engineering, product, and design teams to operate within a clear framework of practices and acheive [our mission](/1.-Welcome/Mission).
 
 ## Who is this for?
 
@@ -20,7 +20,7 @@ We have made this document public, so that we can be held to the standards set o
 
 ###DO 
 
-:white_check_mark: **CONTRIBUTE** - this is a public doucment, and is owned by the whole department. We welcome comment form external readers. Team members should submit pull requests where they identify potential improvements, and collaborate with their team members to refine processes and standards. Details of how to contribute are [here](1.-Welcome\Documentation-Guidelines\Platform-Development-Playbook).
+:white_check_mark: **CONTRIBUTE** - this is a public doucment, and is owned by the whole department. We welcome comment form external readers. Team members should submit pull requests where they identify potential improvements, and collaborate with their team members to refine processes and standards. Details of how to contribute are [here](/1.-Welcome/Documentation-Guidelines/Platform-Development-Playbook).
 
 :white_check_mark: **READ ME** - it's not just here to fill up space on the giant virtual bookshelf 
 
@@ -40,3 +40,4 @@ Current opportunities in Software Engineering, Design, and Product management:
 </div>
 
 And take a look at [our careers site](https://careers.amdigital.co.uk/){: target=_blank} for more information about life at AM.
+
