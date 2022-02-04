@@ -18,14 +18,26 @@ We have made this document public, so that we can be held to the standards set o
 
 ## Do's and Don'ts
 
-DO 
+###DO 
 
 :white_check_mark: **CONTRIBUTE** - this is a public doucment, and is owned by the whole department. We welcome comment form external readers. Team members should submit pull requests where they identify potential improvements, and collaborate with their team members to refine processes and standards. Details of how to contribute are [here](/1.-Welcome/Documentation-Guidelines/Platform-Development-Playbook).
 
 :white_check_mark: **READ ME** - it's not just here to fill up space on the giant virtual bookshelf 
 
-DO NOT
+###DO NOT
 
 :no_entry_sign: **PUT SECRETS HERE** - No secrets, passwords, or sesitive information. If you wouldn't give it to a baddy, don't put it here.
 
 :no_entry_sign: **TROLL** - Sometimes we get things wrong. That's OK. If you want to critise that is great, but it had better be helpful.
+
+## Join Our Team
+
+Current opportunities in Software Engineering, Design, and Product management:
+
+<div class="am-jobs">
+    <script src="https://scripts.teamtailor-cdn.com/widgets/production/jobs.js" async charset="utf-8"></script> 
+    <div class="teamtailor-jobs-widget" data-teamtailor-limit="20" data-teamtailor-pagination="true" data-teamtailor-popup="true" data-teamtailor-department="121872" data-teamtailor-api-key="3Y59uz-R07qH3Cs3_wMHuLkNnGfxIgDKkNEWUpSs"></div>
+</div>
+
+And take a look at [our careers site](https://careers.amdigital.co.uk/){: target=_blank} for more information about life at AM.
+
