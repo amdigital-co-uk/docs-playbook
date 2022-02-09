@@ -94,6 +94,7 @@ Lorum ipsum who's responsible for the ask for this request? run it up the flag p
 * Use sub pages if your content is large
 * Use bullet lists to simplify key points
 * Use diagrams to express more complex ideas, such as processes
+* Use a spell checker in whatever editor you are using, set it to UK English. In VSCode there numerous plugins.
 
 
 ## Reviewing
@@ -104,7 +105,7 @@ The primary purpose of a review is to ensure that the documentation is as useful
 
 - The peer reviewer should carefully read and understand the content of the document. Consider the audience of the document and its purpose. 
 - Ensure the page header is populated and accurate, and that a review date has been provided.
-- Check for typos and errors if possible, although this is not the primary purpose of review. 
+- Check for typos and errors if possible, although this is not the primary purpose of review. Use a spell checker.
 - Provide constructive feedback to the author for revision.
 
 ### Periodic Reviews
