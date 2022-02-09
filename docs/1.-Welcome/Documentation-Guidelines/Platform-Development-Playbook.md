@@ -1,5 +1,5 @@
 ---
-title: Playbook Documenation
+title: Playbook Documentation
 authors: 
 - Ed Earle 
 - Dave Arthur 
@@ -23,7 +23,7 @@ Every member of the division is responsible for ensuring that this playbook is u
 
 ## Tooling
 
-This playbook is build using [Markdown](https://www.markdownguide.org/) documents, a simple text editor designed for documenation.
+This playbook is build using [Markdown](https://www.markdownguide.org/) documents, a simple text editor designed for documentation.
 
 Specifically, it is build on [MKDocs](https://www.mkdocs.org/), using the [Material for MKDocs](https://squidfunk.github.io/) theme.
 
@@ -31,7 +31,7 @@ It is stored in GitHub, and published with [GitHub Pages](https://pages.github.c
 
 MKDocs and Material for MKDocs extend the functionality of Markdown, allowing you to include visually richer content.
 
-You can edit the documents usng any markdown editor, incuding GitHub. Read [How to Contribute](#how-to-contribute) for a step by step guide.
+You can edit the documents using any markdown editor, including GitHub. Read [How to Contribute](#how-to-contribute) for a step by step guide.
 
 ## Structure
 
@@ -55,7 +55,7 @@ next-review:
 
     Dates must be formatted yyyy-mm-dd (e.g. 2022-08-31, [following ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html)) 
 
-    You can insert as many authors reqired, each author on a new line. Please make sure you use full name
+    You can insert as many authors required, each author on a new line. Please make sure you use full name
 
 
 The only exception if child pages, when they are used specifically for breaking down larger subjects, where the authors are the same, and where they would naturally be reviewed alongside the parent. This this instance you must still include a title.

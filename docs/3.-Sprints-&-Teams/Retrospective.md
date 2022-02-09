@@ -41,7 +41,7 @@ Capture the experiments you are performing, for example in a Excel spreadsheet o
 - Reason - i.e. because of _[perceived problem (including supporting data)]_
 - Insight - i.e. we believe this is because of _[cause]_
 - Hypotheses - i.e. we believe this can be solved/improved if we do _[potential solution, plan of action]_
-- Measures - i.e. we will monitor/record _[measurable outcomes]_ at _[expecific intervals/times]_ 
+- Measures - i.e. we will monitor/record _[measurable outcomes]_ at _[specific intervals/times]_ 
 - Review point - i.e. we will review success _[date/after _n_ sprints]_
 - Actions - i.e. things that must therefore be done by specific people/groups
 

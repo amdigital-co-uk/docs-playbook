@@ -28,7 +28,7 @@ Engineers are also encouraged to provide positive feedback. If code being submit
 - [ ] Code is readable and well-structured
     - [ ] Code adheres to SOLID design principles
     - [ ] Code is not duplicated, or is moved into shared packages where relevant
-    - [ ] Endpoint paths are resful and follow guidelines
+    - [ ] Endpoint paths are restful and follow guidelines
     - [ ] Avoid hardcoded variables - all behaviour should be configurable via configuration settings
 - [ ] Code has good logging throughout
 - [ ] Code is well unit-tested

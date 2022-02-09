@@ -1,7 +1,7 @@
 ---
 title: Lean Entrypoints
 authors: 
-  - Dave Arther
+  - Dave Arthur
 reviewed: 
 reviewer:
 next-review: 01-04-2022
@@ -20,7 +20,7 @@ Each type of entry point serves a slightly different use-case, and should follow
 
 ## HTTP Endpoints
 
-HTTP endpoints (aka. microservice endpoints) are the main way of starting an action in the platform, and most developers will be very familiar working with them. They are the only type of entry point that block untill they are finished, and the only type that provide a response. So if you need to retrieve a piece of information, an HTTP endpoint is the only option.
+HTTP endpoints (aka. microservice endpoints) are the main way of starting an action in the platform, and most developers will be very familiar working with them. They are the only type of entry point that block until they are finished, and the only type that provide a response. So if you need to retrieve a piece of information, an HTTP endpoint is the only option.
 
 Virtually all endpoints in Quartex are implemented as actions within MVC Controllers.
 

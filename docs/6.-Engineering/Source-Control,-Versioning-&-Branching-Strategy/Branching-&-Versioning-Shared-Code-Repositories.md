@@ -9,7 +9,7 @@ next-review: 2021-11-06
 
 # Versioning
 
-Our shared code packages use Semantic Versioning (or [SemVer](https://semver.org/)) compatible version numbers. These are of the format `MAJOR.MINOR.PATCH`, and one should increment different parts the version depeneding on the type of changes being made:
+Our shared code packages use Semantic Versioning (or [SemVer](https://semver.org/)) compatible version numbers. These are of the format `MAJOR.MINOR.PATCH`, and one should increment different parts the version depending on the type of changes being made:
 
 1. MAJOR version when you make incompatible API changes,
 2. MINOR version when you add functionality in a backwards compatible manner, and
@@ -38,7 +38,7 @@ When working on a fix of some description (e.g. a fix to an extension method) th
 Examples of a _MAJOR_ update would include:
 
 * Wholesale refactoring of the package (e.g. splitting some functionality out into a new package)
-* Framework version upgrades (e.g. updating the package to be comaptible with .NET 5)
+* Framework version upgrades (e.g. updating the package to be compatible with .NET 5)
 
 **IMPORTANT:** in addition to the examples noted above, should any change that would usually be a _MINOR_ or _PATCH_ change break compilation on any solution depending on the package, then you should instead increment _MAJOR_ version. A breaking change can be thought of as any change the _requires_ code that depends upon it to be updated.
 
@@ -75,7 +75,7 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 
 ## Strategy Basics
 
-Our [versioning strategy](#versioning) means that every change produces a unique package version, and [depedant repositories](#updating-repositories) can specifically target known versions of each package. This means our branching strategy for shared code can be much simpler than the one used for other repository types.
+Our [versioning strategy](#versioning) means that every change produces a unique package version, and [dependant repositories](#updating-repositories) can specifically target known versions of each package. This means our branching strategy for shared code can be much simpler than the one used for other repository types.
 
 | **Branch** | **Key Purpose** | **Naming** |
 |--|--|--|

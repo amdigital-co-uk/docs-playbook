@@ -1,4 +1,4 @@
-# Fundementals
+# Fundamentals
 Read and be familiar with the following:
 
 * [Exception Fundamentals](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/) 

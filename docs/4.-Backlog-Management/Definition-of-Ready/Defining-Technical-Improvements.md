@@ -1,7 +1,7 @@
 ---
 title: Technical Improvements
 authors: 
-- Dave Arther
+- Dave Arthur
 - Ed Earle
 reviewed: 
 reviewer:

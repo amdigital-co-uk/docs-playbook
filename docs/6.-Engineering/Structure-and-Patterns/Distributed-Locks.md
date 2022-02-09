@@ -1,7 +1,7 @@
 ---
 title: Distributed Locks
 authors: 
-  - Dave Arther
+  - Dave Arthur
 reviewed: 
 reviewer:
 next-review: 01-04-2022
@@ -17,7 +17,7 @@ For example an early issue with large scale FTP uploads was that we would someti
 * the process importing file1.jpg gets there first, and grabs a lock (let's assume the key is called `ClientKey.CreateAsset.folder1`)
 * the process importing file2.jpg gets there a second later, can't get the lock, which means that the folder is already being created (so it doesn't need to do anything at all)
 
-_Note: it's quite possible that the second process may try to carroy on before `folder1` is in the database. In which case it will probably throw an exception, but when it retries a few minutes later it will work fine._
+_Note: it's quite possible that the second process may try to carry on before `folder1` is in the database. In which case it will probably throw an exception, but when it retries a few minutes later it will work fine._
 
 The following debug logging shows `Task 1` grabbing a lock on a key and the running, then `Task 2` attempts to grab the same lock but fails (since `Task 1` has the lock on that key); as a result `Task 2` does not run at all.
 
