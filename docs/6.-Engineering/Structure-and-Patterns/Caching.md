@@ -1,7 +1,7 @@
 ---
 title: Caching
 authors: 
-  - Dave Arther
+  - Dave Arthur
 reviewed: 
 reviewer:
 next-review: 01-04-2022
@@ -11,13 +11,13 @@ next-review: 01-04-2022
 
 Caching is primarily performed using the `ICache` interface. To used cached values in code, first use Dependency Injection to retrieve an `ICache` instance. In many ways, the cache can be thought of just like a `Dictionary<string, anything>` that stores values that take a long time to calculate or retrieve from remote locations. In this analogy, we use a `string` cache key to store and retrieve these results.
 
-Most of the time the best apracoh is to use the `T Get<T>(string cacheKey, Func<T> getter)` method. This call takes two parameters: a string (cache key) which behaves just like the dictionary key, and a getter: a function which calculates the value if it does not exist already in the cache.
+Most of the time the best approach is to use the `T Get<T>(string cacheKey, Func<T> getter)` method. This call takes two parameters: a string (cache key) which behaves just like the dictionary key, and a getter: a function which calculates the value if it does not exist already in the cache.
 
 ```c#
 string cacheKey = "global.my.cache.key"; // cache key that probably contains ClientKey or WebsiteKey
 var cachedValue = _cache.Get(cacheKey, () =>
 {
-    // expensive, long running piece of code to calculte value
+    // expensive, long running piece of code to calculate value
     return calculateValue;
 });
 ```
@@ -25,12 +25,12 @@ var cachedValue = _cache.Get(cacheKey, () =>
 This call will first check to see if the cache contains a value with the specified key.
 
 1. If the value can be found, it is returned immediately
-1. If it cannot be found within the cache, it will run the getter to calculte the required value and
+1. If it cannot be found within the cache, it will run the getter to calculate the required value and
   1. Store the value in the cache for future quick retrieval
   1. Returns the value to the calling code
 
 
-The first time a given cached value is requested, it will not yet exist in the cache, and go through route 2. above. On subsequant requests for the same cached value, it now exists and will go through route 1.
+The first time a given cached value is requested, it will not yet exist in the cache, and go through route 2. above. On subsequent requests for the same cached value, it now exists and will go through route 1.
 
 ### Cache Scope
 
@@ -42,7 +42,7 @@ Quartex has several levels of caching, called "Cache Scopes". Each Scope typical
 * `Distributed`: values are stored for a configurable length of time in Redis.
 
 
-> _**NOTE:** If you do not configure a new Cache Key (or it is not convered by configuration for an existing prefix), the default behaviour is to use `NotCached` for the cache scope. If it seems like a newly cached value is never appearing in Redis, or your `getter()` is getting called every time; ensure the cache key is covered by a configuration entry. See below for configuration._
+> _**NOTE:** If you do not configure a new Cache Key (or it is not covered by configuration for an existing prefix), the default behaviour is to use `NotCached` for the cache scope. If it seems like a newly cached value is never appearing in Redis, or your `getter()` is getting called every time; ensure the cache key is covered by a configuration entry. See below for configuration._
 
 ### Configuration of Cached Values
 
@@ -116,7 +116,7 @@ To configure cache invalidation, we use the Event Name as the key, and define an
 }
 ```
 
-In this worked example, when a static page is published, we want to clear the followinag things:
+In this worked example, when a static page is published, we want to clear the following things:
 
 * The `WebsiteInfo` object for the current website
 * All cache HTML for the website - note that this is using a wildcard
@@ -152,7 +152,7 @@ As more of Quartex is being built using a microservice architecture, we are find
 * We have GET type requests to retrieve information, or Read operations
 * We POST/PUT/DELETE etc type requests that update information, or Write operations
 
-Read operations are the kind of things we might want to cache, and Write operations by definition will update data that may be cached (making the cached information out-of-date) and thus will be operations where we want to invaliate cached data.
+Read operations are the kind of things we might want to cache, and Write operations by definition will update data that may be cached (making the cached information out-of-date) and thus will be operations where we want to invalidate cached data.
 
 ### Using the Service Client to cache data
 

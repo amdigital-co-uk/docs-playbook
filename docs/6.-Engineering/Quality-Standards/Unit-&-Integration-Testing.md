@@ -3,24 +3,24 @@
 
 # Unit Tests
 
-Unit testing is a fundamental tool in every egnineer's toolbox. Unit tests not only help us test our code, they encourage good design practices, reduce the chances of bugs reaching production, and can even serve as examples or documentation on how code functions. Properly written unit tests can also improve egnineer efficiency.
+Unit testing is a fundamental tool in every engineer's toolbox. Unit tests not only help us test our code, they encourage good design practices, reduce the chances of bugs reaching production, and can even serve as examples or documentation on how code functions. Properly written unit tests can also improve engineer efficiency.
 
 It is no secret that writing unit tests is hard, and even harder to write well. Writing unit tests also increases the development time for every feature. So why should we write them? Unit tests should:
 
 - reduce costs by catching bugs earlier and preventing regressions
-- increase egnineer confidence in changes
-- speed up the egnineer inner loop
+- increase engineer confidence in changes
+- speed up the engineer inner loop
 - act as documentation as code
 
 Unit tests should also be very predictable (i.e. _any_ failures should indicate broken code) and very fast (unit testing a )
 
 # Integration tests
 
-Integration testing is a software testing methodology used to determine how well individually developed components, or modules of a system communicate with each other. This method of testing confirms that an aggregate of a system, or sub-system, works together correctly or otherwise exposes erroneous behavior between two or more units of code.
+Integration testing is a software testing methodology used to determine how well individually developed components, or modules of a system communicate with each other. This method of testing confirms that an aggregate of a system, or sub-system, works together correctly or otherwise exposes erroneous behaviour between two or more units of code.
 
 # Code Coverage
 
-The easiest way of quantatively measuring the quality of automated tests is by examining code covege. Whilst a high code coverage percentage does not necessarily mean that the tests are of a high quality, it is certainly true that a _low_ code coverage is indicative of there not being enough automated tests!
+The easiest way of quantitatively measuring the quality of automated tests is by examining code coverage. Whilst a high code coverage percentage does not necessarily mean that the tests are of a high quality, it is certainly true that a _low_ code coverage is indicative of there not being enough automated tests!
 
 Note that we are more interested in _branch_ coverage than _line_ coverage.
 

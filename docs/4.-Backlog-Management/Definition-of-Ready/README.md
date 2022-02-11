@@ -16,7 +16,7 @@ The Definition of Ready (DOR), therefore, outlines the characteristics and infor
 
 However, caution must be taken to ensure that the DOR does not become a set of linear gates that effectively prevent us working in an agile way. We must balance the benefits of having a clear and aligned understanding of our objective that enables with being able to adapt quickly.
 
-Each backlog item type will have it's own DOR, and corressponding artefacts. 
+Each backlog item type will have it's own DOR, and corresponding artefacts. 
 
 2 Key DORs are:
 

@@ -40,7 +40,7 @@ The original engineer is not obliged to act upon all feedback, but an open discu
 
 ## Reviews whilst pair programming
 
-A review should still be performed for any code written during a pair programming session. However, it may be helpful for the two engineers to perform the review together at the end of the pairing session. E.g. the engineer that has been screensharing/writing the code should check everything in, and then the other engineer lead the review. However both engineers would be encouraged to discuss whether or not the code they have written together fulfils the guidelines.=
+A review should still be performed for any code written during a pair programming session. However, it may be helpful for the two engineers to perform the review together at the end of the pairing session. E.g. the engineer that has been screen sharing/writing the code should check everything in, and then the other engineer lead the review. However both engineers would be encouraged to discuss whether or not the code they have written together fulfils the guidelines.=
 
 # Submitting code for a review
 

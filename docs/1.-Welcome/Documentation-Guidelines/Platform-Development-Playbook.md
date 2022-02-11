@@ -1,5 +1,5 @@
 ---
-title: Playbook Documenation
+title: Playbook Documentation
 authors: 
 - Ed Earle 
 - Dave Arthur 
@@ -23,7 +23,7 @@ Every member of the division is responsible for ensuring that this playbook is u
 
 ## Tooling
 
-This playbook is build using [Markdown](https://www.markdownguide.org/) documents, a simple text editor designed for documenation.
+This playbook is build using [Markdown](https://www.markdownguide.org/) documents, a simple text editor designed for documentation.
 
 Specifically, it is build on [MKDocs](https://www.mkdocs.org/), using the [Material for MKDocs](https://squidfunk.github.io/) theme.
 
@@ -31,7 +31,7 @@ It is stored in GitHub, and published with [GitHub Pages](https://pages.github.c
 
 MKDocs and Material for MKDocs extend the functionality of Markdown, allowing you to include visually richer content.
 
-You can edit the documents usng any markdown editor, incuding GitHub. Read [How to Contribute](#how-to-contribute) for a step by step guide.
+You can edit the documents using any markdown editor, including GitHub. Read [How to Contribute](#how-to-contribute) for a step by step guide.
 
 ## Structure
 
@@ -55,7 +55,7 @@ next-review:
 
     Dates must be formatted yyyy-mm-dd (e.g. 2022-08-31, [following ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html)) 
 
-    You can insert as many authors reqired, each author on a new line. Please make sure you use full name
+    You can insert as many authors required, each author on a new line. Please make sure you use full name
 
 
 The only exception if child pages, when they are used specifically for breaking down larger subjects, where the authors are the same, and where they would naturally be reviewed alongside the parent. This this instance you must still include a title.
@@ -94,6 +94,7 @@ Lorum ipsum who's responsible for the ask for this request? run it up the flag p
 * Use sub pages if your content is large
 * Use bullet lists to simplify key points
 * Use diagrams to express more complex ideas, such as processes
+* Use a spell checker in whatever editor you are using, set it to UK English. In VSCode there numerous plugins.
 
 
 ## Reviewing
@@ -104,7 +105,7 @@ The primary purpose of a review is to ensure that the documentation is as useful
 
 - The peer reviewer should carefully read and understand the content of the document. Consider the audience of the document and its purpose. 
 - Ensure the page header is populated and accurate, and that a review date has been provided.
-- Check for typos and errors if possible, although this is not the primary purpose of review. 
+- Check for typos and errors if possible, although this is not the primary purpose of review. Use a spell checker.
 - Provide constructive feedback to the author for revision.
 
 ### Periodic Reviews

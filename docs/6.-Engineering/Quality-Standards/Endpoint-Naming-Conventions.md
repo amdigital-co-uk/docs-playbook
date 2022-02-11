@@ -16,7 +16,7 @@ Requests paths should use plural nouns, and indicate the hierarchy of the object
 * `/{version}/{client}/jobs/{JobId}/items` - Get all the Items for a single Job
 * `/{version}/{client}/jobs/{JobId}/items/{ItemId}` - Get details for a single Item within a given Job
 
-> **NOTE**: _avoid_ using verbs in endpoint paths whereever possible. E.g. don't use `getasset/{assetId}` because the **get** is already in the HTTP verb. This leads nicely onto the following section...
+> **NOTE**: _avoid_ using verbs in endpoint paths wherever possible. E.g. don't use `getasset/{assetId}` because the **get** is already in the HTTP verb. This leads nicely onto the following section...
 
 ## Use the relevant HTTP Verb for each action.
 

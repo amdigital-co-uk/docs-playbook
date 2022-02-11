@@ -1,7 +1,7 @@
 ---
 title: Performing a Peer Review
 authors: 
-  - Dave Arther
+  - Dave Arthur
   - Rhodri Hewitson
 reviewed: 
 reviewer:
