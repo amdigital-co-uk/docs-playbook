@@ -21,6 +21,10 @@ For constructing a larger string e.g. within a loop, use `StringBuilder` instead
 
 Unit and Integration tests should make use [Shouldly](https://github.com/shouldly/shouldly#readme) instead of `Assert.That` to make assertions more readable.
 
+
+# Conventions for package inclusion
+When including packages/dependencies (internal or external) allways use a set package version, do not specify app version with wildcards or a minimum version of an package.
+
 # TypeScript and JavaScript Coding Conventions
 
 > _TODO: document this section and link to an industry-standard style guide_
