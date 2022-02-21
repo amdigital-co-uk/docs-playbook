@@ -119,10 +119,10 @@ New endpoints and pages must have the correct authentication and authorisation c
 When including packages/dependencies (internal or external) developers must use a exact package version, do not specify package/dependency version with wildcards or a minimum version of an package, e.g. :
 - Do:
   - Node.js: ```"dependencies": { "ExamplePackage": "2.1" }```
-  - C#:```<dependency id="ExamplePackage" version="[2.1]" />```
+  - C#: ```<dependency id="ExamplePackage" version="[2.1]" />```
 - Don't: 
   - Node.js: ```"dependencies": { "ExamplePackage": ">=2.1" }```
-  - C#:```<dependency id="ExamplePackage" version="2.1" />```
+  - C#: ```<dependency id="ExamplePackage" version="2.1" />```
 
 ## Performant Code
 
