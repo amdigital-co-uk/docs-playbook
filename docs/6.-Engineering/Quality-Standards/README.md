@@ -121,7 +121,7 @@ When including packages/dependencies (internal or external) developers must use 
   - Node.js: ```"dependencies": { "ExamplePackage": "2.1" }```
   - C#: ```<dependency id="ExamplePackage" version="[2.1]" />```
 - Don't: 
-  - Node.js: ```"dependencies": { "ExamplePackage": ">=2.1" }```
+  - Node.js: ```"dependencies": { "ExamplePackage": "^2.1" }```
   - C#: ```<dependency id="ExamplePackage" version="2.1" />```
 
 ## Performant Code
