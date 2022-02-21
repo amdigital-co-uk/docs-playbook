@@ -114,7 +114,7 @@ When writing and committing code, engineers must ensure they are **never** commi
 
 New endpoints and pages must have the correct authentication and authorisation checks in place.
 
-## Conventions for packages/dependencies
+## Package Dependency Management
 
 When including packages/dependencies (internal or external) developers must use a exact package version, do not specify package/dependency version with wildcards or a minimum version of an package, e.g. :
 - Do:
