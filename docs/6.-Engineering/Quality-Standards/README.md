@@ -53,6 +53,7 @@ Similarly, do not repeat yourself (DRY)! Avoid copy/pasting code; instead consid
 
 Do not commit commented-out code. It makes code less readable, and also causes confusion. When commented-out code is committed to a repository, it is not clear whether it should simply be deleted, or the code needs to be adapted and integrated, i.e. is it a cryptic TODO?
 
+
 ## Unit & Integration Tests
 
 Code must be well covered by [unit & integration tests](/6.-Engineering/Quality-Standards/Unit-&-Integration-Testing). Unit & integration testing not only increases our chances of catching bugs, increases engineer confidence in any changes being made, but is also an indication that the code is well-structured.
@@ -112,6 +113,16 @@ Ensuring software is secure relies not just on the software being written, but a
 When writing and committing code, engineers must ensure they are **never** commit secrets (i.e database passwords, access keys or other sensitive config) into source control or documentation.
 
 New endpoints and pages must have the correct authentication and authorisation checks in place.
+
+## Conventions for packages/dependencies
+
+When including packages/dependencies (internal or external) developers must use a exact package version, do not specify package/dependency version with wildcards or a minimum version of an package, e.g. :
+- Do:
+  - Node.js: ```"dependencies": { "ExamplePackage": "2.1" }```
+  - C#:```<dependency id="ExamplePackage" version="[2.1]" />```
+- Don't: 
+  - Node.js: ```"dependencies": { "ExamplePackage": ">=2.1" }```
+  - C#:```<dependency id="ExamplePackage" version="2.1" />```
 
 ## Performant Code
 
