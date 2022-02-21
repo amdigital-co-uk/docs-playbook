@@ -116,7 +116,7 @@ New endpoints and pages must have the correct authentication and authorisation c
 
 ## Package Dependency Management
 
-When including packages/dependencies (internal or external) developers must not use a flaoting package version, e.g. :
+When including packages/dependencies (internal or external) developers must not use a floating package version, e.g. :
 - Do:
   - Node.js: ```"dependencies": { "ExamplePackage": "2.0.1" }```
   - C#: ```<PackageReference Include="ExamplePackage" version="2.0.1" />```
