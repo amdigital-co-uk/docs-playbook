@@ -6,45 +6,32 @@ reviewer:
 next-review: 01-04-2022
 ---
 
+# Team Structure
 
-# Teams
+The Platform Development department is split up into a number of self-organised, cross-functional delivery teams, plus an enablement team. Delivery teams usually have a lead engineer, three software engineers, a test engineer and product manager.
+
+The team structure as of Feb 2022 is as follows:
+
+</br>
+
+![Platform Development Team Structure](/assets/pd-team-structure-feb-2022.png)
 
 ## Anzu
 Team Anzu (aka the 'Internal' Delivery Team) is focused on the needs of Adam Matthew publications; delivering value to traditional AM product 
 lines in Quartex, as well as supporting White Label and AM Explorer. 
 
-**Lead:** TBA  
-**Product Manager:** TBA (Helen filling in)  
-**Software Engineer**: Dan  
-**Software Engineer**: James  
-**Software Engineer**: Freddie  
-**Test Engineer:** Karen
-
 ## Yoshi 
 Team Yoshi are the 'External' delivery team. Their work is based around needs of external Quartex Customers, delivering value to Sales, 
 Customer Experience and the external organisations that are using the Quartex platform.
 
-**Lead:** Rhodri  
-**Product Manager:** Gwen  
-**Software Engineer**: Chris  
-**Software Engineer**: Naomi  
-**Software Engineer**: Aleo  
-**Test Engineer:** Maris  
+## _New Delivery Team!_
+_We are currently reqruiting for a third delivery team to who will concentrate on delivering reporting, analytics and other tools to meet the needs of Adam Matthew._
 
 ## Archaeopteryx (ArchOps)
 
-This 'Tech facilitation' team, delivers value to the delivery teams. It provides improvements to infrustructure and architcecutre, as well 
-as investigating new approaches & technology that could be used by the delivery teams.
-
-**Architect:** Dave  
-**DevOps Engineer:** Rob  
+This 'Tech facilitation' team, is a specialised delivery team. It provides improvements to infrustructure and architcecutre, as well as investigating new approaches & technology that could be used by the delivery teams. In other words, it delivers value to the other delivery teams! It is made up of our Software Architect and DevOps Engineer.
 
 ## Enablement Team
 
-_brief description here_
-
-**VP Engineering:** Ed  
-**Senior Product Manager:** Helen  
-**Tech Support Manager:** Glynn  
-**UX Designer:** Holden  
+The purpose of the enablement team is to 'support' and 'enable' the other teams to deliver value. It consists of the VP Engineering, Senior Product Manager, Tech Support Manager and UX Designer.
 
