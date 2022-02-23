@@ -8,7 +8,7 @@ next-review: 01-04-2022
 
 # Team Structure
 
-The Platform Development department is split up into a number of self-organised, cross-functional delivery teams, plus an enablement team. Delivery teams usually have a lead engineer, three software engineers, a test engineer and product manager.
+The Platform Development department is split up into a number of self-organised, cross-functional [Product Delivery Teams](/3.-Sprints-%26-Teams/#product-delivery-teams), plus an Enablement Team.
 
 The team structure as of Feb 2022 is as follows:
 
