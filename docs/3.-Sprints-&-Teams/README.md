@@ -23,7 +23,7 @@ You should also have a solid understanding of Agile and DevOps theory and the va
 
 > They are distinct. 
 
-> Scrum outlines an approach to working in an Agile way, but being Agile requires an Agile mindset, which requires an understanding of its core principals and value proposition.
+> Scrum outlines an approach to working in an Agile way, but being Agile requires an Agile mindset, which requires an understanding of its core principles and value proposition.
 
 The department currently is structured into two team types, including multiple _Product Delivery Teams_ and a single _Enablement Team_
 

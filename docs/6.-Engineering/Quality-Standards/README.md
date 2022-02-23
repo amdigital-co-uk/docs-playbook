@@ -23,10 +23,10 @@ Quality means more than simply the way code is structured! Great quality solutio
 
 This is why it is important to share our approach to solutions early! Peer reviews should be looking to improve any/all of these areas, and it may often be too late by the time you have working code ready to merge.
 
-# Guiding Principals
+# Guiding Principles
 
 - Code must be easy to read and understand
-- C# Code must follow OO patterns and SOLID principals
+- C# Code must follow OO patterns and SOLID principles
 - Coding and naming conventions must be followed
 - Unit and integrations test coverage must be maintained or improved
 - Event logging must be used to provide useful diagnostic information

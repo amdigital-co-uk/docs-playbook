@@ -16,13 +16,13 @@ This page documents our test environments and the process a Feature/Change follo
 
 These practices will be being reviewed and updated rapidly as we work to reduce dependencies and blockers in the development, test, and deployment cycle.
 
-## Guiding Principals
+## Guiding Principles
 
 !!! note
 
     There is no inherent link between test environment type and development lifecycle stage. 
     
-    We must avoid principals such as "QA is for testing, then it goes to stage, before it can go live".
+    We must avoid principles such as "QA is for testing, then it goes to stage, before it can go live".
     
     We must ensure we perform good testing, but should not be constrained by imagined barriers. 
 
