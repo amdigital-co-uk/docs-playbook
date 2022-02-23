@@ -89,7 +89,7 @@ These changes should be merged and tested prior to attempting a merge up to the 
 `// TODO:  High-level GitHub overview
 
 ## Related Training
-You should have a good understanding of Git principals. Our branching strategy details the usual activities, but you may need to perform more advanced git commands occasionally.
+You should have a good understanding of Git principles. Our branching strategy details the usual activities, but you may need to perform more advanced git commands occasionally.
 
 ### Pluralsight
 [Course: Managing Source Code with Git](https://app.pluralsight.com/paths/skill/managing-source-code-with-git)

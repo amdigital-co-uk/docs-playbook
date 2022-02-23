@@ -1,5 +1,5 @@
 ---
-title: Absence and Leave
+title: Absence & Leave
 authors: 
   - Ed Earle
 reviewed: 

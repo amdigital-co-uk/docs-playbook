@@ -81,7 +81,7 @@ Coupled with user flow diagrams, these provide the backbone to our functional re
 ## Create Backlog Items
 The 3As must split the roadmap item into backlog items. Initially this is done by creating "shell" backlog items with the basic information of what it will deliver, the following steps will progress from here to make them "ready".
 
-Turning large solutions into discrete deliverables is an art form! Our definition of ready provides some guidelines of what a backlog item should be, generally centred around the INVEST principals. Further reading and learning on this topic is highly recommended. 
+Turning large solutions into discrete deliverables is an art form! Our definition of ready provides some guidelines of what a backlog item should be, generally centred around the INVEST principles. Further reading and learning on this topic is highly recommended. 
 
 ## High Res designs
 `// TODO:  complete high res designs section

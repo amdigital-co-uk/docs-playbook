@@ -4,7 +4,7 @@ authors:
   - Ed Earle
 reviewed: 
 reviewer:
-next-review: 01-04-2022
+next-review: 01-06-2022
 ---
 
 # Who is this for?
@@ -17,10 +17,11 @@ Much of this should be covered during your induction. The playbook is your compa
 # Initial Reading
 
 1. The Platform Development Division have a [unified mission](/1.-Welcome/Mission). Everything we do aims to aid us in achieving this mission.
-1. Platform Development is organised into a [set of teams](/3.-Sprints-&-Teams/Team-Structure)
 1. And we operate within an [end to end delivery framework](/2.-Delivery-Framework/)
+1. Platform Development is organised into a [set of teams](/3.-Sprints-&-Teams/Team-Structure)
 1. The delivery teams operate in a [sprint model following the Scrum framework](/3.-Sprints-&-Teams/)
 1. We build and maintain the [Quartex](https://www.quartexcollections.com/), internal tooling, and legacy platforms. Check out the Knowledge Base in Azure DevOps and the Roadmaps.
+1. Besides our framework of practices, the way we collaborate and communicate with each other is critical. Read the  [Collaboration & Ops](/)
 
 # Development Practices
 This section will be most relevant to Software Engineers, but all team members are encouraged to read.
