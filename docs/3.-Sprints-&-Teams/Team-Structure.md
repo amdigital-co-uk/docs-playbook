@@ -33,5 +33,5 @@ This 'Tech Facilitation' team, is a specialised Delivery Team. It provides impro
 
 ## Enablement Team
 
-The purpose of the enablement team is to 'support' and 'enable' the other teams to deliver value. It consists of the VP Engineering, Senior Product Manager, Tech Support Manager and UX Designer.
+The Enablement Team is here to facilitate, support and otherwise enable the Delivery Teams to carry out their work. If a team is wrestling with a particular challenge, there may be a member of the Enablement Team who can help them. It consists of the VP Engineering, Senior Product Manager, Tech Support Manager and UX Designer.
 
