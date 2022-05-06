@@ -21,7 +21,7 @@ Much of this should be covered during your induction. The playbook is your compa
 1. Platform Development is organised into a [set of teams](/3.-Sprints-&-Teams/Team-Structure)
 1. The delivery teams operate in a [sprint model following the Scrum framework](/3.-Sprints-&-Teams/)
 1. We build and maintain the [Quartex](https://www.quartexcollections.com/), internal tooling, and legacy platforms. Check out the Knowledge Base in Azure DevOps and the Roadmaps.
-1. Besides our framework of practices, the way we collaborate and communicate with each other is critical. Read the  [Collaboration & Ops](/)
+1. Besides our framework of practices, the way we collaborate and communicate with each other is critical. Read the [Collaboration & Ops](/5.-Collaboration-&-Ops/)
 
 # Development Practices
 This section will be most relevant to Software Engineers, but all team members are encouraged to read.
