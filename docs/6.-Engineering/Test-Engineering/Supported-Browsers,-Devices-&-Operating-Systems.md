@@ -35,8 +35,8 @@ Evaluating the analytics available to us, it has been agreed to support the foll
 - IE (*until end-of-life 15/06/22?*) 
  
 &nbsp;&nbsp; Operating Systems: 
-- Windows 
-- IOS 
+- Windows
+- MacOS 
  
 &nbsp;&nbsp; Devices: 
 - Desktop 
@@ -50,9 +50,10 @@ Evaluating the analytics available to us, it has been agreed to support the foll
 - IE (*until end-of-life 15/06/22?*) 
  
 &nbsp;&nbsp; Operating Systems: 
-- Windows 
-- IOS 
-- Android 
+- Windows
+- Android
+- MacOS
+- iOS
  
 &nbsp;&nbsp; Devices: 
 - Desktop 
@@ -84,7 +85,7 @@ This covers applications such as the Admin tool and AM Portal
 
 &nbsp;&nbsp; Operating Systems:
 - Windows
-- IOS
+- MacOS
 
 &nbsp;&nbsp; Devices:
 - Desktop
