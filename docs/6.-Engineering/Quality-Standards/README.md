@@ -152,3 +152,16 @@ var children = _unitOfWork.Assets.Where(a => a.Deleted == false && a.Path.ToLowe
 
 In this example, since EF is unable to translate `.ToLowerInvariant()` into SQL, it will effectively run a query like `select * from Assets where Deleted=0` and then run the `Path.ToLowerInvariant() == pathToSearchFor` comparison in memory, on every single returned row. For a very large database, this sort of subtlety can be cripplingly slow!
 
+Avoid calling `ToList()`/`ToListAsync()` to early as this will result in a call to the database to retrieve data, ensure that as much as possible can be filtered out, using `Where()` 
+
+```cs
+var qry = _uow.Assets.GetAll() //still just a query at the moment, no call to the database
+
+if(someClause)
+	qry = qry.Where(…);
+if(someClause)
+	qry = qry.Where(…);
+
+var list = qry.ToList() //now call is made to the database with applied filters
+
+```

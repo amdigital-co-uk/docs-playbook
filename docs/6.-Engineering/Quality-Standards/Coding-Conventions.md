@@ -23,4 +23,46 @@ Unit and Integration tests should make use [Shouldly](https://github.com/shouldl
 
 # TypeScript and JavaScript Coding Conventions
 
-> _TODO: document this section and link to an industry-standard style guide_
+There are a few handbooks out there that help with coding style for typescript. 
+
+Google and AirBnb have alot of backers with regards to their styles. When using eslint in a project, we can install specific packages that will help set the rules. i.e. [Eslint Airbnb Config](https://www.npmjs.com/package/eslint-config-airbnb-typescript)
+
+The AirBnb Guideline is located here https://github.com/airbnb/javascript although this is saying Javascript, alot of this can be applied to the typescript styling. 
+
+Examples of code styling are below 
+
+Consistent use of Qutoes, although single and double quotes are interchangable for strings in typescript/javascript, guides suggest use of one version.
+```typescript
+
+const myString = 'Hello world'; //Use single quotes
+const myOtherString = "Hello world"; //Dont use double quotes
+
+```
+Single quotes is most commonly used
+
+
+Using `const` over `var` and `let` unless the value is going to change, use `let`
+```typescript
+
+const someValue = 1; //Value will not change
+
+let someOtherValue = 1; //Value most likely to change
+someOtherValue = 2;
+
+```
+Try to avoid the use of `var` as this is globally scoped, where as `const` and `let` are scoped locally. 
+
+Not exceeding max line length 
+```typescript
+//Long line (using react for illastration purposes)
+const TextField:FC<TextFieldProps> = (props) => <MuiTextField disabled={props.disabled} required={props.required} type={props.type} variant={props.variant} label={props.label} />;
+
+//Broken down
+const TextField:FC<TextFieldProps> = (props) => (
+    <MuiTextField disabled={props.disabled}
+                  required={props.required}
+                  type={props.type}
+                  variant={props.variant}
+                  label={props.label} />
+);
+```
