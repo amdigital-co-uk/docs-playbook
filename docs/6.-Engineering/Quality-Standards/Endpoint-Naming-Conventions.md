@@ -56,7 +56,7 @@ Wherever possible, a `GET` request should always be used for _reading_ data. If 
     * `?collections=A,B` to filter by collection A or collection B
     * `?status=InComplete,ForReview` to filter by assets where the status is Incomplete for For Review
 
-A `POST` request should only ever be used in the case where the maximum length of a query string is insufficient to supply the complexity of the parameters. Additionally the use of a `POST` can be more secure if the data being sent might contain sensitive data, as `POST` data wont be cache or store, where as query parameters could potentially be cached or saved in a log. 
+A `POST` request should only ever be used in the case where the maximum length of a query string is insufficient to supply the complexity of the parameters. A caveat for using `POST` is to send sensitive data, as POST data doesn't get cached or stored unlike query parameters which could potentially be cached or saved in a log, which can has better security implementation. 
 
 ## Make API Endpoints as generic as possible
 
