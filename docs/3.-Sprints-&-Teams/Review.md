@@ -1,8 +1,8 @@
 ---
 title: Sprint Review
 authors: Ed Earle
-reviewed: 
-reviewer:
+reviewed: 15/06/2022
+reviewer: Karen Farrell
 next-review: 01-02-2022
 ---
 
@@ -26,8 +26,9 @@ The review helps ensure we're building successful product and gives us the oppor
 # Preparation Guidelines
 Ahead of the Review meeting:
 - Complete the Sprint Review Template 
--- Planned Work = PBI / Type of Work (e.g. Feature, Bug, Tech Improvement) / Points / Status / Release (Name & Date where known) / Demo'd by
--- Unplanned Work = Unplanned Backlog Items / Points / Status / Release (Name & Date where known) / Demo'd by
+-- Planned Work = PBI / Type of Work (e.g. Feature, Bug, Tech Improvement) / Points / Status / Automated Tests Written / Release (Name & Date where known) / Demo'd by
+-- Unplanned Work = Unplanned Backlog Items / Points / Status / Automated Tests Written / Release (Name & Date where known) / Demo'd by
+-- Support Summary = Overview of support tasks undertaken
 - Agree a member of the Platform Development team to facilitate the meeting
 - Agree a member of each Delivery Team to talk through the sprint items
 - Discuss whether a demo is appropriate and if so, plan who will be responsible for this
@@ -50,6 +51,9 @@ Ahead of the Review meeting:
 
 ### Product Demos
 - Presentation of what was produced in the latest sprint
+
+### Support Summary
+- Brief summary of support tasks undertaken in the latest sprint
 
 ### Discussion
 - Allow stakeholders to ask questions, understand the current state of the product and help guide its direction

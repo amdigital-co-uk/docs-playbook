@@ -29,37 +29,37 @@ Evaluating the analytics available to us, it has been agreed to support the foll
 ### DAM & CMS
 
 &nbsp;&nbsp; Browsers:
-- Chrome / Edge 
-- Firefox  
-- Safari  
-- IE (*until end-of-life 15/06/22?*) 
+* Chrome / Edge 
+* Firefox  
+* Safari  
+* IE (*until end-of-life 15/06/22?*) 
  
 &nbsp;&nbsp; Operating Systems: 
-- Windows
-- MacOS 
+* Windows
+* MacOS 
  
 &nbsp;&nbsp; Devices: 
-- Desktop 
-- Laptop 
+* Desktop 
+* Laptop 
 <br/><br/>
 ### Published Sites
 &nbsp;&nbsp; Browsers: 
-- Chrome / Edge 
-- Firefox  
-- Safari  
-- IE (*until end-of-life 15/06/22?*) 
+* Chrome / Edge 
+* Firefox  
+* Safari  
+* IE (*until end-of-life 15/06/22?*) 
  
 &nbsp;&nbsp; Operating Systems: 
-- Windows
-- Android
-- MacOS
-- iOS
+* Windows
+* Android
+* MacOS
+* iOS
  
 &nbsp;&nbsp; Devices: 
-- Desktop 
-- Laptop 
-- Tablet 
-- Mobile Phone 
+* Desktop 
+* Laptop 
+* Tablet 
+* Mobile Phone 
 <br/><br/>
 ### **Other Applicaions**
 ### Internal Applications
@@ -67,26 +67,26 @@ Evaluating the analytics available to us, it has been agreed to support the foll
 This covers applications such as the Admin tool and AM Portal
 
 &nbsp;&nbsp; Browsers:
-- Chrome
+* Chrome
 
 &nbsp;&nbsp; Operating Systems:
-- Windows
+* Windows
 
 &nbsp;&nbsp; Devices:
-- Desktop
-- Laptop
+* Desktop
+* Laptop
 <br/><br/>
 ### Framework & White Label
 &nbsp;&nbsp; Browsers:
-- Chrome / Edge
-- Firefox
-- Safari
-- IE11
+* Chrome / Edge
+* Firefox
+* Safari
+* IE11
 
 &nbsp;&nbsp; Operating Systems:
-- Windows
-- MacOS
+* Windows
+* MacOS
 
 &nbsp;&nbsp; Devices:
-- Desktop
-- Laptop
+* Desktop
+* Laptop
