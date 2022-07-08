@@ -23,9 +23,53 @@ Unit and Integration tests should make use [Shouldly](https://github.com/shouldl
 
 # TypeScript and JavaScript Coding Conventions
 
-There are a few handbooks out there that help with coding style for typescript. 
+As a department we have agreed to use the AirBnb as our baseline for code styling. We use ESLint to ensure coding styles are followed. 
 
-Google and AirBnb have alot of backers with regards to their styles. When using eslint in a project, we can install specific packages that will help set the rules. i.e. [Eslint Airbnb Config](https://www.npmjs.com/package/eslint-config-airbnb-typescript)
+We install the required packages in a typescript project. 
+
+* `@typescript-eslint/eslint-plugin`
+* `@typescript-eslint/parser`
+* `eslint`
+* `eslint-config-airbnb-base`
+* `eslint-config-airbnb-typescript` [Link](https://www.npmjs.com/package/eslint-config-airbnb-typescript)
+
+For React Project we additionally add the following packages.
+
+* `eslint-plugin-react`
+
+We create an eslint config file with in the project. (.eslintrc.js)
+
+```Javascript
+module.exports = { 
+  env: { 
+    es2021: true, 
+    node: true, 
+  }, 
+  extends: [ 
+    'airbnb-base', 
+  ], 
+  parser: '@typescript-eslint/parser', 
+  parserOptions: { 
+    ecmaVersion: 'latest', 
+    sourceType: 'module', 
+  }, 
+  plugins: [ 
+    '@typescript-eslint', 
+  ], 
+  ignorePatterns: ['node_modules/'], 
+  rules: { 
+  }, 
+  settings: { 
+    'import/resolver': { 
+      node: { 
+        extensions: ['.js', '.jsx', '.ts', '.tsx'], 
+      }, 
+    }, 
+  }, 
+}; 
+```
+
+There is an option to override rules in the `rules` section in the eslintrc file.
 
 The AirBnb Guideline is located here https://github.com/airbnb/javascript although this is saying Javascript, alot of this can be applied to the typescript styling. 
 
