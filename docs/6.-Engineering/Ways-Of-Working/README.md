@@ -16,14 +16,14 @@ While we encourage empowered self organizing teams, there are some default ways 
  - Champion Quality (TBD name)
  - Continuous Improvement
 
- The following will summarize the each Pillar represents and give non exhaustive list sharing examples of good practices for each pillar.
+ The following will summarize what each pillar represents and give non exhaustive list sharing examples of good practices for each pillar.
 
  # Other topics
  - Unplanned work
 
 ## Collaboration
 
-Empowered self organizing teams are expected to be proactively in their collaboration. Sharing information widely and loudly. On the lookout for opportunities to code together and consequently share knowledge and gain fast feedback on work.  
+Empowered self-organizing teams are expected to be proactive in their collaboration. Sharing information widely and loudly. On the lookout for opportunities to code together and consequently share knowledge and gain fast feedback on work.  
 
 - Don't defer communication until standup - [advice on how to do this]
 - Be loudly blocked [give examples]
@@ -59,24 +59,24 @@ It's important to note that the Team owns Product delivery not your Stakeholders
 - Readying work 3A's
 - Bring forward uncertainty
 - Collaboration with Stakeholders to solidify understanding of requirements
-- Prioritising workload and re-planning
+- Prioritizing workload and re-planning
 - Suggest improvements that add value to Stakeholders
 - Ask your PM questions
-- Familiarise yourself with the stakeholders
+- Familiarize yourself with the stakeholders
 
 ##  Champion Quality 
 
 Teams are expected to hold each other to account and champion quality. Rather than "because we've always done it this way" it's striving to solve problems using good engineering practices. Being brave, coming up with innovative radical solutions if necessary.
 
 - Teams must apply good scouting practices to improve the quality of every codebase they work on.
-- Choosing the correct technology to solve the problem, which doesn't always means our sting to our defaults.
+- Choosing the correct technology to solve the problem, which doesn't always means sticking to our defaults.
 - Using bug fixes/features to improve our code coverage and regression scenario coverage.
 - Consider potential risks and mitigate where possible
-- Think outside the box .... how can we improve quality if had no boundaries
+- Think outside the box.... how can we improve quality if we had no boundaries
 
 ## Continuous Improvement
 
-Remember that team can't evolve if they aren't looking at way to continuously improve the team and the platform. This doesn't mean they'll always be successful - we can learn more from our failures than our successes as long as we're willing to be honest and self critical with each other.
+Remember that a team can't evolve if they aren't looking at ways to continuously improve themselves and the platform. This doesn't mean they'll always be successful - we can learn more from our failures than our successes as long as we're willing to be honest and self critical with each other.
 
  - Use retrospectives to critically analyzes how the team is working.
  - Give honest but conscientious feedback to each other.
