@@ -43,11 +43,13 @@ Provide a brief overview of the repository, and the problem it aims to solve.
 
 List the major technologies and frameworks used within the repository, as a bullet-point list. Ideally link out to some documentation for each item, this is especially important for technologies and frameworks outside our usual tech stack.
 
-Bullet point list of any Quartex Microservices that are used within this repository.
+Bullet point list of any other Quartex components that we depend on/query.
 
 Bullet point list any storage used.
 
 ### Architecture
+
+This section is only required if the repo being worked on is a microservice. If you are not working on a microservice, feel free to skip this section.
 
 The architecture should highlight the structure of the microservice. A diagram should be supplied, informing readers on how projects relate to each other. [Mermaid-js](https://mermaid-js.github.io/mermaid/#/) diagrams are best used since changes can be tracked easily. An example is shown below:
 
@@ -117,7 +119,9 @@ This will usually take the form of:
 
 ### Usage
 
-Link out a markdown document for each controller. These documents should detail the following for each request in the controller:
+The exact contents here will be different depending on the type of repository in question. A microservice repository must document the endpoints it implements, whilst a shared code repository must explain how to include any packages/modules and give examples of how to use the classes/libraries exposed.
+
+For microservices, link out a markdown document for each controller in the microservice. These documents should detail the following for each request in the controller:
 
 - Methods (GET, POST, PUT, DELETE, etc.)
 - URL 
