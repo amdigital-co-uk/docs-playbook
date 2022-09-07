@@ -53,52 +53,14 @@ This section is only required if the repo being worked on is a microservice. If 
 
 The architecture should highlight the structure of the microservice. A diagram should be supplied, informing readers on how projects relate to each other. [Mermaid-js](https://mermaid-js.github.io/mermaid/#/) diagrams are best used since changes can be tracked easily. An example is shown below:
 
-```mermaid
-  graph TD;
-    title[<u>Dependency Diagram</u>]
-    title-->Integrations.Service
-    style title fill:#FFF,stroke:#FFF
-    linkStyle 0 stroke:#FFF,stroke-width:0;
+[![](https://mermaid.ink/img/pako:eNqFklFrwjAUhf9KyF4cWOdzlYJQBWGCo4M9tD5cm6uGpmlJbrcV8b8vs3EUqSwP4YT7nXtPQs48rwTykDN2NFCf2Hs8yzRziyQpTOdNFGONWqDOWxZLcFQ5f2miXY8KgmitCV2JZKXtJEHzKXPsCEutwo5jB6lU-LRarcaWTFXgVXeYkrpIruiU9YoeDL6koFM4ddl812bf5e0PZn6wvwFjQ6nuwy7qWsn8ehj29YB77xaNlZZA_810L-VVtz_Cg0kQ2TIdLT4Slzo3SJZtQMMRzfNu9r9X7NPRpk3eXlkMBHuwOGzrh3e25Teh0aDSm2CL7Xo342NeoilBCvcTzr9tMk4nLDHjoZMCTJHxTF8c19QCCJdCUmV4eABlccyhoSppdc5DMg3eIP9bPHX5AZys08M)](https://mermaid.live/edit#pako:eNqFklFrwjAUhf9KyF4cWOdzlYJQBWGCo4M9tD5cm6uGpmlJbrcV8b8vs3EUqSwP4YT7nXtPQs48rwTykDN2NFCf2Hs8yzRziyQpTOdNFGONWqDOWxZLcFQ5f2miXY8KgmitCV2JZKXtJEHzKXPsCEutwo5jB6lU-LRarcaWTFXgVXeYkrpIruiU9YoeDL6koFM4ddl812bf5e0PZn6wvwFjQ6nuwy7qWsn8ehj29YB77xaNlZZA_810L-VVtz_Cg0kQ2TIdLT4Slzo3SJZtQMMRzfNu9r9X7NPRpk3eXlkMBHuwOGzrh3e25Teh0aDSm2CL7Xo342NeoilBCvcTzr9tMk4nLDHjoZMCTJHxTF8c19QCCJdCUmV4eABlccyhoSppdc5DMg3eIP9bPHX5AZys08M)
 
-    subgraph Integrations Service;
-      Integrations.Service-->Integrations.Application;
-      Integrations.Application-->Integrations.Persistance;
-    end;
-    
-    Integrations.Persistance-.->sm[(AWS Secrets Manager)];
-    Integrations.Persistance-.->db[(MySQL Database)];
-    Integrations.Application-.->External[External API];
-```
 
 #### Flows of interest
 
 The Flows of interest section should contain any particularly complex API calls. Basic CRUD operations should **NOT** be described here. Sequence diagrams are a good way to outline this, with participants relating to classes (once inside the API). An example is shown below.
 
-```mermaid
-  sequenceDiagram
-    participant user as Browser
-    participant API as KalturaController
-    participant kalturaService as KalturaService
-    participant integrations as IntegrationsService
-    participant kalturaClient as KalturaClient
-    participant credentials as CredentialsReader
-    participant kalturaApi as External Kaltura API
-
-    user -->> API: GET: integrations/{id}/_kaltura/{**route}
-    API -->> kalturaService: ProxyGetRequest()
-    kalturaService -->> integrations: GetIntegration()
-    integrations -->> kalturaService: integration
-    kalturaService -->> kalturaClient: ProxyGetRequest(integration)
-    kalturaClient -->> credentials: GetCredentials(integration)
-    credentials -->> kalturaClient: credentials
-    kalturaClient -->> kalturaApi: Authorize(credentials)
-    kalturaApi -->> kalturaClient: sessionToken
-    kalturaClient -->> kalturaApi: ProxyRequest(sessionToken)
-    kalturaApi -->> kalturaClient: response
-    kalturaClient -->> kalturaService: response
-    kalturaService -->> API: response
-    API -->> user: responseJson
-```
+[![](https://mermaid.ink/img/pako:eNqNVMtuwjAQ_BXLJ4pA3HNAohQh2gsCjpEqK9kWi8RO15sWGvHvtU0ApwktOfkx4xnPWKl4olPgEWfMwEcJKoEnKd5R5LFi9isEkkxkIRSx0gAyYdgj6i87bAMmy4XbfxEZlSimWhHqLOtC7k6QNeCnTCAg1StthlQE1hZJrYzDL4L5TVItM80k2FlgzS-08QlCajekyLzG9DpdgUj_uMikkI4w2xOgEtlZxyUSqxPLpzccjsduMWLz2SZqXGpUyfQ4eq0PHFX9PuqS4Hhiu2g9uZlcxJao94c50Mq1Z6j3cML_CthTQzVrACjI8MxrxNwpGCBuSzWCb5sMzmj6rZvyZwRleLdBGx0HhNV1WQj2bypey4zYpKStRvkNvYDZNOtK75IyYIw1ttE7UHdp-XjO2YTs-_QQTGHrgv-0LhV2Ehr9-SfahF1eoHvI181noxUf8BwwFzK1P5LKwWNOW8gh5pEdpgJ3MY_V0eLKIhUEs1SSRh692UxhwEVJen1QCY8ISziD6v9QjTr-ANtLo90)](https://mermaid.live/edit#pako:eNqNVMtuwjAQ_BXLJ4pA3HNAohQh2gsCjpEqK9kWi8RO15sWGvHvtU0ApwktOfkx4xnPWKl4olPgEWfMwEcJKoEnKd5R5LFi9isEkkxkIRSx0gAyYdgj6i87bAMmy4XbfxEZlSimWhHqLOtC7k6QNeCnTCAg1StthlQE1hZJrYzDL4L5TVItM80k2FlgzS-08QlCajekyLzG9DpdgUj_uMikkI4w2xOgEtlZxyUSqxPLpzccjsduMWLz2SZqXGpUyfQ4eq0PHFX9PuqS4Hhiu2g9uZlcxJao94c50Mq1Z6j3cML_CthTQzVrACjI8MxrxNwpGCBuSzWCb5sMzmj6rZvyZwRleLdBGx0HhNV1WQj2bypey4zYpKStRvkNvYDZNOtK75IyYIw1ttE7UHdp-XjO2YTs-_QQTGHrgv-0LhV2Ehr9-SfahF1eoHvI181noxUf8BwwFzK1P5LKwWNOW8gh5pEdpgJ3MY_V0eLKIhUEs1SSRh692UxhwEVJen1QCY8ISziD6v9QjTr-ANtLo90)
 
 ### Getting started
 
