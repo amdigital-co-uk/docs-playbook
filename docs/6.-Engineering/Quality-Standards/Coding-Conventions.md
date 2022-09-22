@@ -57,7 +57,7 @@ In addition, Adam Matthew Digital follows the following standards when writing T
 - Always use the `workspace_key_prefix` set to `env`
 - Always format the terraform files before requesting a PR (`terraform fmt -recursive`)
 
-## Using Shared Resources
+### Using Shared Resources
 
 In Terraform there are two ways to use shared resources: [Data Sources](https://www.terraform.io/language/data-sources), and [Importing](https://www.terraform.io/cli/import).
 
