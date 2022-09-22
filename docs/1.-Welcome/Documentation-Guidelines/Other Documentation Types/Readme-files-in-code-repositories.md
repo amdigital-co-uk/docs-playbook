@@ -43,7 +43,7 @@ Provide a brief overview of the repository, and the problem it aims to solve.
 
 List the major technologies and frameworks used within the repository, as a bullet-point list. Ideally link out to some documentation for each item, this is especially important for technologies and frameworks outside our usual tech stack.
 
-Bullet point list of any other Quartex components that we depend on/query.
+Bullet point list of any other first-party components that we depend on/query.
 
 Bullet point list any storage used.
 
@@ -68,7 +68,10 @@ This section must **clearly** describe how someone who has just downloaded the r
 
 This will usually take the form of:
 
-- Linking out to the [Engineer Onboarding steps](https://dev.azure.com/AMDigitalTech/Platform%20Development/_wiki/wikis/AMD-Technology.wiki/385/Engineer-Onboarding)
+- An "Onboarding" section
+
+  - For Quartex repos, you can usually link out to the [Engineer Onboarding steps](https://dev.azure.com/AMDigitalTech/Platform%20Development/_wiki/wikis/AMD-Technology.wiki/385/Engineer-Onboarding)
+
 - A "Running the platform" section
 
     - A bullet point list with steps and commands required to run the repository
@@ -81,7 +84,11 @@ This will usually take the form of:
 
 ### Usage
 
-The exact contents here will be different depending on the type of repository in question. A microservice repository must document the endpoints it implements, whilst a shared code repository must explain how to include any packages/modules and give examples of how to use the classes/libraries exposed.
+The exact contents here will be different depending on the type of repository in question. 
+
+A microservice repository must document the endpoints it implements, whilst a shared code repository must explain how to include any packages/modules and give examples of how to use the classes/libraries exposed.
+
+#### Microservice
 
 For microservices, link out a markdown document for each controller in the microservice. These documents should detail the following for each request in the controller:
 
@@ -91,13 +98,15 @@ For microservices, link out a markdown document for each controller in the micro
 - Request body
 - Response body
 
+> :warning: **WARNING** Instructions on how to generate these documents will be added in future, for now they can be skipped.
+
 ### Contributing
 
 How should an engineer who wishes to contribute to the repository do so? In most cases, a link out to the relevant branching strategy and detailing how to test the application will usually be sufficient.
 
 ## Template
 
-If starting from a blank slate, you could use this template as a starting point for a new `README.md` file.
+If starting from a blank slate, you could use this template as a guide for a new `README.md` file.
 
 ```markdown
 # ACME project
