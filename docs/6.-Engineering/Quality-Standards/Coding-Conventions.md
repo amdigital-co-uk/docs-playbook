@@ -29,7 +29,7 @@ Unit and Integration tests should make use [Shouldly](https://github.com/shouldl
 
 Terraform files should obey the syntax rules for the [HashiCorp Configuration Language (HCL)](https://www.terraform.io/language/syntax/configuration) and [the general formatting guidelines](https://www.terraform.io/cli/commands/fmt) provided by the Terraform Project through the `fmt` command.
 
-In addtion, Adam Matthew Digital follows the following standards when writing Terraform:
+In addition, Adam Matthew Digital follows the following standards when writing Terraform:
 
 - Use [Snake Case](https://en.wikipedia.org/wiki/Snake_case) for all resource names
 - Use descriptive and non environment specific names to identify resources
