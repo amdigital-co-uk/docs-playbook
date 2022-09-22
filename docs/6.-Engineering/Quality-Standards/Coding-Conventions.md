@@ -61,7 +61,7 @@ A common recommendation in the Terraform community is to think of modules as fun
 
 Modules can be built in shareable repositories, or locally within a component repository. If you find yourself writing the same set of resources or functionality over and over again, consider building a module instead.
 
-When to conside writing a module:
+When to consider writing a module:
 
 - When multiple resources should always be used together (e.g. a CloudWatch Alarm and EC2 instance)
 - When module re-use is shallow (preferably don't nest modules)
