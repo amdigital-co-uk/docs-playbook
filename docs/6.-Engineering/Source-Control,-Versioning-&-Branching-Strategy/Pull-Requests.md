@@ -9,6 +9,7 @@ next-review: 01-04-2022
 ---
 
 # Pull Requests
+
 A pull request (PR) is required when [merging a child branch into a parent](/6.-Engineering/Source-Control,-Versioning-&-Branching-Strategy). 
 
 > **NOTE:** manually merging or committing directly to a parent branch is not permitted. Firstly because it skips the PR mechanism (and therefore bypasses an important quality control step), and secondly because only a PR will trigger the relevant Continuous Integration workflows and builds.
@@ -16,6 +17,7 @@ A pull request (PR) is required when [merging a child branch into a parent](/6.-
 A pull request will ideally _not_ be the first time another engineer has seen the work in progress! Think of it more as a final check; pair programming and ad-hoc discussions on possible approaches and patterns would ideally have already given one or more other engineers in the team an opportunity to see the code and provide feedback. Remember, early feedback means we can spot and rectify mistakes earlier. Doing so later in the process will require more time and effort.
 
 ## Creating a Pull Request
+
 When an engineer has completed their work on a child branch, and has committed and pushed it to GitHub, they should visit the GitHub website and issue a pull request. This can be done either on the repository's main page (GitHub will usually prompt a user to issue a pull request if they have recently pushed a child branch), or by navigating to the **Pull requests** tab and clicking the green **New pull request** button.
 
 When creating the pull request, the engineer submitting their work should make sure to:
@@ -24,7 +26,7 @@ When creating the pull request, the engineer submitting their work should make s
 - Ensure the **compare** branch is correct (this should be the engineer's **work** branch in most situations)
 - Populate the _title_ with a concise summary of what is being submitted
 - Populate the _body_ with an explanation of their approach to solving the problem, including any patterns used
-    - Link the request to the relevant ticket in Azure DevOps by adding `AB#123` where 123 is the ID of the ticket
+    - Link the request to the relevant **backlog item** in Azure DevOps by adding `AB#123` where 123 is the ID of the backlog item. _NOTE: do not link to individual tasks_.
     - If there are PRs in other repos that are related to the same piece of work, link to them in the PR description (see hints, below)
     - This shouldn't need to be too detailed, as ideally this won't be the first time they are seeing the code
     - In the case of a shared code repository, provided the information about [version number update](/6.-Engineering/Source-Control,-Versioning-&-Branching-Strategy/Branching-&-Versioning-Shared-Code-Repositories#Versioning) (i.e. MAJOR vs MINOR vs PATCH) and why it is appropriate
@@ -32,8 +34,12 @@ When creating the pull request, the engineer submitting their work should make s
 
 > **NOTE:** the final step will automatically assign all other team members, and only one team member needs to approve the PR. The engineer submitting the PR should communicate with the rest of their team to request a review.
 
+If feedback is not provided within a reasonable amount of time, the engineer submitting the PR should remind their team that it is still outstanding. The reviewing engineer(s) should remember that _not_ providing timely feedback could well hold up work, and that this is also likely to _increase_ the amount of WIP.
+
+Finally, if the changes made are no longer needed the Pull Request should be closed, and the work branch deleted. Similarly, avoid creating PRs that won't get merged for a long time, as this is likely to lead to merge conflicts and increases the chances that the changes are no longer valid or necessary.
 
 ## Reviewing Pull Requests & Providing Feedback
+
 The reviewing engineer(s) should get a GitHub notification, and should review the PR at the earliest opportunity, and discuss any questions they may have or suggested changes/fixes that need to be made with the original engineer. Once the review has been completed and the reviewing engineer is happy with the changes (including any agreed changes having been completed and committed), they should approve the changes.
 
 The original engineer is then responsible for merging the changes into the parent branch, and monitoring any CI workflows to ensure they complete successfully.

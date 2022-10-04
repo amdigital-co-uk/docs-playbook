@@ -46,7 +46,7 @@ A review should still be performed for any code written during a pair programmin
 
 It is best to submit code to be reviewed frequently, both to get early feedback and to ensure that the reviewing engineer can get a good picture of the changes without being overwhelmed by a huge amount of changes all at once. In other words, follow the principle of little and often!
 
-When submitting a PR the engineer should follow the [Pull Request Guidelines](/6.-Engineering/Peer-Reviewing/Pull-Requests), and should ensure to provide some context of what the code being reviewed is try to achieve and how it is structured.
+When submitting a PR the engineer should follow the [Pull Request Guidelines](/6.-Engineering/Source-Control,-Versioning-&-Branching-Strategy/Pull-Requests), and should ensure to provide some context of what the code being reviewed is try to achieve and how it is structured.
 
 If refactoring existing code (in preparation for subsequent changes), the refactoring should be performed separately and submitted for review in isolation. It would otherwise be much harder for the reviewing engineer to understand how the refactoring has been done if there are also additional changes and new functionality mixed in.
 
