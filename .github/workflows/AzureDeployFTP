@@ -1,0 +1,20 @@
+name: 🚀 Deploy website to Azure Web App on push
+on: push
+    branches:
+      - gh-pages
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        protocol: ftps
+        server: waws-prod-ln1-101.ftp.azurewebsites.windows.net/
+        server-dir: site/wwwroot/
+        username: am-playbook-test\$am-playbook-test
+        password: Jutfl7dkRHj26RxezxlnoscoHuMjeGY4StRGfu0NZE4jBBvrswNKolcrnzif
