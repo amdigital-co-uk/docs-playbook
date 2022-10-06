@@ -31,3 +31,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: site/wwwroot/
           local-dir: ./site/
+          protocol: ftps
