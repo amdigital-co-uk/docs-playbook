@@ -22,12 +22,12 @@ jobs:
       - name: Deploy MKdocs site
         run: |
           mkdocs build
-          mv site python-app
 
-      - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v2
-        id: deploy-to-webapp
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
-          app-name: 'am-playbook-test'
-          slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A059A3EF380546C0BFA64A5CCE97B088 }}
+          server: ${{ secrets.FTP_TARGET }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /site/wwwroot
+          local-dir: site
