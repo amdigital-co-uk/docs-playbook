@@ -21,5 +21,14 @@ jobs:
       
       - name: Deploy MKdocs site
         run: |
-          mkdocs gh-deploy --force
-          mkdocs --version
+          mkdocs build
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: ${{ secrets.FTP_TARGET }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: site/wwwroot/
+          local-dir: ./site/
+          protocol: ftps
