@@ -3,7 +3,7 @@ title: Sprint Review
 authors: Ed Earle
 reviewed: 15/06/2022
 reviewer: Karen Farrell
-next-review: 01-02-2022
+next-review: 2022-02-01
 ---
 
 | Guide | |
