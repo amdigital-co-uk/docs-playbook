@@ -88,6 +88,8 @@ The exact contents here will be different depending on the type of repository in
 
 A microservice repository must document the endpoints it implements, whilst a shared code repository must explain how to include any packages/modules and give examples of how to use the classes/libraries exposed.
 
+For a microservice, you can instruct users how to access the swagger documentation for the microservice. 
+
 #### Microservice
 
 For microservices, link out a markdown document for each controller in the microservice. These documents should detail the following for each request in the controller:
@@ -173,10 +175,7 @@ To do this:
 
 ## Usage
 
-The XXX Microservice has various endpoints. Details on them can be found:
-
-- [XXX](./docs/XXX.md)
-- [XXX](./docs/XXX.md)
+We use [Swashbuckle](https://learn.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-6.0&tabs=visual-studio) to generate our swagger for the various endpoints in the XXX Microservice. Once the Microservice is running, you can view details of the endpoint on http://localhost:{port}/swagger/index.html (generally, it'll be http://localhost:XXX/swagger/index.html).
 
 ## Contributing
 
