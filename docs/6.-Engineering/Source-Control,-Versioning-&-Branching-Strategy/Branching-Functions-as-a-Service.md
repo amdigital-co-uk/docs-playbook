@@ -4,7 +4,7 @@ authors:
 - Robert Cloutman
 reviewed: 2022-04-01
 reviewer:
-next-review:
+next-review: 2022-11-01
 ---
 
 Our Functions-as-a-Service (Faas) are deployed and managed on AWS using [Serverless](https://www.serverless.com/framework), and with that comes the concept of `stages`; the ability to create different stacks of the same service. 
