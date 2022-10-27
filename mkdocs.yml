@@ -1,18 +1,19 @@
 site_name: Platform Development Playbook
-repo_url: https://github.com/amdigital-co-uk/amdigital-co-uk.github.io/
+repo_url: https://github.com/amdigital-co-uk/docs-playbook
 repo_name: GitHub
 edit_uri: edit/main/docs/
 extra_css:
   - stylesheets/extra.css
 theme:
-  logo: assets/logo.jfif
+  logo: assets/AM no tag.png
   name: material
-  favicon: assets/favicon.ico  
+  favicon: assets/android-chrome-192x192.png 
   custom_dir: mkdocs-overrides
   features:
     - header.autohide
     - navigation.instant    
     - navigation.tracking
+    - navigation.indexes
   plugins:
     - search
     - mermaid2
@@ -28,6 +29,10 @@ theme:
       toggle:
         icon: material/eye
         name: Switch to light mode
+        theme:
+  icon:
+    admonition:
+      quote: octicons/book-16
 extra:
   social:
     - icon: fontawesome/brands/linkedin 
@@ -38,6 +43,15 @@ markdown_extensions:
 - admonition
 - pymdownx.details
 - pymdownx.superfences
+- pymdownx.tasklist:
+      custom_checkbox: true
+- pymdownx.tabbed:
+      alternate_style: true
+- pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 - abbr
 - attr_list
 - md_in_html
