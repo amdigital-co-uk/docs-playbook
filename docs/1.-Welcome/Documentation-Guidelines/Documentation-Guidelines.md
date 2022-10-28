@@ -18,7 +18,7 @@ next-review: 2022-04-01
 ## Knowing the correct audience 
 - Include, at the start, who the target audience is, and write documentation that will be understood by that audience. 
 - Consider the value that this audience will gain from it, and summarise this as the purpose of the document.
-- If there is a need for technical and non-technical readers, consider breaking it up.
+- If there is a need for technical and non-technical readers, consider breaking it up into relevant sections.
 
 ## How to keep it up to date
 - Documentation should be reviewed periodically as most types of documentation have a fairly short lifespan.
