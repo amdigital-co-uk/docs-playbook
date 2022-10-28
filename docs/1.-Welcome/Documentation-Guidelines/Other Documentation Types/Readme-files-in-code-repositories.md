@@ -88,7 +88,7 @@ The exact contents here will be different depending on the type of repository in
 
 A microservice repository must document the endpoints it implements, whilst a shared code repository must explain how to include any packages/modules and give examples of how to use the classes/libraries exposed.
 
-For a microservice, you can instruct users how to access the swagger documentation for the microservice. 
+For a microservice, you can instruct users how to access the swagger documentation for the microservice. Instructions on how to add swagger documentation can be found [here](https://github.com/amdigital-co-uk/quartex-ci/blob/main/docs/microservice.md#adding-swashbuckle).
 
 #### Microservice
 
