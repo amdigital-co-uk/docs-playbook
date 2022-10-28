@@ -5,9 +5,9 @@ edit_uri: edit/main/docs/
 extra_css:
   - stylesheets/extra.css
 theme:
-  logo: assets/AM no tag.png
+  logo: assets/images/AM no tag.png
   name: material
-  favicon: assets/android-chrome-192x192.png 
+  favicon: assets/images/android-chrome-192x192.png 
   custom_dir: mkdocs-overrides
   features:
     - header.autohide

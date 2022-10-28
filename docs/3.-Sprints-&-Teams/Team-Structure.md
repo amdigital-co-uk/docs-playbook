@@ -14,7 +14,7 @@ The team structure as of Feb 2022 is as follows:
 
 </br>
 
-![Platform Development Team Structure](/assets/pd-team-structure-feb-2022.png)
+![Platform Development Team Structure](/assets/document-assets/pd-team-structure-feb-2022.png)
 
 ## Anzu
 Team Anzu (aka the 'Internal' Delivery Team) is focused on the needs of Adam Matthew publications; delivering value to traditional AM product 
