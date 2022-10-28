@@ -1,53 +1,58 @@
-  
-    [data-md-color-scheme="AM"] {
-    --md-primary-fg-color:      #650a34;
-    --md-accent-fg-color:      #00347a;
-    --md-typeset-a-color:        #650a34; 
+  [data-md-color-scheme="AM"] {
+    --md-primary-fg-color: #56002a;
+    --md-accent-fg-color: #C30046;
+    --md-typeset-a-color: #56002a;
+    --md-default-fg-color--light: #C30046;
   }
 
   [data-md-color-scheme="slate"] {
-    --md-primary-fg-color:        #650a34;
-    --md-accent-fg-color:       #849abd;
-    --md-typeset-a-color:       #b36d8d;
+    --md-primary-fg-color: #56002a;
+    --md-accent-fg-color: #ffa316;
+    --md-typeset-a-color: #C30046;
+    --md-default-fg-color--light: #ffa316;
   }
 
   .am-block {
-    width:99%;
-    margin:5px;
-    margin:30px;     
-    font-size:1.5em;
+    width: 99%;
+    margin: 5px;
+    margin: 30px;
+    font-size: 1.5em;
     border: 1px solid;
   }
 
-  
-  [data-md-color-scheme="slate"] .am-block, [data-md-color-scheme="slate"] .am-jobs a {
-    border: 1px solid #b36d8d;
-  }
-  [data-md-color-scheme="AM"] .am-block, [data-md-color-scheme="AM"] .am-jobs a{
-    border: 1px solid #650a34;
+
+  [data-md-color-scheme="slate"] .am-block,
+  [data-md-color-scheme="slate"] .am-jobs a {
+    border: 1px solid #C30046;
   }
 
-  .am-block p{
+  [data-md-color-scheme="AM"] .am-block,
+  [data-md-color-scheme="AM"] .am-jobs a {
+    border: 1px solid #56002a;
+  }
+
+  .am-block p {
     text-align: center;
   }
 
-  [data-md-color-scheme="slate"] .am-block p:hover{
-    color: #b36d8d;
-  }
-  [data-md-color-scheme="AM"] .am-block p:hover{
-    color: #650a34;
+  [data-md-color-scheme="slate"] .am-block p:hover {
+    color: #C30046;
   }
 
-  .am-jobs{
+  [data-md-color-scheme="AM"] .am-block p:hover {
+    color: #56002a;
+  }
+
+  .am-jobs {
     background-color: rgba(0, 20, 20, 0.11);
     padding: 30px 0 12.5px 0;
   }
 
-  .am-jobs span{
+  .am-jobs span {
     display: none;
   }
 
-  .am-jobs a{
+  .am-jobs a {
     padding: 5px;
     text-align: center;
     margin-left: auto;
@@ -55,9 +60,55 @@
     width: 70%
   }
 
-  .am-jobs a:hover{
-    background-color: rgba(0,5,5,0.12);
+  .am-jobs a:hover {
+    background-color: rgba(0, 5, 5, 0.12);
     transition: background-color 200ms;
     transition-timing-function: ease;
     transition-delay: 50ms;
+  }
+
+  @font-face {
+    font-family: KlarheitGrotesk;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/KlarheitGrotesk-Regular.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Regular.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: KlarheitGrotesk;
+    font-style: italic;
+    font-weight: 400;
+    src: url(../assets/fonts/KlarheitGrotesk-Italic.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Italic.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: KlarheitGrotesk;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/KlarheitGrotesk-Bold.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Bold.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: KlarheitGrotesk;
+    font-style: italic;
+    font-weight: 700;
+    src: url(../assets/fonts/KlarheitGrotesk-BoldItalic.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-BoldItalic.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: AMKlarheit;
+    font-style: normal;
+    font-weight: 800;
+    src: url(../assets/fonts/AMKlarheit-Extrabold.woff) format("woff"), url(../assets/fonts/AMKlarheit-Extrabold.woff2) format("woff2");
+  }
+  
+  :root {
+    --md-text-font: Roboto;
+    --md-heading-font-family: AMKlarheit,KlarheitGrotesk,system-ui,-apple-system,Roboto,Helvetica Neue,Noto Sans,Liberation Sans,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  }
+  
+  .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {  
+    font-family: var(--md-heading-font-family);
+    font-weight: 800;
+    line-height: 1.1;
   }
