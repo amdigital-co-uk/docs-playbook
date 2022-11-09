@@ -43,6 +43,8 @@ This section will be most relevant to Test Engineers, but all team members are e
 1. Releases to live environments occur throughout the sprint and are coordinated between teams
 
 # Product Management & Design Practices
+This section will be most relevant to the product team, but all team members are encouraged to read.
+
 // TODO
 
 # Tools and Access
