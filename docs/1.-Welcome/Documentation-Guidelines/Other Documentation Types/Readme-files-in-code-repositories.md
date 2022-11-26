@@ -150,7 +150,7 @@ Below is a sequence diagram outlining XXX.
 
 ## Getting started
 
-To get started with the XXX Microservice, please follow our [Engineer Onboarding steps](https://dev.azure.com/AMDigitalTech/Platform%20Development/_wiki/wikis/AMD-Technology.wiki/385/Engineer-Onboarding).
+To get started with the XXX Microservice, please follow our [Engineer Onboarding steps](https://docs.amdigital.co.uk/engineering/onboarding).
 
 ### Running the application
 
@@ -181,7 +181,7 @@ We use [Swashbuckle](https://learn.microsoft.com/en-us/aspnet/core/tutorials/get
 
 When making changes to this repository, ensure that: 
 
-- You follow the branching strategy outlined in [Playbook](https://amdigital-co-uk.github.io/6.-Engineering/Source-Control%2C-Versioning-%26-Branching-Strategy/#branching-strategy)
+- You follow the branching strategy outlined in [Playbook](https://docs.amdigital.co.uk/engineering/branching)
 - No code is touched before failing tests are written
 - There is a preference for integration tests over unit tests (where pragmatic)
 ```
@@ -213,5 +213,5 @@ Using this repository...
 
 ## Contributing
 
-When making changes to this repository, ensure that you follow our [branching strategy](https://amdigital-co-uk.github.io/6.-Engineering/Source-Control%2C-Versioning-%26-Branching-Strategy/#branching-strategy).
+When making changes to this repository, ensure that you follow our [branching strategy](https://docs.amdigital.co.uk/engineering/branching).
 ```
