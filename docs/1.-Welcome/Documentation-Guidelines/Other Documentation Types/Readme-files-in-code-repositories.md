@@ -106,9 +106,9 @@ For microservices, link out a markdown document for each controller in the micro
 
 How should an engineer who wishes to contribute to the repository do so? In most cases, a link out to the relevant branching strategy and detailing how to test the application will usually be sufficient.
 
-## Template
+## Microservice README Template
 
-If starting from a blank slate, you could use this template as a guide for a new `README.md` file.
+If creating a new microservice repository, you could use this template as a guide for a new `README.md` file.
 
 ```markdown
 # ACME project
@@ -184,4 +184,34 @@ When making changes to this repository, ensure that:
 - You follow the branching strategy outlined in [Playbook](https://amdigital-co-uk.github.io/6.-Engineering/Source-Control%2C-Versioning-%26-Branching-Strategy/#branching-strategy)
 - No code is touched before failing tests are written
 - There is a preference for integration tests over unit tests (where pragmatic)
+```
+## Generic Repository README Template
+
+This slimmed-down README template is suitable for any repository.
+
+```markdown
+# ACME project
+
+## Overview
+
+The ACME project is a thing that does stuff.
+
+## Built with
+
+This repository is built using the following technologies:
+
+- technology
+- etc
+
+## Getting started
+
+To get started with this repository...
+
+## Usage
+
+Using this repository...
+
+## Contributing
+
+When making changes to this repository, ensure that you follow our [branching strategy](https://amdigital-co-uk.github.io/6.-Engineering/Source-Control%2C-Versioning-%26-Branching-Strategy/#branching-strategy).
 ```
