@@ -1,9 +1,12 @@
 site_name: Platform Development Playbook
+site_dir: site
 repo_url: https://github.com/amdigital-co-uk/docs-playbook
 repo_name: GitHub
 edit_uri: edit/main/docs/
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - https://unpkg.com/mermaid@9.3.0/dist/mermaid.min.js
 theme:
   logo: assets/images/AM no tag.png
   name: material
@@ -14,10 +17,14 @@ theme:
     - navigation.instant    
     - navigation.tracking
     - navigation.indexes
+    #- navigation.tabs
+    #- navigation.tabs.sticky
   plugins:
     - search
     - mermaid2
     - git-revision-date-localized
+  hooks:
+    - serve-hook.py
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: AM      
@@ -42,6 +49,9 @@ extra:
 markdown_extensions:
 - admonition
 - pymdownx.details
+- pymdownx.critic
+- pymdownx.snippets:
+    auto_append: ["Mission.md"]
 - pymdownx.superfences
 - pymdownx.tasklist:
       custom_checkbox: true
