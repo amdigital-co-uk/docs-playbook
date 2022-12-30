@@ -9,18 +9,13 @@ reviewer:
 next-review: 2021-01-06
 ---
 
-## Who is this for?
-
-Outlines the current source control techniques for our codebases, referred to as our "branching strategy". 
-
-This is targeted at any member of the team who performs work against any of the codebases, including code changes and reviews. 
-
 ## Source Control
+
 Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 
 ## Branching Strategy
 
-**IMPORTANT NOTE:** This strategy applies to all repositions with the **exception of any shared code repositories** which generate NuGet packages which are  dependencies of multiple other repos/solutions. Please see the specific [Branching & Versioning Shared Repositories](/6.-Engineering/Source-Control,-Versioning-&-Branching-Strategy/Branching-&-Versioning-Shared-Code-Repositories) documentation. 
+**IMPORTANT NOTE:** This strategy applies to all repositions with the **exception of any shared code repositories** which generate NuGet packages which are  dependencies of multiple other repos/solutions. Please see the specific [Branching & Versioning Shared Repositories](/6.-Engineering/Source-Control,-Versioning-&-Branching-Strategy/Branching-&-Versioning-Shared-Code-Repositories) documentation.
 
 | **Branch** | **Key Purpose** | **Naming** |
 |--|--|--|
@@ -41,19 +36,19 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 1. Changes required should be performed by the original engineer against the merging **Work** branch, but any other member of the team should do this in their absence. 
 1. When a [PR](#merging-and-pull-requestss) is completed and the **Feature** branch has been updated, a build will be automatically kicked off and a releasable package created. This can then be deployed into any available QA environment for testing or PO review.
 1. When a feature has passed testing and PO review, the **Feature** branch can be merged into either a **Release** branch, the the **Main** branch, by performing a [PR](#merging-and-pull-requests):
-    1.  **Release Branches:** 
+    1. **Release Branches:**
         > Do this if:  the feature will be released alongside other features, **or** is required to undergo BAT.
 
-        1.  `TBC- A Test Engineer will review and assess the PR to ensure that only the correct features are included for a release`
+        1. `TBC- A Test Engineer will review and assess the PR to ensure that only the correct features are included for a release`
         1. A new **Release** branch is created by branching from the **Main** branch if one does not already exists. 
         1. Ensure that the feature branch is up-to-date with the **Main** branch and regression tested before merging it into the **Release** branch
-        1.  When a merge into the **Release** branch is completed, a build will again be started and a releasable package will be created. This can then be deployed into any BAT environment for PO signoff and Business Acceptance Testing. 
-        1. A [release plan]() should be created (or updated), including the package ID. 
+        1. When a merge into the **Release** branch is completed, a build will again be started and a releasable package will be created. This can then be deployed into any BAT environment for PO signoff and Business Acceptance Testing. 
+        1. A [release plan]() should be created (or updated), including the package ID.
         1. When BAT is completed, the package can be deployed to production environments.
         1. Once the release to production environments is complete, the **Release** branch can be merged into **Main** via a PR.
-    1. **Main Branch** 
-        > Do this if: the feature is released independently **and** does _not_ require BAT. Merge to Main only occurs _after_ the changes are successfully released into the production environments.        
-        
+    1. **Main Branch**
+        > Do this if: the feature is released independently **and** does _not_ require BAT. Merge to Main only occurs _after_ the changes are successfully released into the production environments.
+
         1. Ensure that the feature branch is up-to-date with the **Main** branch and regression tested before merging it into the **Release** branch.
         1. A [release plan]() should be created, including the package ID. 
         1. Once the release to production environments is complete, the **Feature** branch can be merged into **Main** via a PR.
@@ -64,7 +59,6 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 If you are deploying non-functional changes (such as documentation or linting), then merging from your work branch to main is fine. This should **only** be done if the changes are non-functional, if any functional code is changed, your work branch **must** be merged into a feature branch. 
 
 `// TODO: include images of each step and overall map view`
-
 
 ### Creating a Feature Branch
 

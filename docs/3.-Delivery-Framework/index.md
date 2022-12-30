@@ -10,9 +10,11 @@ next-review: 2022-04-01
 
 ## Overview
 
-Our agile Delivery Framework is designed as a robust and clear abstract mechanism by which value is derived, delivered, and maintained by the organisation. 
+Our agile Delivery Framework is designed as a robust and clear abstract mechanism by which value is derived, delivered, and maintained by the organisation.
 
-While the high-level framework itself is fixed, the processes and practices that live within it should be constantly evolving, such that the framework continues to support [our mission](/1.-Welcome/Mission).
+This delivery framework describes at a high level our [value stream](../2.-Ways-of-Working/1.-Flow/#value-stream-mapping).
+
+While the high-level framework itself is fixed, the [delivery practices](../4.-Delivery-Practices/) that live within it should be constantly evolving, such that the framework continues to support [our mission](/1.-Welcome/Mission).
 
 ```mermaid
 
@@ -31,19 +33,19 @@ You can see the detailed view of each of the process states by viewing the [Miro
 ```mermaid
 
 graph TD;
-subgraph sg1[Enterprise Asset]
+subgraph sg1[Enterprise Asset: Business Value]
     A(Quartex Product)    
     B(AM Products)
     C(Processes)
     D(Knowledge)
     E(People)    
 end
-subgraph sg2[Strategic Journey]
+subgraph sg2[Strategic Journey: Outcomes]
     E(Product Roadmaps)
     F(Technology Roadmaps)
     G(Business Strategy)
 end
-subgraph sg3[Platform Development Backlogs]
+subgraph sg3[Platform Development Backlogs: Deliverables]
     H(Features & Sub-features)
     I(Changes)
     J(Bugs)

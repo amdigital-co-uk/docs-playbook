@@ -23,8 +23,6 @@ theme:
     - search
     - mermaid2
     - git-revision-date-localized
-  hooks:
-    - serve-hook.py
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: AM      
