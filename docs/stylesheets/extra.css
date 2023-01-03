@@ -3,6 +3,7 @@
     --md-accent-fg-color: #C30046;
     --md-typeset-a-color: #56002a;
     --md-default-fg-color--light: #C30046;
+    --md-typeset-mark-color: #ffa316
   }
 
   [data-md-color-scheme="slate"] {
@@ -19,7 +20,6 @@
     font-size: 1.5em;
     border: 1px solid;
   }
-
 
   [data-md-color-scheme="slate"] .am-block,
   [data-md-color-scheme="slate"] .am-jobs a {
@@ -73,42 +73,47 @@
     font-weight: 400;
     src: url(../assets/fonts/KlarheitGrotesk-Regular.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Regular.woff) format("woff");
   }
-  
+
   @font-face {
     font-family: KlarheitGrotesk;
     font-style: italic;
     font-weight: 400;
     src: url(../assets/fonts/KlarheitGrotesk-Italic.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Italic.woff) format("woff");
   }
-  
+
   @font-face {
     font-family: KlarheitGrotesk;
     font-style: normal;
     font-weight: 700;
     src: url(../assets/fonts/KlarheitGrotesk-Bold.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Bold.woff) format("woff");
   }
-  
+
   @font-face {
     font-family: KlarheitGrotesk;
     font-style: italic;
     font-weight: 700;
     src: url(../assets/fonts/KlarheitGrotesk-BoldItalic.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-BoldItalic.woff) format("woff");
   }
-  
+
   @font-face {
     font-family: AMKlarheit;
     font-style: normal;
     font-weight: 800;
     src: url(../assets/fonts/AMKlarheit-Extrabold.woff) format("woff"), url(../assets/fonts/AMKlarheit-Extrabold.woff2) format("woff2");
   }
-  
+
   :root {
     --md-text-font: Roboto;
-    --md-heading-font-family: AMKlarheit,KlarheitGrotesk,system-ui,-apple-system,Roboto,Helvetica Neue,Noto Sans,Liberation Sans,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    --md-heading-font-family: AMKlarheit, KlarheitGrotesk, system-ui, -apple-system, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
-  
-  .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {  
+
+  .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
     font-family: var(--md-heading-font-family);
     font-weight: 800;
     line-height: 1.1;
+  }
+
+  .md-header__title {
+    font-family: var(--md-heading-font-family);
+    font-weight: 800;
   }
