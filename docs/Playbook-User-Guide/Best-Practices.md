@@ -45,6 +45,6 @@ When reviewing:
 
 - take time to read the document carefully
 - be prepared to give clear and constructuive feedback
-- 
+
 
 Different types of documentation use different tools and mechanisms for feedback.

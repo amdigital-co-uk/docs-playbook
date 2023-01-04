@@ -8,9 +8,6 @@ extra_css:
 extra_javascript:
   - https://unpkg.com/mermaid@9.3.0/dist/mermaid.min.js
 plugins:
-  - search
-  - mermaid2
-  - git-revision-date-localized
   - awesome-pages
 theme:
   logo: assets/images/AM no tag.png
