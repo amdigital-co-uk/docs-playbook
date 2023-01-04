@@ -1,5 +1,4 @@
 ---
-title: 1. Home
 Authors: 
 - Ed Earle
 Created: 2022-01-19
