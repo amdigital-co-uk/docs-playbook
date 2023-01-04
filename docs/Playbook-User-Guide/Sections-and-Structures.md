@@ -32,7 +32,7 @@ The folders within the docs folder represent each of the Playbook's Sections.
 
 ## Sections
 
-Sections refer to the top level groups of content, e.g. [6. Playbook User Guide](../6.-Playbook-User-Guide/).
+Sections refer to the top level groups of content, e.g. [6. Playbook User Guide](../Playbook-User-Guide/).
 
 Sections are numbered so that they are displayed in a specific order.
 

@@ -23,7 +23,7 @@ Parent pages should have a full header block. A section may have many parent pag
 
 ``` yaml
 ---
-title: [Fascinating Subject] <-- Always specify
+title: [Fascinating Subject] <-- Always specify, this will become the page heading and show in the nav
 authors: 
 - [Given name] [Family name] <-- Always specify
 - [John] [McWriter]
