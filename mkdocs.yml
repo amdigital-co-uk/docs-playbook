@@ -7,6 +7,11 @@ extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - https://unpkg.com/mermaid@9.3.0/dist/mermaid.min.js
+plugins:
+  - search
+  - mermaid2
+  - git-revision-date-localized
+  - awesome-pages
 theme:
   logo: assets/images/AM no tag.png
   name: material
@@ -19,10 +24,6 @@ theme:
     - navigation.indexes
     #- navigation.tabs
     #- navigation.tabs.sticky
-  plugins:
-    - search
-    - mermaid2
-    - git-revision-date-localized
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: AM      
