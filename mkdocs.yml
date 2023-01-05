@@ -9,6 +9,7 @@ extra_javascript:
   - https://unpkg.com/mermaid@9.3.0/dist/mermaid.min.js
 plugins:
   - awesome-pages
+  - search
 theme:
   logo: assets/images/AM no tag.png
   name: material
