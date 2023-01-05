@@ -1,5 +1,7 @@
 {
     "ignorePatterns":[
-        { "pattern": "^https://github.com" }
+        { "pattern": "^https://" },
+        { "pattern": "^https://github.com" },
+        { "pattern": "^https://docs.github.com" }
     ]
 }
