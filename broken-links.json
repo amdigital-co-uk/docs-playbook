@@ -13,14 +13,6 @@
         {
             "pattern": "%26",
             "replacement": "&"
-        },
-        {
-            "pattern": "/$",
-            "replacement": ".md"
-        },
-        {
-            "pattern": "[^.md]$",
-            "replacement": ".md"
         }
     ]
 }
