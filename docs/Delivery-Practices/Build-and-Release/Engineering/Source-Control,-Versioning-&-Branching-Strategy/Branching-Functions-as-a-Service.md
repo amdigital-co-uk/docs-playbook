@@ -27,7 +27,7 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 1. Each commit must be accompanied by a useful description of the change made.
 1. If multiple engineers are working concurrently on a single feature, and their work is interdependent (i.e. could not be usefully tested independently), each should use their own **Work** branch and one **Work** branch should be merged into another, via a [pull request (PR)](#merging-and-pull-requestss).
 1. When the engineer has completed their work, and it is ready for testing, a [PR](#merging-and-pull-requestss) can be submitted to merge it into the **Stage** branch.
-1. The [PR](#merging-and-pull-requestss) should be actioned by another member of the team, who should perform a [peer review](/6.-Engineering/Peer-Reviewing) at this time.
+1. The [PR](#merging-and-pull-requestss) should be actioned by another member of the team, who should perform a [peer review](/Delivery-Practices/Build-and-Release/Engineering/Peer-Reviewing) at this time.
 1. Changes required should be performed by the original engineer against the merging **Work** branch, but any other member of the team should do this in their absence.
 1. When a [PR](#merging-and-pull-requestss) is completed and the **Stage** branch has been updated, a build will be automatically kicked off and the function will be deployed if successful.
 1. When a feature has passed testing and PO review, the **Stage** branch can be merged into the **Main** branch, by performing a [PR](#merging-and-pull-requests).

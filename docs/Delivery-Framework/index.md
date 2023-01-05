@@ -12,9 +12,9 @@ next-review: 2022-04-01
 
 Our agile Delivery Framework is designed as a robust and clear abstract mechanism by which value is derived, delivered, and maintained by the organisation.
 
-This delivery framework describes at a high level our [value stream](../Ways-of-Working/1.-Flow/#value-stream-mapping).
+This delivery framework describes at a high level our [value stream](../Ways-of-Working/Flow/#value-stream-mapping).
 
-While the high-level framework itself is fixed, the [delivery practices](../Delivery-Practices/) that live within it should be constantly evolving, such that the framework continues to support [our mission](/1.-Welcome/Mission).
+While the high-level framework itself is fixed, the [delivery practices](../Delivery-Practices/) that live within it should be constantly evolving, such that the framework continues to support [our mission](#our-mission).
 
 ```mermaid
 

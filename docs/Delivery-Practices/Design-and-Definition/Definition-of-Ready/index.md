@@ -23,9 +23,9 @@ Each backlog item type will have it's own DOR, and corresponding artefacts.
 1. [Features and Changes](Defining-Features-and-Changes/)
 1. [Technical Improvements](Defining-Technical-Improvements/)
 
-Information regarding producing each artefact type can be found within the [3 Amigos & Readying Backlog Items](/4.-Backlog-Management/3-Amigos-%26-Readying-Backlog-Items/) section.
+Information regarding producing each artefact type can be found within the [3 Amigos & Readying Backlog Items](/Delivery-Practices/Design-and-Definition/3-Amigos-%26-Readying-Backlog-Items/) section.
 
-> Note: The Definition of Ready should be considered a guide rather than a set of hard rules. The artefacts actually needed will vary depending on the nature of the backlog item. It is up to the [3 Amigos team](/4.-Backlog-Management/3-Amigos-%26-Readying-Backlog-Items/) to determine what readiness means for each backlog item as they go through the definition processes.
+> Note: The Definition of Ready should be considered a guide rather than a set of hard rules. The artefacts actually needed will vary depending on the nature of the backlog item. It is up to the [3 Amigos team](/Delivery-Practices/Design-and-Definition/3-Amigos-%26-Readying-Backlog-Items/) to determine what readiness means for each backlog item as they go through the definition processes.
 
 # Backlog Prioritisation
 `// TODO:  describe impact & urgency ranking

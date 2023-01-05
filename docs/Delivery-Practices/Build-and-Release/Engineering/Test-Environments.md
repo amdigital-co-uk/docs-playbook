@@ -94,7 +94,7 @@ The Feature/Change is now ready to be released to Demo & Live.
 
 On completion of the release:
 
-1. Follow the [branching strategy guidelines](/6.-Engineering/Source-Control,-Versioning-&-Branching-Strategy) to ensure the main branch is updated
+1. Follow the [branching strategy guidelines](/Delivery-Practices/Build-and-Release/Engineering/Source-Control,-Versioning-&-Branching-Strategy) to ensure the main branch is updated
 1. The relevant QA environment and Stage (if not being used by another BAT session) must be switched off
 
 ### WorkFlow Diagram

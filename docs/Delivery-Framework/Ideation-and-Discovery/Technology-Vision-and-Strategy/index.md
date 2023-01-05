@@ -34,4 +34,4 @@ next-review: 2022-01-04
 - Our **Technology Strategy** describes what we aim to achieve in mid-to-long term, in line with our guiding vision  
 - The Technology Strategy informs our **Tech Roadmap**, a set of high level outcomes, which are broken down into discrete deliverables to form our **Backlog**.
 - This sits alongside our Product and Support visions, strategies, roadmaps and backlogs
-- Our [departmental mission](/1.-Welcome/Mission) links them together.
+- Our [departmental mission](#our-mission) links them together.

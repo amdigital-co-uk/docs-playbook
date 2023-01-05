@@ -85,8 +85,8 @@ Our [versioning strategy](#versioning) means that every change produces a unique
 1. Each engineer who needs to make changes to a package must create their own **Work** branch off **Main**, against which they can commit all changes. Regular and small [commits](https://git-scm.com/docs/git-commit) are recommended, and should be regularly [pushed](https://git-scm.com/docs/git-push). 
 1. Each commit must be accompanied by a useful description of the change made.
 1. When changes to the package have been completed, and a new version of the package built, the engineer should submit a **Pull Request** back to **Main**.
-    - Follow the [pull request](/6.-Engineering/Peer-Reviewing/Pull-Requests#creating-a-pull-request) instructions
+    - Follow the [pull request](/Delivery-Practices/Build-and-Release/Engineering/Peer-Reviewing/Pull-Requests#creating-a-pull-request) instructions
     - Fill in the details requested as part of the template pull request
-1. Another member of the team should then perform a [peer review](/6.-Engineering/Peer-Reviewing) on the work
+1. Another member of the team should then perform a [peer review](/Delivery-Practices/Build-and-Release/Engineering/Peer-Reviewing) on the work
     - Any changes requested as part of the peer review should be committed to the **Work** branch.
 1. When the review is completed (including any agreed changes, as above), the pull request can be merged into **Main**, and new package versions will be automatically created
