@@ -20,7 +20,7 @@
         },
         {
             "pattern": "[^.md]$",
-            "replacement": "$1.md"
+            "replacement": ".md"
         }
     ]
 }
