@@ -1,0 +1,18 @@
+{
+    "ignorePatterns":[
+        { "pattern": "^https://" },
+        { "pattern": "^http://localhost" },
+        { "pattern": "^https://github.com" },
+        { "pattern": "^https://docs.github.com" }
+    ],
+    "replacementPatterns": [
+        {
+            "pattern": "%2D",
+            "replacement": "-"
+        },
+        {
+            "pattern": "%26",
+            "replacement": "&"
+        }
+    ]
+}

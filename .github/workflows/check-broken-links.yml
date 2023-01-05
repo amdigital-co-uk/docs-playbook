@@ -1,0 +1,20 @@
+name: Check for Broken Links
+
+on:
+  #pull_request:
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    name: Check for Broken links
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Check for broken links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: yes
+          folder-path: docs
+          config-file: broken-links.json

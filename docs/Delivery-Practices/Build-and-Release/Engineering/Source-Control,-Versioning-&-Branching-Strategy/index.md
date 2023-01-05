@@ -15,7 +15,7 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 
 ## Branching Strategy
 
-**IMPORTANT NOTE:** This strategy applies to all repositions with the **exception of any shared code repositories** which generate NuGet packages which are  dependencies of multiple other repos/solutions. Please see the specific [Branching & Versioning Shared Repositories](/6.-Engineering/Source-Control,-Versioning-&-Branching-Strategy/Branching-&-Versioning-Shared-Code-Repositories) documentation.
+**IMPORTANT NOTE:** This strategy applies to all repositions with the **exception of any shared code repositories** which generate NuGet packages which are  dependencies of multiple other repos/solutions. Please see the specific [Branching & Versioning Shared Repositories](/Delivery-Practices/Build-and-Release/Engineering/Source-Control,-Versioning-&-Branching-Strategy/Branching-&-Versioning-Shared-Code-Repositories) documentation.
 
 | **Branch** | **Key Purpose** | **Naming** |
 |--|--|--|
@@ -32,7 +32,7 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 1. Each commit must be accompanied by a useful description of the change made.
 1. If multiple engineers are working concurrently on a single feature, and their work is interdependent (i.e. could not be usefully tested independently), each should use their own **Work** branch and one **Work** branch should be merged into another, via a [pull request (PR)](#merging-and-pull-requestss) . 
 1. When the engineer has completed their work, and it is ready for test, a [PR](#merging-and-pull-requestss) can be submitted to merge it into the **Feature** branch.
-1. The [PR](#merging-and-pull-requestss) should be actioned by another member of the team, who should perform a [peer review](/6.-Engineering/Peer-Reviewing) at this time.
+1. The [PR](#merging-and-pull-requestss) should be actioned by another member of the team, who should perform a [peer review](/Delivery-Practices/Build-and-Release/Engineering/Peer-Reviewing) at this time.
 1. Changes required should be performed by the original engineer against the merging **Work** branch, but any other member of the team should do this in their absence. 
 1. When a [PR](#merging-and-pull-requestss) is completed and the **Feature** branch has been updated, a build will be automatically kicked off and a releasable package created. This can then be deployed into any available QA environment for testing or PO review.
 1. When a feature has passed testing and PO review, the **Feature** branch can be merged into either a **Release** branch, the the **Main** branch, by performing a [PR](#merging-and-pull-requests):
@@ -67,7 +67,7 @@ If you are deploying non-functional changes (such as documentation or linting), 
 ### Merging and Pull Requests
 
 #### Merging Upstream
-Upstream merges occur when changes need to pulled into a parent branch. When this is done, a [Pull Request (PR)](https://git-scm.com/docs/git-request-pull) must be submitted and a [peer review performed](/6.-Engineering/Peer-Reviewing) by another member of the team.
+Upstream merges occur when changes need to pulled into a parent branch. When this is done, a [Pull Request (PR)](https://git-scm.com/docs/git-request-pull) must be submitted and a [peer review performed](/Delivery-Practices/Build-and-Release/Engineering/Peer-Reviewing) by another member of the team.
 
 You should only merge _good work_ upstream. I.e. it should already be known to pass all quality standards and tests.
 

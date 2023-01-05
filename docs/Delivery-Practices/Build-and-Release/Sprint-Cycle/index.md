@@ -35,7 +35,7 @@ The sprint includes a series of events that occur at the same time each day/spri
 
 Besides the key sprint events, there are other events that may occur periodically:
 - to support the design & definition of future work - currently as Backlog Refinement (although this will be reviewed as the new [3 Amigos](/Platform-Development-Playbook/Backlog-Management/3-Amigos-&-Readying-Backlog-Items) practice is implemented)
-- to plan the runway of work for near future sprints - [Runway planning](/Sprints-&-Teams/Runway-Planning)
+- to plan the runway of work for near future sprints - [Runway planning](/Delivery-Practices/Build-and-Release/Sprint-Cycle//Runway-Planning)
 
 Guidance and details on these events can be found in subpages.
 
@@ -47,13 +47,13 @@ Each team will consist of software engineers, test engineers, and a product mana
 Product Delivery Teams (short hand: "delivery teams") will engage in both "Sprint work"- i.e. building, testing, and releasing product increments - and also preparation work - i.e. the design and definition (aka refinement) of future sprint work. 
 
 ## Product Delivery Team Responsibilities
-Each of these teams has specific responsibilities that align with [our mission](/1.-Welcome/Mission):
+Each of these teams has specific responsibilities that align with [our mission](#our-mission):
 	
 1. Sprint Success		
     - Determining which of the sprint Candidates can be achieved during the sprint, given the available resources and work that needs to be done (considering the Definition of Done), and communicating this to the Enablement Team
     - Planning how this work will be done, including determining what work needs to be done and devising a strategy for completing it
     - Identify blockers and risks that may prevent sprint success, and promptly communicating them to the Enablement Team
-    - Executing the planned work to the [quality standards outlined in the Playbook](/6.-Engineering/Quality-Standards)
+    - Executing the planned work to the [quality standards outlined in the Playbook](/Delivery-Practices/Build-and-Release/Engineering/Quality-Standards)
     - Updating the plan as required, and communicating updates to the Enablement Team
     - Planning and performing releases, and collaborating with the enablement team and other product delivery teams to minimise risk
     - Measuring and reporting on the sprint progress

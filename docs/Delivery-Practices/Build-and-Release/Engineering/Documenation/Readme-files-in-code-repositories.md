@@ -181,7 +181,7 @@ We use [Swashbuckle](https://learn.microsoft.com/en-us/aspnet/core/tutorials/get
 
 When making changes to this repository, ensure that: 
 
-- You follow the branching strategy outlined in [Playbook](https://amdigital-co-uk.github.io/6.-Engineering/Source-Control%2C-Versioning-%26-Branching-Strategy/#branching-strategy)
+- You follow the branching strategy outlined in [Playbook](https://amdigital-co-uk.github.io/Engineering/Source-Control%2C-Versioning-%26-Branching-Strategy/#branching-strategy)
 - No code is touched before failing tests are written
 - There is a preference for integration tests over unit tests (where pragmatic)
 ```
