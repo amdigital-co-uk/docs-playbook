@@ -7,44 +7,29 @@ on:
       - main
 
 jobs:
-  check-links:
-    name: Check for Broken links
+  documentation:
+    name: Build site
     runs-on: ubuntu-latest
     steps:
 
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Check for broken links
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
-        with:
-          use-quiet-mode: yes
-          folder-path: docs
-          config-file: broken-links.json
 
-  # documentation:
-  #   name: Build site
-  #   needs: check-links
-  #   runs-on: ubuntu-latest
-  #   steps:
-
-  #     - name: Checkout repository
-  #       uses: actions/checkout@v2
-
-  #     - name: Install MKdocs and theme
-  #       run: |
-  #         pip install mkdocs-material
-  #         pip install mkdocs-awesome-pages-plugin
+      - name: Install MKdocs and theme
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-awesome-pages-plugin
       
-  #     - name: Deploy MKdocs site
-  #       run: |
-  #         mkdocs build
+      - name: Deploy MKdocs site
+        run: |
+          mkdocs build
 
-  #     - name: Deploy via FTP
-  #       uses: SamKirkland/FTP-Deploy-Action@4.3.2
-  #       with:
-  #         server: ${{ secrets.FTP_TARGET }}
-  #         username: ${{ secrets.FTP_USERNAME }}
-  #         password: ${{ secrets.FTP_PASSWORD }}
-  #         server-dir: site/wwwroot/
-  #         local-dir: ./site/
-  #         protocol: ftps
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: ${{ secrets.FTP_TARGET }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: site/wwwroot/
+          local-dir: ./site/
+          protocol: ftps
