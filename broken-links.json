@@ -3,7 +3,9 @@
         { "pattern": "^https://" },
         { "pattern": "^http://localhost" },
         { "pattern": "^https://github.com" },
-        { "pattern": "^https://docs.github.com" }
+        { "pattern": "^https://docs.github.com" },
+        { "pattern": "/$" },
+        { "pattern": ".md$" }
     ],
     "replacementPatterns": [
         {
