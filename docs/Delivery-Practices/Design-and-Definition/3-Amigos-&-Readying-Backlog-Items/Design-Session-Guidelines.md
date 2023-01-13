@@ -30,7 +30,7 @@ Before the Design session, we should make sure we have done the necessary work t
 - **Investigations** - given the technical considerations, any components/tools must be investigated and a report produced.
 - **Session Length** - we should ensure the session length takes into account the size and complexity of the roadmap item (use your team to help choose a realistic time frame). 
 
-> :bulb: **Tip:** The person reasonable for the input isn't always the person generating the input, they just need to coordinate the generation of the inputs. Use the Empowerment Team and your sprint team to help generate the inputs.
+> :bulb: **Tip:** The person responsible for the input isn't always the person generating the input, but they do need to coordinate the generation of the inputs. Use the Empowerment Team and your sprint team to help generate the inputs.
 
 
 ## During
@@ -45,7 +45,7 @@ Here are some tips to ensure the success of the design session
 Once the session has ended there is an expectation we would have produced the following outputs:
 
 - **Low-fi delivery plan** - this should use ROM estimates only, the delivery plan should demonstrate how value will be delivered not when (e.g. critical path map)
-- **Raid Log** - this should be an ongoing output during the whole of the design session, consider having a dedicated raid logger to continually update the raid log. 
+- **RAID Log** - this should be an ongoing output during the whole of the design session, consider having a dedicated RAID logger to continually update the RAID log. 
 - **Functional Design Definition** - this should detail how the solution will behave functionally.
 - **Technical Design** - this should detail how we will go about engineering the solution and should include any additional investigations needed to validate the technical design.
 - **High-level Test Plan** - this should detail the approach of how we will test the solution, this shouldn't be exhaustive but should contain the approach and any additional investigations needed.
