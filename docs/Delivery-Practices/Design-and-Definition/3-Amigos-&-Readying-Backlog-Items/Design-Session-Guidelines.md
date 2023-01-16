@@ -51,8 +51,6 @@ Once the session has ended there is an expectation we would have produced the fo
 - **High-level Test Plan** - this should detail the approach of how we will test the solution, this shouldn't be exhaustive but should contain the approach and any additional investigations needed.
 - **Design & Definition Plan** - outline the design & readying process remaining, our "Road to confidence" 
 
-###
-
 ## Outcomes
 The following are the expected outcomes of a design session, if the team hasn't achieved the expected outcomes then it is an indication that further design work is necessary: 
 
