@@ -60,4 +60,6 @@ The following are the expected outcomes of a design session, if the team hasn't 
 - Stakeholders understand the route to problem resolution
 
 
-> :bulb: **Tip:** Given we are a department that works remotely when setting up an in-person design session, consider viability of addressing multiple problems. But be considerate of WIP and make sure that you have the ability to work on the outputs produced. Also consider whether the design session can align with existing commitments, e.g. before or after a team day or other in-person event that participants are already likely to be attending in-person.
+!!! Tip 
+    
+    Given we are a department that works remotely when setting up an in-person design session, consider the viability of addressing multiple problems. But be considerate of WIP and make sure that you can work on the outputs produced. A further consideration is whether the design session can align with existing commitments, e.g. before or after a team day or other in-person event that participants are already likely to be attending in person.
