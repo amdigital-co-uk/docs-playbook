@@ -30,7 +30,8 @@ Before the Design session, we should make sure we have done the necessary work t
 - **Investigations** - given the technical considerations, any components/tools must be investigated and a report produced.
 - **Session Length** - we should ensure the session length takes into account the size and complexity of the roadmap item (use your team to help choose a realistic time frame). 
 
-> :bulb: **Tip:** The person responsible for the input isn't always the person generating the input, but they do need to coordinate the generation of the inputs. Use the Empowerment Team and your sprint team to help generate the inputs.
+!!! Tip 
+    The person responsible for the input isn't always the person generating the input, but they do need to coordinate the generation of the inputs. Use the Empowerment Team and your sprint team to help generate the inputs.
 
 
 ## During
