@@ -26,7 +26,7 @@ When creating the pull request, the engineer submitting their work should make s
 - Ensure the **compare** branch is correct (this should be the engineer's **work** branch in most situations)
 - Populate the _title_ with a concise summary of what is being submitted
 - Populate the _body_ with an explanation of their approach to solving the problem, including any patterns used
-  - Link the request to the relevant **backlog item** in Azure DevOps by adding `AB#123` where 123 is the ID of the backlog item. _NOTE: do not link to individual tasks_.
+  - Link the request to the relevant **backlog item** in Azure DevOps by adding `AB#123` where 123 is the ID of the backlog item. At a minimum, you must always link the **backlog item**, though it can be useful to also link the relevant **task** or **defect** in Azure DevOps - so add multiple `AB#123` tags where applicable.
   - If there are PRs in other repos that are related to the same piece of work, link to them in the PR description (see hints, below)
   - This shouldn't need to be too detailed, as ideally this won't be the first time they are seeing the code
   - In the case of a shared code repository, provided the information about [version number update](/Delivery-Practices/Build-and-Release/Engineering/Source-Control,-Versioning-&-Branching-Strategy/Branching-&-Versioning-Shared-Code-Repositories#Versioning) (i.e. MAJOR vs MINOR vs PATCH) and why it is appropriate
