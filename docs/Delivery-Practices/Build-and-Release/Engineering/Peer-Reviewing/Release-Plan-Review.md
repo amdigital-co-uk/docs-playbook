@@ -8,11 +8,14 @@ next*review: 2023-06-01
 ---
 # Release Plan Review
 
-## Why do we have release documentation? 
-Until we have fully automated our release process, as engineers we must fill out a release plan to make sure care and consideration is taken to ensure we reduce downtime as much as possible and release the BLI as safely as possible,
+## Why do we have release plans? 
+For any platforms without a fully automated release process, delivery teams are required to create a release plan and make sure care and consideration is taken in reducing downtime and releasing the BLI as safely as possible.
 
 ## Who can approve a release? 
-All senior developers and tech leads can review release documentation, but an engineer cannot review a release document they've had a hand in writing. 
+All Senior Software Engineers and Tech Leads can approve the release plan.
+
+!!! warning
+    A reviewer cannot signoff a release Plan they've had a hand in writing. 
 
 ## What does a review entail? 
 The following is a checklist an engineer should use when performing a release plan review. 
