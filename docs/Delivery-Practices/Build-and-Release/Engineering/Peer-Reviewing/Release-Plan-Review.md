@@ -8,17 +8,17 @@ next*review: 2023-06-01
 ---
 # Release Plan Review
 
-## Why do we have release plans? 
-For any platforms without a fully automated release process, delivery teams are required to create a release plan and make sure care and consideration is taken in reducing downtime and releasing the BLI as safely as possible.
+## Why do we have Release Plans? 
+For any platforms without a fully automated release process, delivery teams are required to create a Release Plan and make sure care and consideration is taken in reducing downtime and releasing the BLI as safely as possible.
 
 ## Who can approve a release? 
-All Senior Software Engineers and Tech Leads can approve the release plan.
+All Senior Software Engineers and Tech Leads can approve Release Plans.
 
 !!! warning
-    A reviewer cannot signoff a release Plan they've had a hand in writing. 
+    A reviewer cannot signoff a Release Plan they've had a hand in writing. 
 
 ## What does a review entail? 
-The following is a checklist an engineer should use when performing a release plan review. 
+The following is a checklist an engineer should use when performing a Release Plan review. 
 
 * Are all sections filled in?
 * Do links to external resources 
