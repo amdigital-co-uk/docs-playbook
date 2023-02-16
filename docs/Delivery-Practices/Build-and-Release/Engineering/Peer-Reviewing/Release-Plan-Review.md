@@ -32,7 +32,7 @@ The following is a checklist an engineer should use when performing a Release Pl
     -	If multiple components are to be released, do they need to be deployed (and rolled back) in any particular order?	
     -	Is there sufficient Smoke Testing? 
 * If there is low automated e2e test coverage for a given scenario, would a greater level of smoke testing be required?
-* Are comms to stakeholders well thought through?
+* Is there an agreed communication plan?
     - Have timelines been clearly and explicitly shared?
-    -	Are identified risks and mitigations being communicated appropriately?
+    - Are identified risks and mitigations being communicated appropriately?
 
