@@ -23,7 +23,7 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
-          server: ${{ secrets.FTP_TARGET_PREVIEW }}
+          server: ${{ secrets.FTP_TARGET }}
           username: ${{ secrets.FTP_USERNAME_PREVIEW }}
           password: ${{ secrets.FTP_PASSWORD_PREVIEW }}
           server-dir: site/wwwroot/
