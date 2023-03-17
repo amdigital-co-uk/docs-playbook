@@ -1,0 +1,31 @@
+name: Build & Deploy Preview (Select branch)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  documentation:
+    name: Build then Deploy site
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install MKdocs and theme
+        run: |
+          pip install mkdocs-material 
+          pip install mkdocs-awesome-pages-plugin
+      
+      - name: Deploy MKdocs site
+        run: |
+          mkdocs build
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: ${{ secrets.FTP_TARGET_PREVIEW }}
+          username: ${{ secrets.FTP_USERNAME_PREVIEW }}
+          password: ${{ secrets.FTP_PASSWORD_PREVIEW }}
+          server-dir: site/wwwroot/
+          local-dir: ./site/
+          protocol: ftps
