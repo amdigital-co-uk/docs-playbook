@@ -9,20 +9,17 @@ next-review: 2022-06-01
 
 When carrying out a release, it is good practice to let stakeholders know the release is about to happen, and what it will mean for them. 
 
-!!! note
-    In this context "Release" refers to a release to a production environment, for any platform.
-
 ## What types of work require notification?
 
-Any work that involves a release, including:
+Any work that involves a release to a production environment, for any platform. Work includes:
 
-- Product features and changes, regardless of platform
+- Product features and changes
 - Bug fixes that involve code changes
 - Technical improvements and infrastructure changes
 
 ## How to notify colleagues of a release
 
-- Release notifications should be performed by any member of the team that performed the release.
+- Release notifications can be carried out by any member of the team that performed the release.
 - Delivery team member posts to the Release Announcements channel in MS Teams (in the Platform Support team) ahead of release.
 - Use *tags* (groups or individuals) to alert the relevant stakeholders identified in your Release Plan.
 - Send a follow-up message to the same stakeholders to confirm when the release has been completed successfully, or if there’s been an issue and you have to change course/roll back.
@@ -35,7 +32,7 @@ When communicating to stakeholders, think about their perspective and what they 
 - Provide context behind the change. Stakeholders may not know the change is coming, or why! A brief note on practical applications can be useful.
 - State any visible changes they’ll see as a result, including whether the change has been feature flagged. Even if there are no visible changes, letting stakeholders know that a release is taking place can help manage expectations in the event that there’s an issue.
 - State any actions that are required by users in order to see the desired changes, e.g. clear browser cache, re-promote or re-publish.
-- If this is a bug being release, link to the original support ticket that is being affected by the release
+- If this is a bug being fixed, link to the original support ticket affected by the release.
 
 If the release is part of a larger set of changes, the Product Manager should be in discussions with stakeholders throughout development, and will prepare accompanying Feature Notes.
 
