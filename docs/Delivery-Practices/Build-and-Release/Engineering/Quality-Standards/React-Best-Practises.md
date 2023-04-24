@@ -14,11 +14,12 @@ React is a popular open-source JavaScript library used for building user interfa
 
 1. Use semantic HTML: Use semantic HTML tags that describe the content of the page rather than just the appearance. This will help with accessibility and search engine optimization, and make your code easier to read and maintain. For further reading, MDN has a good article on [semantic HTML]( https://developer.mozilla.org/en-US/docs/Glossary/Semantics).
 
-1. Use React Testing Library: Use React Testing Library to write unit and integration tests for your components. This library provides a simple and intuitive API for testing React components and encourages developers to write tests that reflect the way users interact with the application.
+1. Use React Testing Library: Use React Testing Library to write unit and integration tests for your components. This library provides a simple and intuitive API for testing React components and encourages developers to write tests that reflect the way users interact with the application. See [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) for more information.
 
-1. Use the Atomic Design Methodology: The Atomic Design Methodology is a system for designing and building UI components in a structured and scalable way. By breaking down your UI into smaller, reusable components, you can create a more flexible and maintainable codebase.
+1. Use the Atomic Design Methodology: The Atomic Design Methodology is a system for designing and building UI components in a structured and scalable way. By breaking down your UI into smaller, reusable components, you can create a more flexible and maintainable codebase. See Brad Frost article on [Atomic Design](https://atomicdesign.bradfrost.com/table-of-contents/) for more information.
 
-1. Use React Query: React Query is a library for managing data fetching and caching in React applications. It provides a simple and intuitive API for fetching data from APIs, and supports caching, pagination, and other advanced features. But note `onSuccess()/onError()/onSettled()` will be deprecated see [React Query v5](https://twitter.com/TkDodo/status/1647341498227097600).
+1. Use React Query: React Query is a library for managing data fetching and caching in React applications. It provides a simple and intuitive API for fetching data from APIs, and supports caching, pagination, and other advanced features. See [ReactQuery](https://tanstack.com/query/v3/docs/react/overview) for more infomation.
+_Note `onSuccess()/onError()/onSettled()` will be deprecated see [React Query v5](https://twitter.com/TkDodo/status/1647341498227097600)._
 
 1. Read and understand the official React documentation: The React documentation at <https://react.dev/> is a valuable resource for learning about React and its ecosystem. Take the time to read and understand the documentation, and follow the best practices and recommendations provided by the React team. This will help you write better code and avoid common pitfalls in your React applications.
 
