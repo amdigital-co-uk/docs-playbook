@@ -8,6 +8,8 @@ authors:
 
 React is a popular open-source JavaScript library used for building user interfaces. It was created by Facebook and has gained a lot of popularity among developers for its declarative and efficient approach to building web applications. TypeScript is a superset of JavaScript that adds optional static typing and other features to the language. By using TypeScript with React, developers can write more reliable, maintainable, and scalable code with fewer errors. In this context, it's important to follow best practices and guidelines to ensure that your code is of the highest quality. In this post, we've provided some guidelines and best practices for writing React code in TypeScript that can help you write better code and improve the overall quality of your application.
 
+## 
+
 ## Guidelines for Writing React Code in TypeScript
 
 1. Use semantic HTML: Use semantic HTML tags that describe the content of the page rather than just the appearance. This will help with accessibility and search engine optimization, and make your code easier to read and maintain.
@@ -17,6 +19,8 @@ React is a popular open-source JavaScript library used for building user interfa
 1. Use the Atomic Design Methodology: The Atomic Design Methodology is a system for designing and building UI components in a structured and scalable way. By breaking down your UI into smaller, reusable components, you can create a more flexible and maintainable codebase.
 
 1. Use React Query: React Query is a library for managing data fetching and caching in React applications. It provides a simple and intuitive API for fetching data from APIs, and supports caching, pagination, and other advanced features.
+
+1. Read and understand the official React documentation: The React documentation at <https://react.dev/> is a valuable resource for learning about React and its ecosystem. Take the time to read and understand the documentation, and follow the best practices and recommendations provided by the React team. This will help you write better code and avoid common pitfalls in your React applications.
 
 1. Use strict mode: Use the React strict mode to enable additional checks and warnings for potential problems in your code. This can help you catch potential issues early and improve the overall quality of your code.
 
@@ -28,7 +32,9 @@ React is a popular open-source JavaScript library used for building user interfa
 
 1. Use async/await for data fetching: Use async/await syntax to fetch data asynchronously from APIs or other sources. This can help you avoid callback hell and make your code easier to read and maintain.
 
-1. Use hooks effectively: Use React hooks like useState and useEffect to manage state and side effects in your components. Hooks provide a simple and intuitive API for managing state and can help you avoid class components and the complexities that come with them.
+1. Use hooks effectively: Use React hooks like useState and useEffect to manage state and side effects in your components. Hooks provide a simple and intuitive API for managing state and can help you avoid class components and the complexities that come with them. But remember [you may not always need an effect](https://react.dev/learn/you-might-not-need-an-effect#)
+
+1. Reuse logic with custom hooks: Extract reusable logic into custom hooks to avoid code duplication and improve the reusability of your components. Custom hooks can be used to encapsulate logic related to data fetching, state management, and other common patterns. By using custom hooks, you can make your code more modular and easier to test and maintain. See [reusing logic with custom hooks](https://react.dev/learn/reusing-logic-with-custom-hooks) for more details. 
 
 1. Use TypeScript generics: Use TypeScript generics to create reusable components and functions that work with a variety of data types. Generics provide a way to write type-safe code that can be used in a flexible and scalable way.
 
