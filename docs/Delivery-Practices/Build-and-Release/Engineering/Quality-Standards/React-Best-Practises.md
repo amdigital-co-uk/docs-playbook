@@ -14,6 +14,8 @@ React is a popular open-source JavaScript library used for building user interfa
 
 1. **Read and understand the official React documentation:** The React documentation at <https://react.dev/> is a valuable resource for learning about React and its ecosystem. Take the time to read and understand the documentation, and follow the best practices and recommendations provided by the React team. This will help you write better code and avoid common pitfalls in your React applications.
 
+1. **Use semantic HTML:** React will still output HTML, CSS, and JavaScript; with that in mind, it's important we use semantic HTML tags that describe the content of the page rather than just the appearance. This will help with accessibility and search engine optimization, and make your code easier to read and maintain. For further reading, MDN has a good article on [semantic HTML]( https://developer.mozilla.org/en-US/docs/Glossary/Semantics).
+
 1. **Follow useState best practices:** Removing redundant and duplicate data from the state helps ensure that all its pieces stay in sync, similar to how a database engineer normalizes the database structure to minimize bugs. See [choosing the state structure](https://react.dev/learn/choosing-the-state-structure) for more information.
 
 1. **Follow useEffect best practices** 
@@ -49,8 +51,6 @@ React is a popular open-source JavaScript library used for building user interfa
 1. **Use React Testing Library:** Use React Testing Library to write unit and integration tests for your components. This library provides a simple and intuitive API for testing React components and encourages developers to write tests that reflect the way users interact with the application. See [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) for more information.
 
 ### Other things to be aware of
-
-1. **Use semantic HTML:** Use semantic HTML tags that describe the content of the page rather than just the appearance. This will help with accessibility and search engine optimization, and make your code easier to read and maintain. For further reading, MDN has a good article on [semantic HTML]( https://developer.mozilla.org/en-US/docs/Glossary/Semantics).
 
 1. **Use TypeScript generics:** Use TypeScript generics to create reusable components and functions that work with a variety of data types. Generics provide a way to write type-safe code that can be used in a flexible and scalable way.
 
