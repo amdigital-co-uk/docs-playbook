@@ -1,6 +1,6 @@
 ---
-title:** React Best Practises 
-authors:** 
+title: React Best Practises 
+authors: 
 - Rhodri Hewitson
 ---
 
