@@ -43,12 +43,22 @@ The Test Charter should include:
 - Identify any further testing required?
 
 ## Best Practices
-During the Exploratory Test session:
+### Before the Exploratory Test session:
 - The mission of testing must be clear
 - Note ideas on what needs to be tested and why
+
+### During the Exploratory Test session:
 - Engineer can branch out their ideas but never stray from the mission
 - Keep track of any questions and issues raised during exploratory testing session
-- Preferred to pair for more effective testing
+- Preferred to pair for more effective 
+
+### Following the Exploratory Test session
+Document and monitor the following:
+- Risks
+- What must be covered
+- Test Execution Log
+- Consider recording the test session
+
 
 ## Disadvantages of Exploratory Testing
 Some disadvantages of Exploratory testing are:
