@@ -52,7 +52,7 @@ The Test Charter should include:
 - Keep track of any questions and issues raised during exploratory testing session
 - Preferred to pair for more effective 
 
-### Following the Exploratory Test session
+### Following the Exploratory Test session:
 Document and monitor the following:
 - Risks
 - What must be covered
