@@ -37,6 +37,10 @@ The above should be run against the relevant repo, in GitHub actions:
 [qtui front end - Front End / CMS E2E Tests](https://github.com/amdigital-co-uk/qtui-front-end/actions/workflows/e2e-tests.yml)
 [qtms-oai - OAI Open Archives Initiave (API) E2E Tests](https://github.com/amdigital-co-uk/qtms-oai/actions)
 
+fggf https://adammatthewdigital-my.sharepoint.com/:w:/g/personal/jamesp_amdigital_co_uk/EdBWLwMyWI5ElHRwBIFtVeEBA8DSan5iud-fomz238QzKQ?e=e8uJ1i
+
+For more information, Please also see the following document: [Process to follow when running E2E tests after releases](https://adammatthewdigital.sharepoint.com/:w:/s/Quartex/EQ9WdpmT6N5Om-iRay91EbIBXDjWW88nFHGPTX-ugRSAkw?e=NGIqpj)
+
 
 ## What is the triage Loop?
 

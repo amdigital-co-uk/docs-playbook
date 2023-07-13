@@ -7,10 +7,10 @@ reviewer:
 next-review:
 ---
 
---- ![Test Process Work Flow Diagram](BLI_Test_WorkFlow.png)
+--- [Test Process Work Flow Diagram](ISTQB-Test-Process-Diagram.png)
 ---
 
-The above diagram outlines the different Test phases and what is involved for each of those individual phases. For a more granular breakdown, please see below and for a much more simplified version, please see [Test Workflow Diagram](Test-Engineering\Test Workflow Diagram.md) 
+The above diagram outlines the different Test phases and what is involved for each of those individual phases. For a more granular breakdown and explanation of whats involved in these phases, please see below and for a much more simplified version of this diagram, please see [Test Workflow Diagram](BLI_Test_Workflow.png) 
 
 ## What is Test monitoring and control?
 Test monitoring involves:
