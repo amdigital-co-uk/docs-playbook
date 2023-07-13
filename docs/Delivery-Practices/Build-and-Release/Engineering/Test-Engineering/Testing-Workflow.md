@@ -56,7 +56,7 @@ The reason Smoke test notes are added after QA execution and not initial 'Test i
 
 This should involve:
 
-- Running ALL E2E tests, on all repos (where applicable)
+- Running ALL E2E tests, on all repos, (where applicable)
 - Running E2E tests on ALL browsers (where applicable)
 - Executing Smoke tests (usually on chrome)
 
