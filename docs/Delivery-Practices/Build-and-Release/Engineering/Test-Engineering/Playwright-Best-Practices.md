@@ -11,9 +11,9 @@ next-review:
 This document outlines best practices to follow when writing Playwright test scripts.
 
 ## Identifying locators
-1. The main rule-of-thumb when selecting a locator for an element, is to try an use one that is either visible to the user or one the user interacts with. This approach allows the test to fail when any change that is visible to the user occurs on the webpage.\
- __Example__\
-    Scenario: A button with text is visible to the user and the button element has an unique ID in the HTML.\
+1. The main rule-of-thumb when selecting a locator for an element, is to try an use one that is either visible to the user or one the user interacts with. This approach allows the test to fail when any change that is visible to the user occurs on the webpage.  
+__Example__  
+    >Scenario: A button with text is visible to the user and the button element has an unique ID in the HTML.
     Locator: The test should use the button with text rather than refer to the ID. 
 
 
@@ -23,9 +23,10 @@ This document outlines best practices to follow when writing Playwright test scr
 
 1. The above can be difficult to achieve if the interested element is an icon or an image. In these cases, it is advisable to look for Aria-Labels. This is because although the user does not see an Aria-Label, it is the next best thing when using assistive technologies and therefore are elements that are used to directly interact with the webpage.
 
-1. If an element does not have any labels, text or Aria-Labels then it is advisable to look for data-test IDS (see references for more info).
+1. If an element does not have any labels, text or Aria-Labels then it is advisable to look for data-test IDS (see references for more info).  
+Software Engineers will support creating the data-test-IDs.  We do not need to create additions Backlog Items for this work.
 
-1. It is **not advised** to use element IDs, names, CSS locators or any other locators that is not visible to the user.  Such locators must only be used as a last resort.
+1. It is strongly **not advised** to use element IDs, names, CSS locators or any other locators that is not visible to the user.  Such locators must only be used as a very last resort.
 
 ## BDD
 ### Writing test scenarios using Cucumber
