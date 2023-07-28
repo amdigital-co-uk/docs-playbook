@@ -7,10 +7,9 @@ reviewer:
 next-review:
 ---
 
---- ![Test Work Flow Diagram](BLI_Test_Workflow.png)
----
+This diagram outlines WHEN we need to execute our End to End (E2E) Regression tests on QA and LIVE environments.  
 
-The above diagram outlines WHEN we need to execute our End to End (E2E) Regression tests on QA and LIVE. 
+![Test Work Flow Diagram](BLI_Test_Workflow.png)
 
 ## Test implementation
 
@@ -56,6 +55,6 @@ This should involve:
 
 - Running ALL E2E tests, on all repos, (where applicable)
 - Running E2E tests on ALL browsers (where applicable)
-- Executing Smoke tests (usually on chrome)
+- Executing Smoke tests (usually on Chrome)
 
-If any Bugs are found on Live environments then (depending on the Risk/Result of that bug) we either roll back to a previous deployment version, or create a new Backlog Item to fix the Bug. 
+If any Bugs are found on Live environments then (depending on the Risk/Result of that bug) we either roll back to a previous deployment version or create a new Backlog Item to fix the Bug. 
