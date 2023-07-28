@@ -57,7 +57,7 @@ The process of Example mapping itself involves four differently-coloured sticky 
 
 - Green sticky notes serve for defining the examples of the rules in the row above represented by the blue sticky notes.
 
-- Red sticky notes are used for making notes of the questions that arise during the discussion. These questions can be related to the examples, rules, or the definition of the story itself.
+- Red / Pink sticky notes are used for making notes of the questions that arise during the discussion. These questions can be related to the examples, rules, or the definition of the story itself.
 
 
 ### How does Example mapping work?
@@ -69,23 +69,31 @@ The process of Example mapping itself involves four differently-coloured sticky 
 
 - 4 - Underneath the blue sticky notes with the rules, place green cards with one or more relevant examples for each rule written on them. (Of course, the examples should be placed under the rule they refer to. As for the format of the examples, there are no restrictions, you can use gherkin syntax, or leave them unstructured, as long as everyone understands them.)
 
-- 5 - Write down All unanswered questions and issues that can only be resolved by people NOT currently participating in the discussion on red sticky notes, preferably next to the example or the rule they pertain to. (As the conversation moves on and you fill the table or board with sticky notes, certain issues or misunderstandings will arise, either relating to a specific example or, perhaps the entire rule.)
+- 5 - Write down All unanswered questions and issues that can only be resolved by people NOT currently participating in the discussion on pink sticky notes, preferably next to the example or the rule they pertain to. (As the conversation moves on and you fill the table or board with sticky notes, certain issues or misunderstandings will arise, either relating to a specific example or, perhaps the entire rule.)
 
 ### How do we define the Visual Process?
 Through conversation, you’ll soon be done with the basic setup and have a visual representation of how the team currently views the story. The large presence of certain colours on the table or board indicates the level of story understanding at that point. 
 
-- Plenty of red cards will mean that there are a lot of unresolved issues and that a team still has a lot to learn to gain a full understanding of a story.
+- Plenty of pink cards will mean that there are a lot of unresolved issues and that a team still has a lot to learn to gain a full understanding of a story.
 
 - If the blue colour is dominating the table, meaning that there are multiple business rules, the story is likely very large and complex. In that case, it’s a good idea to slice the story into smaller fragments and add the new, smaller slice to the backlog. 
 
 - Alot lot of green cards with examples point to the complexity of the row above, indicating that rules are perhaps overly complicated. Just like stories, rules can also be set apart and then taken into consideration in smaller chunks. On the other hand, some rules will be so simple and obvious that you may not need examples at all.
 
-### 3. How long should an example mapping session be?
+### How long should an example mapping session be?
 - One of the big advantages of implementing the example mapping technique is that it takes only a chunk of your time and allows the team to efficiently use their time and resources to define acceptance criteria and explore the user story. A well-prepared team should be able to create an example map for an average-sized story fairly quickly, The time box in which the example mapping will take place should take no more than 60 minutes.
 
 - Setting the timing in advance will help the flow of discussion and allow things to swiftly move forward. Example mapping the story in the set time commonly means that it’s ready to be put into development. Once the set time expires, the team can vote decide whether they think the story has been properly mapped and the acceptance criteria is clear or further readying is required. 
 
 - If the time box is not met, it means that the participants probably should practice the example mapping techniques more, or that the user story example map has too many rules or too many questions, In that case, it should be reworked and refined. 
 
+### Is there an Example Mapping template I can use?
+- Yes, you can find it here > [Miro Board template](https://miro.com/app/board/uXjVMWKD9qg=/)
+
+![example mapping template](example-mapping-example.png) 
+
+
 ## References
 - [Feature Mapping – a lightweight requirements discovery practice for agile teams](https://johnfergusonsmart.com/feature-mapping-a-lightweight-requirements-discovery-practice-for-agile-teams/)
+
+- [Miro Board template](https://miro.com/app/board/uXjVMWKD9qg=/)
