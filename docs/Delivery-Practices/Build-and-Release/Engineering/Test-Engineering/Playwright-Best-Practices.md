@@ -4,29 +4,39 @@ authors:
 - Jees Mathew & Karen Farrell
 reviewed: [yyyy-mm-dd]
 reviewer:
-next-review:
+next-review: 01/09/2024
 ---
 
 ## Introduction
 This document outlines best practices to follow when writing Playwright test scripts.
 
-## Identifying locators
-1. The main rule-of-thumb when selecting a locator for an element, is to try an use one that is either visible to the user or one the user interacts with. This approach allows the test to fail when any change that is visible to the user occurs on the webpage.  
-__Example__  
-    >Scenario: A button with text is visible to the user and the button element has an unique ID in the HTML.
-    Locator: The test should use the button with text rather than refer to the ID. 
+## Locating elements
+When planning testing at the readying phase of a work item, locators must be considered.  This allows Software Engineers to plan any additional work needed in order to enable our best practices.
+
+It is important to use a locator that is robust and does not depend on the DOM structure.
+
+To make our tests resilient, we prioritise user-facing attributes and explicit contracts when locating elements on a page.  This could be text, a button name, an element's aria-label etc.
+
+Playwright recommended built-in locators:
+
+- page.getByRole() to locate by explicit and implicit accessibility attributes.
+- page.getByText() to locate by text content.
+- page.getByLabel() to locate a form control by associated label's text.
+- page.getByPlaceholder() to locate an input by placeholder.
+- page.getByAltText() to locate an element, usually image, by its text alternative.
+- page.getByTitle() to locate an element by its title attribute.
 
 
-1. It is important to use a locator that is robust and does not depend on the DOM structure.
+If an element cannot be located by any of these, then we look for data-test IDs (for more info click [here](https://playwright.dev/docs/locators#locate-by-test-id)).  **Software Engineers will support creating the data-test-IDs where needed.**
 
-1. The best locators to use for elements are label names, button name, text etc.
+Playwright recommended built-in locators when using data-test-IDs:
 
-1. The above can be difficult to achieve if the interested element is an icon or an image. In these cases, it is advisable to look for Aria-Labels. This is because although the user does not see an Aria-Label, it is the next best thing when using assistive technologies and therefore are elements that are used to directly interact with the webpage.
+- page.getByTestId() to locate an element based on its data-testid attribute
 
-1. If an element does not have any labels, text or Aria-Labels then it is advisable to look for data-test IDS (see references for more info).  
-Software Engineers will support creating the data-test-IDs.  We do not need to create additions Backlog Items for this work.
+For further examples of these locators, please follow the Playwright documentation found [here](https://playwright.dev/docs/locators)
 
-1. It is strongly **not advised** to use element IDs, names, CSS locators or any other locators that is not visible to the user.  Such locators must only be used as a very last resort.
+
+We **NEVER** use CSS or XPath locators.  CSS and XPath are not recommended as the DOM can often change leading to non resilient tests. Instead, we use a locator that is close to how the user perceives the page such as role locators or define an explicit testing contract using test ids as described above.
 
 ## BDD
 ### Writing test scenarios using Cucumber
@@ -36,6 +46,6 @@ Software Engineers will support creating the data-test-IDs.  We do not need to c
 // TO DO
 
 ## References
-- [Best Practices - Locators](https://playwright.dev/docs/best-practices#use-locators)
+- [Playwright - Locators](https://playwright.dev/docs/locators)
+- [Playwright Best Practices - Using Locators](https://playwright.dev/docs/best-practices#use-locators)
 - [Using Test IDs](https://playwright.dev/docs/locators#locate-by-test-id)
-
