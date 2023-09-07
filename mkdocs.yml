@@ -10,6 +10,7 @@ extra_javascript:
 plugins:
   - awesome-pages
   - search
+  - tags
 theme:
   logo: assets/images/AM no tag.png
   name: material

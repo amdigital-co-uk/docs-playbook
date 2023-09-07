@@ -1,13 +1,18 @@
+This is a documentation repository for the department's playbook.
 
-The playbook is structured in into sections in a specific way that promotes a clear narrative to the reader.
+The Playbook is a public-facing guide to the fundamental ways we work. This sits alongside the internal-facing [Knowledgebase](https://knowledgebase.platformdev.amdigital.co.uk/), which contains specific details of how our technologies and tool-kits are build and configured.
 
-!!! note "Ownership"
+## Structure
 
-    When you create, review, or modify a document, **you are responsible** for ensuring that it is _well written_ and has been _peer reviewed_, and that _review date is set_.
+The Playbook is structured in into sections in a specific way that promotes a clear narrative to the reader.
 
-## Tooling
+Playbook settings, including look and feel, plugins etc, are defined in the mkdocs.yml at the root.
 
-This playbook is build using [Markdown](https://www.markdownguide.org/) documents, a simple text editor designed for documentation.
+The Playbook documentation resides in the /docs folder. This includes markdown files and assets such as images or supporting documents. Additionally styling overrides are included in CSS files in the /docs/stylesheets folder, and the .pages file outlines the navigation structure. 
+
+## Tooling & Technologies
+
+This Playbook is build using [Markdown](https://www.markdownguide.org/) documents, a simple text editor designed for documentation.
 
 Specifically, it is build on [MKDocs](https://www.mkdocs.org/), using the [Material for MKDocs](https://squidfunk.github.io/) theme. MKDocs and Material for MKDocs extend the functionality of Markdown, allowing you to include visually richer content.
 
@@ -16,11 +21,17 @@ It is stored and version controlled using Git in GitHub, and published with usin
 Specific details of tools and how to use them can be found throughout the various guides within this section.
 
 ## Contributing
+
+A full guide on how to contribute to the Playbook can be found in the [Knowledgebase](https://knowledgebase.platformdev.amdigital.co.uk/Knowledgebase-User-Guide/)
+
 You can make small changes within GitHub, and will be able to view basic markdown rendering when you do. This will include all of MKDocs or Material for MKDocs rendering. 
 
 Whilst this can be useful for basic content updates (e.g. single paragraph updates), it is critical when making larger or more complex changes (e.g. multiple page changes, styling or configuration updates) that you are able to properly validate your work before you create a pull request.
 
-A full guide on how to contribute to the Playbook can be found in the [Knowledgebase](https://knowledgebase.platformdev.amdigital.co.uk/Knowledgebase-User-Guide/)
+
+!!! note "Ownership"
+
+    When you create, review, or modify a document, **you are responsible** for ensuring that it is _well written_ and has been _peer reviewed_, and that _review date is set_.
 
 ### Local Running
 

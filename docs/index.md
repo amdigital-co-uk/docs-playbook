@@ -6,9 +6,7 @@ Updated:
 Review-Date: 2022-04-19
 ---
 
-Welcome to our playbook. This document aims help our engineering, product, and design teams to operate within a clear framework of practices and achieve [our mission](#our-mission).
-
-## Who is this for?
+Welcome to our Playbook. This document aims help our engineering, product, and design teams to operate within a clear framework of practices and achieve [our mission](#our-mission).
 
 This is for anyone in our team, anyone working with our team with an interest in how we work, anyone thinking about working in our team, or anyone with a passing interest in our values.
 
