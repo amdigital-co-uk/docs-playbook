@@ -1,5 +1,11 @@
 {
-  "cSpell.words": ["Hewitson", "Knowledgebase", "Rhodri", "Roadmap"],
+  "cSpell.words": [
+    "discoverability",
+    "Hewitson",
+    "Knowledgebase",
+    "Rhodri",
+    "Roadmap"
+  ],
   "grammarly.selectors": [
     {
       "language": "markdown",
