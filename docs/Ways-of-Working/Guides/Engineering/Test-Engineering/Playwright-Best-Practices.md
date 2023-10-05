@@ -10,23 +10,6 @@ next-review: 01/09/2024
 ## Introduction
 This document outlines best practices to follow when writing Playwright test scripts.
 
-
-## Selectors - all you need to know
-Selectors play a crucial role in automation testing, as they are used to identify and interact with elements on a web page. Writing efficient and maintainable selectors is essential for creating a robust test suite. Here are some best practices and guidelines to follow when writing selectors:
-
-1.	Use meaningful and descriptive names for selectors: Assigning clear and descriptive names to your selectors helps make your code more readable and maintainable. For example, instead of using a generic name like button, use a specific name like loginButton.
-
-2.	Prioritize unique and stable attributes: When selecting an element, prioritize using unique and stable attributes, such as title, name, or unique id. These attributes are less likely to change and are more reliable for locating elements on the page. If unique attributes are not available   , use the data-test-ids to pinpoint the element.
-
-3.	Avoid using absolute and complex XPath expressions: Absolute XPath expressions are fragile and more likely to break if there are changes to the page structure. Use relative XPath or CSS selectors when possible, as they are generally more maintainable and easier to read. 
-
-4.	Leverage Playwright's built-in selector engines: Playwright provides a variety of built-in selector engines like css, xpath and id that can be combined to create powerful and maintainable selectors. Use these engines to build reliable and efficient selectors for your page elements.
-
-5.	Group related selectors together: In your page files, group selectors related to a specific section or component together for better organization and easier maintenance. This can help improve the readability of your code and make it easier to locate selectors when you need to update them.
-
-6.	Keep selectors up-to-date: Regularly review and update your selectors to ensure they are still accurate and efficient. When the application under test changes, be proactive in updating the selectors in your page files to prevent your tests from breaking.
-
-
 ## Locating selectors
 When planning testing at the readying phase of a work item, locators must be considered.  This allows Software Engineers to plan any additional work needed in order to enable our best practices.
 
@@ -54,6 +37,8 @@ For further examples of these locators, please follow the Playwright documentati
 
 
 We **NEVER** use CSS or XPath locators.  CSS and XPath are not recommended as the DOM can often change leading to non resilient tests. Instead, we use a locator that is close to how the user perceives the page such as role locators or define an explicit testing contract using test ids as described above.
+
+**Keep selectors up-to-date:** Regularly review and update your selectors to ensure they are still accurate and efficient. When the application under test changes, be proactive in updating the selectors in your page files to prevent your tests from breaking
 
 ## Testing, committing code and PR reviews
 The tests are developed locally, on your local environment. 
