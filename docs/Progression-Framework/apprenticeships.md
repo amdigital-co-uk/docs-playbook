@@ -28,8 +28,6 @@ Throughout the placement period, apprentices build-up a portfolio of evidence th
 
 ## Occupational Duties and Competencies
 
-AM Competancies are mapped to the Duties to provde another
-
 To help faciliate communication between an apprentice engineer, their Manager and Makers, AM Enginering Competencies (as defined in our matrix of competancies) are mapped to Occupational Duties (part of the Makers course).
 
 [Download the Makers Duties to AM Competencies Map](Duties%20to%20Competencies%20Map-%October%202024.xlsx){ .md-button }
