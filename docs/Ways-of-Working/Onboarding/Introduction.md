@@ -1,23 +1,75 @@
 ---
-title: Introduction 
+title: Introduction to Onboarding at AM
 ---
 
-Welcome to AM! As you embark on your journey with us, we've designed an onboarding process to ensure a seamless transition, allowing you to become a pivotal part of our team in no time.
+## Welcome to AM
 
-## Onboarding Overview
+We're delighted to have you on board. Our structured onboarding process is designed to facilitate a smooth and enriching transition into our team.
 
-Our onboarding process unfolds in three carefully crafted stages:
+Please note, if you're in a lead role, you'll have additional responsibilities.
 
-1. **Arrival**:
-   - **Duration**: First few hours at AM.
-   - **Objective**: To provide you with a warm introduction to our organization and familiarize you with the initial steps of our onboarding procedure.
+## Onboarding Stages
 
-2. **Orientation**:
-   - **Duration**: Initial days at AM.
-   - **Objective**: To help you settle in comfortably, acquaint you with your immediate team members, and delineate the scope and expectations of your role.
+Our onboarding process is structured into four distinct stages:
 
-3. **Immersion**:
-   - **Duration**: First few months at AM.
-   - **Objective**: To bolster your confidence within the AM, broaden your knowledge of our technological estate, our ways of working and immerse you in our business and operations.
+### 1. **Arrival**
 
-We're thrilled to have you with us and are committed to ensuring a fulfilling and enriching experience as you integrate into AM.
+- **Duration**: First few hours.
+- **Objective**: Familiarize you with the AM environment and ensure a warm welcome.
+- **Highlights**:
+  - Meet your line manager.
+  - HR and IT inductions.
+  - Introduction to your department buddy.
+
+- ***Leads Additional***:
+  - Team welcome meeting with all your direct reports.
+
+### 2. **Orientation**
+
+- **Duration**: Initial days.
+- **Objective**: Settle you into your role, help you understand your immediate team, and establish a foundation for your work at AM.
+- **Highlights**:
+  - Set up your development environment with your lead.
+  - Explore our [Working with Me](https://knowledgebase.platformdev.amdigital.co.uk/Directory/People/) pages and draft your own.
+  - Dive into the self-serve toolkit documentation.
+
+- ***Leads Additional***:
+  - Manager handover session.
+  - Arrange and book 1-2-1 introductory meetings with your reports.
+
+### 3. **Acclimation**
+
+- **Duration**: Next few weeks.
+- **Objective**: Deepen your understanding of AM's operations, products, and core methodologies.
+- **Highlights**:
+  - High-level overview of our testing philosophy with our Test Lead.
+  - Introduction to the product you'll be working on and our overarching product vision with our Head of Product.
+  - "Ways of working" coach session, best practices, and guidelines with Lead.
+  - Overview of our architectural standards and patterns with Lead.
+  - DevOps introduction.
+  - Your probation objectives will be set.
+
+- ***Leads Additional***:
+  - Arrange and book a 1-2-1 with each PM to gain an understanding of their business domain.
+  - A leads welcoming session will be arranged to introduce all the leads.
+  - Introduction to the Department Objectives.
+
+### 4. **Immersion**
+
+- **Duration**: First few months.
+- **Objective**: Foster confidence and expertise in your role, immerse you in our technological landscape, and integrate you fully into our business operations.
+- **Highlights**:
+  - Insight into AM's technological estates and vision with Principal Engineer.
+  - Quartex platform deep dive.
+  - Bi-annual face-to-face 1-2-1 has been organized and booked.
+  - Training and ongoing objectives have been set.
+
+- ***Leads Additional***:
+  - Leads in-person meetup.
+  - Recurring "Way of Working" (WoW) coaching with Principal booked in.
+  - Introduction to Coaching and Mentoring with VPE.
+  - Join ongoing Leads Workshops.
+
+---
+
+Your integration and success at AM are pivotal to us. Through these stages, we're dedicated to equipping you with the knowledge, tools, and connections necessary to excel. Welcome to the AM family!
