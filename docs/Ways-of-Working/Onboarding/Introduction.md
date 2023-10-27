@@ -20,9 +20,7 @@ Our onboarding process is structured into four distinct stages:
   - Meet your line manager.
   - HR and IT inductions.
   - Introduction to your department buddy.
-
-- ***Leads Additional***:
-  - Team welcome meeting with all your direct reports.
+  - Team welcome meeting
 
 ### 2. **Orientation**
 
