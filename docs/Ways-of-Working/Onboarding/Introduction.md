@@ -47,10 +47,9 @@ Our onboarding process is structured into four distinct stages:
   - Your probation objectives will be set.
   - High-level overview of our testing philosophy with our Test Lead. [Software Engineers]
 
-
 - ***Leads Additional***:
   - Arrange and book a 1-2-1 with each PM to gain an understanding of their business domain.
-  - A leads welcoming session will be arranged to introduce all the leads.
+  - A Leads welcoming session will be arranged to introduce all the Leads.
   - Introduction to the Department Objectives.
 
 ### 4. **Immersion**
