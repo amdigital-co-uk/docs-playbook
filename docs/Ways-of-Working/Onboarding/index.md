@@ -2,5 +2,5 @@
 title: Onboarding 
 ---
 
-This section outlines the onboarding process within the Engineering Platform Development department.
+This section outlines the Engineering onboarding process within the Platform Development department.
 

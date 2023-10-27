@@ -16,7 +16,7 @@ At the core of our approach is a simple yet cardinal tenet: onboarding is paramo
 
 ### **Onboarding Checklist: Your Blueprint for Success**
 
-To ensure clarity and efficiency in this critical phase, we've curated an onboarding checklist. This comprehensive guide is designed to span the entirety of the onboarding journey. As line managers, create an individual version of this checklist for our new colleague and monitor its completion at every stage.
+To ensure clarity and efficiency in this critical phase, we've curated an onboarding checklist. This comprehensive guide is designed to span the entirety of the onboarding journey. 'As line managers, we must create an individual  version of this checklist for our new colleague and monitor its completion.
 
 The checklist unfolds through five meticulously crafted phases:
 
