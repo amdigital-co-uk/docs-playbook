@@ -1,10 +1,10 @@
 This is a documentation repository for the department's playbook.
 
-The Playbook is a public-facing guide to the fundamental ways we work. This sits alongside the internal-facing [Knowledgebase](https://knowledgebase.platformdev.amdigital.co.uk/), which contains specific details of how our technologies and tool-kits are build and configured.
+The Playbook is a public-facing guide to the fundamental ways we work. This sits alongside the internal-facing [Knowledgebase](https://knowledgebase.platformdev.amdigital.co.uk/), which contains specific details of how our technologies and toolkits are built and configured.
 
 ## Structure
 
-The Playbook is structured in into sections in a specific way that promotes a clear narrative to the reader.
+The Playbook is structured into sections to promote a clear and simple narrative to the reader.
 
 Playbook settings, including look and feel, plugins etc, are defined in the mkdocs.yml at the root.
 
@@ -12,13 +12,11 @@ The Playbook documentation resides in the /docs folder. This includes markdown f
 
 ## Tooling & Technologies
 
-This Playbook is build using [Markdown](https://www.markdownguide.org/) documents, a simple text editor designed for documentation.
+This Playbook is written using [Markdown](https://www.markdownguide.org/), a simple text editor designed for documentation.
 
-Specifically, it is build on [MKDocs](https://www.mkdocs.org/), using the [Material for MKDocs](https://squidfunk.github.io/) theme. MKDocs and Material for MKDocs extend the functionality of Markdown, allowing you to include visually richer content.
+More specifically, it is built on [MKDocs](https://www.mkdocs.org/), using the [Material for MKDocs](https://squidfunk.github.io/) theme. MKDocs and Material for MKDocs extend the functionality of Markdown, allowing you to include visually richer content.
 
-It is stored and version controlled using Git in GitHub, and published with using GitHUb actions into [](https://pages.github.com/).
-
-Specific details of tools and how to use them can be found throughout the various guides within this section.
+It is stored and version controlled using Git in GitHub, and published with using GitHUb actions into an Azure WebApp.
 
 ## Contributing
 
@@ -27,7 +25,6 @@ A full guide on how to contribute to the Playbook can be found in the [Knowledge
 You can make small changes within GitHub, and will be able to view basic markdown rendering when you do. This will include all of MKDocs or Material for MKDocs rendering. 
 
 Whilst this can be useful for basic content updates (e.g. single paragraph updates), it is critical when making larger or more complex changes (e.g. multiple page changes, styling or configuration updates) that you are able to properly validate your work before you create a pull request.
-
 
 !!! note "Ownership"
 
