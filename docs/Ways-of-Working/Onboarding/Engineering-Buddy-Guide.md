@@ -34,9 +34,9 @@ Becoming an Engineering Buddy is a unique opportunity to make a significant diff
 
 ## Best Practices
 
-- **Empathy**: Remember your first days and the challenges you faced. Be the support you wish you had.
+- **Empathy**: Remember your first days and the challenges you faced. Be the support you wish you had had.
   
-- **Active Listening**: Pay attention to their concerns, questions, and feedback. Sometimes, all they need is someone to listen.
+- **Active Listening**: Pay attention to their concerns, questions, and feedback. Sometimes, all they need is someone to listen. Ask the questions that encourage further sharing and openness.
   
 - **Patience**: They might ask the same question more than once, or need more time to understand a concept. Be patient and provide explanations as needed.
   

@@ -41,11 +41,11 @@ Our onboarding process is structured into four distinct stages:
 - **Objective**: Deepen your understanding of AM's operations, products, and core methodologies.
 - **Highlights**:
   - Introduction to the product you'll be working on and our overarching product vision with our Head of Product.
-  - "Ways of working" coach session, best practices, and guidelines with Lead.
+  - "Ways of working" coaching session, best practices, and guidelines with Lead.
   - Overview of our architectural standards and patterns with Lead.
   - DevOps introduction.
   - Your probation objectives will be set.
-  - High-level overview of our testing philosophy with our Test Lead. [Software Engineers]
+  - High-level overview of our testing philosophy with our Lead Test Engineer. [Software Engineers]
 
 - ***Leads Additional***:
   - Arrange and book a 1-2-1 with each PM to gain an understanding of their business domain.
@@ -59,7 +59,7 @@ Our onboarding process is structured into four distinct stages:
 - **Highlights**:
   - Insight into AM's technological estates and vision with Principal Engineer.
   - Quartex platform deep dive.
-  - Bi-annual face-to-face 1-2-1 has been organized and booked.
+  - Bi-annual face-to-face 1-2-1 with your manager has been organized and booked.
   - Training and ongoing objectives have been set.
 
 - ***Leads Additional***:
