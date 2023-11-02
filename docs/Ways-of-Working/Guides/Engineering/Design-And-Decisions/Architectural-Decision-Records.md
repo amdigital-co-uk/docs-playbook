@@ -39,3 +39,7 @@ We recommend the following format by [Michael Nygard](https://github.com/joelpar
 !!! note
 
     The Decision records you generate might be superseded as we learn more and gain a better understanding, and that's okay! It's a sign that the team is focused on continuous learning and exploring new technologies.
+
+## Tips to writing an ADR
+
+The goal is to create a clear and straightforward ADR that is as easily understandable as possible. Strive to use language that is both professional and simple. While using ChatGPT is acceptable and even recommended, be mindful that it may produce verbose replies, so use it with caution. If you need to describe a significant amount of information, you might want to consider writing a [RFC](Request-for-Comments.md) first.
