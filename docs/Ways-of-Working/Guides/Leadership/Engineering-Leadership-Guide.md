@@ -12,9 +12,12 @@ next-review: 2024-04-01
 
 Leadership is not the sole responsibility of those in specific leadership positions (e.g. with seniority, or line management responsibility). Distributed leadership aims to provide every individual with the opportunity to impact change.
 
-Examples of places where ay team member may take a lead:
+Examples of places where any team member may take a lead:
+
 - All or part of a project
+
 - A meeting or workshop
+
 - An investigation
 
 ### Key aspects of distributed leadership include
@@ -40,8 +43,8 @@ In a distributed leadership environment, it is important to understand the behav
 - Active listening (vs directing conversation)
 - Coaching, mentoring & knowledge sharing (vs teaching or preaching)
 - Taking coordinator responsibility (rather than complete ownership), for example for:
-  - collaboration
-  - communication
-  - documentation
+    - collaboration
+    - communication
+    - documentation
 - Taking accountability for what you are taking a lead on
 

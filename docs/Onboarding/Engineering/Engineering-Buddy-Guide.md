@@ -49,7 +49,7 @@ Becoming an Engineering Buddy is a unique opportunity to make a significant diff
 
 ## Getting Help
 
-As an Engineering Buddy, you are not expected to onboard a new team member all by yourself. Most of that responsibility lies with their manager. You can find out mar about how line managers support new starters [here](.Line-Managers-Duties-For-New-Starters.md).
+As an Engineering Buddy, you are not expected to onboard a new team member all by yourself. Most of that responsibility lies with their manager. You can find out more about how line managers support new starters [here](Line-Managers-Duties-For-New-Starters.md).
 
 If you need help with your buddying, speak to your manager, or the manager of your buddy. Either will be able to offer support.
 

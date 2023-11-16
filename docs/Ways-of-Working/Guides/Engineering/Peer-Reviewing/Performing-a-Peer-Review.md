@@ -11,7 +11,7 @@ next*review: 2022-04-01
 The engineer performing the review must:
 
 * Copy and paste the template checklist (below) into their a new comment on the PR in GitHub
-* Start reviewing the changes with respect to the [Quality Standards](../Quality*Standards)
+* Start reviewing the changes with respect to the [Quality Standards](../Quality-Standards/index.md)
 * When the reviewer is happy that a particular guideline has been met, the relevant item in the checklist is checked
 * If any guidelines are **not** met, the reviewer should add a comment (either a general comment, or next to the offending portion of code) to explain why
 

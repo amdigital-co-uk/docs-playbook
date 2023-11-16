@@ -26,7 +26,7 @@ For less complex decisions, a simplified RFC using our existing Architectural De
 
 To create a full Request for Comments (RFC), you'll need to follow specific guidelines and structure to ensure the proposal is comprehensive and clear. This involves not just describing the idea or feature, but also laying out the problem statement, alternatives considered, and potential impact.
 
-A detailed template for crafting a full RFC can be found [here](RFC-template).
+A detailed template for crafting a full RFC can be found [here](RFC-template.md).
 
 ### Key Sections in a Full RFC
 

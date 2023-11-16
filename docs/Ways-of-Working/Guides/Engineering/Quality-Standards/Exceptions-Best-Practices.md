@@ -18,7 +18,7 @@ Engineers **should not** throw `System.Exception, System.SystemException, System
 
 Engineers **should** throw predefined Exceptions when it is suitable to do so e.g. `ArgumentNullException`
 
-Engineers **should** only create Exceptions when predefined ones do not exist, **but** should priorities specificity over a less detailed generic predefined exception. 
+Engineers **should** only create Exceptions when predefined ones do not exist, **but** should prioritise specificity over a less detailed generic predefined exception. 
 e.g. Create custom `OutOfMoneyException` instead of `InvalidOperationException("OutOfMoney")`
 
 Engineers **should** only catch specific types of exceptions not a general Exception catch.

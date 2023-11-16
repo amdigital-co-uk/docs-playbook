@@ -15,12 +15,12 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 
 ## Branching Strategy
 
-**IMPORTANT NOTE:** This strategy applies to all repositions with the **exception of any shared code repositories** which generate NuGet packages which are  dependencies of multiple other repos/solutions. Please see the specific [Branching & Versioning Shared Repositories](/Delivery-Practices/Build-and-Release/Engineering/Source-Control,-Versioning-&-Branching-Strategy/Branching-&-Versioning-Shared-Code-Repositories) documentation.
+**IMPORTANT NOTE:** This strategy applies to all repositories with the **exception of any shared code repositories** which generate NuGet packages which are dependencies of multiple other repos/solutions. Please see the specific [Branching & Versioning Shared Repositories](Branching-&-Versioning-Shared-Code-Repositories.md) documentation.
 
 | **Branch** | **Key Purpose** | **Naming** |
 |--|--|--|
 | **Main** | Reflection of production environments. At any point you should be able to branch from Main absolutely confident that it will match what is  | `main` |
-| **Release** | A release branch is used when EITHER of following conditions are met: <br> 1. multiple features are being released together <br> 2. BAT is required | `release/{Release-Name}` |
+| **Release** | A release branch is used when EITHER of following conditions are met: <br> 1. multiple features are being released together <br> 2. BAT (Business Acceptance Testing) is required | `release/{Release-Name}` |
 | **Feature** | Contains all the changes required for a specific feature or bug, only. Note that the term "feature branch is used as it is common practice, but it is synonymous with a backlog item - an independent, releasable, valuable product increment | `feature/{Feature-Name}` <br> OR <br> `bug/{Bug-Name}` |
 | **Work** | Contains only the work of an individual within the team. Work is only ever done against a work branch | `work/{Engineer Name}/[feature|bug]/{Feature Name}`|
 | **Documentation** | Contains changes to any documentation within the codebase where the changes to the documentation aren't a result of a code change | `document/{Change-Name}`|
@@ -37,20 +37,20 @@ Code is managed and stored using [Git](https://git-scm.com/docs) and GitHub.
 1. When a [PR](#merging-and-pull-requestss) is completed and the **Feature** branch has been updated, a build will be automatically kicked off and a releasable package created. This can then be deployed into any available QA environment for testing or PO review.
 1. When a feature has passed testing and PO review, the **Feature** branch can be merged into either a **Release** branch, the the **Main** branch, by performing a [PR](#merging-and-pull-requests):
     1. **Release Branches:**
-        > Do this if:  the feature will be released alongside other features, **or** is required to undergo BAT.
+        > Do this if:  the feature will be released alongside other features, **or** is required to undergo BAT (Business Acceptance Testing).
 
         1. `TBC- A Test Engineer will review and assess the PR to ensure that only the correct features are included for a release`
         1. A new **Release** branch is created by branching from the **Main** branch if one does not already exists. 
         1. Ensure that the feature branch is up-to-date with the **Main** branch and regression tested before merging it into the **Release** branch
         1. When a merge into the **Release** branch is completed, a build will again be started and a releasable package will be created. This can then be deployed into any BAT environment for PO signoff and Business Acceptance Testing. 
-        1. A [release plan]() should be created (or updated), including the package ID.
-        1. When BAT is completed, the package can be deployed to production environments.
+        1. A release plan should be created (or updated), including the package ID.
+        1. When BAT (Business Acceptance Testing) is completed, the package can be deployed to production environments.
         1. Once the release to production environments is complete, the **Release** branch can be merged into **Main** via a PR.
     1. **Main Branch**
         > Do this if: the feature is released independently **and** does _not_ require BAT. Merge to Main only occurs _after_ the changes are successfully released into the production environments.
 
         1. Ensure that the feature branch is up-to-date with the **Main** branch and regression tested before merging it into the **Release** branch.
-        1. A [release plan]() should be created, including the package ID. 
+        1. A release plan should be created, including the package ID. 
         1. Once the release to production environments is complete, the **Feature** branch can be merged into **Main** via a PR.
 1. Once **Main** has been updated, **communicate the change to all Platform Development teams** so that any WIP branches can be updated and regression tests can be performed.
 
@@ -67,7 +67,7 @@ If you are deploying non-functional changes (such as documentation or linting), 
 ### Merging and Pull Requests
 
 #### Merging Upstream
-Upstream merges occur when changes need to pulled into a parent branch. When this is done, a [Pull Request (PR)](https://git-scm.com/docs/git-request-pull) must be submitted and a [peer review performed](/Delivery-Practices/Build-and-Release/Engineering/Peer-Reviewing) by another member of the team.
+Upstream merges occur when changes need to pulled into a parent branch. When this is done, a [Pull Request (PR)](https://git-scm.com/docs/git-request-pull) must be submitted and a [peer review performed](../Peer-Reviewing/index.md) by another member of the team.
 
 You should only merge _good work_ upstream. I.e. it should already be known to pass all quality standards and tests.
 
