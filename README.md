@@ -39,6 +39,7 @@ To achieve this you will need to clone the repository and run Playbook on your l
 Running locally requires the following tooling to be installed and available:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Python](https://www.python.org/downloads/)
 - [pip](https://pypi.org/project/pip/)
 
 
