@@ -42,6 +42,7 @@ Running locally requires the following tooling to be installed and available:
 - [Python](https://www.python.org/downloads/)
 - [pip](https://pypi.org/project/pip/)
 
+To install pip, ensure that Python has been installed and then run `python -m ensurepip`. This will ensure pip is installed and available.
 
 #### Starting and Stopping
 
