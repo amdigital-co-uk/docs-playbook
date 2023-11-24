@@ -39,8 +39,10 @@ To achieve this you will need to clone the repository and run Playbook on your l
 Running locally requires the following tooling to be installed and available:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Python](https://www.python.org/downloads/)
 - [pip](https://pypi.org/project/pip/)
 
+To install pip, ensure that Python has been installed and then run `python -m ensurepip`. This will ensure pip is installed and available.
 
 #### Starting and Stopping
 

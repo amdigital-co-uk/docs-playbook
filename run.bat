@@ -1,5 +1,5 @@
 echo off
-pip install mkdocs-material
-pip install mkdocs-awesome-pages-plugin
-mkdocs serve
+py -m pip install mkdocs-material
+py -m pip install mkdocs-awesome-pages-plugin
+py -m mkdocs serve
 exit
