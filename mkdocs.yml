@@ -49,7 +49,7 @@ markdown_extensions:
 - pymdownx.details
 - pymdownx.critic
 - pymdownx.snippets:
-    auto_append: ["Mission.md"]
+    auto_append: ["Mission.md", "Values.md"]
 - pymdownx.superfences
 - pymdownx.tasklist:
       custom_checkbox: true

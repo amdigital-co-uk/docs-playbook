@@ -3,7 +3,7 @@
     --md-accent-fg-color: #C30046;
     --md-typeset-a-color: #56002a;
     --md-default-fg-color--light: #C30046;
-    --md-typeset-mark-color: #ffa316
+    --md-typeset-mark-color: #ffa316;
   }
 
   [data-md-color-scheme="slate"] {
@@ -44,7 +44,7 @@
   }
 
   [data-md-color-scheme="slate"] .md-button {
- background-color: ;
+ background-color: #56002a;
   }
 
   .am-jobs {
@@ -125,4 +125,28 @@
   .critic.block {
     margin-top:2.5em!important;
     padding:10px 0 10px 0;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: var(--md-accent-fg-color);
+    color: var(--md-default-bg-color);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .grid-item h3 {
+    padding:0;
+    margin:10px 0 5px 0;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
   }
