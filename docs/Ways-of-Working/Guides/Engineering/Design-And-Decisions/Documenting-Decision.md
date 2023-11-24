@@ -8,11 +8,11 @@ Have you made a significant decision that impacts how engineers write software? 
 
 ### What is an Architecture Decision Record (ADR)?
 
-An ADR is a document that captures a decision, including the context of how the decision was made and the consequences of adopting the decision. Read more about ADRs and its benefits [here](Architectural-Decision-Records)
+An ADR is a document that captures a decision, including the context of how the decision was made and the consequences of adopting the decision. Read more about ADRs and its benefits [here](Architectural-Decision-Records.md)
 
 ### What is a Request for Comments (RFC)?
 
-An RFC is a process used for gathering feedback on a proposed decision or change before it gets implemented. This process is usually more formal and is aimed at creating a space for team members to discuss various approaches, trade-offs, and potential consequences. Unlike ADRs, which document decisions that have already been made, RFCs are used to guide the decision-making process itself. In many cases the conclusions reached in the RFC discussions often form the basis for the content of a subsequent ADR. Read more about RFC and its process [here](Request-for-Comments)
+An RFC is a process used for gathering feedback on a proposed decision or change before it gets implemented. This process is usually more formal and is aimed at creating a space for team members to discuss various approaches, trade-offs, and potential consequences. Unlike ADRs, which document decisions that have already been made, RFCs are used to guide the decision-making process itself. In many cases the conclusions reached in the RFC discussions often form the basis for the content of a subsequent ADR. Read more about RFC and its process [here](Request-for-Comments.md)
 
 ## When should I write one?
 

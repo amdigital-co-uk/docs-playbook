@@ -41,11 +41,11 @@ This is why it is important to share our approach to solutions early! Peer revie
 
 ## Readable and Maintainable
 
-First and foremost, high-quality code must be easy to read and understand. Code must also follow our in-house [coding conventions](/Delivery-Practices/Build-and-Release/Engineering/Quality-Standards/Coding-Conventions). The names of methods and classes etc. must clearly indicate what they do, and methods and classes must not be too lengthy.
+First and foremost, high-quality code must be easy to read and understand. Code must also follow our in-house [coding conventions](Coding-Conventions.md). The names of methods and classes etc. must clearly indicate what they do, and methods and classes must not be too lengthy.
 
 Code must also follow the [SOLID principles](https://www.youtube.com/watch?v=pTB30aXS77U), which will help to make it better structured, more readable and keep methods and classes manageable sizes.
 
-When creating new endpoints on microservices, ensure that they follow the [endpoint naming conventions](/Delivery-Practices/Build-and-Release/Engineering/Quality-Standards/Endpoint-Naming-Conventions).
+When creating new endpoints on microservices, ensure that they follow the [endpoint naming conventions](Endpoint-Naming-Conventions.md).
 
 Making code more _maintainable_ is effectively the practice of minimising the amount of times you have to _update_ it. Avoid using hardcoded values in code, as these values can only be changed by changing the code. Instead, consider making the behaviour of the code configurable by offloading these values to configuration.
 
@@ -56,7 +56,7 @@ Do not commit commented-out code. It makes code less readable, and also causes c
 
 ## Unit & Integration Tests
 
-Code must be well covered by [unit & integration tests](/Delivery-Practices/Build-and-Release/Engineering/Quality-Standards/Unit-&-Integration-Testing). Unit & integration testing not only increases our chances of catching bugs, increases engineer confidence in any changes being made, but is also an indication that the code is well-structured.
+Code must be well covered by [unit & integration tests](Unit-&-Integration-Testing.md). Unit & integration testing not only increases our chances of catching bugs, increases engineer confidence in any changes being made, but is also an indication that the code is well-structured.
 
 To meet quality guidelines, all .NET code must be covered by Unit and/or integration tests with the aim of achieving 80% code coverage. For legacy repositories that do not meet this threshold, the aim should be to _increase_ the coverage coverage percentage when writing new code, so as to incrementally meet the desired threshold. For repositories that are already well-tested, all new code must be sufficiently well tested so as to not bring the average coverage down.
 
@@ -75,7 +75,7 @@ Building observable systems enables development engineers to measure how well th
 
 A critical part of this is ensuring that services are logging useful events and errors. Log messages need to contain enough information to help an engineer understand what was happening, including for example Website Key or Client Key, ID of an asset or document affected, action being performed etc.
 
-See more information about [logging in Quartex](/Delivery-Practices/Build-and-Release/Engineering/Quality-Standards/Logging-Best-Practise), and further reading on general [best practices](https://microsoft.github.io/code-with-engineering-playbook/observability/pillars/logging/#best-practices) for logging.
+See more information about [logging in Quartex](Logging-Best-Practise.md), and further reading on general [best practices](https://microsoft.github.io/code-with-engineering-playbook/observability/pillars/logging/#best-practices) for logging.
 
 ## Documentation
 

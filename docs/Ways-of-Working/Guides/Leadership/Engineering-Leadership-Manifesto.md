@@ -22,7 +22,7 @@ I am constantly learning and developing my own expertise. Curious and investigat
 
 I understand that my colleagues are constantly learning, and nurture their curiosity and bravery and support their career growth.
 
-I have strong opinions, loosely held. My view may be distinctive and and unpopular. The best outcome is being proven wrong, and I actively seek to disprove my views and hypotheses, in the name of learning and maturing.
+I have strong opinions, loosely held. My view may be distinctive and unpopular. The best outcome is being proven wrong, and I actively seek to disprove my views and hypotheses, in the name of learning and maturing.
 
 I look beyond the immediate, with my focus mainly in the medium and long term.
 

@@ -18,7 +18,7 @@ ADR records are a way to document these crucial decisions. Each ADR record is a 
 
 ## How to create an ADR?
 
-We recommend the following format by [Michael Nygard](https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/templates/decision-record-template-by-michael-nygard/index.md) 
+We recommend the following format by [Michael Nygard](https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/locales/en/templates/decision-record-template-by-michael-nygard) 
 
 **Title:** A short descriptive name for the decision.
 
