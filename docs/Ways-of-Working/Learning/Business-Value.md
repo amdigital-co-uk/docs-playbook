@@ -18,7 +18,7 @@ However! It may not always be apparent how work supports or negates the creation
     
     This work could be perceived as wasteful or even damaging. However, the team have gained valuable knowledge that could improve their ability to support the health of the organisation in the long term (business value generated). If the team fail to leverage this knowledge, or even carry on with their experiment regardless of its outcome, it may well in fact be wasteful or damaging (business value lost).
 
-Creating a link between Business Value and the work we do helps to guide us to do more valuable work, and even improve our ability to do more valuable work. Not only is does this make our organisation more effective, but it can improve individual motivation, job satisfaction, and happiness.
+Creating a link between Business Value and the work we do helps to guide us to do more valuable work, and even improve our ability to do more valuable work. Not only does this make our organisation more effective, but it can improve individual motivation, job satisfaction, and happiness.
 
 ## The Topology of Business Value
 
