@@ -11,7 +11,7 @@ Every organisation produces "Business Value". The term refers to anything that s
 
 Ideally, all the work done by and for an organisation should enable (directly or indirectly) the creation or maintenance of business value. Work that does not is either wasteful or damaging.
 
-However! It may not always be apparent how work supports or negates the creation of value, especially where it isn't clear what business value actually it.
+However! It may not always be apparent how work supports or negates the creation of value, especially where it isn't clear what business value actually is.
 
 ???+ example
     A team perform an experiment which turns out not to create the expected positive outcome.
