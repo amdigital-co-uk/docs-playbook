@@ -22,7 +22,7 @@ Creating a link between Business Value and the work we do helps to guide us to d
 
 ## The Topology of Business Value
 
-This model aims to demonstrate the link between business value and the common structures used in software delivery environments. Visualising this model can help us to express this link and its importance, as well as help us to explore how a specific things are relate. 
+This model aims to demonstrate the link between business value and the common structures used in software delivery environments. Visualising this model can help us to express this link and its importance, as well as help us to explore how a specific things are related. 
 
 ???+ example
     You are working to refine and implement a _backlog item_, such as a new _feature_. It is relatively easy to explore, plan, and even execute the _work_ required to deliver this _backlog item_, but it may not be immediately clear in how this _backlog item_ brings _value_ to the business. 
