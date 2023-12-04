@@ -21,6 +21,7 @@ theme:
     - navigation.instant    
     - navigation.tracking
     - navigation.indexes
+    - content.code.copy
     #- navigation.tabs
     #- navigation.tabs.sticky
   palette:
