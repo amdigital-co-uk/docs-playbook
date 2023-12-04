@@ -21,7 +21,232 @@ Unit and Integration tests should make use [Shouldly](https://github.com/shouldl
 
 ## TypeScript and JavaScript Coding Conventions
 
-> _TODO: document this section and link to an industry-standard style guide_
+AM follows a code style for TypeScript and JavaScript that is based on [Airbnb's JavaScript Style Guide](https://airbnb.io/javascript/) and [React/JSX Style Guide](https://airbnb.io/javascript/react/).
+
+This is enforced in codebases through the use of a .prettierrc file and a .eslintrc.json files, the contents of which are detailed below. These files should be added to the root folder of projects where TypeScript and/or JavaScript is written.
+
+**.prettierrc**
+
+```json
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "bracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "always",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "endOfLine": "lf"
+}
+
+```
+
+**.eslintrc.json**
+
+```json
+{
+  "root": true,
+  "ignorePatterns": [
+    "**/*"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "airbnb/base",
+    "plugin:prettier/recommended",
+    "plugin:unicorn/recommended",
+    "plugin:compat/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:security/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:jest/recommended",
+    "plugin:jest-dom/recommended",
+    "plugin:mdx/recommended",
+    "plugin:no-unsanitized/DOM"
+  ],
+  "env": {
+    "browser": true
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "@nx",
+    "import",
+    "security",
+    "jsx-a11y",
+    "jest",
+    "@emotion"
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": "tsconfig.base.json"
+      }
+    }
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx",
+        "*.js",
+        "*.jsx"
+      ],
+      "rules": {
+        "@nx/enforce-module-boundaries": [
+          "error",
+          {
+            "enforceBuildableLibDependency": true,
+            "allowCircularSelfDependency": true,
+            "allow": [],
+            "depConstraints": [
+              {
+                "sourceTag": "*",
+                "onlyDependOnLibsWithTags": [
+                  "*"
+                ]
+              }
+            ]
+          }
+        ],
+        "import/order": [
+          "error",
+          {
+            "groups": [
+              [
+                "builtin",
+                "external"
+              ],
+              [
+                "parent",
+                "internal",
+                "sibling",
+                "index"
+              ]
+            ],
+            "pathGroups": [
+              {
+                "pattern": "@am-ui-applications/**",
+                "group": "internal"
+              }
+            ],
+            "alphabetize": {
+              "order": "asc"
+            },
+            "newlines-between": "always"
+          }
+        ],
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": "off",
+        "import/extensions": [
+          "error",
+          "always",
+          {
+            "ts": "never",
+            "tsx": "never",
+            "js": "never",
+            "jsx": "never"
+          }
+        ],
+        "no-console": "off",
+        "no-duplicate-imports": "error",
+        "no-irregular-whitespace": "error",
+        "no-shadow": "off",
+        "no-use-before-define": "off",
+        "no-restricted-exports": "off",
+        "security/detect-object-injection": "off",
+        "unicorn/no-array-reduce": "off",
+        "unicorn/no-null": "off",
+        "unicorn/prefer-module": "off",
+        "unicorn/filename-case": "off",
+        "unicorn/no-array-for-each": "off",
+        "unicorn/no-for-loop": "off",
+        "unicorn/prevent-abbreviations": [
+          "error",
+          {
+            "allowList": {
+              "getServerSideProps": true,
+              "getStaticProps": true
+            },
+            "replacements": {
+              "env": {
+                "environment": false
+              },
+              "props": {
+                "properties": false
+              },
+              "lib": {
+                "library": false
+              }
+            }
+          }
+        ],
+        "jest/expect-expect": [
+          "error",
+          {
+            "assertFunctionNames": [
+              "expect",
+              "cy.**.should",
+              "**.contains"
+            ]
+          }
+        ],
+        "@emotion/syntax-preference": [
+          2,
+          "object"
+        ],
+        "@emotion/jsx-import": "error",
+        "@emotion/no-vanilla": "error",
+        "@emotion/import-from-emotion": "error",
+        "@emotion/styled-import": "error"
+      }
+    },
+    {
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
+      "extends": [
+        "plugin:@nx/typescript"
+      ],
+      "rules": {
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
+        "@typescript-eslint/no-unsafe-call": "off",
+        "@typescript-eslint/no-unsafe-assignment": "off",
+        "@typescript-eslint/no-unsafe-member-access": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/interface-name-prefix": "off",
+        "@typescript-eslint/no-use-before-define": [
+          "error"
+        ],
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/no-shadow": "error",
+        "unicorn/prefer-node-protocol": "off"
+      }
+    },
+    {
+      "files": "*.json",
+      "parser": "jsonc-eslint-parser",
+      "rules": {}
+    },
+    {
+      "files": "jest.config.ts",
+      "rules": {
+        "unicorn/no-abusive-eslint-disable": "off"
+      }
+    }
+  ]
+}
+```
 
 ## Terraform Standards
 
