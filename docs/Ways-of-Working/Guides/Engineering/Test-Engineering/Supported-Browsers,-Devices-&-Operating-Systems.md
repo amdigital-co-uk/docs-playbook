@@ -37,9 +37,9 @@ Evaluating the analytics available to us, it has been agreed to support the foll
 
 Browsers:
 
-* Chrome / Edge (latest and preceding versions)
-* Firefox (latest and preceding versions)
-* Safari (latest and preceding versions)
+* Chrome / Edge (latest version and preceding version)
+* Firefox (latest version and preceding version)
+* Safari (latest version and preceding version)
 
 Operating Systems:
 
@@ -55,9 +55,9 @@ Devices:
 
 Browsers:
 
-* Chrome / Edge (latest and preceding versions)
-* Firefox (latest and preceding versions)
-* Safari (latest and preceding versions)
+* Chrome / Edge (latest version and preceding version)
+* Firefox (latest version and preceding version)
+* Safari (latest version and preceding version)
 
 Operating Systems:
 
