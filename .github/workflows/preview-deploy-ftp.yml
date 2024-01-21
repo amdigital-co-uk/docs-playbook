@@ -15,6 +15,7 @@ jobs:
       - name: Install MKdocs and theme
         run: |
           pip install mkdocs-material 
+          pip install mkdocs-glightbox
           pip install mkdocs-awesome-pages-plugin
       
       - name: Deploy MKdocs site
