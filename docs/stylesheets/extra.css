@@ -71,6 +71,12 @@
     transition-delay: 50ms;
   }
 
+  
+  .amp-flow {
+    color: var(--md-primary-fg-color);
+  }
+
+
   @font-face {
     font-family: KlarheitGrotesk;
     font-style: normal;

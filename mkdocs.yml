@@ -11,6 +11,7 @@ plugins:
   - awesome-pages
   - search
   - tags
+  - glightbox
 theme:
   logo: assets/images/AM no tag.png
   name: material

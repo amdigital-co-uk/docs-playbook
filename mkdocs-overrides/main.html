@@ -9,3 +9,21 @@
     })(window, document, "clarity", "script", "agbu6cxja9");
 </script>
 {% endblock %}
+
+{% block scripts %}
+  <!-- Add scripts that need to run before here -->
+  {{ super() }}
+  <!-- Add scripts that need to run afterwards here -->
+
+  <script type="text/javascript">
+    let elements = document.getElementsByTagName('strong');
+    console.log(elements);
+    for (let element of elements) {
+        if (element.textContent === 'FLOW' || element.textContent === 'AMPFlow' ) {
+            element.classList.add('amp-flow');
+        }
+    }
+    
+    
+    </script>
+{% endblock %}
