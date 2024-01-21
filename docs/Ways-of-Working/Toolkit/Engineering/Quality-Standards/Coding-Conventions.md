@@ -21,7 +21,24 @@ Unit and Integration tests should make use [Shouldly](https://github.com/shouldl
 
 ## TypeScript and JavaScript Coding Conventions
 
-> _TODO: document this section and link to an industry-standard style guide_
+AM follows a code style for TypeScript and JavaScript that is based on [Airbnb's JavaScript Style Guide](https://airbnb.io/javascript/) and [React/JSX Style Guide](https://airbnb.io/javascript/react/).
+
+This is enforced in codebases through the use of a .prettierrc file and a .eslintrc.json files. These files are maintained within the [am-frontend-code-style](https://github.com/amdigital-co-uk/am-frontend-code-style) repository. They are bundled as npm packages that can be installed and then configured to be used. Instructions on installing and using these packages can be found in the [repository's readme](https://github.com/amdigital-co-uk/am-frontend-code-style).
+
+It is recommended that you configure your IDE to automatically format and fix issues in your code using the Prettier and ESLint configuration.
+
+### VS Code Settings
+
+To configure VS Code to automatically format and fix the code, ensure the following settings are set in your settings JSON file.
+
+```json
+"editor.formatOnSave": true,
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  "source.fixAll": true
+},
+"eslint.validate": ["javascript", "javascriptreact", "astro", "typescript", "typescriptreact"],
+```
 
 ## Terraform Standards
 

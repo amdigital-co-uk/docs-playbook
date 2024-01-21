@@ -2,9 +2,9 @@
 title: Supported Browsers, Devices & Operating Systems
 authors: 
 - Karen Farrell
-reviewed: [yyyy-mm-dd]
+reviewed: [2023-12-20]
 reviewer:
-next-review:
+next-review: [2025-01-31]
 ---
 
 
@@ -25,6 +25,8 @@ Styling and effects such as mouse-over, pop-ups and fonts can vary significantly
 As there are so many combinations of screen sizes, devices, operating systems and browsers to choose from, and limited time and resource to test, it is important that we establish the intended range of configurations that we support to ensure the best coverage of our users.
 Ideally, it is best to view and test these applications on physical devices with the same configuration as the end user.  However, in practice this is not always possible and therefore we use BrowserStack.  BrowserStack is a cloud-based cross-browser testing tool that enables us to test our websites across various browsers on different operating systems and mobile devices without having to install virtual machines or emulators.
 
+The testing we can perform via BrowserStack is limited (e.g. running our accessibility tooling can be tricky) therefore, we also have a Macbook Mini available that we can remotely access to test against Safari (see KnowledgeBase for guidance).
+
 ## What we support
 
 Evaluating the analytics available to us, it has been agreed to support the following as a minimum:
@@ -35,10 +37,9 @@ Evaluating the analytics available to us, it has been agreed to support the foll
 
 Browsers:
 
-* Chrome / Edge
-* Firefox  
-* Safari  
-* IE (*until end-of-life 15/06/22?*)
+* Chrome / Edge (latest version and preceding version)
+* Firefox (latest version and preceding version)
+* Safari (latest version and preceding version)
 
 Operating Systems:
 
@@ -54,10 +55,9 @@ Devices:
 
 Browsers:
 
-* Chrome / Edge
-* Firefox  
-* Safari  
-* IE (*until end-of-life 15/06/22?*)
+* Chrome / Edge (latest version and preceding version)
+* Firefox (latest version and preceding version)
+* Safari (latest version and preceding version)
 
 Operating Systems:
 
@@ -82,7 +82,7 @@ This covers applications such as the Admin tool and AM Portal
 
 Browsers:
 
-* Chrome
+* Chrome (latest version)
 
 Operating Systems:
 
@@ -97,10 +97,9 @@ Devices:
 
 Browsers:
 
-* Chrome / Edge
-* Firefox
-* Safari
-* IE11
+* Chrome / Edge (version TBC)
+* Firefox (version TBC)
+* Safari (version TBC)
 
 Operating Systems:
 

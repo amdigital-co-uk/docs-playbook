@@ -6,7 +6,7 @@ edit_uri: edit/main/docs/
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
-  - https://unpkg.com/mermaid@9.3.0/dist/mermaid.min.js
+  - https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js
 plugins:
   - awesome-pages
   - search
@@ -22,6 +22,7 @@ theme:
     - navigation.instant    
     - navigation.tracking
     - navigation.indexes
+    - content.code.copy
     #- navigation.tabs
     #- navigation.tabs.sticky
   palette:
