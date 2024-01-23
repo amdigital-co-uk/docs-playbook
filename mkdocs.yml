@@ -22,7 +22,8 @@ theme:
     - navigation.instant    
     - navigation.tracking
     - navigation.indexes
-    - content.code.copy
+    - content.code.copy    
+    - content.tabs.link
     #- navigation.tabs
     #- navigation.tabs.sticky
   palette:
@@ -57,6 +58,9 @@ markdown_extensions:
       custom_checkbox: true
 - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 - pymdownx.superfences:
       custom_fences:
         - name: mermaid

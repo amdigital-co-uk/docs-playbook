@@ -1,5 +1,5 @@
 ---
-Title: AMPFlow - Delivery System
+title: AMPFlow Delivery System
 ---
 
 **AMPFlow** (AM Platform Flow) is a evolving, adaptive, open-closed technology delivery system designED by and for AM’s Platform Development Division to enable us to solve business problems of any type in order to generate business value, using technology (“technology problems”).
@@ -34,7 +34,7 @@ Title: AMPFlow - Delivery System
     - Continuous Improvement
     - Continuous Deployment
     - Continuous Quality
-    - [Continuous Collaboration](/Ways-of-Working/Tenets/Continuous-Collaboration/)
+    - Continuous Collaboration
     - Continuous Planning
     - Continuous Autonomy
     
