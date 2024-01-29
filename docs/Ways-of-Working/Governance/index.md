@@ -12,11 +12,13 @@ There are 3 key areas of governance: [Delivery](Delivery-Governance), [Product](
 
 Governance within **AMPFlow** aims to:
 
-> 1. Prevent the implementation of critical flaws
-> 2. Guarantee excellent information flow
-> 3. Maintain and improve team autonomy
 
-Achieving 1 and 2 gives rise to 3.
+<div class="grid cards" markdown>
+- 1: __Prevent the implementation of critical flaws__
+- 2: __Guarantee excellent information flow__
+- 3: __Maintain and improve team autonomy__
+- > Achieving 1 and 2 enables 3.
+</div>
 
 
 ## Overview

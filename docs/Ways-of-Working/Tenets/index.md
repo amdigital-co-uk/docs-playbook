@@ -10,7 +10,7 @@ title: Tenets
     
         ---
     
-        > Through experimentation and learning.
+        Through experimentation and learning.
 
         We know we will never know less than we do right now, but that learning requires effort and focus.
 
@@ -27,8 +27,6 @@ title: Tenets
     -   __Continuous Collaboration__
     
         ---
-
-        > And continuous communication.
 
         We communicate with each other continually and understand that this is central to the core principles of DevOps and our overall [mission](#our-mission) success.
 

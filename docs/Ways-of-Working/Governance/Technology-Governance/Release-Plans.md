@@ -1,5 +1,5 @@
 ---
-title: Guide to Release Plans
+title: Release Plans
 authors: 
 - Ed Earle
 reviewed: 
