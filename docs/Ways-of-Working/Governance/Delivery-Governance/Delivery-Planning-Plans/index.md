@@ -1,4 +1,5 @@
-Title: Delivery Planning & Delivery Plans
+---
+title: Delivery Planning & Delivery Plans
 ---
 
 ![Delivery Planning & Delivery Plans](../delivery-governance.png)
