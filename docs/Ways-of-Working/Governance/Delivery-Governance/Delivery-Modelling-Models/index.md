@@ -1,7 +1,7 @@
-Title: "Delivery Governance"
+Title: Delivery Modelling & Delivery Models
 ---
 
-![Delivery Modelling & Delivery Models](delivery-governance.png)
+![Delivery Modelling & Delivery Models](../delivery-governance.png)
 
 ## Responsibilities
 
