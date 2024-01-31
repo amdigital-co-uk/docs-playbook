@@ -1,5 +1,5 @@
 ---
-Title: "Delivery Governance"
+Title: Overview Delivery Governance
 ---
 
 ![Overview of Delivery Governance](delivery-governance.png)
