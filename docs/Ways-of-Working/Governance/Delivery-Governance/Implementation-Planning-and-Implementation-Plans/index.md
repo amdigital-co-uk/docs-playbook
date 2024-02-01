@@ -18,9 +18,9 @@ The Delivery Lead is accountable for ensuring that **implementation planning** i
 All members of delivery teams assigned to the problem, as well as the problem owner are responsible for ensuring that implementation plans produced are current, accurately maintained and accessible 
 
 #### Triggers
-- The delivery team responsible for a problem will need to determine and document when implementation plans need to be produced, reviewed and updated, and as a consequence, when and how implementation planning will need to occur. 
+The delivery team responsible for a problem will need to determine and document when implementation plans need to be produced, reviewed and updated, and as a consequence, when and how implementation planning will need to occur. 
 
-- This will likely be at regular intervals, throughout the design and implementation zones, or when certain triggers are met, for example when a change in approach is required or the health of the implementation plan becomes critical (red)
+This will likely be at regular intervals, throughout the design and implementation zones, or when certain triggers are met, for example when a change in approach is required or the health of the implementation plan becomes critical (red)
 
 
 

@@ -18,9 +18,9 @@ The Delivery Lead is accountable for ensuring that design planning is performed 
 All members of delivery teams assigned to the problem, as well as the problem owner are responsible for ensuring that design plans produced are current, accurately maintained and accessible 
 
 #### Triggers
-- The delivery team responsible for a problem will need to determine and document when design plans need to be produced, reviewed and updated, and as a consequence, when and how design planning will need to occur. This will typically first occur at the beginning of the AMPFlow design zone, and will continue throughout design and implementation. 
+The delivery team responsible for a problem will need to determine and document when design plans need to be produced, reviewed and updated, and as a consequence, when and how design planning will need to occur. This will typically first occur at the beginning of the AMPFlow design zone, and will continue throughout design and implementation. 
 
-- This will likely be when certain triggers are met, for example when there's a change to the design specification i.e new discovery, new requirements or when the health of the design plan becomes critical (red)
+This will likely be when certain triggers are met, for example when there's a change to the design specification i.e new discovery, new requirements or when the health of the design plan becomes critical (red)
 
 
 #### Recommended Approach
