@@ -23,5 +23,5 @@ Governance within **AMPFlow** aims to:
 
 ## Overview
 
-![Overview of Governance](../Governance/Delivery-Governance/governance-overview.pnggovernance-overview.png)
+![Overview of Governance](governance-overview.png)
 
