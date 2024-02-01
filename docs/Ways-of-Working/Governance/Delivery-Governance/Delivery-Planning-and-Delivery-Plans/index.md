@@ -6,9 +6,9 @@ title: Delivery Planning & Delivery Plans
 
 ## Delivery PLanning & Delivery Plans
 
-**Delivery Planning** is a procedure in which the delivery team develops a well-organised **delivery plan** detailing the delivery **approach** for a project or solution. This process often occurs at the beginning of the AMPFlow design zone, and should be continually reviewed and updated throughout the entire problem solving lifecycle
+**Delivery Planning** is a procedure in which the delivery team develops a well-organised **delivery plan** detailing the delivery **approach** for a problem or solution. This process often occurs at the beginning of the **AMPFlow design zone**, and should be continually reviewed and updated throughout the entire problem solving lifecycle
 
-**Delivery Plans** are artefacts produced and maintained by the delivery team, and includes a well structured **delivery approach** **design plan**, **implementation plan** and **warranty plan** that details how a project or solution will be delivered.
+**Delivery Plans** are artefacts produced and maintained by the delivery team, and includes a well structured **delivery approach** **design plan**, **implementation plan** and **warranty plan** that details how a problem or solution will be delivered.
 
 #### Accountable: 
 The Delivery Lead is accountable for ensuring that delivery planning is performed and **delivery plans** and all artefacts produced as a result are maintained and accessible
@@ -27,7 +27,7 @@ The delivery team responsible for a problem will need to determine and document 
 4. Who will be:
     - responsible & accountable for maintaining delivery planning mechanisms and delivery plan artefacts
     - consulted & informed, given each of the mechanisms
-5. The delivery lead ensures that this plan is documented and accessible by stakeholders and that any review events are scheduled 
+5. The delivery lead ensures that this plan is documented and accessible by stakeholders and that any review events are scheduled in a timely manner
 6. The delivery team populate the delivery plan with current delivery planning mechanisms and artefacts including:
     - Project governance plan
     - Milestone plan
@@ -36,6 +36,7 @@ The delivery team responsible for a problem will need to determine and document 
     - Design Plan
     - Implementation Plan
     - Warranty Plan
-- 7. The delivery team continuously review, update and evolve the delivery plan throughout the AMPFlow design zone and implementation zones as part of regular team activities, and as and when new information arrives 
-- use the current default (Delivery Plan Templates) (link to tooling section of KB) as a starting point
+7. The delivery team continuously review, update and evolve the delivery plan throughout the **AMPFlow design zone** and **implementation zones** as part of regular team activities, and as and when new information arrives 
+
+use the current default (Delivery Plan Templates) (link to tooling section of KB) as a starting point
 

@@ -6,24 +6,24 @@ title: Delivery Status Reporting & Delivery Status Reports
 
 ## Delivery Status Reporting & Delivery Status Reports
 
-**Delivery Status** reporting is an event during which the Delivery Team share the status of their delivery plans with stakeholders. Reviews should happen at regular intervals, when a major change of status occurs, or after certain milestones.
+**Delivery Status Reporting** reporting is a procedure during which the Delivery Team share the status of their delivery plans with stakeholders. Reviews should happen at regular intervals, when a major change of status occurs, or after certain milestones
 
-**Delivery Status** reports are documents maintained by the Delivery Team that detail the status of delivery plans, so that stakeholders can easily find this information when needed. Report documents should be updated as and when relevant information is available.
+**Delivery Status Reports** are artefacts maintained by the Delivery Team that detail the current status of delivery plans, so that stakeholders can easily access this information when required. Report artefacts should be updated as and when current informaton is outdated or when certain triggers are met
 
 
 
 #### Accountable: 
-The Delivery Lead is accountable for ensuring that delivery status reporting is performed and that reports are maintained.
+The Delivery Lead is accountable for ensuring that delivery status reporting is performed and that reports are maintained and accessible
 
 #### Responsible 
-All members of delivery team assigned to the problem, as well as the problem owner are responsible for providing updates and ensuring that they are accurate and timely.
+All members of delivery team assigned to the problem, as well as the problem owner are responsible for providing updates and ensuring that they are accurate, timely and accessible.
 
 #### Triggers
-The team responsible for a problem will need to determine and document when report updates are provided. This may be both at regular intervals, after specific milestones, or when certain triggers are met, for example the health of the delivery plan becomes critical (Red).
+The team responsible for a problem will need to determine and document the mechanisms for when report updates are provided. This may be both at regular intervals, after specific milestones, or when certain triggers are met, for example the health of the delivery plan becomes critical (Red).
 
 #### Recommended Approach
 
-1. During or immediately after __Design Planning__, the Delivery Team and Delivery Lead set out a status reporting plan
+1. During or immediately after Design Planning, the Delivery Team and Delivery Lead set out a status reporting plan
 2. What are the reporting mechanisms (i.e. how will Delivery Status Reporting events happen and what will reports look like)
 3. What are triggers (when will these mechanisms happen)
 4. Who will be:

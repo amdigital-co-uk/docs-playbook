@@ -6,9 +6,9 @@ title: Delivery Modelling & Delivery Models
 
 ## Delivery Status Reporting & Delivery Status Reports
 
-**Delivery Modeling** is an event that requires all delivery teams collectively to plan and produce a model (or roadmap) to understand and set early expectations, dependencies, bottlenecks and perform speculative estimation for all medium term priorities (up to 12 months) . This event occurs typically during the discovery zone approximately once a quarter, but should be routinely reviewed and renewed if certain triggers are met
+**Delivery Modeling** is an event that requires all delivery teams collectively to plan and produce a model (or roadmap) for all medium term priorities (up to 12 months). This event occurs typically during the discovery zone approximately once a quarter, but should be routinely reviewed and renewed if certain triggers are met
 
-**Delivery Model** is an artefact produced by all delivery teams collectively, detailing the delivery model or timeline for up to 12 months. It should detail all medium term priorities, any key milestones, speculative estimation, dependencies and bottlenecks.  Although it's expressly caveated that this is not a reliable plan and doesn't constitute commitments
+**Delivery Model** is an artefact produced by all delivery teams collectively, detailing the delivery model or timeline for up to 12 months. It's purpose is to detail all medium term priorities and should include key milestones, speculative estimation, dependencies and bottlenecks.  Although it's expressly caveated that this is not a reliable plan and doesn't constitute commitments
 
 #### Accountable: 
 The Delivery Lead is accountable for ensuring that delivery modelling is performed and delivery models produced are current, maintained and accessible
@@ -33,4 +33,4 @@ The team responsible for each problem will need to determine, document and commu
     2. key milestones 
     3. key risks and dependencies 
     4. resource requirements (therefore exposing any bottlenecks)
-7. The delivery team update the delivery model as part of regular team activities, maintain documentation on delivery model health, and communicate out when any significant changes have occured that could benefit from a collective review and re-plan of the delivery model 
+7. The delivery team tracks the health of the delivery model as part of regular team activities, maintain documentation on delivery model health, and communicate out when any significant changes have occured that could benefit from a collective review and re-plan of the delivery model 
