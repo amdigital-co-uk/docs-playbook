@@ -4,7 +4,7 @@ title: Delivery Governance
 
 Delivery Governance ensures the effective and controlled management of project delivery processes to achieve successful and timely project outcomes while adhering to the minimum viable guardrails, standards and protocols.
 
-![Overview](governance-overview.png)
+![Overview](delivery-governance.png)
 
 
 ## Responsibilities
