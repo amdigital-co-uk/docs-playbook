@@ -22,7 +22,6 @@ All members of delivery team assigned to the problem, as well as the problem own
 The team responsible for a problem will need to determine and document the mechanisms for when report updates are provided. This may be both at regular intervals, after specific milestones, or when certain triggers are met, for example the health of the delivery plan becomes critical (Red).
 
 #### Recommended Approach
-
 1. During or immediately after Design Planning, the Delivery Team and Delivery Lead set out a status reporting plan
 2. What are the reporting mechanisms (i.e. how will Delivery Status Reporting events happen and what will reports look like)
 3. What are triggers (when will these mechanisms happen)
