@@ -58,6 +58,4 @@ Note: here “tool” does not refer to a software tool or service, often also r
 
 ## Minimum Viable Guardrails
 
-Minimum Viable Guardrails (or MVG's) is a term used to describe the foundational controls of the AMPFlow system. It's core functions is to provide a foundational framework that balances standardisation, adaptability and autonomy.
-
-The purpose of MVG's is to promote lean practices by enabling delivery teams to start with just the minimum 
+Minimum Viable Guardrails (or MVG's) is a term used to describe the foundational controls of the AMPFlow system. It's purpose is to provide a foundational framework that balances standardisation, adaptability and autonomy by promoting lean practices that enable teams to start solving problems with just the minimum amount of information required
