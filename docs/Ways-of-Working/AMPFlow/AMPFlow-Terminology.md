@@ -55,3 +55,7 @@ The toolkit is not controlled and continually evolves. Actors will determine the
 The toolkit provides flexibility in how a problem is solved, leading to a more open system.
 
 Note: here “tool” does not refer to a software tool or service, often also referred to as tools or tooling. The mechanisms within the Delivery System toolkit may leverage software and describe how it is used.
+
+## Minimum Viable Guardrails
+
+Minimum Viable Guardrails (or MVG's) is a term used to describe the foundational controls of the AMPFlow system. It's purpose is to provide a foundational framework that balances standardisation, adaptability and autonomy by promoting lean practices that enable teams to start solving problems with just the minimum amount of information required
