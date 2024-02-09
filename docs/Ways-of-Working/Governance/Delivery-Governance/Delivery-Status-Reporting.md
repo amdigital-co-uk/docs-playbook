@@ -1,5 +1,5 @@
 ---
-title: Delivery Status Reporting & Delivery Status Reports
+title: Delivery Status Reporting
 ---
 
 ![Delivery Status Reporting & Delivery Status Reports](../delivery-governance.png)
@@ -8,7 +8,7 @@ title: Delivery Status Reporting & Delivery Status Reports
 
 **Delivery Status Reporting** reporting is a procedure during which the Delivery Team share the status of their delivery plans with stakeholders. Reviews should happen at regular intervals, when a major change of status occurs, or after certain milestones
 
-**Delivery Status Reports** are artefacts maintained by the Delivery Team that detail the current status of delivery plans, so that stakeholders can easily access this information when required. Report artefacts should be updated as and when current informaton is outdated or when certain triggers are met
+**Delivery Status Reports** are artefacts maintained by the Delivery Team that detail the current status of delivery plans, so that stakeholders can easily access this information when required. Report artefacts should be updated as and when current information is outdated or when certain triggers are met
 
 
 

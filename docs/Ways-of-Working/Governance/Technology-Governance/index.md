@@ -12,6 +12,8 @@ Technology governance controls how we implement technology to ensure that we com
 
 An Engineering Lead must be assigned before design can commence.
 
+See [delivery governance responsibilities](/Ways-of-Working/Governance/Delivery-Governance/#Responsibilities).
+
 ### Validation
 
 #### Validation Strategy
