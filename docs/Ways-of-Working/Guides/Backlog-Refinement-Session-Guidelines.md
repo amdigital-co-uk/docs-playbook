@@ -17,9 +17,9 @@ As a result of the refining activities, the next chunk of backlog items is ready
 
 ### Desired Outcome
 
-The outcome of the backlog refinement is the **Sprint Backlog** or a list of items that are due by the end of the Sprint.
+The outcome of the backlog refinement is a list of BLIs that should be clear to all team members and be ready to be implemented in an upcoming Sprint.
 
-BLIs involved should be clear to all team members and be ready to be implemented in the upcoming Sprint. Later, at the Sprint planning event, the team agrees a set of BLIs for the Sprint and plans the tasks it will take to complete them.
+Later, at the Sprint planning event, the team agrees a set of BLIs for the Sprint and plans the tasks it will take to complete them.
 
 ### Attendees
 
