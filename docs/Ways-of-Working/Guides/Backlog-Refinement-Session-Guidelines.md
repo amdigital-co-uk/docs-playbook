@@ -9,7 +9,7 @@ next-review: 2024-06-01
 
 ## Backlog Refinement
 
-The purpose of this meeting is for the team to review the prioritised items in the backlog before accepting them. We will make necessary adjustments for clarity and estimate the effort it will take to complete each Backlog Item.
+The purpose of this meeting is for the team to review the prioritised items in the backlog before accepting them. We will make necessary adjustments for clarity and estimate the effort it will take to complete each Backlog Item (BLI).
 
 Refinement sessions help to accumulate **a shared, comprehensive understanding of requirements** among the dev team reducing the level of unplanned rework.
 
