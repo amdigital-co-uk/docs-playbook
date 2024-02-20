@@ -45,7 +45,7 @@ When discussing BLIs the team should:
 - Ensure Acceptance Criteria is valid
 - Review dependencies
 - Review order of work
-- Review tasks
+- Create / Review tasks
 
 #### Decompose Backlog Items
 
