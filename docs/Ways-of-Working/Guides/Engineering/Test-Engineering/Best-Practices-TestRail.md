@@ -82,6 +82,7 @@ Select the appropriate test template according to the test's needs
 Select the type of test from the available options and which is appropriate for the test case. For example, Manual or Automated
 
 The available options are:
+
 - Automated - Cucumber/Playwright (ie: Tests that live in the 'Quartex.Regression.Tests' folder in the qtui-front-end repository, where cucumber <b>is</b> implemented)
 
 - Automated - Playwright (ie: Tests that live in the 'Quartex.FrontEnd.E2ETests' folder in the qtui-front-end repository, where cucumber is <b>not</b>  implemented)
