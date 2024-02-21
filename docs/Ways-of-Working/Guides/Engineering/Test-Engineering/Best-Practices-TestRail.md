@@ -7,7 +7,7 @@ reviewer:
 next-review: 
 ---
 
-## Introduction
+### Introduction
 This document outlines best practices to follow when adding in test cases to Test Rail
 
 ### <u>Test Rail</u>
@@ -31,7 +31,7 @@ TestRail is a web-based test case management tool. It is used by QA engineers, d
 
 6 - Select the test template you wish to use
 
-## <u>Test Templates</u>
+### <u>Test Templates</u>
 
 There are 3 test templates to choose from:
 
@@ -43,19 +43,19 @@ There are 3 test templates to choose from:
     
 ![Example](test-rail-best-practices-pics\4-templates.png) 
 
-### <u>‘Test Case (steps)’ Template</u>
+#### <u>‘Test Case (steps)’ Template</u>
 
 ‘Test Case (steps)’ –  This is the default, used for traditional manual testing, detailing individual steps to carry out, along with the expected result
 
 ![Example](test-rail-best-practices-pics\5-test-case-steps-template.png) 
 
-### <u>‘Behaviour Driven Development’ Template</u>
+#### <u>‘Behaviour Driven Development’ Template</u>
 
 ‘Behaviour Driven Development’ – Most frequently used and recommended due to following a BDD framework , for manual testing and outlining automation steps
 
 ![Example](test-rail-best-practices-pics\6-bdd-template.png) 
 
-### <u>‘Exploratory Session (Test Charter)’ Template</u>
+#### <u>‘Exploratory Session (Test Charter)’ Template</u>
 
 ‘Exploratory session (test charter)’ – Only used for exploratory testing purposes. More about exploratory testing can be found [here](docs\Ways-of-Working\Guides\Exploratory-Testing.md) 
 
