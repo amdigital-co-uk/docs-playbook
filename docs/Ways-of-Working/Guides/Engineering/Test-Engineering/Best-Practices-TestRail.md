@@ -8,7 +8,7 @@ next-review:
 ---
 
 ## Introduction
-This document outlines B best practices to follow when adding in test cases to Test Rail
+This document outlines best practices to follow when adding in test cases to Test Rail
 
 ### <u>Test Rail</u>
 TestRail is a web-based test case management tool. It is used by QA engineers, developers, and team leads to manage, track, and organize software testing efforts. TestRail allows team members to design test cases, organize test suites, execute test runs, and track their results, all from a modern and easy-to-use web interface. 
@@ -57,74 +57,78 @@ There are 3 test templates to choose from:
 
 ### <u>‘Exploratory Session (Test Charter)’ Template</u>
 
-‘Exploratory session (test charter)’ – Only used for exploratory testing purposes 
+‘Exploratory session (test charter)’ – Only used for exploratory testing purposes. More about exploratory testing can be found [here](docs\Ways-of-Working\Guides\Exploratory-Testing.md) 
 
 ![Example](test-rail-best-practices-pics\7-exploratory-template.png) 
 
 
 ## <u>Test Case Fields Defined</u>
 
-### <u>‘Section’ Field</u>
+#### <u>‘Section’ Field</u>
 
 Select the Quartex site area which the test affects
 
 ![Example](test-rail-best-practices-pics\8-section-field.png) 
 
-### <u>‘Template’ Field</u>
+#### <u>‘Template’ Field</u>
 
 Select the appropriate test template according to the test's needs
 
 
 ![Example](test-rail-best-practices-pics\9-template-field.png) 
 
-### <u>‘Type’ Field</u>
+#### <u>‘Type’ Field</u>
 
 Select the type of test from the available options and which is appropriate for the test case. For example, Manual or Automated
 
 The available options are:
 - Automated - Cucumber/Playwright (ie: Tests that live in the 'Quartex.Regression.Tests' folder in the qtui-front-end repository, where cucumber <b>is</b> implemented)
+
 - Automated - Playwright (ie: Tests that live in the 'Quartex.FrontEnd.E2ETests' folder in the qtui-front-end repository, where cucumber is <b>not</b>  implemented)
+
 - Integration 
+
 - Manual
+
 - Partially automated
 
 
 ![Example](test-rail-best-practices-pics\10-type-field.png) 
 
-### <u>‘References’ Field</u>
+#### <u>‘References’ Field</u>
 
 This should be the backlog item reference number from DevOp’s, once saved it will be hyperlinked to the backlog item
 
 
 ![Example](test-rail-best-practices-pics\11-references-field.png) 
 
-### <u>‘Priority’ Field</u>
+#### <u>‘Priority’ Field</u>
 
 This can be left as the default, which is ‘medium’ (we do not use this functionality & unfortunately it can't be removed)
 
 
 ![Example](test-rail-best-practices-pics\12-priority-field.png) 
 
-### <u>‘Test Type’ Field</u>
+#### <u>‘Test Type’ Field</u>
 
 Select the ‘type’ of test which best describes the test case. 
 
 
 ![Example](test-rail-best-practices-pics\14-test-type-field.png) 
 
-### <u>‘Tag’ Field</u>
+#### <u>‘Tag’ Field</u>
 
 Select any applicable tags from the available options. 
 
 ![Example](test-rail-best-practices-pics\13-tag-field.png) 
 
-### <u>‘Reasoning for why cannot be automated or is only partially (if applicable)’ Field</u>
+#### <u>‘Reasoning for why cannot be automated or is only partially (if applicable)’ Field</u>
 
 Select the reason why the test case is not automated from the available options.
 
 ![Example](test-rail-best-practices-pics\15-reasoning-why-field.png) 
 
-### <u>‘Notes’ Field</u>
+#### <u>‘Notes’ Field</u>
 
 This should be used to record any useful information to aid the testing, such as mention of test data, environments or to refer to any automation notes. 
 
