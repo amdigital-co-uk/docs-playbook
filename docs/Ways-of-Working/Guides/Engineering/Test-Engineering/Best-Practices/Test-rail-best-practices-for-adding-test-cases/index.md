@@ -57,7 +57,7 @@ There are 3 test templates to choose from:
 
 #### <u>‘Exploratory Session (Test Charter)’ Template</u>
 
-‘Exploratory session (test charter)’ – Only used for exploratory testing purposes. More about exploratory testing can be found [here](/Ways-of-Working/Guides/Exploratory-Testing.md) 
+‘Exploratory session (test charter)’ – Only used for exploratory testing purposes. More about exploratory testing can be found [here](../../../../Exploratory-Testing.md)  
 
 ![Example](exploratory-template.png) 
 
