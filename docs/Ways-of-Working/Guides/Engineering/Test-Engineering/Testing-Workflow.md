@@ -9,7 +9,7 @@ next-review:
 
 This diagram outlines WHEN we need to execute our End to End (E2E) Regression tests on QA and LIVE environments.  
 
-![Test Work Flow Diagram](BLI_Test_Workflow.png)
+![Test Work Flow Diagram](Testing-workflow\BLI_Test_Workflow.png)
 
 ## Test implementation
 
