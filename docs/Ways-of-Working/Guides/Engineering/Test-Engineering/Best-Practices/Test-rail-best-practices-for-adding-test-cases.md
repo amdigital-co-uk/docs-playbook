@@ -19,15 +19,15 @@ TestRail is a web-based test case management tool. It is used by QA engineers, d
 - 2 - Navigate to the [Test Rail Dashboard](https://ampd.testrail.io/index.php?/dashboard)
 - 3 - Select the project you want to add test cases to, i,e. "Quartex"
 
-![Example](quartex-project.png)      
+![Example](Test-rail-best-practices-for-adding-test-cases\quartex-project.png)      
 
 4 - Click on the ‘Test cases header’
 
-![Example](test-case-header.png)  
+![Example](Test-rail-best-practices-for-adding-test-cases\test-case-header.png)  
 
 5 - Click on the ‘Add Test case’ button
 
-![Example](add-test-case.png)  
+![Example](Test-rail-best-practices-for-adding-test-cases\add-test-case.png)  
 
 6 - Select the test template you wish to use
 
@@ -47,19 +47,19 @@ There are 3 test templates to choose from:
 
 ‘Test Case (steps)’ –  This is the default, used for traditional manual testing, detailing individual steps to carry out, along with the expected result
 
-![Example](test-case-steps-template.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\test-case-steps-template.png) 
 
 #### <u>‘Behaviour Driven Development’ Template</u>
 
 ‘Behaviour Driven Development’ – Most frequently used and recommended due to following a BDD framework , for manual testing and outlining automation steps
 
-![Example](bdd-template.png) 
+![Example]Test-rail-best-practices-for-adding-test-cases\(bdd-template.png) 
 
 #### <u>‘Exploratory Session (Test Charter)’ Template</u>
 
 ‘Exploratory session (test charter)’ – Only used for exploratory testing purposes. More about exploratory testing can be found [here](docs\Ways-of-Working\Guides\Exploratory-Testing.md) 
 
-![Example](exploratory-template.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\exploratory-template.png) 
 
 
 ## <u>Test Case Fields Defined</u>
@@ -68,14 +68,14 @@ There are 3 test templates to choose from:
 
 Select the Quartex site area which the test affects
 
-![Example](section-field.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\section-field.png) 
 
 #### <u>‘Template’ Field</u>
 
 Select the appropriate test template according to the test's needs
 
 
-![Example](template-field.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\template-field.png) 
 
 #### <u>‘Type’ Field</u>
 
@@ -94,46 +94,46 @@ The available options are:
 - Partially automated
 
 
-![Example](type-field.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\type-field.png) 
 
 #### <u>‘References’ Field</u>
 
 This should be the backlog item reference number from DevOp’s, once saved it will be hyperlinked to the backlog item
 
 
-![Example](references-field.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\references-field.png) 
 
 #### <u>‘Priority’ Field</u>
 
 This can be left as the default, which is ‘medium’ (we do not use this functionality & unfortunately it can't be removed)
 
 
-![Example](priority-field.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\priority-field.png) 
 
 #### <u>‘Test Type’ Field</u>
 
 Select the ‘type’ of test which best describes the test case. 
 
 
-![Example](test-type-field.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\test-type-field.png) 
 
 #### <u>‘Tag’ Field</u>
 
 Select any applicable tags from the available options. 
 
-![Example](tag-field.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\tag-field.png) 
 
 #### <u>‘Reasoning for why cannot be automated or is only partially (if applicable)’ Field</u>
 
 Select the reason why the test case is not automated from the available options.
 
-![Example](reasoning-why-field.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\reasoning-why-field.png) 
 
 #### <u>‘Notes’ Field</u>
 
 This should be used to record any useful information to aid the testing, such as mention of test data, environments or to refer to any automation notes. 
 
-![Example](notes-field.png)  
+![Example](Test-rail-best-practices-for-adding-test-cases\notes-field.png)  
 
 
 
