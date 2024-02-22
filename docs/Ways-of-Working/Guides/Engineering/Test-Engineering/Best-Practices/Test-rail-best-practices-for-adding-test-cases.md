@@ -41,7 +41,7 @@ There are 3 test templates to choose from:
 
 - 3 -  ‘Exploratory session (test charter)’ 
     
-![Example](templates.png) 
+![Example](Test-rail-best-practices-for-adding-test-cases\templates.png) 
 
 #### <u>‘Test Case (steps)’ Template</u>
 
@@ -57,7 +57,7 @@ There are 3 test templates to choose from:
 
 #### <u>‘Exploratory Session (Test Charter)’ Template</u>
 
-‘Exploratory session (test charter)’ – Only used for exploratory testing purposes. More about exploratory testing can be found [here](docs\Ways-of-Working\Guides\Exploratory-Testing.md) 
+‘Exploratory session (test charter)’ – Only used for exploratory testing purposes. More about exploratory testing can be found [here](Guides\Exploratory-Testing.md)
 
 ![Example](Test-rail-best-practices-for-adding-test-cases\exploratory-template.png) 
 
