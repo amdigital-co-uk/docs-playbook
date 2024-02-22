@@ -18,7 +18,7 @@ BDD test scenarios play a crucial role when creating and maintaining the test su
 
 Cucumber is a testing tool that supports Behavior Driven Development (BDD), we have incorporated it into our regression suite. It offers a way to write tests that anybody can understand, regardless of their technical knowledge, doing so utilizing a syntax called called [Gherkin](https://cucumber.io/docs/gherkin/)
 
-![Example](BDD-best-practices-for-writing-test-scenarios\11.jpg)  
+![Example](11.jpg)  
 
 ### <u>What is Gherkin?</u>
 
@@ -26,7 +26,7 @@ Gherkin is a very simple language that uses a set of keywords to define the stru
 
 The scenario below is written in Gherkin:
 
-![Example](BDD-best-practices-for-writing-test-scenarios\12.png)    
+![Example](12.png)    
 
 Gherkin serves multiple purposes: 
 
@@ -55,7 +55,7 @@ The BDD test scenarios reside in the appropriate feature files, that reside in a
 
 Here is an example of a feature file for the Home Page:
 
-![Example](BDD-best-practices-for-writing-test-scenarios\10.png)  
+![Example](10.png)  
 
 ### <u>Gherkin Best practice - using the specflow editor</u>
 
@@ -65,7 +65,7 @@ It is a tool that allows you to write, download and share Gherkin Feature Files.
 
 The editor is bundled with a number of handy features to enable teams to collaborate more efficiently and write better Gherkin. The Gherkin Editor is constantly improving with additional features added based on what our user community requests.
 
-![Example](BDD-best-practices-for-writing-test-scenarios\9.png) 
+![Example](9.png) 
 
 In a similar fashion to the way in which Visual studio code works, there is an intelligent editor with intellisense , Specflow allows:
 
@@ -107,15 +107,15 @@ Each Scenario represents a single, specific example of the feature's behavior. P
 
 Step definitions connect Gherkin steps to programming code. A step definition carries out the action that should be performed by the step. So step definitions hard-wire the specification to the implementation.
 
-![Example]BDD-best-practices-for-writing-test-scenarios\(13.png)   
+![Example](13.png)   
 
 Step definitions can be written in many programming languages. Here is an example using JavaScript:
 
-![Example]BDD-best-practices-for-writing-test-scenarios\(14.png)   
+![Example](14.png)   
 
 Here is an example below from our regression suite:
 
-![Example](BDD-best-practices-for-writing-test-scenarios\7.png) 
+![Example](7.png) 
 
 One of the greatest benefits of using BDD is the reusable scenarios or to be more precise the reusable step definitions, and this is important to understand to fully grasp the significance of the BDD approach.
 
@@ -188,19 +188,19 @@ As we said earlier, the Step definition files contain the code that connects the
 
 Here is an example hypothetical step definition to fully understand the explanation above 
 
-![Example](BDD-best-practices-for-writing-test-scenarios\1.png) 
+![Example](1.png) 
 
 Let’s take the ‘User conducts a search for "<SearchName>" filter input’.
 
 This is how the code looks like in the step-definition file. Please notice the parametrization “{string}” for "<SearchName>". The same would apply for “QA” or “QA members”:
 
-![Example](BDD-best-practices-for-writing-test-scenarios\2.png)
+![Example](2.png)
 
 As you can see we have a searchForValue method in the step-definition file.
 
 This method resides in the membersDetailsPage.ts, which is located in the ‘pages’ folder.
 
-![Example](BDD-best-practices-for-writing-test-scenarios\3.png)
+![Example](3.png)
 
 
 ### <u>Page files</u>
@@ -210,17 +210,17 @@ As we saw with the example above, that is where we write the actions or methods 
 
 Firstly, we create a class and name this accordingly. For example; AdvancedSearchPage
 
-![Example](BDD-best-practices-for-writing-test-scenarios\6.png)
+![Example](6.png)
 
 Secondly, we create **readonly** locators for the objects that appear on the Advanced Search Page:
 
-![Example](BDD-best-practices-for-writing-test-scenarios\5.png)
+![Example](5.png)
 
 Then we create a constructor to house all of those objects. Constructors essentially allow the creation of objects from classes. 
 
 Here are samples of methods that might reside in the pages file:
 
-![Example](BDD-best-practices-for-writing-test-scenarios\4.png)  
+![Example](4.png)  
 
 this.LoginButton is the selector for the login button, that also resides in the Page file.
 
