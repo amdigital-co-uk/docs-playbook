@@ -22,7 +22,7 @@ Cucumber is a testing tool that supports Behavior Driven Development (BDD), we h
 
 ### <u>What is Gherkin?</u>
 
-Gherkin is a very simple language that uses a set of keywords to define the structure and behavior of our tests. It is easily readable by both non-technical and technical members of the team. It features a set of grammar rules that makes plain text structured enough for Cucumber to understand it
+Gherkin is a very simple language that uses a set of keywords to define the structure and behavior of our tests. It is easily readable by both non-technical and technical members of the team. It features a set of grammar rules that makes plain text structured enough for Cucumber to understand it.
 
 The scenario below is written in Gherkin:
 
