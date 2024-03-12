@@ -1,5 +1,5 @@
 ---
-title: RAID Mitigation & RAID Logs
+title: RAID
 ---
 
 ![RAID Mitigation & RAID Logs ](../delivery-governance.png)
@@ -14,7 +14,7 @@ title: RAID Mitigation & RAID Logs
 
 **RAID Mitigation** is a procedure in which the delivery team produces a plan for mitigating against captured RAID items. This typically occurs the very moment you define a problem to be solved, and should be continually reviewed and updated throughout the entire problem solving lifecycle
 
-**RAID Log** is an artefact produced and maintained by the delivery team and includes a clear break down of RAID items, their RAG status, potential impact, liklihood, mitigation strategies and plans for each where applicable 
+**RAID Log** is an artefact produced and maintained by the delivery team and includes a clear break down of RAID items, their RAG status, potential impact, likelihood, mitigation strategies and plans for each where applicable 
 
 #### Accountable: 
 The Delivery Lead is accountable for ensuring that the RAID log is produced and accessible

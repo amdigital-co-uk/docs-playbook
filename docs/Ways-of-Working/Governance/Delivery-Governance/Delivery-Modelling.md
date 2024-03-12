@@ -1,15 +1,18 @@
 ---
 title: Delivery Modelling
+tag: draft
 ---
 
 ![Delivery Modelling & Delivery Models](../delivery-governance.png)
 
-## Objectives
+## Objective
 
-- Generate a "point in time" alignment between product management, design, engineering leadership, and key business stakeholders on:
-  - the priority of problems in the medium-term (up to 9-18 months). 
+Generate a "point in time" alignment between product management, design, engineering leadership, and key business stakeholders on:
+
+  - the order in which problems will be addressed in the medium-term (up to 9-18 months). 
   - dependencies between problems and with other business objectives.
   - ownership of problems.
+  - our perception of the scale and types of the work required.
 
 ## Delivery Modelling
 
@@ -17,7 +20,7 @@ Delivery modelling is collaborative event during which a delivery model is produ
 
 During the event, [Problem Leads](/ways-of-working/governance/Problem-Ownership/#problem-lead) will share a problem value propositions and any relevant information - this will vary depending on the "maturity" of the problem (how far through the lifecycle it is).
 
-Participants will consider and discuss dependencies and the likely "rough order of magnitude" of the work, and the Problem Lead will document these details.
+Participants will consider and discuss dependencies, work involved for all discaplines (such as product management, design, engineering) and the likely "rough order of magnitude" of the work, and the Problem Lead will document these details.
 
 Participants will use information from up-to-date [delivery plans](../Delivery-Planning/), to provide more granular detail.
 
@@ -48,7 +51,7 @@ A delivery model shows the agreed approach to solving problems in the medium ter
 | Product Management        | **Responsible** for participating in modelling, and sharing relevant product insights, and providing relevant estimations. |
 | Engineering Leadership    | **Responsible** for participating in modelling, sharing relevant technology insights, and providing relevant estimations. |
 | Design Team               | **Responsible** for participating in modelling, sharing relevant user/design insights, and providing relevant estimations. |
-| Delivery Management Team  | **Accountable** for ensuring that modelling is performed and models produced are current, maintained and accessible |
+| Delivery Management Team  | **Accountable** for ensuring that modelling is performed and models produced are current, maintained and accessible. **Responsible** for organising delivery modelling events. |
 
 ## Triggers
 

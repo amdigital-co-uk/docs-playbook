@@ -18,7 +18,7 @@ During the course of a problem's lifecycle, the following key responsibilities a
     
     The person who will be **accountable** and **responsible**  requirements elicitation, producing and continuously refining functional and non-functional specifications.
 
-- ## Design Lead
+- ## UX Lead
     
     The person who will be **accountable** and **responsible** for effective experiential design
 
@@ -38,6 +38,6 @@ During the course of a problem's lifecycle, the following key responsibilities a
     - implementing the solution and determining an effective, incremental way to do so.
     - performing the governed activities.
 
-    Normally this team would include engineers, along with the Problem Lead, Product Lead and Design Lead, and Delivery Lead.
+    Normally this team would include engineers, along with the Problem Lead, Product Lead and UX Lead, and Delivery Lead.
 
 </div>

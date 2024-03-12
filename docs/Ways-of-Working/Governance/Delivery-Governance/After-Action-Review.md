@@ -13,7 +13,7 @@ An **After Action Review** (review) is a point in time analysis of actions taken
     After Action Reviews are synonymous with "Wash Ups", "Mop Ups", "Post Mortems". After Action Review avoids terminology that assumes failure or damage. 
 
 ## After Action Reports
-**After Action Reports** (report) are artefacts produced by the delivery team, and consist of an analysis of any action(s) where opportunity for learning is identified. It will typically include the a summary of the After Action Report event, a list of outcomes, identified improvements, and actions.
+**After Action Reports** (report) are artefacts produced by the delivery team, and consist of an analysis of any action(s) where opportunity for learning is identified. It will typically include a summary of the After Action Report event, a list of outcomes, identified improvements, and actions.
 
 ## Responsibilities
 
@@ -23,7 +23,7 @@ An **After Action Review** (review) is a point in time analysis of actions taken
 | Delivery Team         | The whole Delivery team is collectively **responsible** for performing reviews and involving appropriate stakeholders, and for producing reports |
 
 !!! note
-    Actions determined during the review process must be assigned an owner, who are responsible for performing or coordinating that action.
+    Actions determined during the review process must be assigned owners, who are responsible for performing or coordinating that action.
 
 ## Triggers
 

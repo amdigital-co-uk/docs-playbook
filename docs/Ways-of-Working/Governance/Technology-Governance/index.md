@@ -18,7 +18,7 @@ See [delivery governance responsibilities](/Ways-of-Working/Governance/Delivery-
 
 #### Validation Strategy
 
-An approach to how we will validate our technical implementation is required before implementation can commence. A validation strategy is a wider concern shared with product governance.
+An approach to how we will validate our technical implementation is required before implementation can commence. A validation strategy is a wider concern shared with problem governance.
 
 #### Technical Validation & Technical Validation Report
 

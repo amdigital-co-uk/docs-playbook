@@ -6,7 +6,7 @@ Governance sets out controls that stipulate how we work.
 
 Controls can reduce autonomy and adaptability, and therefore should be minimised. The purpose of governance must me made clear in order to prevent unwanted controls from being introduced
 
-There are 3 key areas of governance: [Delivery](Delivery-Governance), [Product](Product-Governance), and [Technology](Technology-Governance), each with specific purposes.
+There are 3 key areas of governance: [Delivery](Delivery-Governance), [Problem](Problem-Governance), and [Technology](Technology-Governance), each with specific purposes.
 
 ## Objectives
 
