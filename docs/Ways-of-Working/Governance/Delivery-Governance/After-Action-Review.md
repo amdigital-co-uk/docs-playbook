@@ -27,14 +27,18 @@ An **After Action Review** (review) is a point in time analysis of actions taken
 
 ## Triggers
 
-The team responsible for a problem will need to determine and document when **After Action Reviews** are occur. This will typically be after an action(s) where an opportunity for learning is identified  
+The team responsible for a problem will need to determine and document when **After Action Reviews** should occur. This will typically be after an action(s) where an opportunity for learning is identified  
+
+## Communication Plan
+
+The team responsible for a problem will need to determine and document a communication plan, typically consisting of an approach to communicating with, and defining clear expectations for engagement with colleagues and stakeholders. e.g what are the expectations from stakeholders or colleagues in regards to engaging with **After Action Reviews** and **After Action Reports**
 
 ## Recommended Approach
 
-At any point throughout problem lifecycle when an opportunity for learning is identified, the **Delivery Team** facilitate an After Action Review event and produce an After Action Report.
+At any point throughout the problem lifecycle when an opportunity for learning is identified, the **Delivery Team** facilitate an After Action Review Event and produce an After Action Report.
 
 !!! tip "Plan Ahead"
-    Identify during planning when After Action Reviews may be useful (i.e. what are the likely triggers). Communicate this to stakeholders.
+    Identify during planning when After Action Reviews may be useful (i.e. what are the likely triggers). Communicate this with stakeholders.
 
     Book your AAR meetings in early to ensure stakeholders can attend.
 
