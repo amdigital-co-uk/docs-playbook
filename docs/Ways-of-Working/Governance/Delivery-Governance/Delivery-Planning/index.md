@@ -16,12 +16,15 @@ Delivery Plans are artefacts produced and maintained by the delivery team, and i
 
 ## Design Plans
 
-Design Plans typically include: detailed technical requirements, functional requirements, experiential requirements, test planning requirements, estimates and a DOT (direction of travel)
-
+!!! Note
+    Design Plans typically include: detailed technical requirements, functional requirements, experiential requirements, test planning requirements, estimates and a DOT (direction of travel).
 
 ## Implementation Plans
 
-Implementation Plans typically include: status reporting artefacts, a prioritised backlog, a timeline and delivery schedule, detailed resourcing plan and a RACI (responsible, accountable, consulted, informed)
+!!! Note
+    Implementation Plans typically include: status reporting artefacts, a prioritised backlog, a timeline and delivery schedule, detailed resourcing plan and a RACI (responsible, accountable, consulted, informed).
+
+
 
 ## Responsibilities
 
@@ -47,9 +50,9 @@ The team responsible for a problem will need to determine and document how deliv
 
 ## Recommended Approach
 
-The Delivery Planning event and process often occurs at the beginning of the AMPFlow design zone and is repeated as and when necessary throughout the full problem solving lifecycle
-At any point throughout the problem solving lifecycle when any change impacts the validity of the delivery plans, the **Delivery Team** facilitates a delivery planning event and produces and updated delivery plan
+The Delivery Planning event and process often occurs at the beginning of the AMPFlow design zone and is repeated as and when necessary throughout the full problem solving lifecycle. At any point throughout the problem solving lifecycle when any change impacts the validity of the delivery plans, the **Delivery Team** facilitates a delivery planning event and produces and updated delivery plan
 
+Teams can use any approach they wish to perform reviews and document outcomes.
 
 - Review the [toolkit](/Ways-of-Working/Toolkit) section for documented approaches, or perform your own research.
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).
