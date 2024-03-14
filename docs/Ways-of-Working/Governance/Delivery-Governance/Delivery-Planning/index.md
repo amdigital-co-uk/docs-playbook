@@ -12,7 +12,7 @@ Delivery Planning is an event and procedure in which the delivery team produces 
 
 ## Delivery Plans
 
-Delivery Plans are artefacts produced and maintained by the delivery team, and includes a design plan, implementation plan and warranty plan that details how a problem will be solved and a solution delivered. Delivery Plans should be continually reviewed and updated throughout the entire problem solving lifecycle
+Delivery Plans are artefacts produced and maintained by the delivery team, and includes a **design plan**, **implementation plan** and **warranty plan** that details how a problem will be solved and a solution delivered. Delivery Plans should be continually reviewed and updated throughout the entire problem solving lifecycle
 
 ## Design Plans
 
