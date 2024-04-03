@@ -1,42 +1,58 @@
 ---
-title: Delivery Planning & Delivery Plans
+title: Delivery Planning
+tag: draft
 ---
 
 ![Delivery Planning & Delivery Plans](../delivery-governance.png)
 
-## Delivery PLanning & Delivery Plans
+## Delivery Planning
 
-**Delivery Planning** is a procedure in which the delivery team develops a well-organised **delivery plan** detailing the delivery **approach** for a problem or solution. This process often occurs at the beginning of the **AMPFlow design zone**, and should be continually reviewed and updated throughout the entire problem solving lifecycle
+Delivery Planning is an event and procedure in which the delivery team produces and/or updates a structured delivery plan, detailing the current plan for solving a problem and delivering a solution. 
 
-**Delivery Plans** are artefacts produced and maintained by the delivery team, and includes a well structured **delivery approach** **design plan**, **implementation plan** and **warranty plan** that details how a problem or solution will be delivered.
 
-#### Accountable: 
-The Delivery Lead is accountable for ensuring that delivery planning is performed and **delivery plans** and all artefacts produced as a result are maintained and accessible
+## Delivery Plans
 
-#### Responsible 
-All members of delivery team assigned to the problem, as well as the problem owner are responsible for ensuring the delivery plans produced are current, accurately maintained and accessible 
+Delivery Plans are artefacts produced and maintained by the delivery team, and includes a **design plan**, **implementation plan** and **warranty plan** that details how a problem will be solved and a solution delivered. Delivery Plans should be continually reviewed and updated throughout the entire problem solving lifecycle
 
-#### Triggers
-The delivery team responsible for a problem will need to determine and document when delivery plans need to be reviewed and updated, and as a consequence, when and how delivery planning will need to occur. This will likely be at regular intervals, after specific milestones or when certain triggers are met, for example when there's a new discovery, change in priorities or the health of the delivery plan becomes critical (red)
+## Design Plans
 
-#### Recommended Approach
+!!! Note
+    Design Plans typically include: detailed technical requirements, functional requirements, experiential requirements, test planning requirements, estimates and a DOT (direction of travel).
 
-1. During or immediately proceeding the discovery zone the Delivery Team and Delivery Lead set out a detailed **delivery plan** consisting of a **design plan**, **implementation plan** and **warranty plan**. Delivery models should provide guidance and form a foundation for producing effective delivery plans 
-2. What are the delivery planning mechanisms (i.e how will delivery planning events happen, what will the delivery plans include and look like and how will they be communicated) (need to investigate tooling)
-3. What are the triggers (when will these mechanisms happen)
-4. Who will be:
-    - responsible & accountable for maintaining delivery planning mechanisms and delivery plan artefacts
-    - consulted & informed, given each of the mechanisms
-5. The delivery lead ensures that this plan is documented and accessible by stakeholders and that any review events are scheduled in a timely manner
-6. The delivery team populate the delivery plan with current delivery planning mechanisms and artefacts including:
-    - Project governance plan
-    - Milestone plan
-    - Resource plan
-    - RAID Log and mitigation plan
-    - Design Plan
-    - Implementation Plan
-    - Warranty Plan
-7. The delivery team continuously review, update and evolve the delivery plan throughout the **AMPFlow design zone** and **implementation zones** as part of regular team activities, and as and when new information arrives 
+## Implementation Plans
 
-use the current default (Delivery Plan Templates) (link to tooling section of KB) as a starting point
+!!! Note
+    Implementation Plans typically include: status reporting artefacts, a prioritised backlog, a timeline and delivery schedule, detailed resourcing plan and a RACI (responsible, accountable, consulted, informed).
 
+
+
+## Responsibilities
+
+| Owner                 | Responsibility |
+|---|---|
+| Delivery Owner        | The Delivery Owner is **accountable** for ensuring that delivery planning ccours at appropriate times and delivery plans are produced and effectively communicated with colleagues and stakeholders |
+| Delivery Team         | The whole Delivery team is collectively **responsible** for conducting delivery planning sessions, producing delivery plans and ensuring these plans are well maintained, accessible and effectively communicated with colleagues and stakeholders |
+| Product Lead          | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant product insights and providing relevant estimations |
+| Engineering Owner     | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant technology  insights and providing relevant estimations |
+| Design Owner          | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant user/design   insights, and providing relevant estimations |
+
+## Triggers
+
+Delivery Plans need to remain current and as change is so frequent in software development environments, these plans typically become outdated quickly.
+The team responsible for a problem will need to determine and document when **Delivery Plans**, **Design Plans** and **Implementation Plans** should be produced and updated, and therefore when any planning events should occur. This will typically be after any change that impacts the plan. 
+
+!!! Note
+    All Problem Owners, Delivery Owners, Delivery Teams, Product Leads, Engineering Owners and Design Owners are collectively responsible for flagging when delivery plans are stale, as and when they discover relevant information.
+
+## Communication Plan
+
+The team responsible for a problem will need to determine and document how delivery plans will be communicated with colleagues and stakeholders, ensuring there's  clear expectations and guidance available for effective stakeholder engagement
+
+## Recommended Approach
+
+The Delivery Planning event and process often occurs at the beginning of the AMPFlow design zone and is repeated as and when necessary throughout the full problem solving lifecycle. At any point throughout the problem solving lifecycle when any change impacts the validity of the delivery plans, the **Delivery Team** facilitates a delivery planning event and produces and updated delivery plan
+
+Teams can use any approach they wish to perform reviews and document outcomes.
+
+- Review the [toolkit](/Ways-of-Working/Toolkit) section for documented approaches, or perform your own research.
+- Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).
