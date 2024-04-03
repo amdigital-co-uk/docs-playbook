@@ -122,11 +122,11 @@ Flow is agnostic of how, who, or what, but includes generic activities and the o
 
 These activities are generic and do not specify how they are performed. *How* is either controlled by [governance](/Ways-of-Working/Governance/), or determined [as appropriate by teams](/Ways-of-Working/Toolkit/).
 
-??? info "Scouting"
+??? info "Explore"
 
-    **Objective**: Identify or new opportunities and potential areas for improvement or innovation with technology for the business.
+    **Objective**: Identify new opportunities and potential areas for improvement or innovation with technology for the business.
 
-    Scouting is the act of finding and understanding problems. Problems may arise from many sources, such as observations (see Measure and Monitor), compliance changes, or business strategies.
+    Exploring is the act of finding and understanding problems. Problems may arise from many sources, such as observations (see Measure and Monitor), compliance changes, or business strategies.
 
     Problems can be broken down to make them easier to solve, usually as the understanding of the problem improves. This may produce linked problems (a problem is discovered to be more than one related problems), discrete problems (a problem is discovered to be more than one unrelated problems), or descendant problems (a larger problem can be addressed piecemeal and incrementally).
 
@@ -165,7 +165,7 @@ These activities are generic and do not specify how they are performed. *How* is
 
     **Objective**: Plan the steps, timeline, and resources needed for implementation.
 
-    **Example Approaches**: Develop project timelines, allocate resources, and set milestones.
+    **Example Approaches**: Develop delivery timelines, allocate resources, and set milestones.
 
 ??? info "Implement/Deploy/Validate/Release"
 
@@ -183,8 +183,14 @@ These activities are generic and do not specify how they are performed. *How* is
 
     **Example Approaches**: Analyze success or performance metrics, user feedback, and business impacts.
 
+??? info "Problem Insights"
+
+    **Objective**: Extract insights and lessons throughout the problem lifecycle to refine the problem, solution, and plan.
+
+    **Example Approaches**: Collect and manage risks, assumptions, issues and dependencies. Review progress and estimates, and re-plan frequently. Perform stakeholder and customer interviews, tests, and demos.
+
 ??? info "Competency Learnings"
 
-    **Objective**: Extract insights and lessons from the project to improve future processes.
+    **Objective**: Extract insights and lessons from the problem lifecycle to improve future processes.
 
-    **Example Approaches**: Conduct retrospectives, document findings, and update best practices.
+    **Example Approaches**: Conduct retrospectives and after action reviews, review estimation accuracy and time spent, create experiments, document and communicate outcomes, and update toolkit guides and default approaches.

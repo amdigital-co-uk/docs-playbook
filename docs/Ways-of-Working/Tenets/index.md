@@ -2,17 +2,28 @@
 title: Tenets
 ---
 
-=== "Principles"
+**Principals** are quantitative can be controlled, whereas **ideals** are qualitative and can be influenced.
 
-    <div class="grid cards" markdown>
+### Working with Tenets
+
+We must hold each other to account for adhering to these tenets, using them as foundations for positive and constructive feedback. 
+
+We must retrospectively evaluate our success by reflecting on our adherence to these tenets.
+
+We must refine our ways of working such that we enhance our ability to adhere to these tenets.
+
+=== "Our Principles"
+
+
+    <div class="grid cards max" markdown>
 
     -   __Continuous Improvement__
     
         ---
     
-        Through experimentation and learning.
+        We are always experimenting and learning and we aim for Continuous Discovery.
 
-        We know we will never know less than we do right now, but that learning requires effort and focus.
+        We know we will never know less than we do right now, and learning requires effort and focus.
 
         We strive for greatness but understand the value of iterative and incremental improvement. 
 
@@ -87,9 +98,8 @@ title: Tenets
 
     </div>
 
- 
-=== "Ideals"
 
+=== "Our Ideals"
 
     <div class="grid cards" markdown>
 

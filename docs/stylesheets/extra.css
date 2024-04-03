@@ -162,3 +162,6 @@
     box-shadow: 0 0.2rem 0.5rem var(--md-accent-fg-color),0 0 0.05rem #00000040
 }
 
+.grid.cards.max {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 32rem), 1fr)); 
+  }
