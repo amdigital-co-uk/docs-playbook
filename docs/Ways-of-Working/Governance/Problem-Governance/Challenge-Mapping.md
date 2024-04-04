@@ -23,7 +23,7 @@ A well established technique for challenge mapping is a *RAID Log*.
 **RAID Log** is an artefact produced and maintained by the delivery team and includes a clear break down of RAID items, their RAG status, potential impact, likelihood, mitigation strategies and plans for each where applicable 
 
 #### Accountable: 
-The Delivery Lead is accountable for ensuring that the RAID log is produced and accessible
+The Delivery Owner is accountable for ensuring that the RAID log is produced and accessible
 
 #### Responsible 
 All members of delivery team assigned to the problem, as well as the problem owner are responsible for ensuring the RAID log produced is current, accurately maintained and accessible 
@@ -39,7 +39,7 @@ The delivery team responsible for a problem will need to determine and document 
 4. Who will be:
     - responsible & accountable for maintaining the RAID log mechanisms and artefacts
     - consulted & informed, given each of the mechanisms
-5. The delivery lead ensures that the **RAID Log** is documented and accessible by stakeholders and that any review events are scheduled 
+5. The Delivery Owner ensures that the **RAID Log** is documented and accessible by stakeholders and that any review events are scheduled 
 6. The delivery team populate the **RAID Log** with current known Risks, Assumptions, Issues and Dependencies and known details which typically include:
     - RAID type
     - Description

@@ -3,8 +3,6 @@ title: Delivery Modelling
 tag: draft
 ---
 
-![Delivery Modelling & Delivery Models](../delivery-governance.png)
-
 ## Objective
 
 Generate a "point in time" alignment between product management, design, engineering leadership, and key business stakeholders on:
@@ -41,7 +39,6 @@ A delivery model shows the agreed approach to solving problems in the medium ter
     A **delivery model is not a plan**, nor a commitment. 
     
     It can be used to inform and evolve targets, but it must not be used to create deadlines.
-
 
 ## Responsibilities
 

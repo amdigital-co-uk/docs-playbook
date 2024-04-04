@@ -20,17 +20,17 @@ Careful planning and preparation is required to ensure the Technical Design Work
 
 Many of these input should already be documented.
 
-| Input | Details | Responsible |
+| Input | Details | Ownership |
 |-- | -- | -- |
-| Session Plan          | A plan for the design session (e.g. format, agenda, participants, duration) | Engineering Lead |
+| Session Plan          | A plan for the design session (e.g. format, agenda, participants, duration) | Engineering Owner |
 | Stakeholder Map       | A visual representation of all the stakeholders of a roadmap item.   | Product Lead |
 | Problem Statement     | A clear summary of the problem being solved.                         | Product Lead |
 | Problem Requirements  | A clear breakdown requirements.                                      | Product Lead |
 | Solution Vision       | A vision of how we will realize the solution this (e.g. low-fi designs) | Product Lead |
-| RAID Log              | Documented Risks, Assumptions, Issues, Dependencies                  | Product Lead, Engineering Lead |
-| Existing Architecture | An understanding of existing related or dependent technologies       | Engineering Lead |
-| Technical Limitations | Specifications of any technical limitation that must be followed to engineer the solution. | Engineering Lead |
-| Investigation outcomes| Summary of learnings from up-front investigations                    | Engineering Lead |
+| RAID Log              | Documented Risks, Assumptions, Issues, Dependencies                  | Product Lead, Engineering Owner |
+| Existing Architecture | An understanding of existing related or dependent technologies       | Engineering Owner |
+| Technical Limitations | Specifications of any technical limitation that must be followed to engineer the solution. | Engineering Owner |
+| Investigation outcomes| Summary of learnings from up-front investigations                    | Engineering Owner |
 
 !!! Note 
     Responsible refers to who must ensure inputs are prepared. It will be neccessary to involve others to create them.
@@ -39,7 +39,7 @@ Many of these input should already be documented.
 
 Here are some tips to ensure the success of a Technical Design Workshop
 
-- Accountability: The Engineering Lead is accountable for the Technical Design of a solution and outcomes of these workshops.
+- Accountability: The Engineering Owner is accountable for the Technical Design of a solution and outcomes of these workshops.
 - Duration:
   - Break it down into chunks
   - High-level design can identify the need for multiple low-level designs 

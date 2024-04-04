@@ -19,7 +19,7 @@ An **After Action Review** (review) is a point in time analysis of actions taken
 
 | Owner                 | Responsibility |
 |---|---|
-| Delivery Lead         | The Delivery Lead is **accountable** for ensuring that reviews occur at appropriate times and that reports are produced and effectively communicated |
+| Delivery Owner         | The Delivery Owner is **accountable** for ensuring that reviews occur at appropriate times and that reports are produced and effectively communicated |
 | Delivery Team         | The whole Delivery team is collectively **responsible** for performing reviews and involving appropriate stakeholders, and for producing reports |
 
 !!! note
