@@ -2,7 +2,9 @@
 title: Problem Ownership
 ---
 
-During the course of a problem's lifecycle, the following key responsibilities are defined. The appropriate time to do so may vary, but in may cases is outlined in **AMPFlow** governance.
+Throughout the problem lifecycle, the following key responsibilities are defined. The appropriate time to do so may vary, and in may cases is outlined in **AMPFlow** governance.
+
+Every individual assigned any problem ownership is **accountable** for effective succession of responsibilities in the case of planned absence, and **responsible** for limiting the impact unplanned absence. 
 
 <div class="grid cards max" markdown>
 
@@ -15,7 +17,7 @@ During the course of a problem's lifecycle, the following key responsibilities a
     - the problem is solved effectively, and
     - stakeholders are consulted and informed of progress.
 
-- ## Delivery Lead
+- ## Delivery Owner
     
     The person who will be **accountable** for asserting delivery governance for the problem. Normally this would be an Agile Delivery Manager, but can be any member of the Delivery Team.
 
@@ -33,19 +35,21 @@ During the course of a problem's lifecycle, the following key responsibilities a
 
 - ## UX Lead
     
-    The person who will be responsible for effective experiential design through the creation and refinement of user journeys and design components.
+    The person who will be **responsible** for effective experiential design through the creation and refinement of user journeys and design components.
 
-    This person must be consulted and for user insights to inform requirements gathering, and may be responsible for conducting additional user research. 
+    This person must be **consulted** with for user insights to inform requirements gathering, and may be **responsible** for conducting additional user research. 
 
-    This person is accountable for ensuring that planned solutions result in a net benefit to the user experience.  
+    This person is **accountable** for ensuring that planned solutions result in a net benefit to the user experience.  
 
-- ## Engineering Lead
+- ## Engineering Owner
     
     The person who will be:
 
     - **accountable** and **responsible** for technical validation.  
     - **accountable** for the implementation and technical design.
     - **responsible** for coordinating engineering resources.
+  
+    This person must be **consulted** with for technology insights to inform technical requirements, and may be **responsible** for conducting or coordinating additional technical research. 
    
 - ## Delivery Team
     
@@ -55,6 +59,6 @@ During the course of a problem's lifecycle, the following key responsibilities a
     - implementing the solution and determining an effective, incremental way to do so.
     - performing the governed activities.
 
-    Normally this team would include engineers, along with the Problem Lead, Product Lead and UX Lead, and Delivery Lead.
+    Normally this team would include a number of engineers, along with the Problem Owner, Product Lead, UX Lead, Engineering Owner, and Delivery Owner.
 
 </div>

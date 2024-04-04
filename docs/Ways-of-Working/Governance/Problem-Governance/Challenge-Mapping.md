@@ -1,12 +1,18 @@
 ---
-title: RAID
+title: Challenge Mapping
 ---
 
 ![RAID Mitigation & RAID Logs ](../delivery-governance.png)
 
-## RAID Mitigation & RAID Logs
+## Challenge Mapping Techniques
 
-**RAID**
+Challenge mapping is the practice of identifying and communicating potential and current challenges relating to the problem lifecycle, such that they can be managed: accepted, removed, or mitigated. 
+
+Challenge mapping is a continuous process, as new challenges will emerge, and existing challenges will evolve. 
+
+A well established technique for challenge mapping is a *RAID Log*.
+
+### RAID
 - Risks
 - Assumptions
 - Issues
