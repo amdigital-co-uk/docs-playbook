@@ -8,7 +8,7 @@ Ensure that the solution that has been released can continue to be supported, mi
 
 ## Planning and Performing Handovers
 
-During the warranty period, the delivery team will prepare the support team to adopt ongoing maintenance of the solution by providing a handover. 
+The delivery team will prepare the support team to adopt ongoing maintenance of the solutions they implement by providing a handover. 
 
 The nature of the handover and approach taken will vary, and the delivery team must collaborate with the *support team* to plan and execute it.
 
@@ -32,6 +32,4 @@ The handover must be completed before the end of the warranty period, but can be
 
 ## Triggers
 
-The need for a warranty period should be determined during [delivery planning](../Delivery-Planning/).
-
-The warranty plan must be produced and adapted throughout the implementation process, and must be agreed and communicated as alongside [release planning](../Problem-Governance/Release-Planning.md), and in advance of any releases.
+There are no specific triggers. Collaborate with members of the support team to determine if a handover will be required.

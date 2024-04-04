@@ -2,6 +2,10 @@
 title: Warranty
 ---
 
+## Objective
+
+Ensure that solutions are working as intended, and that resolutions to issues can be implemented rapidly.
+
 ## Warranty Period
 
 A Warranty Period is a predetermined period of time during which a delivery team will perform rapid maintenance for the solutions or parts of solutions they have implemented and released into production. 
@@ -35,4 +39,4 @@ The warranty plan must be communicated to stakeholders with suitable advanced no
 
 The need for a warranty period should be determined during [delivery planning](../Delivery-Planning/).
 
-The warranty plan must be produced and adapted throughout the implementation process, and must be agreed and communicated as alongside [release planning](../Problem-Governance/Release-Planning.md), and in advance of any releases.
+The warranty plan must be produced and adapted throughout the implementation process, and must be agreed and communicated alongside [release planning](../Problem-Governance/Release-Planning.md), and in advance of any releases.
