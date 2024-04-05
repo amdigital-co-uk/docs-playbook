@@ -12,17 +12,17 @@ next-review: 2024-04-01
 
 Leadership is not the sole responsibility of those in specific leadership positions (e.g. with seniority, or line management responsibility). Distributed leadership aims to provide every individual with the opportunity to impact change.
 
-Examples of places where any team member may take a lead:
+Examples of places where an engineer member may take a lead:
 
-- All or part of a project
+- When assigned as [Engineering Owner](../Governance/Problem-Ownership.md/#engineering-owner) for a problem
 
-- A meeting or workshop
+- During meeting or workshop
 
-- An investigation
+- For investigation or experiment
 
 ### Key aspects of distributed leadership include
 
- - **Empowerment:** Colleagues are empowered to take initiative and make decisions. Empowerment fosters a sense of ownership and accountability.
+- **Empowerment:** Colleagues are empowered to take initiative and make decisions. Empowerment fosters a sense of ownership and accountability.
 
 - **Collaboration:** Distributed leadership encourages collaboration and knowledge sharing, enabling more innovative and effective solutions.
 

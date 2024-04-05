@@ -74,6 +74,12 @@
   
   .amp-flow {
     color: var(--md-primary-fg-color);
+    animation: ampFlowFade 2s;
+  }
+
+  @keyframes ampFlowFade {
+    0% { color: var(--md-default-fg-color--light); }
+    100% { color: var(--md-primary-fg-color); }
   }
 
 
