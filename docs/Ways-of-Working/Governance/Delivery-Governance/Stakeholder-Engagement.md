@@ -7,6 +7,7 @@ tag: draft
 
 ## Objective
 Effective stakeholder engagement is crucial for ensuring the delivery of successful outcomes and fostering a positive working relationship between the delivery team and various stakeholders involved in or affected by the project. The key objectives of stakeholder engagement are:
+
   - requirements ellicitation and validation
   - managing expectations
   - gathering feedback and input
