@@ -11,7 +11,7 @@ Provide stakeholders with accurate and timely information about the progress of 
   - updates on key tasks completed and milestones achieved
   - updates on any key challenges or impediments faced
   - updates on any key risks, assumptions, issues or dependencies
-  - update on the overall health of the project
+  - updates on the overall health of the project
 
 ## Delivery Status Reporting 
 
