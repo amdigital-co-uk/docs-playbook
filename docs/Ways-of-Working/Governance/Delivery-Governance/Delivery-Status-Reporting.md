@@ -3,7 +3,7 @@ title: Delivery Status Reporting
 tag: draft
 ---
 
-![Delivery Planning Status Reporting](../delivery-governance.png)
+![Delivery Status Reporting](../delivery-governance.png)
 
 ## Objective
 Provide stakeholders with accurate and timely information about the progress of the project. This typically includes:
