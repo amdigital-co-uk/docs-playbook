@@ -53,8 +53,7 @@ The team responsible for a problem will need to determine and document how and w
 
 ## Recommended Approach
 
-The Delivery Planning event often occurs at the beginning of the AMPFlow design zone and the process is repeated as and when necessary throughout the full problem solving lifecycle. At any point throughout the problem solving lifecycle when any change impacts the validity of the delivery plans, the **Delivery Team** facilitates a delivery planning event and updates the delivery plan.
-Delivery Plans should be clear, visible and accessible by any member of platforms development and/or applicable stakeholders.
+The Delivery Planning event often occurs at the beginning of the AMPFlow design zone and the process is repeated as and when necessary throughout the full problem solving lifecycle. At any point throughout the problem solving lifecycle when any change impacts the validity of the delivery plans, the Delivery Team facilitates a delivery planning event and updates the delivery plan.
 
 Teams can use any approach they wish to perform delivery planning events and produce delivery plans
 
