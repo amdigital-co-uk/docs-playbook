@@ -7,6 +7,7 @@ tag: draft
 
 ## Objective
 Provide stakeholders with accurate and timely information about the progress of the project. This typically includes:
+
   - updates on key tasks completed and milestones achieved
   - updates on any key challenges or impediments faced
   - updates on any key risks, assumptions, issues or dependencies
