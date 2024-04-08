@@ -49,6 +49,7 @@ The team responsible for a problem will need to determine and document why, how 
 The team responsible for a problem will need to determine and document a communication plan for effectively engaging with stakeholders, ensuring expectations are clear and guidance is available / accessible to support effective engagement. 
 
 A stakeholder communication plan could typically include the following: 
+
 - **Stakeholder Analysis** - identify all stakeholders involved in the project, including interests, expectations, influence and comunication preferences
 - **Objectives and Key Messages** - define communication objectives and key messages that need to be conveyed throughout the project lifecycle
 - **Communication Channels** - defining appropriate communication channels for reaching each stakeholder group e.g delivery governance artefacts: project health dashboards, synchronous or asynchronous project status updates, emails, dedicated stakeholder portals (teams).
