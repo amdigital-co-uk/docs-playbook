@@ -1,39 +1,71 @@
 ---
 title: Delivery Status Reporting
+tag: draft
 ---
 
-![Delivery Status Reporting & Delivery Status Reports](../delivery-governance.png)
+![Delivery Status Reporting](../delivery-governance.png)
 
-## Delivery Status Reporting & Delivery Status Reports
+## Objective
+Provide stakeholders with accurate and timely information about the progress of the project. This typically includes:
 
-**Delivery Status Reporting** reporting is a procedure during which the Delivery Team share the status of their delivery plans with stakeholders. Reviews should happen at regular intervals, when a major change of status occurs, or after certain milestones
+  - updates on key tasks completed and milestones achieved
+  - updates on any key challenges or impediments faced
+  - updates on any key risks, assumptions, issues or dependencies
+  - updates on the overall health of the project
 
-**Delivery Status Reports** are artefacts maintained by the Delivery Team that detail the current status of delivery plans, so that stakeholders can easily access this information when required. Report artefacts should be updated as and when current information is outdated or when certain triggers are met
+## Delivery Status Reporting 
+
+Delivery Status Reporting is a procedure in which the delivery team reports to stakholders and/or colleagues about the progress, challenges, and successes of projects, enabling them to make informed decisions and provide necessary support and guidance. Delivery status reporting can be executed either synchronously or asynchronously. 
+
+Delivery Status Reporting should aim to ensure timely communication and alignment among colleagues and stakeholders, and therefore should typically occur at specific times and/or when specific triggers are met.
+
+
+## Delivery Status Reports 
+
+Delivery Status Reports are an artefact(s) produced and maintained by the delivery team and should be clear, visible and easily accessible by any colleague and/or stakeholder. It provides a point in time report on the current health of the project, and should be routinely updated as and when deemed necessary by the delivery team and/or when requested by stakeholders
+
+!!! Warning
+    Delivery status reports can be misleading for stakeholders and/or colleagues if they fail to communicate accurate and timely information. Its important to ensure every effort is made to maintain there validity. However it is expected at times that this may not be possible, and we can mitigate against this by ensuring reports communicate clearly when the artefact was 'last updated'
 
 
 
-#### Accountable: 
-The Delivery Owner is accountable for ensuring that delivery status reporting is performed and that reports are maintained and accessible
+## Responsibilities
 
-#### Responsible 
-All members of delivery team assigned to the problem, as well as the problem owner are responsible for providing updates and ensuring that they are accurate, timely and accessible.
+| Owner                 | Responsibility |
+|---|---|
+| Delivery Owner        | The Delivery Owner is **accountable** for ensuring that delivery status reporting occours at appropriate times and delivery status reports are produced and effectively communicated with colleagues and stakeholders |
+| Delivery Team         | The whole Delivery team is collectively **responsible** for conducting delivery status reporting events, producing delivery status reports and ensuring these reports are current, accessible and effectively communicated with colleagues and stakeholders |
+| Product Lead          | **Responsible** for participating in any delivery status reporting events where nexessary, producing delivery status reports by sharing relevant product insights |
+| Engineering Owner     | **Responsible** for participating in any delivery status reporting events where necessaary, producing delivery status reports by sharing relevant engineering insights |
+| Design Owner          | **Responsible** for participating in any delivery status reporting events where necessary, producing delivery status reports by sharing relevant UX/UI insights |
 
-#### Triggers
-The team responsible for a problem will need to determine and document the mechanisms for when report updates are provided. This may be both at regular intervals, after specific milestones, or when certain triggers are met, for example the health of the delivery plan becomes critical (Red).
+## Triggers
 
-#### Recommended Approach
-1. During or immediately after Design Planning, the Delivery Team and Delivery Owner set out a status reporting plan
-2. What are the reporting mechanisms (i.e. how will Delivery Status Reporting events happen and what will reports look like)
-3. What are triggers (when will these mechanisms happen)
-4. Who will be:
-    - a. Responsible & Accountable for maintaining reporting mechanisms
-    - b. Consulted and Informed, given each of the mechanisms
-5. The Delivery Owner ensures that this plan is documented and shared with stakeholders, and that Delivery Status Review events are scheduled.
-6. The Delivery Team populate the Report with current Delivery Status information including:
-    - a. Health: Red, Amber, Green (RAG)
-    - b. RAID log
-    - c. Mitigation plan (where health is Amber or Red)
-    - d. Responsibility Matrix
-7. The Delivery Team maintain the report as part of regular team activities.
+Delivery Status Reports must remain a consistently accurate and timely reflection of current project status, to ensure colleagues and/or stakeholders accessing the reports are receiving and acting upon valid information. 
 
-Use the current default [Delivery Status Reporting templates] (link to tooling section of KB) as a starting point.
+The team responsible for a problem will need to determine and document when delivery status reports should be produced and/or updated, and when delivery status reporting events should occur. This could typically be for the following reasons:
+
+1. At completion of deliverables 
+2. After any change that impacts the current delivery plan and/or delivery timelines
+3. At scheduled milestones and/or regular reporting cadence as agreed by the delivery team and stakeholders
+4. Emergencies or critical issues that could impact project delivery 
+5. At any key decision points defined by the delivery team and/or stakeholders
+
+
+## Communication Plan
+
+The team responsible for a problem will need to determine and document how delivery status reporting will be conducted and therefore how delivery status reports will be communicated with colleagues and stakeholders, ensuring expectations are clear and guidance available to support effective engagement.
+
+!!! Note
+    Be mindful of your audience when defining an approach to communicating delivery plans with your stakeholders and/or colleagues. You may need to taylor your approach for each level of stakeholder to ensure you enable the engagements required from that particular audience.
+
+## Recommended Approach
+
+Collaborate with project stakeholders early to define, agree and document clear expectations for delivery status reporting events and delivery status reports, and set triggers to continuosly monitor and review there effectiveness. 
+
+Delivery status reporting will need to adapt to suit the varying requirements of stakeholders engaged in the project. A RACI is a useful tool for recording details on stakeholder requirements.
+
+Teams can use any approach they wish to perform delivery status reporting and produce delivery status reports.
+
+- Review the [toolkit](/Ways-of-Working/Toolkit) section for documented approaches, or perform your own research.
+- Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).
