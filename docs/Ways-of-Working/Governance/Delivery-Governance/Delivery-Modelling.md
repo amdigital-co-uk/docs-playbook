@@ -6,7 +6,6 @@ tag: draft
 ## Objective
 
 Generate a "point in time" alignment between product management, design, engineering leadership, and key business stakeholders on:
-
   - the order in which problems will be addressed in the medium-term (up to 9-18 months). 
   - dependencies between problems and with other business objectives.
   - ownership of problems.

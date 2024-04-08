@@ -24,7 +24,7 @@ Delivery Status Reporting should aim to ensure timely communication and alignmen
 Delivery Status Reports are an artefact(s) produced and maintained by the delivery team and should be clear, visible and easily accessible by any colleague and/or stakeholder. It provides a point in time report on the current health of the project, and should be routinely updated as and when deemed necessary by the delivery team and/or when requested by stakeholders
 
 !!! Warning
-    Delivery status reports can be misleading for stakeholders and/or colleagues if they fail to communicate accurate and timely information. Its important to ensure every effort is made to maintain there validity. However it is expected at times that this may not be possible, and we can mitigate against this by ensuring reports communicate clearly when it was 'last updated'
+    Delivery status reports can be misleading for stakeholders and/or colleagues if they fail to communicate accurate and timely information. Its important to ensure every effort is made to maintain there validity. However it is expected at times that this may not be possible, and we can mitigate against this by ensuring reports communicate clearly when the artefact was 'last updated'
 
 
 
@@ -48,7 +48,7 @@ The team responsible for a problem will need to determine and document when deli
 2. After any change that impacts the current delivery plan and/or delivery timelines
 3. At scheduled milestones and/or regular reporting cadence as agreed by the delivery team and stakeholders
 4. Emergencies or critical issues that could impact project delivery 
-5. At any key decision points defined by the delivery team and stakeholders
+5. At any key decision points defined by the delivery team and/or stakeholders
 
 
 ## Communication Plan
