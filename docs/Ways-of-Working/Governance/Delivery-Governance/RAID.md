@@ -42,14 +42,13 @@ By maintaining a comprehensive RAID log, delivery teams can improve their abilit
 ## Triggers
 Typical triggers for RAID include:
 
-- **Project kickoff**
-- **Requirement Gathering**
-- **Design Phase** 
-- **Implementation Phase** 
-- **Resource Allocation**
-- **Technology Selection** 
-- **Change Requests** 
-- **Project Reviews** 
+- **Project kickoff** - at the beginning of a project, conducting a RAID assesment can help identify initial RAID items that need to be managed throughout the project lifecycle 
+- **Requirement Gathering** - as requiremrents are gathered for the project during the discovery zone 
+- **Design Phase** - during the design zone, triggers could include architextural decisions that introduce technical risks, assumptions about third party integrations, or dependencies on specific design components
+- **Resource Allocation** - changes in resource availability or allocation
+- **Technologies and/or Tools** - selecting new technologies or tools for the project 
+- **Change Requests** - whenever there are changes to project requirements, scope, or timeline
+- **Testing and Quality Assurance** - issues idenitfied during testing and quality assurance activities can trigger RAID items relating to defects, performance issues, or dependencies on external systems 
 
 
 ## Communication Plan
