@@ -16,14 +16,11 @@
   <!-- Add scripts that need to run afterwards here -->
 
   <script type="text/javascript">
-    let elements = document.getElementsByTagName('strong');
-    console.log(elements);
-    for (let element of elements) {
-        if (element.textContent === 'FLOW' || element.textContent === 'AMPFlow' ) {
-            element.classList.add('amp-flow');
-        }
-    }
-    
-    
+        let elements = document.getElementsByTagName('strong');
+        for (let element of elements) {
+            if (element.textContent === 'FLOW' || element.textContent === 'AMPFlow' ) {
+                element.classList.add('amp-flow');
+            }
+        }        
     </script>
 {% endblock %}
