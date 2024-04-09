@@ -21,7 +21,11 @@ title: AMPFlow Delivery System
 
 ## Goal
 
-> Enable a fast, predictable, safe, and transparent flow of business value, by incrementally creating stable and secure solutions to technology problems of any type. 
+<div class="grid-container">
+    <div class="grid-item impact">
+        Enable a fast, predictable, safe, and transparent flow of business value, by incrementally creating stable and secure solutions to technology problems of any type.
+    </div>
+</div>
 
 ## Tenets
 
