@@ -52,6 +52,8 @@ Whilst working with another team, the staff engineer will use whatever mechanism
 !!! note
     Given that staff engineers can work across any team, delivery teams should be aware that the staff engineer joining them to provide support may not be very familiar with their ways of working. Estimation is likely to be a particular challenge, as different groups of people will develop different shared subjective scales.
 
+    This makes it especially important for teams to document their working practices.
+
 ## Working with Staff Engineers
 
 This section is particularly aimed at anyone who wants to get some support from a staff engineer, including:
@@ -59,5 +61,5 @@ This section is particularly aimed at anyone who wants to get some support from 
 - Delivery teams working on particularly complex or unknown problems
 - Product Managers working on a problem that hasn't yet been assigned to a delivery team
 
-Their is currently no set process for "booking" an engineer's time, so start by having an open conversation with them to discuss your needs and how they might be able to support. Be mindful that staff engineers will have commitments within the Support Hub, as well as requests from teams or department members, so engage with them early! It may also be worth bringing a Delivery Manager into the conversation, as they should have a good overview of delivery plans across the department.
+There is currently no set process for "booking" an engineer's time, so start by having an open conversation with them to discuss your needs and how they might be able to support. Be mindful that staff engineers will have commitments within the Support Hub, as well as requests from teams or department members, so engage with them early! It may also be worth bringing a Delivery Manager into the conversation, as they should have a good overview of delivery plans across the department.
 
