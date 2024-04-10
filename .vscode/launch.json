@@ -5,6 +5,8 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "command": "run.bat",
+            "name": "Run Playbook using MKdocs",
             "command": "mkdocs serve",
             "name": "Install and run",
             "request": "launch",
