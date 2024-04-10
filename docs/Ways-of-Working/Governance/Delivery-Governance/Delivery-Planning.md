@@ -51,7 +51,7 @@ The team responsible for a problem will need to determine and document how and w
 !!! Note
     Be mindful of your audience when defining an approach to communicating delivery plans with your stakeholders and/or colleagues. You may need to taylor your approach for each level of stakeholder to ensure you enable the engagements required from that particular audience.
 
-## Recommended Approach
+## Considerations
 
 The Delivery Planning event often occurs at the beginning of the AMPFlow design zone and the process is repeated as and when necessary throughout the full problem solving lifecycle. At any point throughout the problem solving lifecycle when any change impacts the validity of the delivery plans, the Delivery Team facilitates a delivery planning event and updates the delivery plan.
 
