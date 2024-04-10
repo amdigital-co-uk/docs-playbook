@@ -60,7 +60,7 @@ The team responsible for a problem will need to determine and document how deliv
 
 Consider collaborating with stakeholders early to define, agree and document clear expectations and guidance for delivery status reporting events and delivery status reports, and mechanisms for continuosly monitoroing and reviewing there effectiveness throughout the full problem lifecycle.
 
-Consider your audience, delivery status reporting will typically need to adapt to suit the varying requirements of stakeholders engaged in the project. A RACI or[Responsibility Matrix](../Problem-Governance/Responsibility-Matrix.md) is a useful tool for recording and tracking specifc details on stakeholder engagement requirements.
+Consider your audience, delivery status reporting will typically need to adapt to suit the varying requirements of stakeholders engaged in the project. A RACI or is a useful tool for recording and tracking specifc details on stakeholder engagement requirements.
 
 Teams can use any approach they wish to perform delivery status reporting and produce delivery status reports.
 
