@@ -13,7 +13,8 @@ plugins:
   - tags
   - glightbox
   - git-revision-date-localized:
-      enable_creation_date: true
+      enable_creation_date: true      
+      enabled: !ENV [CI, false]
   - git-committers:
       repository: amdigital-co-uk/docs-playbook
       branch: main

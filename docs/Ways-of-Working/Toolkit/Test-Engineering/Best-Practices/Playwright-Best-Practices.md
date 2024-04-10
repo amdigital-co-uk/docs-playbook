@@ -1,16 +1,21 @@
 ---
-title: Best Practices when using Playwright
+title: Playwright Test Automation Guidelines
 authors: 
-- Jees Mathew & Karen Farrell & Mihajlo Stojanovski & James Perry
-reviewed: [yyyy-mm-dd]
-reviewer:
-next-review: 01/09/2024
+- Jees Mathew 
+- Karen Farrell 
+- Mihajlo Stojanovski 
+- James Perry
+tags:
+    - Default
+    - Test
 ---
 
 ## Introduction
+
 This document outlines best practices to follow when writing Playwright test scripts.
 
 ## Locating selectors
+
 When planning testing at the readying phase of a work item, locators must be considered.  This allows Software Engineers to plan any additional work needed in order to enable our best practices.
 
 It is important to use a locator that is robust and does not depend on the DOM structure.

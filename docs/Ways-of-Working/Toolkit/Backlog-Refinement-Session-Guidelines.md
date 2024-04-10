@@ -1,10 +1,7 @@
 ---
-title: Guide to Backlog Refinement Sessions
+title: Backlog Refinement Sessions
 authors:
   - Amy Gray
-reviewed:
-reviewer:
-next-review: 2024-06-01
 ---
 
 ## Backlog Refinement

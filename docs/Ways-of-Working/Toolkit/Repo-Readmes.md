@@ -1,13 +1,11 @@
 ---
-title: Repo READMEs 
+title: Repo READMEs Guidelines
 authors: 
 - Dave Arthur
 - Aleo Yakas
-reviewed: 
-reviewer:
-next-review: 2022-05-01
 tags: 
- - engineering
+ - Engineering
+ - Default
 ---
 
 ## README files

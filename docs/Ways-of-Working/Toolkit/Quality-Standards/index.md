@@ -1,12 +1,9 @@
 ---
-title: Quality Standards
+title: Code Quality Standards
 authors: 
 - Dave Arthur
 - Ed Earle
 - Rhodri Hewitson
-reviewed: 
-reviewer:
-next-review: 2021-12-01
 ---
 
 # Who is this for?

@@ -4,18 +4,17 @@ tags:
     - draft
 ---
 
-**AMPFlow** (AM Platform Flow) is a evolving, adaptive, open-closed technology delivery system designED by and for AM’s Platform Development Division to enable us to solve business problems of any type in order to generate business value, using technology (“technology problems”).
+**AMPFlow** (AM Platform Flow) is a evolving, adaptive, open-closed technology delivery system designed by and for AM’s Platform Development Division to enable us to solve business problems of any type in order to generate business value, using technology (“technology problems”).
 
 **AMPFlow** describes AM’s Software Development Lifecycle (SDLC), but does not assume solving that technology problems will require the creation of software. Instead of referring to the SDLC, we refer to the “Delivery System” or “AMPFlow” interchangeably, and the “Problem Solving Lifecycle”.
 
 **AMPFlow** is built up of a number of structural components:
 
-- Goals & Tenets
-- Zones
-- FLOW
-- Mechanisms, Artefacts, Responsibilities
-- Governance
-- Toolkit
+- A [Goal](#goal) & [Tenets](#tenets)
+- [Zones](#zones)
+- [**FLOW**](#flow)
+- [Governance](../Governance/)
+- Toolkit(../Toolkit/)
 
 !!! Note "Terminology"
 

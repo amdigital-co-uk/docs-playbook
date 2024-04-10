@@ -7,7 +7,7 @@ reviewer:
 next-review:
 ---
 
-![example mapping](examplemapping-1.jpg) 
+![example mapping](assets/examplemapping-1.jpg) 
 
 ## What is Example Mapping?
 Example Mapping, also known as Feature Mapping is a technique used for refining and establishing clearer and better-defined user acceptance criteria for a certain user story/business requirements
@@ -47,7 +47,7 @@ During the Design and Definition stage, as part of the Readying process. Normall
 
 ## Example mapping colours explained
 
-![example mapping](example-mapping.png) 
+![example mapping](assets/example-mapping.png) 
 
 The process of Example mapping itself involves four differently-coloured sticky notes, each for one aspect of the implementation of this technique. This is the colour-coded card system proposed by the creator of the example mapping technique, Matt Wynne:
 
@@ -90,7 +90,7 @@ Through conversation, you’ll soon be done with the basic setup and have a visu
 ### Is there an Example Mapping template I can use?
 - Yes, you can find it here > [Miro Board template](https://miro.com/app/board/uXjVMWKD9qg=/)
 
-![example mapping template](example-mapping-example.png) 
+![example mapping template](assets/example-mapping-example.png) 
 
 
 ## References

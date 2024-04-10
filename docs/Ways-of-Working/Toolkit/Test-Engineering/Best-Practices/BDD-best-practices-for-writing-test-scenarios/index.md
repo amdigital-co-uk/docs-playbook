@@ -1,10 +1,12 @@
 ---
-title: BDD best practices for writing test scenarios
+title: Test Scenarios with BDD
 authors: 
-- Mihajlo Stojanovski & James Perry
-reviewed: [yyyy-mm-dd]
-reviewer:
-next-review: 01/09/2024
+- Mihajlo Stojanovski 
+- James Perry
+tags:
+    - Default
+    - BDD
+    - Test
 ---
 
 ## Introduction

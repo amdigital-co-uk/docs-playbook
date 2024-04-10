@@ -2,14 +2,12 @@
 title: Testing WorkFlow
 authors: 
 - James Perry
-reviewed: [yyyy-mm-dd]
-reviewer:
-next-review:
 ---
 
 This diagram outlines WHEN we need to execute our End to End (E2E) Regression tests on QA and LIVE environments.  
 
-![Test Work Flow Diagram](BLI_Test_Workflow.png)
+![Test Work Flow Diagram](bli-test-workflow.png)
+
 
 ## Test implementation
 
