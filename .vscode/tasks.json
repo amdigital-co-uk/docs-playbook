@@ -1,0 +1,58 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        { 
+            "label": "Install",
+            "dependsOn": [
+                "Install_MKDocs",
+                "Install_Material",
+                "Install_Awesome-Pages",
+                "Install_Blog",
+            ]        
+        },
+        {
+            "label": "Install_MKDocs",
+            "type": "process",
+            "command": "pip",
+            "args": [
+                "install",
+                "mkdocs",
+                "--upgrade" 
+            ],            
+            "problemMatcher": []
+        },
+        {
+            "label": "Install_Material",
+            "type": "process",
+            "command": "pip",
+            "args": [
+                "install",
+                "mkdocs-material",
+                "--upgrade"
+            ],            
+            "problemMatcher": []
+        },
+        {
+            "label": "Install_Awesome-Pages",
+            "type": "process",
+            "command": "pip",
+            "args": [
+                "install",
+                "mkdocs-awesome-pages-plugin",
+                "--upgrade"
+            ],            
+            "problemMatcher": []
+        },
+        {
+            "label": "Install_Blog",
+            "type": "process",
+            "command": "pip",
+            "args": [
+                "install",
+                "mkdocs-blog-plugin",
+                "--upgrade"
+            ],            
+            "problemMatcher": []
+        }
+    ]
+}

@@ -71,6 +71,18 @@
     transition-delay: 50ms;
   }
 
+  
+  .amp-flow {
+    color: var(--md-primary-fg-color);
+    animation: ampFlowFade 2s;
+  }
+
+  @keyframes ampFlowFade {
+    0% { color: var(--md-default-fg-color--light); }
+    100% { color: var(--md-primary-fg-color); }
+  }
+
+
   @font-face {
     font-family: KlarheitGrotesk;
     font-style: normal;
@@ -149,4 +161,13 @@
     .grid-container {
       grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
+  }
+
+.md-typeset .grid.cards>ol>li:focus-within,.md-typeset .grid.cards>ol>li:hover,.md-typeset .grid.cards>ul>li:focus-within,.md-typeset .grid.cards>ul>li:hover,.md-typeset .grid>.card:focus-within,.md-typeset .grid>.card:hover {
+    border-color: var(--md-accent-fg-color);
+    box-shadow: 0 0.2rem 0.5rem var(--md-accent-fg-color),0 0 0.05rem #00000040
+}
+
+.grid.cards.max {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 32rem), 1fr)); 
   }
