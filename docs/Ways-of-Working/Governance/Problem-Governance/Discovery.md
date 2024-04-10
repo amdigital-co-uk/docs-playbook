@@ -1,5 +1,5 @@
 ---
-title: Discovery
+title: Discovery 
 ---
 
 > *“The work you do to decide what to build”*

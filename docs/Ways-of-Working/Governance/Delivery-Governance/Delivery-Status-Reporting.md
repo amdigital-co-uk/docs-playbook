@@ -6,6 +6,7 @@ tag: draft
 ![Delivery Status Reporting](../delivery-governance.png)
 
 ## Objective
+
 Provide stakeholders with accurate and timely information about the current health and progress of the project. This typically includes:
 
   - updates on key tasks completed and milestones achieved

@@ -8,9 +8,13 @@ Create a plan to ensure your solution is released to customers and/or users in t
  
 ## Release Planning
 
-In the world of continuous deployment, many code deployments may have taken place before a full solution is ready to be released. By **released**, we mean that a solution, or partial solution, to a defined problem, or *sub-problem*, has been made available to an agreed set of customers or users.
+In the world of continuous deployment, many code deployments may have taken place before a solution is ready to be released. By **released**, we mean that a solution, or partial solution, to a defined problem, or *sub-problem*, has been made available to an agreed set of customers or users.
+
+
+![Continuous Deployment](continuous-deployment.png)
 
 A good release plan should include:
+
 - Plans for technical rollout
 - Plans for practical rollout to customers or users, particularly if a phased or beta approach is being adopted
 - Plans for testing the solution upon release
@@ -21,9 +25,9 @@ A good release plan should include:
 ## Responsibilities
 | Owner | Responsibility |
 | - | - |
-| Delivery Owner | The person **accountable** for ensuring release plans are created, enacted and stored effectively
-| Delivery Team | The group **responsible** for creating and enacting a successful release plan
-| Product Lead | Usually the person **responsible** for describing product changes, brought about by the release, to Problem Stakeholders
+| Delivery Owner    | The person **accountable** for ensuring release plans are created, enacted and stored effectively |
+| Delivery Team     | The group **responsible** for creating and enacting a successful release plan |
+| Product Lead      | Usually the person **responsible** for describing product changes, brought about by the release, to Problem Stakeholders |
  
 ## Triggers
 
