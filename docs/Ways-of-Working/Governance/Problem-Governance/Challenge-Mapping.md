@@ -1,5 +1,7 @@
 ---
 title: Challenge Mapping
+tags:
+    - draft
 ---
 
 ![RAID Mitigation & RAID Logs ](../delivery-governance.png)

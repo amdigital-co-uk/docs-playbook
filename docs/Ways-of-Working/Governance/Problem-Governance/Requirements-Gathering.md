@@ -1,6 +1,9 @@
 ---
 title: Requirements Gathering
-author: Helen Duriez
+authors:
+    - Helen Duriez
+tags:
+    - draft
 ---
 
 ## Objective

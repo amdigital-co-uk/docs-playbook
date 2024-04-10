@@ -1,5 +1,7 @@
 ---
 title: Problem Definition
+tags:
+    - draft
 ---
 
 ## Objective

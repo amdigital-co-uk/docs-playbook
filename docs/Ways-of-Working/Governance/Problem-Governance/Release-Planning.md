@@ -1,5 +1,9 @@
 ---
 title: Release Planning
+authors:
+    - Helen Duriez
+tags:
+    - draft
 ---
 
 ## Objective

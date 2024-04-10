@@ -1,5 +1,9 @@
 ---
 title: Discovery 
+authors: 
+    - Helen Duriez
+tags:
+    - draft
 ---
 
 > *“The work you do to decide what to build”*

@@ -1,6 +1,7 @@
 ---
 title: Delivery Modelling
-tag: draft
+tags:
+    - draft
 ---
 
 ## Objective

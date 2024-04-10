@@ -1,5 +1,7 @@
 ---
 title: Warranty
+tags:
+    - draft
 ---
 
 ## Objective

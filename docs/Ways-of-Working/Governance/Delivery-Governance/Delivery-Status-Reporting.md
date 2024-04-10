@@ -1,6 +1,7 @@
 ---
 title: Delivery Status Reporting
-tag: draft
+tags:
+    - draft
 ---
 
 ![Delivery Status Reporting](../delivery-governance.png)

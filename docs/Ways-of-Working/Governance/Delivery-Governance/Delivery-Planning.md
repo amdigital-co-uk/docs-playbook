@@ -1,6 +1,7 @@
 ---
 title: Delivery Planning
-tag: draft
+tags:
+    - draft
 ---
 
 ![Delivery Planning & Delivery Plans](../delivery-governance.png)

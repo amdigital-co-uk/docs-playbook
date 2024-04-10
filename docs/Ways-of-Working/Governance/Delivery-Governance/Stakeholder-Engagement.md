@@ -1,6 +1,7 @@
 ---
 title: Stakeholder Engagement
-tag: draft
+tags:
+    - draft
 ---
 
 ![Stakeholder Engagement](../delivery-governance.png)
