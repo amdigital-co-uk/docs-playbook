@@ -1,6 +1,7 @@
 nav:
 - index.md
 - Discovery.md
+- Problem-Definition.md
 - Challenge-Mapping.md
 - Requirements-Gathering.md
 - Solution-Design.md
