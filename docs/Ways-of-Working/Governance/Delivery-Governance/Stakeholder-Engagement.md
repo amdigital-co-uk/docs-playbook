@@ -62,7 +62,7 @@ A stakeholder communication plan could typically include the following:
 9. **Risk Management** - identify potential communication risks and develop strategies for mitgating them. This could be addressing comunicaiton barriers, managing conflicts, or addressing stakeholder resistance 
 10. **Evaluation & Improvement** - regularly evaluate the effectiveness of communicaiton efforts by gathering feedback from stakeholders and addressing whether communication objectives are being met. Use this feedback to make adjustments and improvements to the communication plan as needed
 
-## Recommended Approach
+## Considerations
 
 - Review the [toolkit](/Ways-of-Working/Toolkit) section for documented approaches, or perform your own research.
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).

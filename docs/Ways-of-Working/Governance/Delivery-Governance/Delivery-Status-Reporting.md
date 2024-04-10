@@ -60,7 +60,7 @@ The team responsible for a problem will need to determine and document how deliv
     Consider your audience when communicating delivery plans. Tailor your approach to suit each stakeholder's level of understanding and involvement. This ensures effective engagement with all parties involved..
 
 
-## Recommended Approach
+## Considerations
 
 Collaborate with project stakeholders early to define, agree and document clear expectations for delivery status reporting events and delivery status reports, and set triggers to continuosly monitor and review there effectiveness. 
 

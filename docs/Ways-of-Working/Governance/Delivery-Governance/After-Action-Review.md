@@ -33,7 +33,7 @@ The team responsible for a problem will need to determine and document when **Af
 
 The team responsible for a problem will need to determine and document an **After Action Reviews** and **After Action Reports** communication plan, typically consisting of an approach to communicating with, and defining clear expectations for engagement with colleagues and stakeholders. 
 
-## Recommended Approach
+## Considerations
 
 At any point throughout the problem lifecycle when an opportunity for learning is identified, the **Delivery Team** facilitate an After Action Review Event and produce an After Action Report.
 
