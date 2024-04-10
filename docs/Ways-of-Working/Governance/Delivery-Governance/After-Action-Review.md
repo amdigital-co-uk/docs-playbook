@@ -4,9 +4,6 @@ tags:
     - draft
 ---
 
-![After Action Review & After Action Reports](../delivery-governance.png)
-
-
 ## After Action Reviews
 
 An **After Action Review** (review) is a point in time analysis of actions taken where there is opportunity for learning. This produces an **After Action Report** for the benefit of team reference, and stakeholder communication. This procedure can occur during any **AMPFlow** zone where there is perceived value in learning, but is required after any major milestones such as releases.

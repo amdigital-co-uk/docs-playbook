@@ -4,7 +4,7 @@ Our coding standards use the Microsoft [C# conventions](https://docs.microsoft.c
 
 ## Additional in-house conventions
 
-Controllers (and other [code entry points](/Platform-Development-Playbook/Software-Engineering-Practices/Architecture-&-Infrastructure/Structure-and-Patterns/Lean-Entrypoints) like Background Tasks and Message Queue Message Handlers which are similar to controllers) should be kept as lean as possible. Each controller should dependency inject a Service that is responsible for business logic.
+Controllers (and other code entry points like Background Tasks and Message Queue Message Handlers which are similar to controllers) should be kept as lean as possible. Each controller should dependency inject a Service that is responsible for business logic.
 - The controller should do some basic input validation (returning an appropriate error code if validation fails) and then call the service to perform the bulk of the work.
 - The main service can then inject as many other classes as it needs to perform its function.
 

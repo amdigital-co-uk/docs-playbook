@@ -7,6 +7,7 @@ tags:
 ## Objective
 
 Generate a "point in time" alignment between product management, design, engineering leadership, and key business stakeholders on:
+
 - the order in which problems will be addressed in the medium-term (up to 9-18 months). 
 - dependencies between problems and with other business objectives.
 - ownership of problems.
@@ -16,18 +17,18 @@ Generate a "point in time" alignment between product management, design, enginee
 
 Delivery modelling is collaborative event during which a delivery model is produced or updated.
 
-During the event, [Problem Leads](/ways-of-working/governance/Problem-Ownership/#problem-lead) will share a problem value propositions and any relevant information - this will vary depending on the "maturity" of the problem (how far through the lifecycle it is).
+During the event, [Problem Leads](../Problem-Ownership.md#problem-lead) will share a problem value propositions and any relevant information - this will vary depending on the "maturity" of the problem (how far through the lifecycle it is).
 
-Participants will consider and discuss dependencies, work involved for all discaplines (such as product management, design, engineering) and the likely "rough order of magnitude" of the work, and the Problem Lead will document these details.
+Participants will consider and discuss dependencies, work involved for all disciplines (such as product management, design, engineering) and the likely "rough order of magnitude" of the work, and the Problem Lead will document these details.
 
-Participants will use information from up-to-date [delivery plans](../Delivery-Planning/), to provide more granular detail.
+Participants will use information from up-to-date [delivery plans](Delivery-Planning.md), to provide more granular detail.
 
 !!! Warning
     Rough Order of Magnitude (ROM) is an estimation approach which uses limited information to create a speculative indication of the scale of work required. ROM estimates are highly likely to be inaccurate, particularly given that solutions are unlikely to be well defined.
 
     Where clearer estimates are available, these should be used in place of, or as part of ROM estimates.
 
-The [problem ownership](/ways-of-working/governance/Problem-Ownership) will be assigned (or re-assigned), in doing so the [delivery team is determined](/ways-of-working/governance/Problem-Ownership/#delivery-team). This may change at a later time (e.g. future modelling session).
+The [problem ownership](../Problem-Ownership.md) will be assigned (or re-assigned), in doing so the [delivery team is determined](../Problem-Ownership.md/#delivery-team). This may change at a later time (e.g. future modelling session).
 
 ## Delivery Models
 

@@ -53,13 +53,13 @@ Do not commit commented-out code. It makes code less readable, and also causes c
 
 ## Unit & Integration Tests
 
-Code must be well covered by [unit & integration tests](Unit-&-Integration-Testing.md). Unit & integration testing not only increases our chances of catching bugs, increases engineer confidence in any changes being made, but is also an indication that the code is well-structured.
+Code must be well covered by [unit & integration tests](Unit-Integration-Testing.md). Unit & integration testing not only increases our chances of catching bugs, increases engineer confidence in any changes being made, but is also an indication that the code is well-structured.
 
 To meet quality guidelines, all .NET code must be covered by Unit and/or integration tests with the aim of achieving 80% code coverage. For legacy repositories that do not meet this threshold, the aim should be to _increase_ the coverage coverage percentage when writing new code, so as to incrementally meet the desired threshold. For repositories that are already well-tested, all new code must be sufficiently well tested so as to not bring the average coverage down.
 
 > **NOTE:** code coverage is not a perfect metric. It is entirely possible to write poor tests that achieve an arbitrary coverage without providing any of the real benefits.
 
-Code repositories must measure and report on code coverage metrics as part of Continuous Integration. If not already present, add the [code coverage testing](https://github.com/amdigital-co-uk/quartex-ci/blob/main/docs/code-coverage.md) tools to the repository being worked on. As engineers write tests for a repository, they must ensure the `tests.yml` file is updated with the latest coverage level.
+Code repositories must measure and report on code coverage metrics as part of Continuous Integration. If not already present, add the [code coverage testing](https://github.com/amdigital-co-uk/quartex-ci/blob/main../../code-coverage.md) tools to the repository being worked on. As engineers write tests for a repository, they must ensure the `tests.yml` file is updated with the latest coverage level.
 
 ## Observability & Logging 
 
@@ -90,8 +90,6 @@ Every repository must have a README, which should succinctly explain:
 - Any external dependencies that are not automatically imported
 - Additional steps required to build or debug the code
 - Any processes that are unique to this repository
-
-Further reading on [documentation guidelines](/Welcome/Documentation-Guidelines/Documentation-Guidelines/).
 
 Documentation must never include any passwords or other sensitive configuration. These should be stored and documented in a secure manner, such as in a Password Manager (_TODO - setup password management for division_) or in a Secrets Manager.
 
@@ -131,7 +129,9 @@ The Microsoft article on [.NET Core performance best practices](https://docs.mic
 
 ### General performance tips
 
-Use caching where ever it is possible and appropriate. The Quartex [caching guidelines](/Delivery-Practices/Build-and-Release/Engineering/Structure-and-Patterns/Caching) contain mechanisms for a range of different types of caching, including the caching service calls for retrieving data, and output caching to cache entire pages. The fastest way of doing work is to not have to do the work at all! 
+Use caching where ever it is possible and appropriate. 
+
+The fastest way of doing work is to not have to do the work at all! 
 
 Use `async`/`await` calls wherever possible. The async pattern allows the operatic system to assign idle CPU capacity to a thread that has work to do, instead of keeping the thread busy. Whilst it may be difficult to see much of a difference when developing locally, using `async`/`await` allows a webserver to handle many more requests in parallel.
 

@@ -4,8 +4,6 @@ tags:
     - draft
 ---
 
-![RAID Mitigation & RAID Logs ](../delivery-governance.png)
-
 ## Objective
 
 Proactively and continuously identify and communicate potential and current challenges relating to the problem lifecycle, such that they can be managed: accepted, removed, or mitigated. 
@@ -34,4 +32,4 @@ The delivery team must identify appropriate times to collectively review and upd
 
 ## Considerations
 
-A well established technique for challenge mapping is a [RAID Log](/docs/Ways-of-Working/Toolkit/RAID.md).
+A well established technique for challenge mapping is a [RAID Log](../../Toolkit/RAID.md).

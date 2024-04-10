@@ -6,17 +6,16 @@ tags:
 
 **AMPFlow** (AM Platform Flow) is a evolving, adaptive, open-closed technology delivery system designed by and for AM’s Platform Development Division to enable us to solve business problems of any type in order to generate business value, using technology (“technology problems”).
 
-**AMPFlow** describes AM’s Software Development Lifecycle (SDLC), but does not assume solving that technology problems will require the creation of software. Instead of referring to the SDLC, we refer to the “Delivery System” or “AMPFlow” interchangeably, and the “Problem Solving Lifecycle”.
+??? Note "Structure & Terminology"
+    **AMPFlow** is built up of a number of structural components:
 
-**AMPFlow** is built up of a number of structural components:
+    - A [Goal](#goal) & [Tenets](#tenets)
+    - [Zones](#zones)
+    - [**FLOW**](#flow)
+    - [Governance](../Governance/index.md)
+    - [Toolkit](../Toolkit/index.md)
 
-- A [Goal](#goal) & [Tenets](#tenets)
-- [Zones](#zones)
-- [**FLOW**](#flow)
-- [Governance](../Governance/)
-- Toolkit(../Toolkit/)
-
-!!! Note "Terminology"
+    **AMPFlow** describes AM’s Software Development Lifecycle (SDLC), but does not assume solving that technology problems will require the creation of software. Instead of referring to the SDLC, we refer to the “Delivery System” or “AMPFlow” interchangeably, and the “Problem Solving Lifecycle”.
 
     These components, and other terms used in by **AMPFlow** are defined on the [Terminology page](AMPFlow-Terminology.md) 
 
@@ -43,7 +42,7 @@ tags:
     - Continuous Planning
     - Continuous Autonomy
     
-    [Read :octicons-arrow-right-24:](/Ways-of-Working/Tenets/)
+    [Read :octicons-arrow-right-24:](../Tenets/index.md)
 
 -   :material-scale-balance:{ .lg .middle } __Ideals__
    
@@ -56,7 +55,7 @@ tags:
     - Value focus
     - A Bias towards action
     
-    [Read :octicons-arrow-right-24:](/Ways-of-Working/Tenets/)
+    [Read :octicons-arrow-right-24:](../Tenets/index.md)
 
 </div>
 
@@ -125,7 +124,7 @@ Flow is agnostic of how, who, or what, but includes generic activities and the o
 
 ### Flow Activities Elements
 
-These activities are generic and do not specify how they are performed. *How* is either controlled by [governance](/Ways-of-Working/Governance/), or determined [as appropriate by teams](/Ways-of-Working/Toolkit/).
+These activities are generic and do not specify how they are performed. *How* is either controlled by [governance](../Governance/index.md), or determined [as appropriate by teams](../Toolkit/index.md).
 
 ??? info "Explore"
 

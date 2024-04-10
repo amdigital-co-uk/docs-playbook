@@ -1,5 +1,5 @@
 ---
-title: Requirements Gathering
+title: Requirements Definition
 authors:
     - Helen Duriez
 tags:
@@ -8,10 +8,12 @@ tags:
 
 ## Objective
 
-To describe the requirements needed to ensure the problem is addressed in a valuable way. 
+To document the requirements needed to ensure the problem is addressed in a valuable way. 
 
-## Gathering and Refining Requirements
-During discovery activities, requirements will be elicited or proposed by stakeholders. The purpose of a dedicated “requirements gathering” phase is to:
+## Defining and Refining Requirements
+
+During discovery activities, requirements will be elicited or proposed by stakeholders. Following this, the practice of requirements must be defined and further refined in order to:
+
 - collate requirements that have surfaced through various discovery activities
 - refine requirements, so that they are articulated in a way the Delivery Team can relate to
 - state explicitly any missing or implicit requirements

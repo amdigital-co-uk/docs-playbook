@@ -32,13 +32,13 @@ Playwright recommended built-in locators:
 - page.getByTitle() to locate an element by its title attribute.
 
 
-If an element cannot be located by any of these, then we look for data-test IDs (for more info click [here](https://playwright.dev/docs/locators#locate-by-test-id)).  **Software Engineers will support creating the data-test-IDs where needed.**
+If an element cannot be located by any of these, then we look for data-test IDs (for more info click [here](https://playwright.dev../../locators#locate-by-test-id)).  **Software Engineers will support creating the data-test-IDs where needed.**
 
 Playwright recommended built-in locators when using data-test-IDs:
 
 - page.getByTestId() to locate an element based on its data-testid attribute
 
-For further examples of these locators, please follow the Playwright documentation found [here](https://playwright.dev/docs/locators)
+For further examples of these locators, please follow the Playwright documentation found [here](https://playwright.dev../../locators)
 
 
 We **NEVER** use CSS or XPath locators.  CSS and XPath are not recommended as the DOM can often change leading to non resilient tests. Instead, we use a locator that is close to how the user perceives the page such as role locators or define an explicit testing contract using test ids as described above.

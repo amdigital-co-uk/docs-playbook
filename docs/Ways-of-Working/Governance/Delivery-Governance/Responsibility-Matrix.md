@@ -4,8 +4,6 @@ tags:
     - draft
 ---
 
-![Responsibility Matrix](../delivery-governance.png)
-
 ## Responsibility Matrix
 
 **Responsibility Matrix** is an artefact consisting of mechanisms for managing and maintaining the **Responsibility Matrix** (usually referred to as a RACI) and typically includes key information and guidance for interacting with all personnel and stakeholders involved in solving the problem. Initially produced during the **Discovery Zone** and forms part of problem governance, and is transferred to **Delivery Planning** during the **AMPFlow Design and Implementation Zones**

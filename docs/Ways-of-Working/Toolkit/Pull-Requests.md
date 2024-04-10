@@ -10,7 +10,7 @@ next-review: 2022-04-01
 
 ## Pull Requests
 
-A pull request (PR) is required when [merging a child branch into a parent](/Delivery-Practices/Build-and-Release/Engineering/Source-Control,-Versioning-&-Branching-Strategy).
+A pull request (PR) is required when merging a child branch into a parent.
 
 > **NOTE:** manually merging or committing directly to a parent branch is not permitted. Firstly because it skips the PR mechanism (and therefore bypasses an important quality control step), and secondly because only a PR will trigger the relevant Continuous Integration workflows and builds.
 
@@ -29,7 +29,7 @@ When creating the pull request, the engineer submitting their work should make s
   - Link the request to the relevant **backlog item** in Azure DevOps by adding `AB#123` where 123 is the ID of the backlog item. At a minimum, you must always link the **backlog item**, though it can be useful to also link the relevant **task** or **defect** in Azure DevOps - so add multiple `AB#123` tags where applicable.
   - If there are PRs in other repos that are related to the same piece of work, link to them in the PR description (see hints, below)
   - This shouldn't need to be too detailed, as ideally this won't be the first time they are seeing the code
-  - In the case of a shared code repository, provided the information about [version number update](/Delivery-Practices/Build-and-Release/Engineering/Source-Control,-Versioning-&-Branching-Strategy/Branching-&-Versioning-Shared-Code-Repositories#Versioning) (i.e. MAJOR vs MINOR vs PATCH) and why it is appropriate
+  - In the case of a shared code repository, provided the information about version number update (i.e. MAJOR vs MINOR vs PATCH) and why it is appropriate
 - Assign their team as a reviewer
 
 > **NOTE:** the final step will automatically assign all other team members, and only one team member needs to approve the PR. The engineer submitting the PR should communicate with the rest of their team to request a review.
@@ -56,8 +56,6 @@ Any further commits pushed to the same branch before the Pull Request is merged 
 
 **Beware**, the default behaviour is that GitHub will create a PR that merges into the `main` branch, which is rarely correct. However, it is possible to change the base of a PR before it is merged, simply by clicking the **Edit** button at the top of the PR page, and then selecting the relevant `feature` or `release` branch from the drop down.
 
-![Change base of a Pull Request](edit-pr-base.jpg)
 
 If you add a link to another GitHub Pull Request (usually from another repo) in the body of your pull request, or within another comment, GitHub will display the status of the linked PR with the main one. Hovering over the link will show a "card" containing more details of that other PR.
 
-![Add links to other PRs](link-other-prs.jpg)

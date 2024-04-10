@@ -6,7 +6,7 @@ title: Toolkit
 
 The toolkit outlines the many different mechanisms we may use throughout the problem lifecycle.
 
-> *[**AMPFlow**](../AMPFlow/) is an an evolving, adaptive, open-closed technology delivery system*
+> *[**AMPFlow**](../../Ways-of-Working/AMPFlow/index.md) is an an evolving, adaptive, open-closed technology delivery system*
 
 For each problem, different mechanisms will be employed by teams as they see fit, and teams are encouraged to discover new mechanisms and add them to the toolkit.
 

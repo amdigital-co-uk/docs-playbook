@@ -18,7 +18,7 @@ The purpose of a peer review is to identify mistakes as early as possible and en
 
 Peer reviewing must not be left until last minute, or performed as a one-time event. Instead, we should be working closely with our colleagues to share our approach throughout the development cycle. This allows for early feedback around the way a solution is built, and allows for the reviewer to gain a greater degree of context.
 
-The final stage of peer reviewing is when code is [merged into a parent branch](/Ways-of-Working/Toolkit/Engineering/Source-Control,-Versioning-&-Branching-Strategy) (e.g. Work Branch --> Feature Branch, or Feature Branch --> Release Branch). This process allows for in depth reviewing of the full solution.
+The final stage of peer reviewing is when code is merged into a parent branch (e.g. Work Branch --> main). This process allows for in depth reviewing of the full solution.
 
 ## Pair Programming & WIP Reviewing
 
@@ -45,6 +45,6 @@ A review should still be performed for any code written during a pair programmin
 
 It is best to submit code to be reviewed frequently, both to get early feedback and to ensure that the reviewing engineer can get a good picture of the changes without being overwhelmed by a huge amount of changes all at once. In other words, follow the principle of little and often!
 
-When submitting a PR the engineer should follow the [Pull Request Guidelines](/Ways-of-Working/Guides/Engineering/Source-Control,-Versioning-&-Branching-Strategy/Pull-Requests), and should ensure to provide some context of what the code being reviewed is try to achieve and how it is structured.
+When submitting a PR the engineer should follow the [Pull Request Guidelines](../Pull-Requests.md), and should ensure to provide some context of what the code being reviewed is try to achieve and how it is structured.
 
 If refactoring existing code (in preparation for subsequent changes), the refactoring should be performed separately and submitted for review in isolation. It would otherwise be much harder for the reviewing engineer to understand how the refactoring has been done if there are also additional changes and new functionality mixed in.

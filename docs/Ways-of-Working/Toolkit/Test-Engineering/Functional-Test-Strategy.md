@@ -85,7 +85,7 @@ There are many different types of software testing techniques, each with its own
 
 ### Supported Browsers & Devices
 
-Please refer to the [Supported Browsers, Devices & Operating Systems](Supported-Browsers,-Devices-&-Operating-Systems.md) documentation
+Please refer to the [knowledgebase](https://knowledgebase.platformdev.amdigital.co.uk/) for supported browser for each platform
 
 ## Test Process
 

@@ -5,7 +5,7 @@ Engineers **should** use Log message template when generating log messages [(See
 ## TypeScript Best Practice
 
 Engineers **should not** use `console.log` directly, as this can be visible by end users. 
-_Alternatively we should be using the `Tracer` objects from the `Eden.Scripts` library. [(See Monitoring Tips)](/Platform-Development-Playbook/Monitoring-Tips)_
+_Alternatively we should be using the `Tracer` objects from the `Eden.Scripts` library._
 
 
 ## General Best Practice

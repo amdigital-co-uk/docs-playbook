@@ -15,7 +15,7 @@ Proactively manage and mitigate risks, assumptions, issues and dependencies thro
 
 RAID is a well established project management tool used to identify, track, and manage key aspects that can impact the success of the delivery of a solution. 
 
-RAID provides a mechanism for [Challenge Mapping](/docs/Ways-of-Working/Governance/Problem-Governance/Challenge-Mapping.md)  
+RAID provides a mechanism for [Challenge Mapping](../../Ways-of-Working/Governance/Problem-Governance/Challenge-Mapping.md)  
 
 - **Risks** - The objective of managing risks within RAID is to identify potential threats or uncertainties that could impact the delivery plan objectives, timeline, budget, or quality. By identifying risks early on, the development team can implement strategies to mitigate or eliminate them, reducing the likelihood of negative consequences
 - **Assumptions** - Assumptions are underlying beliefs, or conditions that are taken for granted, or preliminary decisions that have not been validated. Assumptions have the potential to influence outcomes. The objective of managing assumptions within RAID is to document and validate these assumptions to ensure that they are accurate and aligned with the problem hypothesis and solution. By addressing assumptions upfront, the team can avoid misunderstandings or misalignments that could derail delivery.
@@ -79,5 +79,5 @@ RAID communication plans typically include and document:
 
 ## Considerations
 
-- Review the [toolkit](/Ways-of-Working/Toolkit) section for documented approaches, or perform your own research.
+- Review the [toolkit](../../Ways-of-Working/Toolkit/index.md) section for documented approaches, or perform your own research.
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).

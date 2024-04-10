@@ -34,6 +34,3 @@ Small incremental releases will reduce risk.
 
     If there is any doubt, seek a review.
 
-## Reviewing a Release Plan
-
-Follow the [release plan review guidelines](/Engineering/Peer-Reviewing/Release-Plan-Review)

@@ -18,5 +18,5 @@ At any point throughout the problem lifecycle when an opportunity for learning i
 
 Teams can use any approach they wish to perform reviews and document outcomes. 
 
-- Review the [toolkit](/Ways-of-Working/Toolkit) section for documented approaches, or perform your own research.
+- Review the [toolkit](../../Ways-of-Working/Toolkit/index.md) section for documented approaches, or perform your own research.
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).

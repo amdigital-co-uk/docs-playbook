@@ -4,8 +4,6 @@ tags:
     - draft
 ---
 
-![Delivery Planning & Delivery Plans](../delivery-governance.png)
-
 ## Delivery Planning
 
 Delivery Planning is an event and procedure in which the delivery team produces and/or updates a structured delivery plan, detailing the current plan for solving a problem and delivering a solution. 
@@ -58,5 +56,5 @@ The Delivery Planning event often occurs at the beginning of the AMPFlow design 
 
 Teams can use any approach they wish to perform delivery planning events and produce delivery plans
 
-- Review the [toolkit](/Ways-of-Working/Toolkit) section for documented approaches, or perform your own research.
+- Review the [toolkit](../../Toolkit/index.md) section for documented approaches, or perform your own research.
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).

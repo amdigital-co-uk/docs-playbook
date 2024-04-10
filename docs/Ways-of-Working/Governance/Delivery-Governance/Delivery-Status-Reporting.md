@@ -4,8 +4,6 @@ tags:
     - draft
 ---
 
-![Delivery Status Reporting](../delivery-governance.png)
-
 ## Objective
 
 Provide stakeholders with accurate and continuous information about the current health and progress of the delivery of a solution and enable continuous feedback.
@@ -29,10 +27,10 @@ Delivery Status Reports are an artefact(s) produced and maintained by the delive
 
 | Owner                 | Responsibility |
 |---|---|
-| Delivery Owner        | The Delivery Owner is **accountable** for ensuring that delivery status reporting occours at appropriate times and delivery status reports are produced and effectively communicated with colleagues and stakeholders |
+| Delivery Owner        | The Delivery Owner is **accountable** for ensuring that delivery status reporting occurs at appropriate times and delivery status reports are produced and effectively communicated with colleagues and stakeholders |
 | Delivery Team         | The whole Delivery team is collectively **responsible** for conducting delivery status reporting events, producing delivery status reports and ensuring these reports are current, accessible and effectively communicated with colleagues and stakeholders |
-| Product Lead          | **Responsible** for participating in any delivery status reporting events where nexessary, producing delivery status reports by sharing relevant product insights |
-| Engineering Owner     | **Responsible** for participating in any delivery status reporting events where necessaary, producing delivery status reports by sharing relevant engineering insights |
+| Product Lead          | **Responsible** for participating in any delivery status reporting events where necessary, producing delivery status reports by sharing relevant product insights |
+| Engineering Owner     | **Responsible** for participating in any delivery status reporting events where necessary, producing delivery status reports by sharing relevant engineering insights |
 | Design Owner          | **Responsible** for participating in any delivery status reporting events where necessary, producing delivery status reports by sharing relevant UX/UI insights |
 
 
@@ -59,11 +57,11 @@ The team responsible for a problem will need to determine and document how deliv
 
 ## Considerations
 
-Consider collaborating with stakeholders early to define, agree and document clear expectations and guidance for delivery status reporting events and delivery status reports, and mechanisms for continuosly monitoroing and reviewing there effectiveness throughout the full problem lifecycle.
+Consider collaborating with stakeholders early to define, agree and document clear expectations and guidance for delivery status reporting events and delivery status reports, and mechanisms for continuously monitoring and reviewing there effectiveness throughout the full problem lifecycle.
 
-Consider your audience, delivery status reporting will typically need to adapt to suit the varying requirements of stakeholders engaged in the project. A RACI or[Responsibility Matrix](../Problem-Governance/Responsibility-Matrix.md) is a useful tool for recording and tracking specifc details on stakeholder engagement requirements.
+Consider your audience, delivery status reporting will typically need to adapt to suit the varying requirements of stakeholders engaged in the project. A [Responsibility Matrix](Responsibility-Matrix.md) must record and track specific details on stakeholder engagement requirements.
 
 Teams can use any approach they wish to perform delivery status reporting and produce delivery status reports.
 
-- Review the [toolkit](/Ways-of-Working/Toolkit) section for documented approaches, or perform your own research.
+- Review the [toolkit](../../Toolkit/index.md) section for documented approaches, or perform your own research.
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).

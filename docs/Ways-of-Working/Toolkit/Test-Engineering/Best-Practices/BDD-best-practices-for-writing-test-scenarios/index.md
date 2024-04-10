@@ -18,7 +18,7 @@ BDD test scenarios play a crucial role when creating and maintaining the test su
 
 ### <u>What is Cucumber and why do we use it?</u>
 
-Cucumber is a testing tool that supports Behavior Driven Development (BDD), we have incorporated it into our regression suite. It offers a way to write tests that anybody can understand, regardless of their technical knowledge, doing so utilizing a syntax called called [Gherkin](https://cucumber.io/docs/gherkin/)
+Cucumber is a testing tool that supports Behavior Driven Development (BDD), we have incorporated it into our regression suite. It offers a way to write tests that anybody can understand, regardless of their technical knowledge, doing so utilizing a syntax called called [Gherkin](https://cucumber.io../../gherkin/)
 
 ![Example](11.jpg)  
 
@@ -231,4 +231,4 @@ this.LoginButton is the selector for the login button, that also resides in the 
 ## References
 - [Specflow - Gherkin editor](https://app.specflow.org/gherkin-editor/)
 - [Specflow - Gherkin editor documentation](https://docs.specflow.org/projects/specflow/en/latest/?_ga=2.161889276.1576451101.1694785471-1728384898.1694785471&_gl=1*1s0c1gg*_ga*MTcyODM4NDg5OC4xNjk0Nzg1NDcx*_ga_BZ55XKTXC6*MTY5NDc4NTQ3MC4xLjEuMTY5NDc4NTk5Ni4wLjAuMA..)
-- [Cucumber - Gherkin notes](https://cucumber.io/docs/gherkin/reference/)
+- [Cucumber - Gherkin notes](https://cucumber.io../../gherkin/reference/)

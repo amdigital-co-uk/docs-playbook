@@ -16,7 +16,7 @@ Please note, it is not mandatory to implement or execute all 'test types', such 
 ## What is the difference between Manual and exploratory testing?
 In a nutshell, manual testing is generally very structured and rigid, it involves writing out test steps and then executing them. What it lacks is the ability for a tester to think outside the box and have the freedom to use their skills, experience and knowledge. Although manual testing can have its place and benefits, so can exploratory testing and it is a combination of these test types (including automation), which contribute to test coverage and overall quality and confidence in testing. 
 
-For more information on Exploratory testing, please see: [Exploratory Testing](Test-Engineering\Exploratory-Testing.md) 
+For more information on Exploratory testing, please see: [Exploratory Testing](../Exploratory-Testing.md) 
 
 For more information on the differences between Manual and Exploratory testing, please see: [Exploratory Testing Vs Scripted Testing](https://www.softwaretestinghelp.com/exploratory-testing-vs-scripted-testing/) 
 

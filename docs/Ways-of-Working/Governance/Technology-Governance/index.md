@@ -12,7 +12,7 @@ Technology governance controls how we implement technology to ensure that we com
 
 An Engineering Owner must be assigned before design can commence.
 
-See [delivery governance responsibilities](/Ways-of-Working/Governance/Delivery-Governance/#Responsibilities).
+See [delivery governance responsibilities](../../Governance/Delivery-Governance/index.md#Responsibilities).
 
 ### Validation
 

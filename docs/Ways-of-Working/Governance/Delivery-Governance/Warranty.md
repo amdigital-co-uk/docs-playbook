@@ -15,7 +15,7 @@ A Warranty Period is a predetermined period of time during which a delivery team
 !!! warning "Small Increments"
     Not all solutions implemented by a delivery team will require warranty, particularly if it is a small incremental of value. This should be discussed, agreed, and documented.
 
-During the warranty period, the delivery team will prepare the support team to adopt ongoing maintenance of the solution by providing a [Support Handover](../support-handover).
+During the warranty period, the delivery team will prepare the support team to adopt ongoing maintenance of the solution by providing a [Support Handover](Support-Handover.md).
 
 The length of the warranty period, or whether one is required, must be guided my the nature of the problem and its solution. Longer delivery time-frames will usually require longer warranty periods. However, other factors such as the risk profile of the solution, downstream urgent work, and support team work load will also need to be considered.
 
@@ -39,6 +39,6 @@ The warranty plan must be communicated to stakeholders with suitable advanced no
 
 ## Triggers
 
-The need for a warranty period should be determined during [delivery planning](../Delivery-Planning/).
+The need for a warranty period should be determined during [delivery planning](Delivery-Planning.md).
 
 The warranty plan must be produced and adapted throughout the implementation process, and must be agreed and communicated alongside [release planning](../Problem-Governance/Release-Planning.md), and in advance of any releases.
