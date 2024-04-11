@@ -3,6 +3,7 @@
     "discoverability",
     "Hewitson",
     "Knowledgebase",
+    "Prioritised",
     "Quartex",
     "Rhodri",
     "Roadmap"
@@ -13,5 +14,6 @@
       "scheme": "file"
     }
   ],
-  "liveServer.settings.multiRootWorkspaceName": "docs-playbook"
+  "liveServer.settings.multiRootWorkspaceName": "docs-playbook",
+  "cSpell.language": "en-GB"
 }

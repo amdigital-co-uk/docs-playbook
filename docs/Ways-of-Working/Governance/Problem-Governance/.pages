@@ -1,0 +1,11 @@
+nav:
+- index.md
+- Problem-Discovery.md
+- Problem-Definition.md
+- Challenge-Mapping.md
+- Requirements-Gathering.md
+- Solution-Design.md
+- Success-Planning.md
+- Release-Planning.md
+- Measuring-Success.md
+- ...

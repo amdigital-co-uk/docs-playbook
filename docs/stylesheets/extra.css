@@ -1,152 +1,177 @@
-  [data-md-color-scheme="AM"] {
-    --md-primary-fg-color: #56002a;
-    --md-accent-fg-color: #C30046;
-    --md-typeset-a-color: #56002a;
-    --md-default-fg-color--light: #C30046;
-    --md-typeset-mark-color: #ffa316;
-  }
+[data-md-color-scheme="AM"] {
+  --md-primary-fg-color: #56002a;
+  --md-accent-fg-color: #C30046;
+  --md-typeset-a-color: #56002a;
+  --md-default-fg-color--light: #C30046;
+  --md-typeset-mark-color: #ffa316;
+}
 
-  [data-md-color-scheme="slate"] {
-    --md-primary-fg-color: #C30046;
-    --md-accent-fg-color: #ffa316;
-    --md-typeset-a-color: #C30046;
-    --md-default-fg-color--light: #ffa316;
-  }
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #C30046;
+  --md-accent-fg-color: #ffa316;
+  --md-typeset-a-color: #C30046;
+  --md-default-fg-color--light: #ffa316;
+}
 
-  .am-block {
-    width: 99%;
-    margin: 5px;
-    margin: 30px;
-    font-size: 1.5em;
-    border: 1px solid;
-  }
+.am-block {
+  width: 99%;
+  margin: 5px;
+  margin: 30px;
+  font-size: 1.5em;
+  border: 1px solid;
+}
 
-  [data-md-color-scheme="slate"] .am-block,
-  [data-md-color-scheme="slate"] .am-jobs a {
-    border: 1px solid #C30046;
-  }
+[data-md-color-scheme="slate"] .am-block,
+[data-md-color-scheme="slate"] .am-jobs a {
+  border: 1px solid #C30046;
+}
 
-  [data-md-color-scheme="AM"] .am-block,
-  [data-md-color-scheme="AM"] .am-jobs a {
-    border: 1px solid #56002a;
-  }
+[data-md-color-scheme="AM"] .am-block,
+[data-md-color-scheme="AM"] .am-jobs a {
+  border: 1px solid #56002a;
+}
 
-  .am-block p {
-    text-align: center;
-  }
+.am-block p {
+  text-align: center;
+}
 
-  [data-md-color-scheme="slate"] .am-block p:hover {
-    color: #C30046;
-  }
+[data-md-color-scheme="slate"] .am-block p:hover {
+  color: #C30046;
+}
 
-  [data-md-color-scheme="AM"] .am-block p:hover {
-    color: #56002a;
-  }
+[data-md-color-scheme="AM"] .am-block p:hover {
+  color: #56002a;
+}
 
-  [data-md-color-scheme="slate"] .md-button {
- background-color: #56002a;
-  }
+[data-md-color-scheme="slate"] .md-button {
+background-color: #56002a;
+}
 
-  .am-jobs {
-    background-color: rgba(0, 20, 20, 0.11);
-    padding: 30px 0 12.5px 0;
-  }
+.am-jobs {
+  background-color: rgba(0, 20, 20, 0.11);
+  padding: 30px 0 12.5px 0;
+}
 
-  .am-jobs span {
-    display: none;
-  }
+.am-jobs span {
+  display: none;
+}
 
-  .am-jobs a {
-    padding: 5px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%
-  }
+.am-jobs a {
+  padding: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%
+}
 
-  .am-jobs a:hover {
-    background-color: rgba(0, 5, 5, 0.12);
-    transition: background-color 200ms;
-    transition-timing-function: ease;
-    transition-delay: 50ms;
-  }
+.am-jobs a:hover {
+  background-color: rgba(0, 5, 5, 0.12);
+  transition: background-color 200ms;
+  transition-timing-function: ease;
+  transition-delay: 50ms;
+}
 
-  @font-face {
-    font-family: KlarheitGrotesk;
-    font-style: normal;
-    font-weight: 400;
-    src: url(../assets/fonts/KlarheitGrotesk-Regular.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Regular.woff) format("woff");
-  }
 
-  @font-face {
-    font-family: KlarheitGrotesk;
-    font-style: italic;
-    font-weight: 400;
-    src: url(../assets/fonts/KlarheitGrotesk-Italic.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Italic.woff) format("woff");
-  }
+.amp-flow {
+  color: var(--md-primary-fg-color);
+  animation: ampFlowFade 2s;
+}
 
-  @font-face {
-    font-family: KlarheitGrotesk;
-    font-style: normal;
-    font-weight: 700;
-    src: url(../assets/fonts/KlarheitGrotesk-Bold.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Bold.woff) format("woff");
-  }
+@keyframes ampFlowFade {
+  0% { color: var(--md-default-fg-color--light); }
+  100% { color: var(--md-primary-fg-color); }
+}
 
-  @font-face {
-    font-family: KlarheitGrotesk;
-    font-style: italic;
-    font-weight: 700;
-    src: url(../assets/fonts/KlarheitGrotesk-BoldItalic.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-BoldItalic.woff) format("woff");
-  }
 
-  @font-face {
-    font-family: AMKlarheit;
-    font-style: normal;
-    font-weight: 800;
-    src: url(../assets/fonts/AMKlarheit-Extrabold.woff) format("woff"), url(../assets/fonts/AMKlarheit-Extrabold.woff2) format("woff2");
-  }
+@font-face {
+  font-family: KlarheitGrotesk;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/KlarheitGrotesk-Regular.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Regular.woff) format("woff");
+}
 
-  :root {
-    --md-text-font: Roboto;
-    --md-heading-font-family: AMKlarheit, KlarheitGrotesk, system-ui, -apple-system, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  }
+@font-face {
+  font-family: KlarheitGrotesk;
+  font-style: italic;
+  font-weight: 400;
+  src: url(../assets/fonts/KlarheitGrotesk-Italic.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Italic.woff) format("woff");
+}
 
-  .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
-    font-family: var(--md-heading-font-family);
-    font-weight: 800;
-    line-height: 1.1;
-  }
+@font-face {
+  font-family: KlarheitGrotesk;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/KlarheitGrotesk-Bold.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-Bold.woff) format("woff");
+}
 
-  .md-header__title {
-    font-family: var(--md-heading-font-family);
-    font-weight: 800;
-  }
+@font-face {
+  font-family: KlarheitGrotesk;
+  font-style: italic;
+  font-weight: 700;
+  src: url(../assets/fonts/KlarheitGrotesk-BoldItalic.woff2) format("woff2"), url(../assets/fonts/KlarheitGrotesk-BoldItalic.woff) format("woff");
+}
 
-  .critic.block {
-    margin-top:2.5em!important;
-    padding:10px 0 10px 0;
-  }
+@font-face {
+  font-family: AMKlarheit;
+  font-style: normal;
+  font-weight: 800;
+  src: url(../assets/fonts/AMKlarheit-Extrabold.woff) format("woff"), url(../assets/fonts/AMKlarheit-Extrabold.woff2) format("woff2");
+}
 
+:root {
+  --md-text-font: Roboto;
+  --md-heading-font-family: AMKlarheit, KlarheitGrotesk, system-ui, -apple-system, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+  font-family: var(--md-heading-font-family);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.md-header__title {
+  font-family: var(--md-heading-font-family);
+  font-weight: 800;
+}
+
+.critic.block {
+  margin-top:2.5em!important;
+  padding:10px 0 10px 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.grid-item {
+  border: .05rem solid var(--md-default-fg-color--lightest);
+  border-radius: .1rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-item h3 {
+  padding:0;
+  margin:10px 0 5px 0;
+}
+
+.grid-item.impact {
+  font-size: 1.3em;
+}
+
+@media screen and (max-width: 480px) {
   .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
-  
-  .grid-item {
-    background-color: var(--md-accent-fg-color);
-    color: var(--md-default-bg-color);
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .grid-item h3 {
-    padding:0;
-    margin:10px 0 5px 0;
-  }
-  
-  @media screen and (max-width: 480px) {
-    .grid-container {
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    }
-  }
+}
+
+.grid-item:hover, .md-typeset .grid.cards>ol>li:focus-within,.md-typeset .grid.cards>ol>li:hover,.md-typeset .grid.cards>ul>li:focus-within,.md-typeset .grid.cards>ul>li:hover,.md-typeset .grid>.card:focus-within,.md-typeset .grid>.card:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0.05rem 0.2rem 0.5rem var(--md-accent-fg-color),0 0 0.05rem var(--md-accent-fg-color)
+}
+
+.grid.cards.max {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 32rem), 1fr)); 
+}
