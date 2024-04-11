@@ -1,5 +1,5 @@
 ---
-title: Responsibility Matrix 
+title: Responsibility Assignment 
 tags:
     - draft
 ---
