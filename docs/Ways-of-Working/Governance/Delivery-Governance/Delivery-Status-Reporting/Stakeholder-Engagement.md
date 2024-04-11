@@ -6,17 +6,7 @@ tag: draft
 ![Stakeholder Engagement](../delivery-governance.png)
 
 ## Objective
-Effective stakeholder engagement is crucial for ensuring the delivery of successful outcomes and fostering a positive working relationship between the delivery team and various stakeholders involved in or affected by the project. The key objectives of stakeholder engagement are:
-
-  - requirements ellicitation and validation
-  - managing expectations
-  - gathering feedback and input
-  - mitigating risks, assumptions, issues and dependencies (RAID)
-  - ensuring alignment with business goals 
-  - facilitating effective decision-making
-  - promoting adoption, ownerhsip and acceptance 
-  - providing visibility and transparency
-
+Foster collaboration, gather input and ensure alignment between the delivery of successful outcomes and stakeholder expectations
 
 ## Responsibilities
 
@@ -28,28 +18,24 @@ Effective stakeholder engagement is crucial for ensuring the delivery of success
 
 ## Triggers
 
-Effective stakeholder engagement should consistently deliver value to the project, by enabling faster feedback loops resulting in the delivery of successful outcomes sooner, safer and happier.
+Effective stakeholder engagement is a 2 way flow that should continuously enable faster feedback loops, resulting in the delivery of successful outcomes sooner, safer and happier.
 
-The team responsible for a problem will need to determine and document why, how and when stakeholder engagements should occur. Here are some triggers that can prompt stakeholder engagement activities:
+The team responsible for a problem will need to determine and document why, how and when stakeholder engagements should occur. Here are some typical triggers that can prompt stakeholder engagement activities throughout the design and implementation:
 
-1. Project kickoff
-2. Major milestones
-3. Change requests
-4. Risk, assumption, issues, dependency identification 
-5. Critical issues
-6. Decision points 
-7. Deliverable reviews
-8. Lessons learned
-9. Quality assurance 
-10. Feedback loops 
-11. Celebrating successes
+1. Major milestones /  Key Decision points 
+2. Change requests
+3. Risk, assumption, issues, dependency identification and mitigation
+4. Critical issues
+5. Deliverable reviews
+6. Quality Assurance 
+
 
 
 ## Communication Plan
 
 The team responsible for a problem will need to determine and document a communication plan for effectively engaging with stakeholders, ensuring expectations are clear and guidance is available / accessible to support effective engagement. 
 
-A stakeholder communication plan could typically include the following: 
+A stakeholder communication plan typically includes the following: 
 
 1. **Stakeholder Analysis** - identify all stakeholders involved in the project, including interests, expectations, influence and comunication preferences
 2. **Objectives and Key Messages** - define communication objectives and key messages that need to be conveyed throughout the project lifecycle
@@ -60,7 +46,7 @@ A stakeholder communication plan could typically include the following:
 7. **Responsibilites & Roles** - clearly defined roles and responsibilies for communicating with stakeholders, including who who will be responsible for drafting communications, delivering messages, and responding to enquiries 
 8. **Escalation Procedures** - outline procedures for escalating issues or cconcerns raised by stakeholders to the appropriate level of management or decision-makers for resolution 
 9. **Risk Management** - identify potential communication risks and develop strategies for mitgating them. This could be addressing comunicaiton barriers, managing conflicts, or addressing stakeholder resistance 
-10. **Evaluation & Improvement** - regularly evaluate the effectiveness of communicaiton efforts by gathering feedback from stakeholders and addressing whether communication objectives are being met. Use this feedback to make adjustments and improvements to the communication plan as needed
+10. **Evaluation & Improvement** - establish mechanisms for regularly evaluating the effectiveness of communicaiton efforts by gathering feedback from stakeholders and addressing whether communication objectives are being met. This feedback can be used to make adjustments and improvements to the communication plan as needed
 
 ## Considerations
 

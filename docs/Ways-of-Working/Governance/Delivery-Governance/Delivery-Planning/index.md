@@ -5,14 +5,18 @@ tag: draft
 
 ![Delivery Planning & Delivery Plans](../delivery-governance.png)
 
+## Objective
+
+Ensure efficient coordination and execution of tasks to achieve timely and successful delivery of a solution 
+
 ## Delivery Planning
 
-Delivery Planning is an event and procedure in which the delivery team produces and/or updates a structured delivery plan, detailing the current plan for solving a problem and delivering a solution. 
+Delivery Planning is an event and procedure in which the delivery team produces and/or updates a structured delivery plan, detailing the current plan and approach for delivering a solution.
 
 
 ## Delivery Plans
 
-Delivery Plans are a set of artefacts produced and maintained by the delivery team and should be clear, visible and easily accessible. Delivery Plans include a **design plan**, **implementation plan** and **warranty plan**. Delivery Plans should be continually reviewed and updated throughout the entire problem solving lifecycle. 
+Delivery Plans are a set of artefacts produced and maintained by the delivery team and should be clear, visible and easily accessible. Delivery Plans include a **design plan**, **implementation plan**. Delivery Plans should be continually reviewed and updated throughout the entire problem solving lifecycle. 
 
 ## Design Plans
 
@@ -23,7 +27,6 @@ Delivery Plans are a set of artefacts produced and maintained by the delivery te
 
 !!! Note
     **Implementation Plans typically include:** status reporting artefacts, a prioritised backlog, a timeline and delivery schedule, detailed resourcing plan and a RACI (responsible, accountable, consulted, informed).
-
 
 
 ## Responsibilities
@@ -39,7 +42,7 @@ Delivery Plans are a set of artefacts produced and maintained by the delivery te
 ## Triggers
 
 Delivery Plans need to remain current and as change is so frequent in software development environments, these plans typically become outdated quickly.
-The team responsible for a problem will need to determine and document when **Delivery Plans** **Design Plans** and **Implementation Plans** should be produced, reviewed and updated, and therefore when any planning events should occur. This will typically be as soon as enough is known to produce a delivery plan and after any change that impacts the plan. 
+The team responsible for delivering a solution will need to determine and document when **Delivery Plans** including **Design Plans** and **Implementation Plans** should be produced, reviewed and updated, and therefore when any planning events should occur. This will typically be as soon as enough is known to produce a delivery plan, and after any change that impacts the validity of the plan. 
 
 !!! Note
     All Problem Owners, Delivery Owners, Delivery Teams, Product Leads, Engineering Owners and Design Owners are collectively responsible for flagging when delivery plans are stale, as and when they discover relevant information.
@@ -53,7 +56,7 @@ The team responsible for a problem will need to determine and document how and w
 
 ## Considerations
 
-The Delivery Planning event often occurs at the beginning of the AMPFlow design zone and the process is repeated as and when necessary throughout the full problem solving lifecycle. At any point throughout the problem solving lifecycle when any change impacts the validity of the delivery plans, the Delivery Team facilitates a delivery planning event and updates the delivery plan.
+The Delivery Planning event typically occurs at the beginning of the AMPFlow design zone and the process is repeated as and when necessary throughout the full problem solving lifecycle. 
 
 Teams can use any approach they wish to perform delivery planning events and produce delivery plans
 
