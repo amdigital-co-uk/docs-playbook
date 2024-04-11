@@ -6,7 +6,7 @@ tag: draft
 ![RAID](../delivery-governance.png)
 
 ## Objective
-The objective of RAID is to proactively manage and mitigate risks, assumptions, issues and dependencies throughout the project lifecycle.
+The objective of RAID is to proactively manage and mitigate risks, assumptions, issues and dependencies throughout the full problem lifecycle.
 
 
 ## RAID
@@ -23,7 +23,7 @@ RAID Planning is an event and procedure in which the delivery team produces and/
 
 ## RAID Logs
 
-A RAID log is a document or tool used to capture, track and manage any identified RAID items. Typically RAID logs are used to proactively identify, assess, and manage risks, assumptions, issues, and dependencies throughout the problem lifecycle. 
+A RAID log is a document or tool used to capture, track and manage any identified RAID items. RAID logs are used to proactively identify, assess, manage and mitigate against risks, assumptions, issues, and dependencies throughout the full problem lifecycle. 
 
 By maintaining a comprehensive RAID log, delivery teams can improve their ability to anticipate and respond to challenges, minimise disruptions, and ultimately improve project outcomes.
 
@@ -40,11 +40,9 @@ By maintaining a comprehensive RAID log, delivery teams can improve their abilit
 | Design Owner          | **Responsible** for participating in any RAID planning events where necessary, and by collating and sharing relevant design related insights that could lead to the identification of new RAID items |
 
 ## Triggers
-Typical triggers for RAID include:
+Typical triggers for RAID duriing the design and implementation zones include:
 
-- **Project kickoff** - at the beginning of a project, conducting a RAID assesment can help identify initial RAID items that need to be managed throughout the project lifecycle 
-- **Requirement Gathering** - as requiremrents are gathered for the project during the discovery zone 
-- **Design Phase** - during the design zone, triggers could include architextural decisions that introduce technical risks, assumptions about third party integrations, or dependencies on specific design components
+- **Design Phase** - during the design zone, triggers could include architectural decisions that introduce technical risks, assumptions about third party integrations, or dependencies on specific design components
 - **Resource Allocation** - changes in resource availability or allocation
 - **Technologies and/or Tools** - selecting new technologies or tools for the project 
 - **Change Requests** - whenever there are changes to project requirements, scope, or timeline
@@ -53,18 +51,17 @@ Typical triggers for RAID include:
 
 ## Communication Plan
 
-Delivery teams are responsible for ensuring relevant stakeholders and/or colleagues are informed about the status of key RAID items and any actions being taken that could potentially impact the project, other delivery teams plans or stakeholders and other departments.
+Delivery teams are responsible for ensuring relevant stakeholders and/or colleagues are informed about the status of key RAID items and any actions being taken that could potentially impact the delivery schedule, delivery solution, other delivery teams plans or stakeholders and other departments.
 
 RAID communication plans typically include and document:
 
-1. **Communication Channels** - with **delivery teams:** via regular team meetings or RAID planning events or **with stakeholders:** via project status updates and reports, ad-hoc communications to address urgent or critical RAID items, 
-2. **Content & Format** - RAID item summary, detailed decriptions, action items and trends in RAID dat over time
+1. **Communication Channels** - with **delivery teams:** via regular team meetings or RAID planning events or **with stakeholders:** via project status updates and reports, ad-hoc communications to address urgent or critical RAID items
 3. **Escalation Process** - defined escalation process for addressing high-priority or critical RAID items that require immediate attention or resolution 
 4. **Feedback Mechanism** - encourage feedback from stakeholders and team members on the effectiveness of RAID communication and any improvements or suggested adjustments required
 5. **Review & Continuous Improvement** - regularly review the effectiveness of the RAID communication plan, gathering feedback from stakeholders and team members and identify opportunities for improvement
 
 !!! Note
-    Not all RAID items need to be communicated to colleagues and/or stakeholders, and in some situations can confuse rather than inform a stakeholder. Reporting on RAID should be tailored for the appropriate audiences, focussing on the key items of most concern or perceived impact.
+    Not all RAID items need to be shared with stakeholders, and in some situations can serve to confuse rather than inform. Reporting on RAID should be tailored for the appropriate audiences, focussing on the key items of most concern or perceived impact to that audience.
 
 
 ## Considerations

@@ -1,9 +1,9 @@
 ---
-title: Delivery Status Reporting
+title: Delivery Stakeholder Consultation
 tag: draft
 ---
 
-![Delivery Status Reporting](../delivery-governance.png)
+![Delivery Stakeholder Consultation](../delivery-governance.png)
 
 ## Objective
 
