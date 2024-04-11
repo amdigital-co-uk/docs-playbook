@@ -1,5 +1,5 @@
 ---
-title: Discovery 
+title: Problem Discovery
 authors: 
     - Helen Duriez
 tags:

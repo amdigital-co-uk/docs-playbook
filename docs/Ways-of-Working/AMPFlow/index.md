@@ -61,7 +61,7 @@ tags:
 
 ## Zones
 
-![Zones](Zones.png){ align=right }
+![Zones](../assets/Zones.png){ align=right, style="width:300px; float:right;" }
 
 **AMPFlow** has 4 zones:
 
@@ -120,7 +120,7 @@ Flow is agnostic of how, who, or what, but includes generic activities and the o
 
     While **FLOW** goes left to right, there is **continuous feedback** meaning that activities on the left may continue to occur repeatedly throughout the problem lifecycle.
 
-![Flow](flow.png)
+![Flow](../assets/FLOW.png)
 
 ### Flow Activities Elements
 
