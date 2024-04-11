@@ -59,9 +59,9 @@ The team responsible for a problem will need to determine and document how deliv
 
 Consider collaborating with stakeholders early to define, agree and document clear expectations and guidance for delivery status reporting events and delivery status reports, and mechanisms for continuously monitoring and reviewing there effectiveness throughout the full problem lifecycle.
 
-Consider your audience, delivery status reporting will typically need to adapt to suit the varying requirements of stakeholders engaged in the project. A [Responsibility Matrix](Responsibility-Matrix.md) must record and track specific details on stakeholder engagement requirements.
+Consider your audience, delivery status reporting will typically need to adapt to suit the varying requirements of stakeholders engaged in the project. A [Responsibility Matrix](../Responsibility-Assignment.md) must record and track specific details on stakeholder engagement requirements.
 
 Teams can use any approach they wish to perform delivery status reporting and produce delivery status reports.
 
-- Review the [toolkit](../../Toolkit/index.md) section for documented approaches, or perform your own research.
+- Review the [toolkit](../../../Toolkit/index.md) section for documented approaches, or perform your own research.
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).

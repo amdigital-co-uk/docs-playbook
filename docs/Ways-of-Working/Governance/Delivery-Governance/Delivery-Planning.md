@@ -4,8 +4,6 @@ tags:
     - draft
 ---
 
-![Delivery Planning & Delivery Plans](../delivery-governance.png)
-
 ## Objective
 
 Ensure efficient coordination and execution of tasks to achieve timely and successful delivery of a solution 
@@ -61,5 +59,5 @@ The Delivery Planning event typically occurs at the beginning of the AMPFlow des
 
 Teams can use any approach they wish to perform delivery planning events and produce delivery plans
 
-- Review the [toolkit](/Ways-of-Working/Toolkit) section for documented approaches, or perform your own research.
+- Review the [toolkit](../../Toolkit/index.md) section for documented approaches, or perform your own research.
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).

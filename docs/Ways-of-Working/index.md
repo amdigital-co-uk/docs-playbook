@@ -7,9 +7,9 @@ reviewer:
 next-review: 2022-04-01
 ---
 
-## Approach
+At AM we have developed a delivery system, which outlines how we value is delivered by the Platform Development team.
 
-We follow the principles of DevOps culture and in particular: [Flow, Feedback, and Continuous Learning](https://itrevolution.com/articles/the-three-ways-principles-underpinning-devops/). Everyone in the department plays a critical role in this and is therefore expected to have a thorough understanding of it.
+![AMPFlow](../Ways-of-Working/assets/AMPFlow-Overview.png)
 
---8<-- "Mission.md"
+In this section you will find information about our delivery system, the values that guide our working practices, and the mechanisms we use.
 

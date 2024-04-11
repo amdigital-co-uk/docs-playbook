@@ -47,5 +47,5 @@ A stakeholder communication plan typically includes the following:
 
 ## Considerations
 
-- Review the [toolkit](../../Toolkit/index.md) section for documented approaches, or perform your own research.
+- Review the [toolkit](../../../Toolkit/index.md) section for documented approaches, or perform your own research.
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).
