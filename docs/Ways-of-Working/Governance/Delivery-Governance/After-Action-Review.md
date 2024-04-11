@@ -1,9 +1,8 @@
 ---
 title: After Action Reviews
+tags:
+    - draft
 ---
-
-![After Action Review & After Action Reports](../delivery-governance.png)
-
 
 ## After Action Reviews
 
@@ -33,18 +32,6 @@ The team responsible for a problem will need to determine and document when **Af
 
 The team responsible for a problem will need to determine and document an **After Action Reviews** and **After Action Reports** communication plan, typically consisting of an approach to communicating with, and defining clear expectations for engagement with colleagues and stakeholders. 
 
-## Considerations
+## Considerations & Approach
 
-At any point throughout the problem lifecycle when an opportunity for learning is identified, the **Delivery Team** facilitate an After Action Review Event and produce an After Action Report.
-
-!!! tip "Plan Ahead"
-    Identify during planning when After Action Reviews may be useful (i.e. what are the likely triggers) and communicate this with stakeholders.
-
-    Book your AAR meetings in early to ensure stakeholders can attend and understand expectations
-
-    Plan your meeting carefully in advance.
-
-Teams can use any approach they wish to perform reviews and document outcomes. 
-
-- Review the [toolkit](/Ways-of-Working/Toolkit) section for documented approaches, or perform your own research.
-- Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).
+[See AAR guidance in Toolkits](./?q=AAR+Default)

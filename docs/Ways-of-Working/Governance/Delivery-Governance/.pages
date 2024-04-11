@@ -1,6 +1,7 @@
 nav:
 - Delivery-Modelling.md
-- Delivery-Planning
+- Responsibility-Assignment.md
+- Delivery-Planning.md
 - Delivery-Status-Reporting
 - After-Action-Review.md
 - Warranty.md

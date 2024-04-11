@@ -8,7 +8,7 @@ The Playbook is structured into sections to promote a clear and simple narrative
 
 Playbook settings, including look and feel, plugins etc, are defined in the mkdocs.yml at the root.
 
-The Playbook documentation resides in the /docs folder. This includes markdown files and assets such as images or supporting documents. Additionally styling overrides are included in CSS files in the /docs/stylesheets folder, and the .pages file outlines the navigation structure. 
+The Playbook documentation resides in the /docs folder. This includes markdown files and assets such as images or supporting documents. Additionally styling overrides are included in CSS files in the ../../stylesheets folder, and the .pages file outlines the navigation structure. 
 
 ## Tooling & Technologies
 
