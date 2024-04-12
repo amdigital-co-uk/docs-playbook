@@ -35,3 +35,10 @@ The handover must be completed before the end of the warranty period, but can be
 ## Triggers
 
 There are no specific triggers. Collaborate with members of the support team to determine if a handover will be required.
+
+
+#### Toolkit
+
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [Support Handover] } -->

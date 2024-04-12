@@ -42,3 +42,10 @@ The warranty plan must be communicated to stakeholders with suitable advanced no
 The need for a warranty period should be determined during [delivery planning](Delivery-Planning.md).
 
 The warranty plan must be produced and adapted throughout the implementation process, and must be agreed and communicated alongside [release planning](../Problem-Governance/Release-Planning.md), and in advance of any releases.
+
+
+## Toolkit
+
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [Warranty] } -->

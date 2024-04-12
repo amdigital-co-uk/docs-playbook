@@ -53,6 +53,7 @@ theme:
   icon:
     admonition:
       quote: octicons/book-16
+      toolkit: material/toolbox
     repo: fontawesome/brands/github
 extra:
   social:
@@ -87,3 +88,6 @@ markdown_extensions:
 - pymdownx.emoji:
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
+extra:
+  status:
+    draft: draft

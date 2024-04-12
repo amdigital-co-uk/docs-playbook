@@ -55,7 +55,7 @@ The team responsible for a problem will need to determine and document how deliv
     Consider your audience when conducting delivery status reporting. Tailor your approach to suit each stakeholder's level of understanding and involvement. This ensures effective engagement with all parties involved.
 
 
-## Considerations
+## Considerations & Toolkit
 
 Consider collaborating with stakeholders early to define, agree and document clear expectations and guidance for delivery status reporting events and delivery status reports, and mechanisms for continuously monitoring and reviewing there effectiveness throughout the full problem lifecycle.
 
@@ -63,5 +63,6 @@ Consider your audience, delivery status reporting will typically need to adapt t
 
 Teams can use any approach they wish to perform delivery status reporting and produce delivery status reports.
 
-- Review the [toolkit](../../../Toolkit/index.md) section for documented approaches, or perform your own research.
-- Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [Status Reporting] } -->

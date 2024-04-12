@@ -27,6 +27,7 @@ A good release plan should include:
 - Plans for updating any product or feature documentation.
  
 ## Responsibilities
+
 | Owner | Responsibility |
 | - | - |
 | Delivery Owner    | The person **accountable** for ensuring release plans are created, enacted and stored effectively |
@@ -38,3 +39,9 @@ A good release plan should include:
 The framework for the release plan should be determined during [delivery planning](../Delivery-Governance/Delivery-Planning.md), although it may not be possible to finalise the details of the plan until delivery work is well underway.
 
 The release plan must be completed in advance of any releases, and should be agreed and communicated alongside the [warranty plan](../Delivery-Governance/Warranty.md).
+
+## Tooling
+
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [Status Reporting] } -->

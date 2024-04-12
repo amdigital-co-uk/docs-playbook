@@ -33,3 +33,7 @@ The delivery team must identify appropriate times to collectively review and upd
 ## Considerations
 
 A well established technique for challenge mapping is a [RAID Log](../../Toolkit/RAID.md).
+
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [Challenge Mapping] } -->

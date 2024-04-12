@@ -69,3 +69,9 @@ Discovery should never be limited to a single point in time, however it is essen
 - Finalising the problem definition and defining your success measures
 - Attempting to describe requirements or begin solution design
 - Implementing solution design (use discovery activities to check your solution will be effective first)
+
+## Tooling 
+
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [Status Reporting] } -->

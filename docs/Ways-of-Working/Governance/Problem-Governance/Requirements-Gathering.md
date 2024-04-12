@@ -47,3 +47,9 @@ Requirements can and should be captured throughout the discovery process, howeve
 Requirements should be refined once the problem definition has been completed and with enough time to inform solution design before delivery is planned to start.
 
 As a rough guide, you could aim to have requirements ready three months ahead of delivery, although you should continue to review the assumptions and expectations set in your specification. 
+
+## Toolkit
+
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [Requirements Gathering, Requirements Elicitation, Requirements Engineering] } -->

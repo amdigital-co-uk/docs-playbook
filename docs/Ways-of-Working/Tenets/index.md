@@ -39,7 +39,7 @@ We must refine our ways of working such that we enhance our ability to adhere to
     
         ---
 
-        We communicate with each other continually and understand that this is central to the core principles of DevOps and our overall [mission](#our-mission) success.
+        We communicate with each other continually and understand that this is central to the core principles of DevOps and our overall [mission](../../index.md#our-mission){ data-preview } success.
 
         We recognise that, as a remote and distributed team, continuous collaboration and communication requires more effort than co-located teams. 
 
