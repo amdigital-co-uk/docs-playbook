@@ -13,7 +13,7 @@ next-review: 2024-04-01
 Aa a leader in engineering I am;
 
 - **A Servant:** Leading from behind, I'm here to uplift and support. I recognise that commanding others diminishes my leadership strength. I distribute my responsibilities and the responsibilities of my team, so that I am never a single point of failure and to improve resilience. I actively listen, asking more questions than I answer.
-- **Mission driven, vision guided:** I am a missionary not a mercenary. I evangelise our [mission](../../index.md#our-mission){ data-preview }, vision and values. I look beyond the immediate, with my focus mainly in the medium and long term.
+- **Mission driven, vision guided:** I am a missionary not a mercenary. I evangelise our [mission](../../index.md#our-mission), vision and values. I look beyond the immediate, with my focus mainly in the medium and long term.
 - **Kind:** My interactions are guided by kindness, with absolutely no exceptions.
 - **Trusted:** I am open and honest, while acting with integrity and trust. I don't mask or warp the truth, but keep confidentiality as sacred. I have integrity, demonstrating the behaviours I expect of others, and that are expected of me.
 - **Accountable:** I take full responsibility for my actions and those of my team, embracing both our successes and learning moments.
@@ -32,7 +32,7 @@ I am never going to know less than I know right now, so learning is at the heart
 
 ## Duties
 
-Each specific leadership role has specific duties (see the [competency matrix](../../Progression-Framework/engineering-progression-framework.md/#competency-matrix){ data-preview }), and **AMPFlow** carries further duties for certain roles within the problem lifecycle (see [Problem Ownership](../Governance/Problem-Ownership.md){ data-preview }). 
+Each specific leadership role has specific duties (see the [competency matrix](../../Progression-Framework/engineering-progression-framework.md/#competency-matrix)), and **AMPFlow** carries further duties for certain roles within the problem lifecycle (see [Problem Ownership](../Governance/Problem-Ownership.md)). 
 
 These are generic duties that apply to everyone in any engineering leadership role: 
 

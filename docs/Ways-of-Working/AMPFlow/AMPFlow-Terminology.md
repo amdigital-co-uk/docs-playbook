@@ -42,7 +42,7 @@ This is the what, how, and who; the specifics of how to operate, who is involved
 
 ## Governance
 
-Governance outlines the artefacts, responsibilities and mechanisms that actors must adhere to in each of the delivery system’s zones. Governance provides the controls of the delivery system. 
+Governance outlines the artefacts, responsibilities and mechanisms that actors must adhere to in each of the delivery system’s zones. Governance provides the **controls** of the delivery system. 
 
 The more artefacts, responsibilities and mechanisms that exist within the system’s Governance, the more closed a system is.
 
@@ -60,8 +60,8 @@ Note: here “tool” does not refer to a software tool or service, often also r
 
 !!! note "Minimum Viable Guardrails"
 
-    Minimum Viable Guardrails (or MVGs) is a principal where a system or mechanism provides only the controls absolutely necessary to ensure success, while promoting autonomy. 
+    Minimum Viable Guardrails (or MVGs) is a principal where a system or mechanism provides only the **controls** absolutely necessary prevent specific failures, while promoting autonomy. 
 
-    It's purpose is to provide a foundational framework that balances standardisation, adaptability and autonomy by promoting lean practices that enable teams to start solving problems with just the minimum amount of information required.
+    MVGs balance standardisation, adaptability and autonomy by promoting lean practices that enable teams to start solving problems with just the minimum amount of information required.
 
-    Controls in **AMPFlow** can be considered MVGs.
+    [Governance](../Governance/index.md) in **AMPFlow** can be considered MVGs.
