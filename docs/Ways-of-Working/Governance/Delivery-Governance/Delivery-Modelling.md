@@ -17,11 +17,11 @@ Generate a "point in time" alignment between product management, design, enginee
 
 Delivery modelling is collaborative event during which a delivery model is produced or updated.
 
-During the event, [Problem Leads](../Problem-Ownership.md#problem-lead) will share a problem value propositions and any relevant information - this will vary depending on the "maturity" of the problem (how far through the lifecycle it is).
+During the event, [Problem Owner](../Problem-Ownership.md#problem-owner) will share a problem value propositions and any relevant information - this will vary depending on the "maturity" of the problem (how far through the lifecycle it is).
 
 Participants will consider and discuss dependencies, work involved for all disciplines (such as product management, design, engineering) and the likely "rough order of magnitude" of the work, and the Problem Lead will document these details.
 
-Participants will use information from up-to-date [delivery plans](Delivery-Planning.md), to provide more granular detail.
+Participants will use information from up-to-date [delivery plans](Delivery-Planning.md#delivery-plans), to provide more granular detail.
 
 !!! Warning
     Rough Order of Magnitude (ROM) is an estimation approach which uses limited information to create a speculative indication of the scale of work required. ROM estimates are highly likely to be inaccurate, particularly given that solutions are unlikely to be well defined.
@@ -64,3 +64,9 @@ The models will likely need to be updated each quarter, but whenever the model i
 
 !!! Note
     All Problem leads, Product Managers, Engineering Leadership members, designers, and delivery managers are collectively responsible for flagging that the delivery model is stale, as and when they discover relevant information.
+
+## Toolkit 
+
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [Delivery Modelling] } -->

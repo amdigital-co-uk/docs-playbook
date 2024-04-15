@@ -16,8 +16,7 @@
             "command": "pip",
             "args": [
                 "install",
-                "mkdocs",
-                "--upgrade" 
+                "git+https://${GH_KEY}@github.com/squidfunk/mkdocs-material-insiders.git"
             ],            
             "problemMatcher": []
         },

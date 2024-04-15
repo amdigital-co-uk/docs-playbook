@@ -12,11 +12,10 @@ This section describes the meaning and purpose of the structural components of t
 
 *Goals* set out the purpose of the delivery system and provide a way of qualifying if the system is effective. 
 
-*Tenets* set out the values that guide what goes into a system. Tenets can include:
+*Tenets* set out the values that guide what goes into a system and how we behave. Tenets can include:
 
-1. Principals: core beliefs held by the organisation acting within the delivery system. These guide the system’s facets & mechanisms and how they are used.
-1. Ideals: situational relevant values that cannot/should not be enforced. These guide the actions taken by actors work as they work within the system.
-3. Laws: policies, regulations, and relevant legal restrictions that the system, solutions, and actors must obey.
+1. Principals: Quantitative and controllable values. We can define practices that cause them, and we can assert that they are happening.
+2. Ideals: Qualitative and influenceable values. We can influence and enable them, and measure them with indicators. 
    
 ## Zones
 
@@ -32,17 +31,9 @@ FLOW is the core and primary component of the delivery system. Illustrating the 
 
 Flow is agnostic of how, who, or what. It simply aids planning and navigation.
 
-## Artefacts, Responsibilities & Mechanisms
-
-This is the what, how, and who; the specifics of how to operate, who is involved, and what is produced to enable FLOW.
-
-1.	Artefacts (what) i.e. tangible outputs.
-2.	Responsibilities (who), e.g. RACI matrices, stakeholder maps.
-3.	Mechanisms (how) refers to operating techniques or practices, and provides guidance or instruction.
-
 ## Governance
 
-Governance outlines the artefacts, responsibilities and mechanisms that actors must adhere to in each of the delivery system’s zones. Governance provides the controls of the delivery system. 
+Governance outlines the mechanisms that actors **must** adhere to in each of the delivery system’s zones. Governance provides the **controls** of the delivery system. 
 
 The more artefacts, responsibilities and mechanisms that exist within the system’s Governance, the more closed a system is.
 
@@ -50,7 +41,7 @@ The governance may also specify has interfaces between each of the zones. Zone i
 
 ## Toolkit
 
-The Toolkit contains all of the “tools” (mechanisms, responsibilities, and artefacts) that may be used in one or more zones by actors as they see fit. 
+The Toolkit contains all of the mechanisms that **may** be used in one or more zones by actors as they see fit.
 
 The toolkit is not controlled and continually evolves. Actors will determine the tools they wish to use based on experience and experimentation and the nature of the problem, and may be guided by consultation with stakeholders and peers. New tools can be added at any time as appropriate.
 
@@ -60,8 +51,20 @@ Note: here “tool” does not refer to a software tool or service, often also r
 
 !!! note "Minimum Viable Guardrails"
 
-    Minimum Viable Guardrails (or MVGs) is a principal where a system or mechanism provides only the controls absolutely necessary to ensure success, while promoting autonomy. 
+    Minimum Viable Guardrails (or MVGs) is a principal where a system or mechanism provides only the **controls** absolutely necessary prevent specific failures, while promoting autonomy. 
 
-    It's purpose is to provide a foundational framework that balances standardisation, adaptability and autonomy by promoting lean practices that enable teams to start solving problems with just the minimum amount of information required.
+    MVGs balance standardisation, adaptability and autonomy by promoting lean practices that enable teams to start solving problems with just the minimum amount of information required.
 
-    Controls in **AMPFlow** can be considered MVGs.
+    [Governance](../Governance/index.md) in **AMPFlow** can be considered MVGs.
+
+## Mechanisms 
+
+Mechanisms are the operating techniques or practices which make up our toolkit. They provide guidance or instruction.
+
+## Artefacts
+
+Artefacts are the tangible outputs which are produced by the mechanism we use, such as UI designs, technical designs, specifications, or other documents.
+
+## Responsibilities
+
+Responsibilities define who must or should have ownership of the mechanisms or artefacts, or of outcomes. Responsibility can be categorised in different ways, such as responsible or accountable. Responsibilities are part of Governance, but also used in the toolkit.  
