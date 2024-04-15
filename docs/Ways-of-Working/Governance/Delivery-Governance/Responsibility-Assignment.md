@@ -44,7 +44,7 @@ The team responsible for delivering a solution will need to ensure that the resp
 
 ## Considerations
 
-A responsibility matrix is a valuable tool primarily used by the delivery team rather than stakeholders. While stakeholders may have an interest in understanding who is responsible for specific aspects of a solution, they typically rely on other forms of communication, such as synchronous or asynchronous [Delivery Status Reporting](../Delivery-Governance/Delivery-Status-Reporting.md) rather than directly referencing the responsibility matrix.
+A responsibility matrix is a valuable tool primarily used by the delivery team rather than stakeholders. While stakeholders may have an interest in understanding who is responsible for specific aspects of a solution, they typically rely on other forms of communication, such as synchronous or asynchronous [Delivery Status Reporting](../Delivery-Governance/Delivery-Status-Reporting/index.md) rather than directly referencing the responsibility matrix.
 
 
 
