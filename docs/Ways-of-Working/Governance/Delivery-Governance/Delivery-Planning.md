@@ -35,8 +35,8 @@ Delivery Plans are a set of artefacts produced and maintained by the delivery te
 | Delivery Owner        | The Delivery Owner is **accountable** for ensuring that delivery planning occurs at appropriate times and delivery plans are produced and effectively communicated with colleagues and stakeholders |
 | Delivery Team         | The whole Delivery team is collectively **responsible** for conducting delivery planning sessions, producing delivery plans and ensuring these plans are well maintained, accessible and effectively communicated with colleagues and stakeholders |
 | Product Lead          | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant product insights and providing relevant estimations |
-| Engineering Owner     | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant technology  insights and providing relevant estimations |
-| Design Owner          | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant user/design   insights, and providing relevant estimations |
+| Engineering Owner     | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant technology insights and providing relevant estimations |
+| Design Owner          | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant user/design insights, and providing relevant estimations |
 
 ## Triggers
 
