@@ -7,7 +7,7 @@ Every change to any production environment must have a be reflected in deploymen
 !!! note "Deployments are not releases"
     We differentiate deployments from releases. We may deploy changes to production environments many times before we make those changes available to customers or users (a release).
 
-    ![Deployments and releases](../Problem-Governance/continuous-deployment.png) 
+    ![Deployments and releases](../../assets/continuous-deployment.png) 
 
 ## Why?
 

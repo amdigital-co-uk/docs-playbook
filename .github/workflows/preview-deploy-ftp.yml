@@ -14,7 +14,7 @@ jobs:
 
       - name: Install MKdocs and theme
         run: |
-          pip install mkdocs-material 
+          pip install git+https://${{ secrets.GH_KEY }}@github.com/squidfunk/mkdocs-material-insiders.git
           pip install mkdocs-glightbox
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-git-revision-date-localized-plugin

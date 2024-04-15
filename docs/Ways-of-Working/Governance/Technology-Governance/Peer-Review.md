@@ -21,7 +21,7 @@ Reviews must include:
 - Date of review
 - Reviewer name
 - Comments / feedback / requested amends
-- Log of remediations taken
+- Log of remediation taken
 
 ## Responsibilities
 

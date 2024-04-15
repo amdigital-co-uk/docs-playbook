@@ -12,6 +12,7 @@ plugins:
   - search
   - tags
   - glightbox
+  - meta
   - git-revision-date-localized:
       enable_creation_date: true      
       enabled: !ENV [CI, false]
@@ -35,6 +36,8 @@ theme:
     - content.action.edit
     - content.action.view
     - search.share
+    - navigation.instant.preview
+    - navigation.path
     #- navigation.tabs
     #- navigation.tabs.sticky
   palette:
@@ -52,6 +55,7 @@ theme:
   icon:
     admonition:
       quote: octicons/book-16
+      toolkit: material/toolbox
     repo: fontawesome/brands/github
 extra:
   social:
@@ -86,3 +90,6 @@ markdown_extensions:
 - pymdownx.emoji:
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
+extra:
+  status:
+    draft: draft

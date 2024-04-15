@@ -33,6 +33,13 @@ A good problem definition comprises:
  
 ## Triggers
 
-Your problem definition is likely to evolve alongside [discovery](./Discovery.md) activities, and should be directly informed by them.
+Your problem definition is likely to evolve alongside [discovery](Problem-Discovery.md) activities, and should be directly informed by them.
 
 Problem definition is essential before you can go on to exploring [requirements](./Requirements-Gathering.md) and [designing solutions](./Solution-Design.md). 
+
+
+## Toolkit 
+
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [Problem Definition] } -->

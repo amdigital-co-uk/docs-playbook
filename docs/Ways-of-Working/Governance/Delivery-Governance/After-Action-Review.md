@@ -34,4 +34,6 @@ The team responsible for a problem will need to determine and document an **Afte
 
 ## Considerations & Approach
 
-[See AAR guidance in Toolkits](./?q=AAR+Default)
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [AAR] } -->

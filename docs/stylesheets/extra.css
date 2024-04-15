@@ -175,3 +175,34 @@ background-color: #56002a;
 .grid.cards.max {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 32rem), 1fr)); 
 }
+
+:root {
+  --md-admonition-icon--toolkit: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g xmlns="http://www.w3.org/2000/svg"><polygon points="18,16 16,16 16,15 8,15 8,16 6,16 6,15 2,15 2,20 22,20 22,15 18,15"/><path d="M20,8h-3V6c0-1.1-0.9-2-2-2H9C7.9,4,7,4.9,7,6v2H4c-1.1,0-2,0.9-2,2v4h4v-2h2v2h8v-2h2v2h4v-4C22,8.9,21.1,8,20,8z M15,8 H9V6h6V8z"/></g></svg>');
+  --md-status--draft: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 14h-3v3h-2v-3H8v-2h3v-3h2v3h3v2zm-3-7V3.5L18.5 9H13z"/></svg>');
+}
+
+.md-typeset .admonition.toolkit,
+.md-typeset details.toolkit {
+  border-color: rgb(100, 47, 168);
+}
+.md-typeset .toolkit > .admonition-title,
+.md-typeset .toolkit > summary {
+  background-color: rgba(88, 54, 153, 0.1);
+}
+.md-typeset .toolkit > .admonition-title::before,
+.md-typeset .toolkit > summary::before {
+  background-color: rgb(100, 47, 168);
+  -webkit-mask-image: var(--md-admonition-icon--toolkit);
+          mask-image: var(--md-admonition-icon--toolkit);
+}
+
+.admonition.toolkit h3[id^='tag']{
+ display: none;
+}
+
+
+.md-status--draft::after {
+  background-color: rgb(158, 156, 161);
+  mask-image: var(--md-status--draft);
+  -webkit-mask-image: var(--md-status--draft);
+}

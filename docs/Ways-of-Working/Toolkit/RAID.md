@@ -15,7 +15,7 @@ Proactively manage and mitigate risks, assumptions, issues and dependencies thro
 
 RAID is a well established project management tool used to identify, track, and manage key aspects that can impact the success of the delivery of a solution. 
 
-RAID provides a mechanism for [Challenge Mapping](../../Ways-of-Working/Governance/Problem-Governance/Challenge-Mapping.md)  
+RAID provides a mechanism for [Challenge Mapping](../Governance/Problem-Governance/Challenge-Mapping.md)  
 
 - **Risks** - The objective of managing risks within RAID is to identify potential threats or uncertainties that could impact the delivery plan objectives, timeline, budget, or quality. By identifying risks early on, the development team can implement strategies to mitigate or eliminate them, reducing the likelihood of negative consequences
 - **Assumptions** - Assumptions are underlying beliefs, or conditions that are taken for granted, or preliminary decisions that have not been validated. Assumptions have the potential to influence outcomes. The objective of managing assumptions within RAID is to document and validate these assumptions to ensure that they are accurate and aligned with the problem hypothesis and solution. By addressing assumptions upfront, the team can avoid misunderstandings or misalignments that could derail delivery.
@@ -67,7 +67,7 @@ Delivery teams are responsible for ensuring relevant stakeholders and/or colleag
 
 RAID communication plans typically include and document:
 
-1. **Communication Channels** - with **delivery teams:** via regular team meetings or RAID planning events or **with stakeholders:** via [delivery status updates and reports](../Governance/Delivery-Governance/Delivery-Status-Reporting.md), ad-hoc communications to address urgent or critical RAID items, 
+1. **Communication Channels** - with **delivery teams:** via regular team meetings or RAID planning events or **with stakeholders:** via [delivery status updates and reports](../Governance/Delivery-Governance/Delivery-Status-Reporting/index.md), ad-hoc communications to address urgent or critical RAID items, 
 2. **Content & Format** - RAID item summary, detailed descriptions, action items and trends in RAID dat over time
 3. **Escalation Process** - defined escalation process for addressing high-priority or critical RAID items that require immediate attention or resolution 
 4. **Feedback Mechanism** - encourage feedback from stakeholders and team members on the effectiveness of RAID communication and any improvements or suggested adjustments required
