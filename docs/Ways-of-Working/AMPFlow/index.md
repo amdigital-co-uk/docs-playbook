@@ -153,9 +153,9 @@ These activities are generic and do not specify how they are performed. *How* is
     Valid problems are prioritised so that work can commence in other zones on the most valuable problem.
     Priorities can change, and as validation is continuous, so is prioritisation. Changing priorities can produce waste, however, failure to shift focus to higher priority problems will be more wasteful. 
 
-??? info "Requirements Elicitation"
+??? info "Requirements Definition"
 
-    **Objective**: Gather detailed and specific requirements from stakeholders.
+    **Objective**: Define detailed and specific requirements from stakeholders, capturing and developing upon what has been learnt throughout Discovery.
 
     **Example Approaches**: interviews, surveys, and requirements workshops.
 
