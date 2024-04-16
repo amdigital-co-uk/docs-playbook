@@ -11,7 +11,7 @@ next-review: 2022-04-01
 
 Unplanned leave is any short notice leave that has not been booked in advance. 
 
-It happens, _and that's OK_. As we, by definition, did not plan for it, our plans will probably be affected by it.
+It hapens, _and that's OK_. As we, by definition, did not plan for it, our plans will probably be affected by it.
 
 1. Follow the HR guidelines on communicating unplanned absence.
 1. Additionally:
