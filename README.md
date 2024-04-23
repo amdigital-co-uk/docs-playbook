@@ -2,7 +2,7 @@ This is a documentation repository for the department's playbook.
 
 The Playbook is a public-facing guide to the fundamental ways we work. This sits alongside the internal-facing [Knowledgebase](https://knowledgebase.platformdev.amdigital.co.uk/), which contains specific details of how our technologies and toolkits are built and configured.
 
-## Structure
+## Structure 
 
 The Playbook is structured into sections to promote a clear and simple narrative to the reader.
 
