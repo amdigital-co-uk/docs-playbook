@@ -3,6 +3,7 @@ title: Test Scenarios with BDD
 authors: 
 - Mihajlo Stojanovski 
 - James Perry
+- Jees Mathew
 tags:
     - Default
     - BDD
@@ -93,7 +94,7 @@ These description lines are ignored by Cucumber at runtime, but are available fo
 
 Here is an example below from our regression suite:
 
-![Example]BDD-best-practices-for-writing-test-scenarios\(8.png)  
+![Example](8.png)  
 
 ### <u>Defining clear and concise Scenarios</u>
 Each Scenario represents a single, specific example of the feature's behavior. Please follow these guidelines when writing the scenarios:
@@ -103,6 +104,20 @@ Each Scenario represents a single, specific example of the feature's behavior. P
 •	Focus on one specific aspect or use case of the feature being tested.
 
 •	Ensure that the Scenario can be executed independently and does not rely on the state of other Scenarios.
+
+•	It is preferred to start a GIVEN statement on the page the test is being executed. This avoids unnecessary steps to navigate from elsewhere to the tested page, keeping our tests more concise and readable. An example can be seen on the screenshot below, 
+
+![Example](15.png)
+
+•	Under each scenario, only one GIVEN statement should exist. This again makes the feature files more readable. 
+
+•	It is also important to note that for some scenarios a WHEN statement is not needed. For example, if the test is to navigate to a page and checking if a list of elements were present, this wouldn't need a WHEN statement. This example can be seen in practice in the screenshot below.
+
+![Example](16.png)
+
+•   Finally, as a best practice we are currently experimenting on using just one WHEN and THEN statement for each scenario. This means that we will be using AND statements if there are successive steps under each of these WHEN and THEN statements. This also means that we will avoid having a WHEN after a THEN. This will make the tests more readable as it will be clear from the feature file, which steps are the initial state, the actions and the expected outcome. This is an experiment for the time being. This approach will be continually be monitored as the solutions get larger. An example can be seen in the screenshot below.
+
+![Example](17.png)
 
 
 ### <u>Turning Feature files into reusable and modular Step Definitions</u>
@@ -127,9 +142,9 @@ As we have already seen, **Given, When, Then, And** represent test steps in each
 
 Each of these steps has a description or a step definition, for an example:
 
-**Given** the user is on the AMD login page
+**Given** the user is on the staging site
 
-In this case a step definition would be ‘a user is on the AMD login page’.
+In this case a step definition would be ‘a user is on the staging site’.
 
 Behind this step definition there is code that is executed.
 This code is in the step definition file, which resides in the ‘step-definition’ folder.
@@ -144,11 +159,7 @@ For an example:
 
 **Given** a user is on the staging site
 
-**When** clicks on the staging site Login button
-
-**Then** the user should be redirected to the AMD login page
-
-**When** the user is on the AMD login page
+**When** the user navigates to the AMD login page
 
 **And** the user enters valid username and password
 
@@ -156,7 +167,7 @@ For an example:
 
 **Then** the user should be redirected to the dashboard
 
-As you can see in this hypothetical scenario, the ‘the user is on the AMD login page’ was moved to the When step.
+As you can see in this hypothetical scenario, the ‘the user navigates to the AMD login page’ was moved to the When step.
 
 That said, this just shows the infinite capabilities of these tests and how different scenarios can be made by combining these test steps.
 
