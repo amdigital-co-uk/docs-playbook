@@ -14,7 +14,7 @@ This section describes the meaning and purpose of the structural components of t
 
 *Tenets* set out the values that guide what goes into a system and how we behave. Tenets can include:
 
-1. Principals: Quantitative and controllable values. We can define practices that cause them, and we can assert that they are happening.
+1. Principles: Quantitative and controllable values. We can define practices that cause them, and we can assert that they are happening.
 2. Ideals: Qualitative and influenceable values. We can influence and enable them, and measure them with indicators. 
    
 ## Zones
@@ -51,7 +51,7 @@ Note: here “tool” does not refer to a software tool or service, often also r
 
 !!! note "Minimum Viable Guardrails"
 
-    Minimum Viable Guardrails (or MVGs) is a principal where a system or mechanism provides only the **controls** absolutely necessary prevent specific failures, while promoting autonomy. 
+    Minimum Viable Guardrails (or MVGs) is a principle where a system or mechanism provides only the **controls** absolutely necessary prevent specific failures, while promoting autonomy. 
 
     MVGs balance standardisation, adaptability and autonomy by promoting lean practices that enable teams to start solving problems with just the minimum amount of information required.
 

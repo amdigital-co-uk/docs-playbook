@@ -6,7 +6,7 @@ tags:
 
 ## Objective
 
-Ensure efficient coordination and execution of tasks to achieve timely and successful delivery of a solution 
+Ensure efficient coordination and execution of tasks to achieve timely and successful delivery of a solution.
 
 ## Delivery Planning
 
@@ -15,7 +15,7 @@ Delivery Planning is an event and procedure in which the delivery team produces 
 
 ## Delivery Plans
 
-Delivery Plans are a set of artefacts produced and maintained by the delivery team and should be clear, visible and easily accessible. Delivery Plans include a **design plan**, **implementation plan**. Delivery Plans should be continually reviewed and updated throughout the entire problem solving lifecycle. 
+Delivery Plans are a set of artefacts produced and maintained by the delivery team and should be clear, visible and easily accessible. Delivery Plans include a **design plan** and **implementation plan**. Delivery Plans should be continually reviewed and updated throughout the entire problem solving lifecycle. 
 
 ## Design Plans
 
@@ -35,8 +35,8 @@ Delivery Plans are a set of artefacts produced and maintained by the delivery te
 | Delivery Owner        | The Delivery Owner is **accountable** for ensuring that delivery planning occurs at appropriate times and delivery plans are produced and effectively communicated with colleagues and stakeholders |
 | Delivery Team         | The whole Delivery team is collectively **responsible** for conducting delivery planning sessions, producing delivery plans and ensuring these plans are well maintained, accessible and effectively communicated with colleagues and stakeholders |
 | Product Lead          | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant product insights and providing relevant estimations |
-| Engineering Owner     | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant technology  insights and providing relevant estimations |
-| Design Owner          | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant user/design   insights, and providing relevant estimations |
+| Engineering Owner     | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant technology insights and providing relevant estimations |
+| Design Owner          | **Responsible** for participating in any delivery planning events, producing delivery planning artefacts by sharing relevant user/design insights, and providing relevant estimations |
 
 ## Triggers
 
@@ -51,7 +51,7 @@ The team responsible for delivering a solution will need to determine and docume
 The team responsible for a problem will need to determine and document how and when delivery plans will be communicated with colleagues and stakeholders, ensuring expectations are clear and guidance available to support effective stakeholder engagement.  
 
 !!! Note
-    Be mindful of your audience when defining an approach to communicating delivery plans with your stakeholders and/or colleagues. You may need to taylor your approach for each level of stakeholder to ensure you enable the engagements required from that particular audience.
+    Be mindful of your audience when defining an approach to communicating delivery plans with your stakeholders and/or colleagues. You may need to tailor your approach for each level of stakeholder to ensure you enable the engagement required from that particular audience.
 
 ## Considerations & Toolkit 
 

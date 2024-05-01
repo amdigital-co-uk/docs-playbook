@@ -36,5 +36,5 @@ Note that in some instances line management transfer may occur later than outlin
 - **When**: First few months.
 
   - Ongoing Engineering Leadership in-person meet-ups booked in.
-  - Recurring "Ways of Working" (WoW) coaching with Principal booked in.
+  - Recurring "Ways of Working" (WoW) coaching with Principal Engineer booked in.
   - Introduction to Coaching and Mentoring with VPE.
