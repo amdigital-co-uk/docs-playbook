@@ -4,7 +4,7 @@ tags:
     - draft
 ---
 
-**AMPFlow** (AM Platform Flow) is a evolving, adaptive, open-closed technology delivery system designed by and for AM’s Platform Development Division to enable us to solve business problems of any type in order to generate business value, using technology (“technology problems”).
+**AMPFlow** (AM Platform Flow) is an evolving, adaptive, open-closed technology delivery system designed by and for AM’s Platform Development Division to enable us to solve business problems of any type in order to generate business value, using technology (“technology problems”).
 
 ??? Note "Structure & Terminology"
     **AMPFlow** is built up of a number of structural components:
