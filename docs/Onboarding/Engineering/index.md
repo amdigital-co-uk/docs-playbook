@@ -50,7 +50,7 @@ Our onboarding process is structured into four distinct phases:
 - **When:** Next few weeks.
 - **Highlights:**
     - Introduction to the product you'll be working on and our overarching product vision. With our Head of Product.
-    - "Ways of working" coaching session, covering our ethos, guiding principals, and key guidelines. With your manager.
+    - "Ways of working" coaching session, covering our ethos, guiding principles, and key guidelines. With your manager.
     - Overview of our architectural standards and patterns. With your manager.
     - DevOps introduction. With your manager or DevOps Engineer.
     - Your probation objectives will be set.

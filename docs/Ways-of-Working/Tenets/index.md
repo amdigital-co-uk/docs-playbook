@@ -2,7 +2,7 @@
 title: Tenets
 ---
 
-**Principals** are quantitative can be controlled, whereas **ideals** are qualitative and can be influenced.
+**Principles** are quantitative can be controlled, whereas **ideals** are qualitative and can be influenced.
 
 ### Working with Tenets
 
