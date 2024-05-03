@@ -2,7 +2,7 @@
 title: Deployment Logs
 ---
 
-Every change to any production environment must have a be reflected in deployment logs. This includes code and infrastructure changes.
+Every change to any production environment must be reflected in deployment logs. This includes code and infrastructure changes.
 
 !!! note "Deployments are not releases"
     We differentiate deployments from releases. We may deploy changes to production environments many times before we make those changes available to customers or users (a release).

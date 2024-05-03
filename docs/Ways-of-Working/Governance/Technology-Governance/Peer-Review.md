@@ -12,7 +12,7 @@ Reviews, at a minimum, must look to identify critical quality and security flaws
 
 All code repositories must be configured to enforce peer review, by protecting branches used for production deployments (e.g. requiring pull requests).
 
-Where code changes are not available, for example when infrastructure is not coded, the changes must be documented in a [deployment log](Deployment-Logs.md), and a reviewer must digitally sign the document (or provide an tracked update) following their review.
+Where code changes are not available, for example when infrastructure is not coded, the changes must be documented in a [deployment log](Deployment-Logs.md), and a reviewer must digitally sign the document (or provide a tracked update) following their review.
 
 A reviewer may provide feedback and request clarification, or request amends to the change. A peer review will remain active until all feedback or requested amends have been satisfied.
 
