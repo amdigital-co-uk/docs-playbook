@@ -6,15 +6,15 @@ tags:
 
 ## Objective
 
-Proactively and continuously identify and communicate potential and current challenges relating to the problem lifecycle, such that they can be managed: accepted, removed, or mitigated. 
+Proactively and continuously identify and communicate potential and current challenges relating to the problem lifecycle, such that they can be managed, accepted, removed, or mitigated. 
 
 ## Challenge Mapping
 
 Challenge mapping is a continuous process, as new challenges will emerge, and existing challenges will evolve. 
 
-The practice is performed by the delivery delivery team, although any stakeholder can present challenges for the team to consider.
+The practice is performed by the delivery team, although any stakeholder can present challenges for the team to consider.
 
-Challenges must be identified, categorised (e.g. Risk, Assumption, Issue, Dependency), and quantified, and documented. This "map" of challenges provides vital information that can help throughout the problem lifecycle, particularly during discovery and continuous delivery planning.
+Challenges must be identified, categorised (e.g. Risk, Assumption, Issue, Dependency), quantified and documented. This "map" of challenges provides vital information that can help throughout the problem lifecycle, particularly during discovery and continuous delivery planning.
 
 ## Responsibilities
 

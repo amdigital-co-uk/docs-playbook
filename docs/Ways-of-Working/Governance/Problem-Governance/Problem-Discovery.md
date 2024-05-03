@@ -15,7 +15,7 @@ tags:
 Build an in-depth understanding of the stated problem and it’s context. This may include, but will not be limited to:
 
 - who does the problem affect?
-- what is the extent of the problem
+- what is the extent of the problem?
 - is the stated problem the right problem?
 - what assumptions are inherent in the stated problem?
 - what value might solving the problem bring?
@@ -51,9 +51,9 @@ Discovery activities you may wish to consider include:
  
 ## Discovery Outputs
 
-Any documentation you create as part of your discovery activities, along with your findings, should be saved centrally and shared with identified stakeholders. You findings should be used to inform both your problem definition and solution requirements.
+Any documentation you create as part of your discovery activities, along with your findings, should be saved centrally and shared with identified stakeholders. Your findings should be used to inform both your problem definition and solution requirements.
  
-Responsibilities
+## Responsibilities
 
 | Owner | Responsibility |
 | - | - |

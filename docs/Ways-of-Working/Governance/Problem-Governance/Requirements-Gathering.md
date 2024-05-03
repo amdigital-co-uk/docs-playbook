@@ -18,15 +18,15 @@ During discovery activities, requirements will be elicited or proposed by stakeh
 - refine requirements, so that they are articulated in a way the Delivery Team can relate to
 - state explicitly any missing or implicit requirements
 - sort them, e.g. using a MoSCoW framework
-- state explicitly any dependencies or considerations that may impact iterative delivery.
+- state explicitly any dependencies or considerations that may impact iterative delivery
  
 ## Types of Requirements
 
 The requirements specification should include:
 
-- Functional requirements – how the system or feature should behave to address the stated problem.
-- User Interface requirements – how the system or feature should appear. For example, it may be helpful to note where users will need additional information, where there are specific accessibility or mobile considerations, or which style rules need to be applied.
-- Non-functional requirements (NFRs) – system or feature attributes that cannot be described as functional behaviours. These may include, but will not be limited to security, performance, scalability, data privacy and testability.
+- *Functional requirements* – how the system or feature should behave to address the stated problem.
+- *User Interface requirements* – how the system or feature should appear. For example, it may be helpful to note where users will need additional information, where there are specific accessibility or mobile considerations, or which style rules need to be applied.
+- *Non-functional requirements (NFRs)* – system or feature attributes that cannot be described as functional behaviours. These may include, but will not be limited to security, performance, scalability, data privacy and testability.
   
 In all cases, the Delivery Team may find it helpful to have requirements linked to real world use cases, to highlight the value of the requirements and generate meaningful discussions. 
 

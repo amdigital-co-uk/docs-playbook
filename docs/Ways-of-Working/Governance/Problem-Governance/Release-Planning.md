@@ -24,7 +24,7 @@ A good release plan should include:
 - Plans for testing the solution upon release
 - Plans for mitigating risks and potential issues
 - Plans for communicating the release, both ahead of time and once release is complete
-- Plans for updating any product or feature documentation.
+- Plans for updating any product or feature documentation
  
 ## Responsibilities
 
