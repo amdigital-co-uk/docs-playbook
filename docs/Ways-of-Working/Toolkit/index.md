@@ -2,15 +2,15 @@
 title: Toolkit
 ---
 
-The toolkit outlines the many different mechanisms we may use throughout the problem lifecycle, and provides guidance in how to operate with this mechanisms.
+The toolkit outlines the many different mechanisms we may use throughout the problem lifecycle, and provides guidance in how to operate with these mechanisms.
 
 > *[**AMPFlow**](../../Ways-of-Working/AMPFlow/index.md) is an an evolving, adaptive, open-closed technology delivery system*
 
-For each problem, different mechanisms will be employed by teams as they see fit, and teams are encouraged to adapt them and discover new mechanisms and add them to the toolkit.
+For each problem, different mechanisms will be employed by teams as they see fit, and teams are encouraged to adapt them and discover new mechanisms which can then be added to the toolkit.
 
 ## Defaults
 
-In some cases, particularly where there are many mechanisms available for to performing certain operations or where an approach is preferred or strongly encouraged, we may select a "default", in the same way we may select default technologies or patterns. 
+In some cases, particularly where there are many mechanisms available for performing certain operations or where an approach is preferred or strongly encouraged, we may select a "default", in the same way we may select default technologies or patterns. 
 
 !!! Warning "Guided not Forced"
     We use the principle of guidelines and defaults to enable autonomy. Guidelines and defaults combined is preferred to "best practices", which infer that the best way is already known, and discourages [continuous improvement](../AMPFlow/index.md#tenets).

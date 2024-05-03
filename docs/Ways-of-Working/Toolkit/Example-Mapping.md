@@ -35,7 +35,7 @@ During the Design and Definition stage, as part of the Readying process. Normall
 -  Product backlog items that are deferred or removed from the development. 
 
 ## What are the key benefits of Example Mapping?
--  We can breakdown a BackLog Item and understand it, preventing large BLI's entering a sprint​ in the process.
+-  We can breakdown a backlog item and understand it, preventing large BLI's entering a sprint​ in the process.
 
 - We can Define Business rules​ related to the BLI
 
