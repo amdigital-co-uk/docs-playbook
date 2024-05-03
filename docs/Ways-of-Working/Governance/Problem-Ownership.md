@@ -2,7 +2,7 @@
 title: Problem Ownership
 ---
 
-Throughout the problem lifecycle, the following key responsibilities are defined. The appropriate time to do so may vary, and in may cases is outlined in **AMPFlow** governance.
+Throughout the problem lifecycle, the following key responsibilities are defined. The appropriate time to do so may vary, and in many cases is outlined in **AMPFlow** governance.
 
 Every individual assigned any problem ownership is **accountable** for effective succession of responsibilities in the case of planned absence, and **responsible** for limiting the impact unplanned absence. 
 
@@ -10,7 +10,7 @@ Every individual assigned any problem ownership is **accountable** for effective
 
 - ## Problem Owner
     
-    The person who will be **responsible** ensuring the problem is defined and validated. Usually this will be a Product Manager, but may be an Engineer or Designer depending on the nature of the problem.
+    The person who will be **responsible** for ensuring the problem is defined and validated. Usually this will be a Product Manager, but may be an Engineer or Designer depending on the nature of the problem.
 
     This person is **accountable** for ensuring that:
 
@@ -19,7 +19,7 @@ Every individual assigned any problem ownership is **accountable** for effective
 
 - ## Delivery Owner
     
-    The person who will be **accountable** for asserting delivery governance for the problem. Normally this would be an Agile Delivery Manager, but can be any member of the Delivery Team.
+    The person who will be **accountable** for asserting delivery governance for the problem. Normally this would be an Agile Delivery Manager, but can be any member of the [Delivery Team](#delivery-team).
 
 - ## Product Lead
     
@@ -29,7 +29,7 @@ Every individual assigned any problem ownership is **accountable** for effective
     - gathering requirements, and
     - coordinating the creation and refinement of functional and non-functional specifications.
 
-    This person is **accountable** for ensuring the planned solution is aligned with overarching product strategy and adds measurable value to the product.
+    This person is **accountable** for ensuring the planned solution is aligned with the overarching product strategy and adds measurable value to the product.
 
     They are also **responsible** for describing changes to product behaviour to stakeholders.
 

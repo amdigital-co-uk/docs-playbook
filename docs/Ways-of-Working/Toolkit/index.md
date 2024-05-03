@@ -13,7 +13,7 @@ For each problem, different mechanisms will be employed by teams as they see fit
 In some cases, particularly where there are many mechanisms available for to performing certain operations or where an approach is preferred or strongly encouraged, we may select a "default", in the same way we may select default technologies or patterns. 
 
 !!! Warning "Guided not Forced"
-    We use the principal of guidelines and defaults to enable autonomy. Guidelines and defaults combined is preferred to "best practices", which infer that the best way is already known, and discourages [continuous improvement](../AMPFlow/index.md#tenets).
+    We use the principle of guidelines and defaults to enable autonomy. Guidelines and defaults combined is preferred to "best practices", which infer that the best way is already known, and discourages [continuous improvement](../AMPFlow/index.md#tenets).
 
 Teams would be expected to use the Default approach, unless they have a clear justification for not doing so - for example suitability to their current problem, or while experimenting with new mechanisms.
 

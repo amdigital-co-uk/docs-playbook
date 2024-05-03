@@ -15,9 +15,9 @@ Generate a "point in time" alignment between product management, design, enginee
 
 ## Delivery Modelling
 
-Delivery modelling is collaborative event during which a delivery model is produced or updated.
+Delivery modelling is a collaborative event during which a delivery model is produced or updated.
 
-During the event, [Problem Owner](../Problem-Ownership.md#problem-owner) will share a problem value propositions and any relevant information - this will vary depending on the "maturity" of the problem (how far through the lifecycle it is).
+During the event, the [Problem Owner](../Problem-Ownership.md#problem-owner) will share problem value propositions and any relevant information - this will vary depending on the "maturity" of the problem (how far through the lifecycle it is).
 
 Participants will consider and discuss dependencies, work involved for all disciplines (such as product management, design, engineering) and the likely "rough order of magnitude" of the work, and the Problem Lead will document these details.
 

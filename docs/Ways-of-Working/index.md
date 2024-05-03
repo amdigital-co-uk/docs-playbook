@@ -7,7 +7,7 @@ reviewer:
 next-review: 2022-04-01
 ---
 
-At AM we have developed a delivery system, which outlines how we value is delivered by the Platform Development team.
+At AM we have developed a delivery system, which outlines how value is delivered by the Platform Development team.
 
 ![AMPFlow](../Ways-of-Working/assets/AMPFlow-Overview.png)
 

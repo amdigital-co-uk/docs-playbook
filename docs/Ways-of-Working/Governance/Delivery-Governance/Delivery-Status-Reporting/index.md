@@ -10,7 +10,7 @@ Provide stakeholders with accurate and continuous information about the current 
 
 ## Delivery Status Reporting 
 
-Delivery Status Reporting is a procedure in which the delivery team reports to stakholders on the current progress of the delivery of a solution, enabling continuous feedback, support and guidance. Delivery status reporting can be executed either synchronously or asynchronously. 
+Delivery Status Reporting is a procedure in which the delivery team reports to stakeholders on the current progress of the delivery of a solution, enabling continuous feedback, support and guidance. Delivery status reporting can be executed either synchronously or asynchronously. 
 
 Delivery Status Reporting should aim to ensure continuous communication and alignment among stakeholders, and therefore should typically occur at specific times and/or when specific triggers are met.
 
@@ -20,7 +20,7 @@ Delivery Status Reporting should aim to ensure continuous communication and alig
 Delivery Status Reports are an artefact(s) produced and maintained by the delivery team and should be clear, visible and easily accessible by any colleague and/or stakeholder. It provides a point in time report on the current health and progress of the delivery of a solution, and should be routinely updated and shared with stakeholders as and when deemed necessary by the delivery team and/or when requested by stakeholders
 
 !!! Warning
-    Delivery status reports must accurately and promptly convey key delivery information to stakeholders and colleagues. Efforts should be made to maintain their accuracy at all times, but sometimes this isn't possible. To mitigate against this, ensure reports clearly indicate when they were last updated
+    Delivery status reports must accurately and promptly convey key delivery information to stakeholders and colleagues. Efforts should be made to maintain their accuracy at all times, but sometimes this isn't possible. To mitigate against this, ensure reports clearly indicate when they were last updated.
 
 
 ## Responsibilities
@@ -57,7 +57,7 @@ The team responsible for a problem will need to determine and document how deliv
 
 ## Considerations & Toolkit
 
-Consider collaborating with stakeholders early to define, agree and document clear expectations and guidance for delivery status reporting events and delivery status reports, and mechanisms for continuously monitoring and reviewing there effectiveness throughout the full problem lifecycle.
+Consider collaborating with stakeholders early to define, agree and document clear expectations and guidance for delivery status reporting events and delivery status reports, and mechanisms for continuously monitoring and reviewing their effectiveness throughout the full problem lifecycle.
 
 Consider your audience, delivery status reporting will typically need to adapt to suit the varying requirements of stakeholders engaged in the project. A [Responsibility Matrix](../Responsibility-Assignment.md) must record and track specific details on stakeholder engagement requirements.
 

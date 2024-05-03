@@ -41,19 +41,19 @@ Here are some tips to ensure the success of a Technical Design Workshop
 
 - Accountability: The Engineering Owner is accountable for the Technical Design of a solution and outcomes of these workshops.
 - Duration:
-  - Break it down into chunks
-  - High-level design can identify the need for multiple low-level designs 
+    - Break it down into chunks
+    - High-level design can identify the need for multiple low-level designs 
 - Location:
-  - In person is better where possible
-  - Hybrid should be avoided where possible (multiple people in person, multiple people dialled in)
-  - Large, complex, or very complicated problems will benefit from face-to-face collaboration
-  - Urgency should take preference over coordinating face-to-face design
+    - In person is better where possible
+    - Hybrid should be avoided where possible (multiple people in person, multiple people dialled in)
+    - Large, complex, or very complicated problems will benefit from face-to-face collaboration
+    - Urgency should take preference over coordinating face-to-face design
 - Give careful consideration to pre-existing solutions, but always evaluate their efficacy, and be sure the problem is fully understood first.
 - Be prepared to challenge ideas. Solutions may be put forward, they need to be challenged.
 - If during the session it is clear the outcomes cannot be achieved, make a plan to revisit and continue the technical design 
 - Always capture:
-  - Risks, Assumptions, Issues and Dependencies.
-  - Designs and ideas agreed and discarded.
+    - Risks, Assumptions, Issues and Dependencies.
+    - Designs and ideas agreed and discarded.
 - Ensure that someone is tasked with recording these throughout the workshop, and review them frequently.
 
 ### Outputs
