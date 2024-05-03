@@ -12,6 +12,15 @@ plugins:
   - search
   - tags
   - glightbox
+  - meta
+  - git-revision-date-localized:
+      enable_creation_date: true      
+      enabled: !ENV [CI, false]
+  - git-committers:
+      repository: amdigital-co-uk/docs-playbook
+      branch: main
+      token: !ENV ["GIT_COMMITTERS_KEY"]
+      enabled: !ENV [CI, false]
 theme:
   logo: assets/images/AM no tag.png
   name: material
