@@ -96,6 +96,10 @@ We must refine our ways of working such that we enhance our ability to adhere to
         - Proactively keeping themselves engaged – there is always somewhere you can be helpful, don’t wait to be asked
         - Working within the governance controls, understanding what is required of them, and finding a way forward 
 
+        ---
+
+        [Read more :octicons-arrow-right-24:](Continuous-Autonomy.md/)
+
     </div>
 
 
