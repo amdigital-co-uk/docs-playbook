@@ -40,7 +40,7 @@ Visit knowledge base for RAID default workflow
 
 ## RAID Processing  
 
-RAID processing is an event during which the delivery team produces and/or updates a RAID log.
+RAID processing is an procedure during which the delivery team produces and/or updates a RAID log.
 
 Together the delivery team will review existing and identify any new RAID entries, considering and documenting:
 
