@@ -28,6 +28,14 @@ A RAID log is a document or tool used to capture, track and manage any identifie
 
 By maintaining a comprehensive RAID log, delivery teams can improve their ability to anticipate and respond to challenges, minimise disruptions, and ultimately improve effectiveness.
 
+Typical RAID tooling options include:
+- Excel Spreadsheets
+- Software development tools e.g Azure DevOps and Jira
+- Project management tools e.g Loop, Confluence
+- Visual collaboration tools e.g Miro 
+
+Each tool comes with its own set of distinct advantages and potential disadvantages for capturing and managing RAID
+
 ## RAID Planning Events
 
 RAID Planning is an event during which the delivery team produces and/or updates a structured RAID log.
