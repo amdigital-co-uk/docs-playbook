@@ -28,8 +28,9 @@ A RAID log is a tool used to capture, track and manage any identified RAID entri
 
 By maintaining a comprehensive RAID log, delivery teams can improve their ability to anticipate and respond to specific challenges, minimise disruptions, and ultimately improve the accuracy of their delivery plans.
 
-RAID tooling options each come with their own set of perceived advantages and disadvantages for capturing and managing RAID
-Typical RAID tooling options and their advantages / disadvantages include:
+RAID tooling options each come with their own set of perceived advantages and disadvantages for capturing and managing RAID entries
+
+Typical RAID tooling options include:
 
 - Excel Spreadsheets
 - Software development tools e.g Azure DevOps and Jira
