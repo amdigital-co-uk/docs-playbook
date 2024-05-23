@@ -24,18 +24,18 @@ RAID provides a mechanism for [Challenge Mapping](../Governance/Problem-Governan
 
 ## RAID Logs
 
-A RAID log is a document or tool used to capture, track and manage any identified RAID items. Typically RAID logs are used to proactively identify, assess, and manage risks, assumptions, issues, and dependencies throughout the problem lifecycle. 
+A RAID log is a tool used to capture, track and manage any identified RAID entries. Typically RAID logs are used to proactively identify, assess, and manage risks, assumptions, issues, and dependencies throughout the problem lifecycle. 
 
-By maintaining a comprehensive RAID log, delivery teams can improve their ability to anticipate and respond to challenges, minimise disruptions, and ultimately improve effectiveness.
+By maintaining a comprehensive RAID log, delivery teams can improve their ability to anticipate and respond to specific challenges, minimise disruptions, and ultimately improve the accuracy of their delivery plans.
 
-Typical RAID tooling options include:
+RAID tooling options each come with their own set of perceived advantages and disadvantages for capturing and managing RAID
+Typical RAID tooling options and their advantages / disadvantages include:
 
 - Excel Spreadsheets
 - Software development tools e.g Azure DevOps and Jira
 - Project management tools e.g Loop, Confluence
 - Visual collaboration tools e.g Miro 
 
-Each tool comes with its own set of perceived advantages and disadvantages for capturing and managing RAID
 
 ## RAID Planning Events
 
