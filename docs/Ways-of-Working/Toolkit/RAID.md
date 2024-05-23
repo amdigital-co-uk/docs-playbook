@@ -29,6 +29,7 @@ A RAID log is a document or tool used to capture, track and manage any identifie
 By maintaining a comprehensive RAID log, delivery teams can improve their ability to anticipate and respond to challenges, minimise disruptions, and ultimately improve effectiveness.
 
 Typical RAID tooling options include:
+
 - Excel Spreadsheets
 - Software development tools e.g Azure DevOps and Jira
 - Project management tools e.g Loop, Confluence
