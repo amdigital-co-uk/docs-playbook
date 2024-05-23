@@ -35,7 +35,7 @@ Typical RAID tooling options include:
 - Project management tools e.g Loop, Confluence
 - Visual collaboration tools e.g Miro 
 
-Each tool comes with its own set of distinct advantages and potential disadvantages for capturing and managing RAID
+Each tool comes with its own set of perceived advantages and disadvantages for capturing and managing RAID
 
 ## RAID Planning Events
 
