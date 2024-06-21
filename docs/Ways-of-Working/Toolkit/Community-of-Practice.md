@@ -3,6 +3,7 @@ title: Community of Practice
 tags: 
  - Default
  - Community of Practice
+ - Draft
 ---
 
 !!! note "Stub"
