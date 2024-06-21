@@ -3,6 +3,7 @@ site_dir: site
 repo_url: https://github.com/amdigital-co-uk/docs-playbook
 repo_name: AM/Playbook
 edit_uri: edit/main../../
+site_url: !ENV ["siteurl"]
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
