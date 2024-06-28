@@ -67,7 +67,9 @@ We must refine our ways of working such that we enhance our ability to adhere to
 
         We produce hypothesis and design solutions and evaluate outcomes and outputs. 
 
-        We understand that quality means valuable as well as functional. Secure and sustainable, reliable and scalable.
+        We understand that quality means valuable as well as functional. 
+        
+        We design for security, privacy, and sustainability, reliability and scalability.
 
         We consider what success means and how we will measure it at the start and throughout the problem lifecycle.
 
