@@ -1,0 +1,28 @@
+---
+title: Privacy by Design
+---
+
+## 7 Key Principles of Privacy
+
+These principles aim to embed privacy considerations into every aspect of system design and operation, ensuring that user privacy is protected proactively and consistently throughout the lifecycle of the product.
+
+## 1. Proactive not Reactive; Preventative not Remedial
+Design systems with privacy in mind from the outset. Anticipate potential privacy issues and address them before they occur, rather than waiting for problems to arise and then fixing them.
+
+## 2. Privacy as the Default Setting
+Ensure that personal data is protected by default in your systems. Users should not have to take any action to secure their privacy; the most privacy-friendly settings should be applied automatically.
+
+## 3. Privacy Embedded into Design
+Integrate privacy features seamlessly into the design and architecture of your systems. Privacy should not be an afterthought but a fundamental part of the system’s core functionality.
+
+## 4. Full Functionality – Positive-Sum, not Zero-Sum
+Strive for solutions that provide both privacy and full functionality. Avoid trade-offs between privacy and other goals; aim for a positive-sum approach where all objectives can be achieved without compromise.
+
+## 5. End-to-End Security – Full Lifecycle Protection
+Protect personal data throughout its entire lifecycle, from collection to deletion. Implement strong security measures to ensure data integrity, confidentiality, and availability at all stages.
+
+## 6. Visibility and Transparency – Keep it Open
+Maintain transparency about how personal data is handled and processed. Make privacy practices clear and accessible to users, and ensure that your data processing activities are open to scrutiny.
+
+## 7. Respect for User Privacy – Keep it User-Centric
+Design systems that respect user privacy and put the interests of individuals first. Provide users with control over their personal data and make privacy-friendly options easy to use and understand.
