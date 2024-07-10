@@ -10,6 +10,7 @@ jobs:
   documentation:
     name: Build site
     runs-on: ubuntu-latest
+    environment: production
     steps:
 
       - name: Checkout repository
