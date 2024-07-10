@@ -7,6 +7,7 @@ jobs:
   documentation:
     name: Build then Deploy site
     runs-on: ubuntu-latest
+    environment: preview
     steps:
 
       - name: Checkout repository
@@ -23,6 +24,7 @@ jobs:
       - name: Deploy MKdocs site
         run: |
           mkdocs build
+
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
