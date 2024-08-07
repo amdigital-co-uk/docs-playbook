@@ -1,39 +1,76 @@
 ---
-title: Challenge Mapping
+title: RAID Management
 tags:
-    - draft
+    - RAID
 ---
-
 ## Objective
 
-Proactively and continuously identify and communicate potential and current challenges relating to the problem lifecycle, such that they can be managed, accepted, removed, or mitigated. 
+Proactively manage and mitigate risks, assumptions, issues and dependencies throughout the problem lifecycle.
 
-## Challenge Mapping
+## RAID
 
-Challenge mapping is a continuous process, as new challenges will emerge, and existing challenges will evolve. 
+RAID is a well established project management tool used to identify, track, and manage key aspects that can impact the success of the delivery of a solution. 
 
-The practice is performed by the delivery team, although any stakeholder can present challenges for the team to consider.
+- **Risks** - The objective of managing risks within RAID is to identify potential threats or uncertainties that could impact the delivery plan objectives, timeline, budget, or quality. By identifying risks early on, the development team can implement strategies to mitigate or eliminate them, reducing the likelihood of negative consequences
+- **Assumptions** - Assumptions are underlying beliefs, or conditions that are taken for granted, or preliminary decisions that have not been validated. Assumptions have the potential to influence outcomes. The objective of managing assumptions within RAID is to document and validate these assumptions to ensure that they are accurate and aligned with the problem hypothesis and solution. By addressing assumptions upfront, the team can avoid misunderstandings or misalignments that could derail delivery.
+- **Issues** - Issues are problems or challenges that arise throughout the problem lifecycle (although particularly during Design and Implementation). The objective of managing issues within RAID is to track and address these issues in a timely manner to prevent them from escalating and impacting progress. By actively managing issues, the team can minimize disruptions and keep the delivery on track towards its objectives.
+- **Dependencies** - Dependencies are relationships between tasks or deliverables that dictate their sequence or interdependence. The objective of managing dependencies within RAID is to identify and track these relationships to ensure that tasks are executed in the correct order and dependencies are managed effectively. By understanding and managing dependencies, the team can optimize workflow and minimize delays.
 
-Challenges must be identified, categorised (e.g. Risk, Assumption, Issue, Dependency), quantified and documented. This "map" of challenges provides vital information that can help throughout the problem lifecycle, particularly during discovery and continuous delivery planning.
+## RAID Planning Events
+
+RAID Planning is an event during which the delivery team produces and/or updates a structured RAID log.
+
+Together the delivery team will review existing and identify new RAID items, considering and documenting:
+
+- the perceived impact, 
+- the perceived likelihood,
+- workarounds or mitigation plans
+
+## RAID Logs
+
+A RAID log is a document or tool used to capture, track and manage any identified RAID items. Typically RAID logs are used to proactively identify, assess, and manage risks, assumptions, issues, and dependencies throughout the problem lifecycle. 
+
+By maintaining a comprehensive RAID log, delivery teams can improve their ability to anticipate and respond to challenges, minimise disruptions, and ultimately improve effectiveness.
+
 
 ## Responsibilities
 
-| Owner | Responsibility |
-| - | - |
-| Delivery Owner    | Is **accountable** for ensuring challenge maps are documented and communicated effectively |
-| Product Lead      | Is **responsible** for creating and maintaining challenge maps during discovery |
-| Delivery Team     | Are **responsible** for creating and maintaining their challenge maps, and **accountable** for ensuring challenges are considered during throughout the problem lifecycle |
+| Owner                 | Responsibility |
+|---|---|
+| Delivery Owner        | The Delivery Owner is **accountable** for ensuring that effective RAID management is happening at appropriate times and the results are both accessible and effectively communicated with colleagues and stakeholders |
+| Delivery Team         | The whole Delivery team is collectively **responsible** for RAID identification, management and mitigation |
+| Product Lead          | **Responsible** for participating in any RAID planning events where necessary, and by collating and sharing relevant product related insights that could lead to the identification of new RAID items |
+| Engineering Owner     | **Responsible** for participating in any RAID planning events where necessary, and by collating and sharing relevant engineering related insights that could lead to the identification of new RAID items |
+| Design Owner          | **Responsible** for participating in any RAID planning events where necessary, and by collating and sharing relevant design related insights that could lead to the identification of new RAID items |
 
 ## Triggers
+Typical triggers for RAID include (but are not limited to):
 
-Challenges should be documented as soon as they are known, throughout the problem lifecycle.
+- **Requirement Elicitation** - as requirements are gathered for the problem during the discovery zone 
+- **Design** - during the design zone and design workshops, triggers could include architectural decisions that introduce technical risks, assumptions about third party integrations, or dependencies on specific design components
+- **Resource Allocation** - changes in resource availability or allocation
+- **Technologies and/or Tools** - selecting new technologies or tools for the solution 
+- **Change Requests** - whenever there are changes to solution requirements, scope, or timeline
+- **Testing and Quality Assurance** - issues identified during testing and quality assurance activities can trigger RAID items relating to defects, performance issues, or dependencies on external systems 
 
-The delivery team must identify appropriate times to collectively review and update their challenge map, so that it is kept fresh and relevant, and can be effectively used for planning.
+
+## Communication Plan
+
+Delivery teams are responsible for ensuring relevant stakeholders and/or colleagues are informed about the status of key RAID items and any actions being taken that could potentially impact delivery, other delivery teams' plans or stakeholders and other departments.
+
+RAID communication plans typically include and document:
+
+1. **Communication Channels** - with **delivery teams:** via regular team meetings or RAID planning events or **with stakeholders:** via [delivery status updates and reports](../Governance/Delivery-Governance/Delivery-Status-Reporting/index.md), ad-hoc communications to address urgent or critical RAID items, 
+2. **Content & Format** - RAID item summary, detailed descriptions, action items and trends in RAID dat over time
+3. **Escalation Process** - defined escalation process for addressing high-priority or critical RAID items that require immediate attention or resolution 
+4. **Feedback Mechanism** - encourage feedback from stakeholders and team members on the effectiveness of RAID communication and any improvements or suggested adjustments required
+5. **Review & Continuous Improvement** - regularly review the effectiveness of the RAID communication plan, gathering feedback from stakeholders and team members and identify opportunities for improvement
+
+!!! Note
+    Not all RAID items need to be communicated to all stakeholders, and in some situations can confuse rather than inform a stakeholder. Reporting on RAID should be tailored for the appropriate audiences, focussing on the key items of most concern or perceived impact.
+
 
 ## Considerations
 
-A well established technique for challenge mapping is a [RAID Log](../../Toolkit/RAID.md).
-
-!!! toolkit "Toolkit"
-
-    <!-- material/tags { include: [Challenge Mapping] } -->
+- Review the [toolkit](../../Ways-of-Working/Toolkit/index.md) section for documented approaches, or perform your own research.
+- Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).
