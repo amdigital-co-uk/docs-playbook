@@ -33,6 +33,8 @@ Reporting RAID (Risks, Assumptions, Issues, and Dependencies) is crucial for eff
 - Use a standardized format for reporting to ensure clarity and consistency
 - Tailor the RAID log for the audience: this may entail extracting key RAID items and adding them to a PowerPoint deck.  Key items can be discussed individually or rolled up to form key RAID themes to discuss with stakeholders (see example below).
 - Be mindful of the level at which you're communicating at, and tailor the level of detail to suit the audience
+![RAID AMPFlow Workflow](./assets/raid-item-rollup.png)
+
 
 ## When to Report RAID
 
@@ -108,6 +110,8 @@ Operation Zone
 
 ## RAID applied to sprint planning at delivery team level
 A RAID workflow as it applies to delivery team sprint planning
+
+![RAID AMPFlow Workflow](./assets/raid-example-workflow.png)
 
 ## Key Pointers
 
