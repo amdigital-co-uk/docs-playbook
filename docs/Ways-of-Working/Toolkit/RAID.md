@@ -14,7 +14,7 @@ tags:
 - This may be a useful starting point for delivery teams, and as competency grows, teams are encouraged to experiment with, define and evolve their own processes and procedures whilst operating within the stipulated minimum viable guardrails.
 - The guidance demonstrates several options for managing RAID so that teams can find what works best for them. If a team is unsure where to start they are encouraged to arrange a short session with a RAID SME who, through discussion, can make recommendations on the best approach for the team.
 
-## RAID SME's
+## RAID Subject Matter Experts
 
 | Name                 | Contact |                    | Role |
 |---|---|
