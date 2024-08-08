@@ -69,7 +69,7 @@ Define requirements for reporting RAID with your delivery team and stakeholders 
 
     - **Description:** Identify tasks or components that depend on each other
     - **Impact:** Explain how issues affect the project timeline and milestones
-    - **Impact Rating:** Rate the risk based on how severe the impact would be if the dependency cannot be resolved or removed
+    - **Impact Rating:** Rate the risk based on how severe the impact would be if the issue cannot be resolved or removed
     - **Management Plan:** Describe how dependencies will be managed
     - **Owner:** Assign responsibility for managing the dependencies
 
