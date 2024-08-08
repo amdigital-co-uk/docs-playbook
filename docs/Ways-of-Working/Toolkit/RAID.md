@@ -43,7 +43,7 @@ Define requirements for reporting RAID with your delivery team and stakeholders 
 - **Sprint planning:** before each sprint, review and update the RAID log to ensure any new items are captured and addressed
 - **Daily standups:** briefly mention any critical RAID updates that might impact daily work to keep the team informed 
 - **Sprint reviews / Retrospectives:** at the end of each sprint, review the RAID log to discuss what was resolved, what new items were added, and what ongoing items need further attention 
-- **ad hoc reporting:** anytime a significant RAID item emerges, update the RAID log and communicate it to the team promptly to mitigate impacts   
+- **Ad hoc reporting:** anytime a significant RAID item emerges, update the RAID log and communicate it to the team promptly to mitigate impacts   
 
 ## What to Report
 
