@@ -61,7 +61,7 @@ Delivery teams are responsible for ensuring relevant stakeholders and/or colleag
 RAID communication plans typically include and document:
 
 1. **Communication Channels** - with **delivery teams:** via regular team meetings or RAID planning events or **with stakeholders:** via [delivery status updates and reports](../Governance/Delivery-Governance/Delivery-Status-Reporting/index.md), ad-hoc communications to address urgent or critical RAID items, 
-2. **Content & Format** - RAID item summary, detailed descriptions, action items and trends in RAID dat over time
+2. **Content & Format** - RAID item summary, detailed descriptions, action items and trends in RAID data over time
 3. **Escalation Process** - defined escalation process for addressing high-priority or critical RAID items that require immediate attention or resolution 
 4. **Feedback Mechanism** - encourage feedback from stakeholders and team members on the effectiveness of RAID communication and any improvements or suggested adjustments required
 5. **Review & Continuous Improvement** - regularly review the effectiveness of the RAID communication plan, gathering feedback from stakeholders and team members and identify opportunities for improvement
