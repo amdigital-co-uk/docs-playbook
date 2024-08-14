@@ -5,21 +5,9 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "command": "run.bat",
+            "command": "call run.bat",
             "name": "Run Playbook using MKdocs",
-            "command": "mkdocs serve",
-            "name": "Install and run",
-            "request": "launch",
-            "type": "node-terminal",
-            "preLaunchTask": "Install",
-        
-        },        
-        {
-            "command": "mkdocs serve",
-            "name": "Run",
             "request": "launch",
             "type": "node-terminal"
-        }
-        
-    ]
+        }]
 }

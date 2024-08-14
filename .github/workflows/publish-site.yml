@@ -24,6 +24,10 @@ jobs:
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-git-committers-plugin-2
       
+      - name: Enable insiders-only config
+        run: |
+          sed -i mkdocs.yml -e "s/#insiders-only#//g"
+
       - name: Deploy MKdocs site
         run: |
           mkdocs build

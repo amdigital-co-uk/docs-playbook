@@ -1,3 +1,9 @@
+# NOTE - Some features are MKDocs insiders only!
+#
+# Some plugins/config will only work if the mkdocs-material-insiders module is installed, which cannot be done locally.
+# Any such config should be disabled locally by prepending the following without quotes/spaces: '#insiders-only#'
+# The pipeline will re-enable any insiders-only config lines before building and publishing
+
 site_name: Platform Development Playbook
 site_dir: site
 repo_url: https://github.com/amdigital-co-uk/docs-playbook
@@ -13,7 +19,7 @@ plugins:
   - search
   - tags
   - glightbox
-  - meta
+  #insiders-only#- meta
   - git-revision-date-localized:
       enable_creation_date: true      
       enabled: !ENV [CI, false]
