@@ -17,9 +17,9 @@ tags:
 ## RAID Subject Matter Experts
 
 
-Alex Rae             | alex.rae@amdigital.co.uk |   | Agile Delivery Manager  |
-| Carol Webb           | carolw@amdigital.co.uk   |   | Senior Business Analyst |
-| Matt Braisher        | mattb@amdigital.co.uk    |   | Product Manager         |
+**Alex Rae** / Agile Delivery Manager: alex.rae@amdigital.co.uk 
+**Carol Webb** / Senior Business Analyst: carolw@amdigital.co.uk   
+**Matt Braisher** / Product Manager: mattb@amdigital.co.uk  
 
 ## Raid Reporting Mechanisms 
 
@@ -32,7 +32,7 @@ Reporting RAID (Risks, Assumptions, Issues, and Dependencies) is crucial for eff
 - Use a standardized format for reporting to ensure clarity and consistency
 - Tailor the RAID log for the audience: this may entail extracting key RAID items and adding them to a PowerPoint deck.  Key items can be discussed individually or rolled up to form key RAID themes to discuss with stakeholders (see example below).
 - Be mindful of the level at which you're communicating at, and tailor the level of detail to suit the audience
-![RAID AMPFlow Workflow](./assets/raid-item-rollup.png)
+![RAID Items Rollup](./assets/raid-item-rollup.png)
 
 
 ## When to Report RAID
@@ -88,22 +88,26 @@ RAID workflow applied to the full-problem solving lifecycle (AMPFlow)
 
 ## Key Pointers
 
-Ownership
+**Ownership**
+
 - typically, ownership of the RAID log will change throughout the full problem-solving lifecycle 
 - ensure that ownership: roles and responsibilities are clearly defined at all times, if they aren't, take action to resolve ASAP
 
-Handovers Between Zones:
+**Handovers Between Zones:**
+
 - handovers generally occur between zones
 - schedule a RAID handover event, ensure all knowledge is transferred: key findings / next steps are clearly understood
 
-Managing RAID's impact on viability / feasibility of the problem / solution
+**Managing RAID's impact on viability / feasibility of the problem / solution**
+
 - RAID has the potential to influence whether a piece of work, be it a product, feature, BLI etc is still valid
 - Therefore, we must be continuously discovering and monitoring new RAID entries, assessing their potential impact, likelihood and communicating this with our colleagues and stakeholders
 - Draw on Product Manager, Engineer, UX, Delivery Manager perspectives to ensure we are covering all areas
 - It's challenging to manage this effectively amongst other responsibilities
 - Therefore use 'mechanisms' to define a workflow for RAID and assign responsibilities - this workflow can and will adapt to change and evolve over time. continuously review its effectiveness and look for new ways to improve it
 
-Operation Zone
+**Operation Zone**
+
 - once work is passed from the 'implementation zone' into the 'operation zone' the RAID log will be handed over to the support team
 - TBD - currently working with support to define an initial workflow for this 
 
@@ -114,13 +118,15 @@ A RAID workflow as it applies to delivery team sprint planning
 
 ## Key Pointers
 
-Assigning RAID Entries to a Project or Sprint
+**Assigning RAID Entries to a Project or Sprint**
+
 - ensure that it is clear whether a RAID item relates to a sprint or a project so that it is managed and reported appropriately
 - use separate RAID logs or a single RAID log with items labelled appropriately - there is no right or wrong way to do this
 - a sprint RAID item will typically be managed by the sprint team and will be short lived
 - project RAID items may require communication with a wider audience, e.g. as part of stakeholder updates
 
-Assigning Ratings:
+**Assigning Ratings:**
+
 - ratings can take several different formats, for example High/Medium/Low, 1-5
 - choose a consistent way of rating all items so that they can be easily compared against each other
 - for all types of RAID, rating the impact helps determine whether mitigations are required
@@ -128,11 +134,13 @@ Assigning Ratings:
 - likelihood and Impact ratings can be combined to determine which risks pose the biggest threat
 - for Assumptions a confidence rating on the accuracy of the assumption, combined with the impact rating, provides insight into the priority that should be given to validating the assumption
 
-Planning Mitigations:
+**Planning Mitigations:**
+
 - mitigations or management plans should be recorded for RAID items that have the potential to cause a significant impact on a sprint or project
 - these plans should be reviewed and updated in light of new information or a change to the ratings assigned to the RAID item
 
-Defining Continuous Review Mechanisms:
+**Defining Continuous Review Mechanisms:**
+
 - it can be difficult to find time for RAID amongst other responsibilities
 - identifying regular checkpoints for reviewing the RAID log can prevent it being lost amongst all the work that is happening 
 - what 'regular' means depends on whether the item is a project or sprint level item.  For example, sprint items may be reviewed daily whereas project items may be reviewed once per sprint
