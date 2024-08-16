@@ -32,7 +32,7 @@ Reporting RAID (Risks, Assumptions, Issues, and Dependencies) is crucial for eff
 - Use a standardized format for reporting to ensure clarity and consistency
 - Tailor the RAID log for the audience: this may entail extracting key RAID items and adding them to a PowerPoint deck.  Key items can be discussed individually or rolled up to form key RAID themes to discuss with stakeholders (see example below).
 - Be mindful of the level at which you're communicating at, and tailor the level of detail to suit the audience
-![RAID Items Rollup](./assets/raid-item-rollup.png)
+![RAID Items Rollup](./assets/raid-Item-rollup.png)
 
 
 ## When to Report RAID
