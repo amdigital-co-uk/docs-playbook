@@ -16,9 +16,8 @@ tags:
 
 ## RAID Subject Matter Experts
 
-| Name                 | Contact |                    | Role |
-|---|---|
-| Alex Rae             | alex.rae@amdigital.co.uk |   | Agile Delivery Manager  |
+
+Alex Rae             | alex.rae@amdigital.co.uk |   | Agile Delivery Manager  |
 | Carol Webb           | carolw@amdigital.co.uk   |   | Senior Business Analyst |
 | Matt Braisher        | mattb@amdigital.co.uk    |   | Product Manager         |
 
