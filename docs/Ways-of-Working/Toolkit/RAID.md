@@ -38,6 +38,7 @@ Reporting RAID (Risks, Assumptions, Issues, and Dependencies) is crucial for eff
 ## When to Report RAID
 
 Define requirements for reporting RAID with your delivery team and stakeholders and continuously monitor and review this as things change 
+
 - **Project initiation:** during the initial planning phase, identify and document all potential RAID elements to establish a baseline
 - **Sprint planning:** before each sprint, review and update the RAID log to ensure any new items are captured and addressed
 - **Daily standups:** briefly mention any critical RAID updates that might impact daily work to keep the team informed 
