@@ -20,6 +20,10 @@ tags:
 - **Carol Webb** / Senior Business Analyst: carolw@amdigital.co.uk   
 - **Matt Braisher** / Product Manager: mattb@amdigital.co.uk  
 
+**Alex Rae** / Agile Delivery Manager: alex.rae@amdigital.co.uk 
+**Carol Webb** / Senior Business Analyst: carolw@amdigital.co.uk  
+**Matt Braisher** / Product Manager: mattb@amdigital.co.uk     
+
 
 ## Raid Reporting Mechanisms 
 
@@ -33,6 +37,7 @@ Reporting RAID (Risks, Assumptions, Issues, and Dependencies) is crucial for eff
 - Tailor the RAID log for the audience: this may entail extracting key RAID items and adding them to a PowerPoint deck.  Key items can be discussed individually or rolled up to form key RAID themes to discuss with stakeholders (see example below).
 - Be mindful of the level at which you're communicating at, and tailor the level of detail to suit the audience
 ![RAID Items Rollup](./assets/raid-Item-rollup.png)
+![RAID Item Rollup](./assets/raid-item-rollup.png)
 
 
 ## When to Report RAID
@@ -94,7 +99,7 @@ RAID workflow applied to the full-problem solving lifecycle (AMPFlow)
 - typically, ownership of the RAID log will change throughout the full problem-solving lifecycle 
 - ensure that ownership: roles and responsibilities are clearly defined at all times, if they aren't, take action to resolve ASAP
 
-**Handovers Between Zones:**
+**Handovers Between Zones**
 
 - handovers generally occur between zones
 - schedule a RAID handover event, ensure all knowledge is transferred: key findings / next steps are clearly understood
