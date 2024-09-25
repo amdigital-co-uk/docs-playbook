@@ -1,5 +1,7 @@
 ---
 title: Documenting Decisions
+tags:
+- Architectural Design
 ---
 
 ## Document Decisions

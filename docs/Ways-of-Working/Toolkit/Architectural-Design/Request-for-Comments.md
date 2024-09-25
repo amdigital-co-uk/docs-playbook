@@ -1,5 +1,7 @@
 ---
 title: Request for Comments (RFC)
+tags:
+- Architectural Design
 ---
 
 ## What Are RFCs?
