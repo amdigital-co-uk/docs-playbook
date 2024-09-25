@@ -1,10 +1,12 @@
 ---
-title: Peer Review
+title: Code Peer Review
 ---
 
 ## Objective
 
-Every change to a production system must be reviewed by someone other than the person who implemented that change, and evidence must be retained that this review has been performed.
+There are other forms of Peer Review, like Solution Design Peer Review and [Technical Validation Review](Technical-Validation-Review.md), but in this instance we're talking about Code Peer Review. 
+
+Every code change to a production system must be reviewed by someone other than the person who implemented that change, and evidence must be retained that this review has been performed.
 
 Reviews, at a minimum, must look to identify critical quality and security flaws, but also serve to reduce knowledge silos and create better solutions.
 
