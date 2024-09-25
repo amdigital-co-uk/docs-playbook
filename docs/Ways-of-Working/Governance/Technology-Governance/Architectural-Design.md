@@ -17,6 +17,9 @@ Architectural designs help:
 - ensure use of defaults or rfc where deviating
 - ensure chosen approach is well documented with ADRs
 
+## Peer Review
+
+Architectural designs must be reviewed by relevant technical stakeholders.
 
 ## Responsibilities
 

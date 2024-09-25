@@ -18,8 +18,8 @@ It is the responsibility of the [Engineering Owner](../Governance/Problem-Owners
 ## Solution Project/Feature:
 [_link to design documents / tickets_]
 
-## Technical Owner:
-[_name of technical owner_]
+## Engineering Owner:
+[_name of engineering owner_]
 
 ---
 
