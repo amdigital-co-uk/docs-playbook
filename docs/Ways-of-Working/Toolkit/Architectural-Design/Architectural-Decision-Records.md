@@ -1,4 +1,8 @@
-# Architectural Decision Record
+---
+title: Architectural Decision Record
+tags:
+ - Architectural Design
+---
 
 ## What Are ADRs?
 

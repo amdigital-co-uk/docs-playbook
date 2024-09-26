@@ -1,10 +1,7 @@
 ---
 title: Technical Design Workshops
-authors: 
-- Rhodri Hewitson
-reviewed: 
-reviewer:
-next-review: 2021-01-01
+tags:
+- Architectural Design
 ---
 
 

@@ -1,12 +1,8 @@
 ---
-title: Peer Reviewing
-authors: 
-- Dave Arthur
-- Ed Earle
-- Rhodri Hewitson
-reviewed: 
-reviewer:
-next-review: 2021-11-01
+title: Code Peer Reviewing
+tags:
+ - Implementation Peer Review
+ - Default
 ---
 
 ## Overview

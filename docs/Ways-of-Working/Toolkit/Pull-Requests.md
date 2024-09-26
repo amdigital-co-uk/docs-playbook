@@ -1,11 +1,7 @@
 ---
 title: Pull Requests
-authors: 
-  - Dave Arthur
-  - Rhodri Hewitson
-reviewed: 
-reviewer:
-next-review: 2022-04-01
+tags:
+ - Implementation Peer Review
 ---
 
 ## Pull Requests
