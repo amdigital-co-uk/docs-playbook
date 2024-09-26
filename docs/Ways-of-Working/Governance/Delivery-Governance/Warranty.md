@@ -1,12 +1,8 @@
 ---
 title: Warranty
-tags:
-    - draft
 ---
 
-## Objective
-
-Ensure that solutions are working as intended, and that resolutions to issues can be implemented rapidly.
+The objective of a Warranty is to ensure that new solutions are working as intended, and that resolutions to issues can be implemented rapidly.
 
 ## Warranty Period
 

@@ -4,9 +4,9 @@ tags:
     - draft
 ---
 
-## Objective
+A support handover is an activity perform between the delivery team and the support team, once a solution has been implemented and released.
 
-Ensure that the solution that has been released can continue to be supported, minimising the need for investigation and re-learning, and the likelihood of impediments being caused by knowledge gaps.
+The objective of the Support Handover is to ensure that the solution that has been released can continue to be supported, minimising the need for investigation and re-learning, and the likelihood of impediments being caused by knowledge gaps.
 
 ## Planning and Performing Handovers
 
