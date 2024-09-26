@@ -19,7 +19,7 @@ plugins:
   - search
   - tags
   - glightbox
-  - meta
+  #insiders-only#- meta
   - git-revision-date-localized:
       enable_creation_date: true      
       enabled: !ENV [CI, false]
