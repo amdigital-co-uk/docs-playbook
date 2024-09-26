@@ -1,8 +1,8 @@
 nav:
 - index.md
-- Problem-Discovery.md
+- Research-and-Exploration.md
 - Problem-Definition.md
-- Requirements-Gathering.md
+- Requirements-Definition.md
 - Solution-Design.md
 - Success-Planning.md
 - Release-Planning.md
