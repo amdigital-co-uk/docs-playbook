@@ -1,12 +1,14 @@
 ---
 title: After Action Reviews
-tags:
-    - draft
 ---
 
-## After Action Reviews
+An **After Action Review** is a point in time analysis of actions taken where there is opportunity for learning. 
 
-An **After Action Review** (review) is a point in time analysis of actions taken where there is opportunity for learning. This produces an **After Action Report** for the benefit of team reference, and stakeholder communication. This procedure can occur during any **AMPFlow** zone where there is perceived value in learning, but is required after any major milestones such as releases.
+The objective of an After Action review is to ensure time is taken to learn from previous actions, especially where mistakes have been made, and to produce an **After Action Report** for the benefit of team reference, and stakeholder communication. 
+
+## Performing After Action Reviews
+
+This procedure can occur during any **AMPFlow** zone where there is perceived value in learning, but is required after any major milestones such as releases.
 
 !!! note
     After Action Reviews are synonymous with "Wash Ups", "Mop Ups", "Post Mortems". After Action Review avoids terminology that assumes failure or damage. 

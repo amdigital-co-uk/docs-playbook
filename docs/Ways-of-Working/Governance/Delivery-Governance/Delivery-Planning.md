@@ -3,15 +3,9 @@ title: Delivery Planning
 tags: 
     - draft
 ---
+Delivery Planning is a procedure in which the delivery team produces and/or updates a structured delivery plan, detailing the current plan for designing and implementing a solution.
 
-## Objective
-
-Ensure efficient coordination and execution of tasks to achieve timely and successful delivery of a solution.
-
-## Delivery Planning
-
-Delivery Planning is an event and procedure in which the delivery team produces and/or updates a structured delivery plan, detailing the current plan and approach for delivering a solution.
-
+The objective of Delivery Planning is to ensure efficient coordination and execution of tasks to achieve timely and successful delivery of a solution.
 
 ## Delivery Plans
 

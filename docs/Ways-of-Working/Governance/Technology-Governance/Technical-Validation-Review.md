@@ -23,7 +23,8 @@ Engineering Owner must:
 
 ## Triggers
 
-- When Architectural Design has been performed, and an implementation plan has been 
+If an [Architectural Design](Architectural-Design.md) has been required for the problem, a Technical Validation Review will be needed. 
+When creating an implementation plan, the delivery team and engineering owner should identify suitable points for this review. 
 
 ## Responsibilities
 

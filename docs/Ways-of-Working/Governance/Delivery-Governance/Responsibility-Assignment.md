@@ -4,18 +4,14 @@ tags:
     - draft
 ---
 
-## Objective
+Responsibility assignment is a procedure that defines and ensures continuous validation of roles, delineating clear responsibilities and accountability throughout the full problem lifecycle.
 
-Ensure ownership, roles and accountability are clearly and continuously defined and communicated throughout the full project lifecycle.
+The objective of Responsibility Assignment is to ensure ownership, roles and accountability are clearly and continuously defined and communicated throughout the full project lifecycle.
 
-## Responsibility Assignment 
-
-Responsibility assignment is a procedure that defines and ensures continuous validation of roles, delineating clear responsibilities and accountability throghout the full problem lifecycle.
-
-Responsibility assignment includes the assignment and continuous review of [Problem Ownership](../Problem-Ownership.md) and stakeholder responsibilities storred in a responsibility matrix commonly referred to as a RACI 
-
+Responsibility assignment includes the assignment and continuous review of [Problem Ownership](../Problem-Ownership.md) and stakeholder responsibilities stored in a responsibility matrix commonly referred to as a RACI.
 
 ## Responsibility Matrix
+
 A responsibility matrix is a single artefact produced and maintained by the delivery team, and is used to clarify, continuoulsy monitor and review the roles and responsibilities of individuals or groups involved in the delivery of a solution. 
 
 A responsibility matrix should detail key information that enables more effective collaboration with stakeholders and includes: a list of stakeholders, clarity on their type of involvement, potential impact on project, availability and any other additional details that help optimise collaboration.

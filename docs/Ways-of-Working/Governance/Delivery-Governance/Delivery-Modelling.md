@@ -1,21 +1,17 @@
 ---
 title: Delivery Modelling
-tags:
-    - draft
 ---
 
-## Objective
+Delivery modelling is a collaborative event during which a [delivery model](#delivery-models) is produced or updated. 
 
-Generate a "point in time" alignment between product management, design, engineering leadership, and key business stakeholders on:
+The objective of Delivery Modelling is to generate a "point in time" alignment between product management, design, engineering leadership, and key business stakeholders on:
 
-- the order in which problems will be addressed in the medium-term (up to 9-18 months). 
+- the order in which problems will be addressed in the medium-term (e.g. 9-18 months). 
 - dependencies between problems and with other business objectives.
-- ownership of problems.
+- [ownership of problems](../Problem-Ownership.md).
 - our perception of the scale and types of the work required.
 
-## Delivery Modelling
-
-Delivery modelling is a collaborative event during which a delivery model is produced or updated.
+## Performing Delivery Modelling
 
 During the event, the [Problem Owner](../Problem-Ownership.md#problem-owner) will share problem value propositions and any relevant information - this will vary depending on the "maturity" of the problem (how far through the lifecycle it is).
 
@@ -32,9 +28,9 @@ The [problem ownership](../Problem-Ownership.md) will be assigned (or re-assigne
 
 ## Delivery Models
 
-The **Delivery Model** is a single, evolving artefact produced collectively. It provides a reference for the outcomes of the delivery modelling discussions.
-
 A delivery model shows the agreed approach to solving problems in the medium term, based on the information available at the time of the modelling.
+
+The **Delivery Model** is a single, evolving artefact produced collectively. It provides a reference for the outcomes of the delivery modelling discussions.
 
 !!! Danger "Model not Plan"
     A **delivery model is not a plan**, nor a commitment. 
