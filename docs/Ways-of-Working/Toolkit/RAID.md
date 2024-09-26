@@ -146,7 +146,6 @@ A RAID workflow as it applies to delivery team sprint planning
 - identifying regular checkpoints for reviewing the RAID log can prevent it being lost amongst all the work that is happening 
 - what 'regular' means depends on whether the item is a project or sprint level item.  For example, sprint items may be reviewed daily whereas project items may be reviewed once per sprint
 
-
 ## RAID Tooling Options
 
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).
