@@ -1,9 +1,5 @@
 ---
 title: Release Planning
-authors:
-    - Helen Duriez
-tags:
-    - draft
 ---
 
 ## Objective
@@ -12,7 +8,7 @@ Create a plan to ensure your solution is released to customers and/or users in t
  
 ## Release Planning
 
-In the world of continuous deployment, many code deployments may have taken place before a solution is ready to be released. By **released**, we mean that a solution, or partial solution, to a defined problem, or *sub-problem*, has been made available to an agreed set of customers or users.
+In the world of continuous deployment, many code deployments may have taken place before a solution is ready to be released. By **release**, we mean making a solution to a defined problem available to a specific group of customers or users.
 
 
 ![Continuous Deployment](../../assets/continuous-deployment.png)
