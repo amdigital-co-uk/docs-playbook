@@ -1,15 +1,11 @@
 ---
 title: RAID Management
-tags:
-    - RAID
 ---
-## Objective
-
-Proactively manage and mitigate risks, assumptions, issues and dependencies throughout the problem lifecycle.
-
-## RAID
-
 RAID is a well established project management tool used to identify, track, and manage key aspects that can impact the success of the delivery of a solution. 
+
+The objective of RAID Management is to understand and mitigate risks, assumptions, issues and dependencies throughout the problem lifecycle.
+
+## RAID 
 
 - **Risks** - The objective of managing risks within RAID is to identify potential threats or uncertainties that could impact the delivery plan objectives, timeline, budget, or quality. By identifying risks early on, the development team can implement strategies to mitigate or eliminate them, reducing the likelihood of negative consequences
 - **Assumptions** - Assumptions are underlying beliefs, or conditions that are taken for granted, or preliminary decisions that have not been validated. Assumptions have the potential to influence outcomes. The objective of managing assumptions within RAID is to document and validate these assumptions to ensure that they are accurate and aligned with the problem hypothesis and solution. By addressing assumptions upfront, the team can avoid misunderstandings or misalignments that could derail delivery.
@@ -18,7 +14,9 @@ RAID is a well established project management tool used to identify, track, and 
 
 ## RAID Planning Events
 
-RAID Planning is an event during which the delivery team produces and/or updates a structured RAID log.
+RAID logs should be continually update by the problem owners and delivery team. 
+
+RAID Planning is a focussed event during which the delivery team produces and/or updates a structured RAID log.
 
 Together the delivery team will review existing and identify new RAID items, considering and documenting:
 
@@ -28,10 +26,11 @@ Together the delivery team will review existing and identify new RAID items, con
 
 ## RAID Logs
 
-A RAID log is a document or tool used to capture, track and manage any identified RAID items. Typically RAID logs are used to proactively identify, assess, and manage risks, assumptions, issues, and dependencies throughout the problem lifecycle. 
+RAID logs are a maintained list of the current Risks, Assumptions, Issues, and Dependencies, and support tracking and communication of RAID items.
+
+The RAID Log details the RAID items as well as their status. 
 
 By maintaining a comprehensive RAID log, delivery teams can improve their ability to anticipate and respond to challenges, minimise disruptions, and ultimately improve effectiveness.
-
 
 ## Responsibilities
 
@@ -44,6 +43,7 @@ By maintaining a comprehensive RAID log, delivery teams can improve their abilit
 | Design Owner          | **Responsible** for participating in any RAID planning events where necessary, and by collating and sharing relevant design related insights that could lead to the identification of new RAID items |
 
 ## Triggers
+
 Typical triggers for RAID include (but are not limited to):
 
 - **Requirement Elicitation** - as requirements are gathered for the problem during the discovery zone 

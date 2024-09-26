@@ -2,8 +2,6 @@
 title: Requirements Definition
 authors:
     - Helen Duriez
-tags:
-    - draft
 ---
 
 ## Objective

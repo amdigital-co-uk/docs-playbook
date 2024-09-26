@@ -1,14 +1,15 @@
 ---
 title: Problem Definition
-tags:
-    - draft
 ---
 
-## Objective
+The objective is to create a clear and robust definition for your problem, and demonstrate that it is valid.
 
-Create a robust definition for your problem, and demonstrate that it is valid. 
+Clear and robust definitions enable:
+- alignment on what the problem is
+- ensuring that we are solving valid and important problems
+- ensuring that appropriate solutions are designed and implemented
 
-## Defining a Problem
+## Components of Defining a Problem
 
 A good problem definition can appear simple, but it may take many discovery conversations and analyses before the problem is fully understood and can be described effectively.
 
@@ -20,7 +21,7 @@ A good problem definition comprises:
 
 !!! note "Problem Validation"
 
-    Not all problems are valid!
+    **Not all problems are valid!**
     
     Whilst every person’s problems are real, not all problems are problems that our Platform teams, or our products, should solve. If you’re struggling to define the problem, or it doesn’t relate back to business or department strategies, it may be something best put to one side. If the problem reoccurs, it’s worth revisiting – maybe the landscape has changed since it was last looked at.
 
