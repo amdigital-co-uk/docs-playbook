@@ -22,7 +22,7 @@ tags:
 - **Helen Duriez** / Head of Product: helend@amdigital.co.uk   
 
 
-## Roles & Responsibilities (WIP)
+## Responsibilities
 
 | Owner                           | Board(s)                                        | Responsibility |
 |---|---|---|
