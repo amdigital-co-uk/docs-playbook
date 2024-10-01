@@ -7,7 +7,7 @@ Delivery modelling is a collaborative event during which a [delivery model](#del
 The objective of Delivery Modelling is to generate a "point in time" alignment between product management, design, engineering leadership, and key business stakeholders on:
 
 - the order in which problems will be addressed in the medium-term (e.g. 9-18 months). 
-- dependencies between problems and with other business objectives.
+- dependencies between problems and with other business objectives, and their know time-frames.
 - [ownership of problems](../Problem-Ownership.md).
 - our perception of the scale and types of the work required.
 

@@ -2,7 +2,8 @@
 title: Tenets
 ---
 
-**Principles** are quantitative can be controlled, whereas **ideals** are qualitative and can be influenced.
+**Principles** are required "permission to play" values, which we must adhere to.
+**Ideals** are values that we aspire to.
 
 ### Working with Tenets
 
