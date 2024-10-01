@@ -37,8 +37,10 @@ Each layer has its own planning mechanism:
 4.	Sprint Planning / Iteration Planning is used to plan the tasks that must be performed in order to implement a backlog item.
 Using this structure will mean that there is an inherent link between each plan.As estimates and plans are produced for lower layers, their parent item’s estimates and plans must also be updated.
  
-!!! note 
-    Actual plans will contain significantly more contextual information than is show here, such as dependencies, estimates, ownership, status, risks…
+![alt text](../../assets/workflow-planning-levels.png)
+
+!!! warning "Illustrative only" 
+    Actual plans will contain **significantly more contextual information** than is shown in this image, such as dependencies, estimates, ownership, status, risks…
 
 ## Workflow Item Definitions
 
