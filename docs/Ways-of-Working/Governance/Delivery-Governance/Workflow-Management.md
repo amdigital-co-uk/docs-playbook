@@ -10,7 +10,7 @@ The objective of workflow management is to provide an adaptable but repeatable s
 
 ## Workflow Hierarchy
 
-![alt text](workflow-hierarchy.png)
+![alt text](../../assets/topology-of-business-value-with-workflow.png)
 
 The workflow hierarchy as 4 layers: 
 
@@ -18,14 +18,16 @@ The workflow hierarchy as 4 layers:
    1. [Outcomes](#Outcomes), which belong to a Roadmap Item (in Product Board)
 2. [Features](#Features), which belong to Outcomes
 3. Backlog, including:    
-    1. [Backlog Items](#Backlog-Items) 
-    2. [Spikes](#Spikes), which belong to Features        
-    3. [Bugs](#Bugs), which belong to Features
+    1. [Backlog Items](#Backlog-Items), and may relate to Bugs
+    2. [Spikes](#Spikes), which belong to Features, and may relate to Bugs 
+    3. [Bugs](#Bugs), which belong to Features, and must relate to Backlog Items
  4. Work, including:
-    1. [Defects](#Defect), which belong to Backlog Items
-    2. [Tasks](), which belong to Backlog Items or Defects
+    2. [Tasks](#task), which belong to Backlog Items or Spikes, and may relate to Defects 
+    1. [Defects](#Defect), which belong to Backlog Items, and must relate to Tasks
  
-![alt text](workflow-relationships.png)
+![alt text](../../assets/workflow-relationships.png)
+
+## Planning Mechanisms
 
 Each layer has its own planning mechanism:
 
@@ -35,8 +37,10 @@ Each layer has its own planning mechanism:
 4.	Sprint Planning / Iteration Planning is used to plan the tasks that must be performed in order to implement a backlog item.
 Using this structure will mean that there is an inherent link between each plan.As estimates and plans are produced for lower layers, their parent item’s estimates and plans must also be updated.
  
-!!! note 
-    Actual plans will contain significantly more contextual information than is show here, such as dependencies, estimates, ownership, status, risks…
+![alt text](../../assets/workflow-planning-levels.png)
+
+!!! warning "Illustrative only" 
+    Actual plans will contain **significantly more contextual information** than is shown in this image, such as dependencies, estimates, ownership, status, risks…
 
 ## Workflow Item Definitions
 
@@ -65,18 +69,28 @@ A backlog item should only affect a single repository, for example.
 
 An operational increment must be independently deployable and testable, it must not cause damage, but individually may not be usable or valuable. Each feature would typically require several backlog items.
 
-Backlog items must belong to a feature.
+Backlog items must belong to a feature, and may be related to a bug.
 
 ### Spike
 
 A spike is a technical investigation used to remove uncertainties around technical viability and feasibility. Spikes seek to answer specific questions. Then outputs of a spike will include a documented summary of the learnings, and may also include a proof of concept.
 
+### Bug
+
+A bug is an issue identified within production applications. A bug occurs when a feature does not behave as expected. 
+
+Bugs must belong to a feature - in principal a feature's requirements or specifications are not being met. 
+
+A bug must relate to at least one backlog ite. It may affect multiple repositories, and may therefore require multiple backlog items.
+
 ### Task
 
 A task describes any discrete piece of work. Each backlog item will require several tasks in order to produce an operational increment. These tasks may span multiple disciplines such as development, testing, design, documentation, and so on.
 
-Task items must belong to a backlog item.
+Task items must belong to a backlog item, and may relate to a Defect.
 
 ### Defect
 
-A defect is an issue identified during the development lifecycle. A defect is not a bug; an issue identified within production applications.
+A defect is an issue identified during the development lifecycle. 
+
+Defects must belong to a Backlog Item, and will relate to at least one task.
