@@ -1,0 +1,41 @@
+name: ghpages-deploy
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    name: depoy
+    runs-on: ubuntu-latest
+    if: github.event.repository.fork == false
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: apt-get install pngquant 
+      - run: |
+          pip install git+https://${{ secrets.GH_KEY }}@github.com/squidfunk/mkdocs-material-insiders.git
+          pip install mkdocs-awesome-pages-plugin
+          pip install mkdocs-glightbox
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install mkdocs-git-committers-plugin-2
+      - name: Enable insiders-only config
+        run: |
+          sed -i mkdocs.yml -e "s/#insiders-only#//g"
+      - run: mkdocs gh-deploy --force
+env:
+  GH_TOKEN: ${{ secrets.GH_KEY }}
