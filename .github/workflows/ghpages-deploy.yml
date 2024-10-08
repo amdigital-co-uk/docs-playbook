@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+
+  pull_request:
+    branches: [main]
 permissions:
   contents: write
 jobs:
@@ -15,23 +18,30 @@ jobs:
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.co
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
+
       - run: |
           pip install git+https://${{ secrets.GH_KEY }}@github.com/squidfunk/mkdocs-material-insiders.git
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-glightbox
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-git-committers-plugin-2
+      
+      - name: Build automated responsabilites 
+        working-directory: 'utils'
+        run: python responsibilities-aggregator.py --folder docs/Ways-of-Working/Governance
+
       - name: Enable insiders-only config
         run: |
           sed -i mkdocs.yml -e "s/#insiders-only#//g"
