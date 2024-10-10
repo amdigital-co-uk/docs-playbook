@@ -22,7 +22,7 @@ Tools such as [Example Mapping](../../Toolkit/Example-Mapping.md) can be very us
 
 Solution design is considered complete when:
 
--	the [Problem Owner](../Problem-Ownership.md#problem-owner) has verified the planned solution addresses the problem
+-	the [Problem Owner](../../Problem-Ownership/#problem-owner) has verified the planned solution addresses the problem
 -	the Product Lead has verified the planned solution is aligned with product strategy
 -	the Engineering Lead has verified the planned solution is aligned with technical strategy
 -	all backlog items have been readied

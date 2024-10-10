@@ -11,7 +11,7 @@ This template is the default template for [Security and Reliability Impact Asses
 Make a copy of this template in a branch in the Knowledgebase, ensuring that it is placed alongside the solution's other design documentation.
 Submit a Pull request and ensure that appropriate stakeholders are requested to review. If risks or concerns are raised, ensure that senior technical stakeholders such as the VP of Engineering and Principal Engineer are informed. 
 
-It is the responsibility of the [Engineering Owner](../Governance/Problem-Ownership.md) to ensure that the SRIA is performed accurately and that the correct technical stakeholders are informed. 
+It is the responsibility of the [Engineering Owner](../Governance/Problem-Ownership/) to ensure that the SRIA is performed accurately and that the correct technical stakeholders are informed. 
 
 ---
 

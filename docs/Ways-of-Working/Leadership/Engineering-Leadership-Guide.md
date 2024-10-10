@@ -14,7 +14,7 @@ Leadership is not the sole responsibility of those in specific leadership positi
 
 Examples of places where an engineer member may take a lead:
 
-- When assigned as [Engineering Owner](../Governance/Problem-Ownership.md/#engineering-owner) for a problem
+- When assigned as [Engineering Owner](../AMPFlow/Governance/Problem-Ownership/#engineering-owner) for a problem
 
 - During meeting or workshop
 

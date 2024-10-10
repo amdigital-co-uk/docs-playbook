@@ -8,7 +8,7 @@ Responsibility assignment is a procedure that defines and ensures continuous val
 
 The objective of Responsibility Assignment is to ensure ownership, roles and accountability are clearly and continuously defined and communicated throughout the full project lifecycle.
 
-Responsibility assignment includes the assignment and continuous review of [Problem Ownership](../Problem-Ownership.md) and stakeholder responsibilities stored in a responsibility matrix commonly referred to as a RACI.
+Responsibility assignment includes the assignment and continuous review of [Problem Ownership](../../Problem-Ownership/) and stakeholder responsibilities stored in a responsibility matrix commonly referred to as a RACI.
 
 ## Responsibility Matrix
 
