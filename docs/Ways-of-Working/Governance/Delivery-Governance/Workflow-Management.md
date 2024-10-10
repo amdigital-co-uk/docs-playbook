@@ -15,15 +15,15 @@ The objective of workflow management is to provide an adaptable but repeatable s
 The workflow hierarchy as 4 layers: 
 
 1. Strategic:
-   1. [Outcomes](#Outcomes), which belong to a Roadmap Item (in Product Board)
-2. [Features](#Features), which belong to Outcomes
+   1. [Outcomes](#outcome), which belong to a Roadmap Item (in Product Board)
+2. [Features](#feature), which belong to Outcomes
 3. Backlog, including:    
-    1. [Backlog Items](#Backlog-Items), and may relate to Bugs
-    2. [Spikes](#Spikes), which belong to Features, and may relate to Bugs 
-    3. [Bugs](#Bugs), which belong to Features, and must relate to Backlog Items
+    1. [Backlog Items](#backlog-item), and may relate to Bugs
+    2. [Spikes](#spike), which belong to Features, and may relate to Bugs 
+    3. [Bugs](#bug), which belong to Features, and must relate to Backlog Items
  4. Work, including:
     2. [Tasks](#task), which belong to Backlog Items or Spikes, and may relate to Defects 
-    1. [Defects](#Defect), which belong to Backlog Items, and must relate to Tasks
+    1. [Defects](#defect), which belong to Backlog Items, and must relate to Tasks
  
 ![alt text](../../assets/workflow-relationships.png)
 
@@ -94,3 +94,9 @@ Task items must belong to a backlog item, and may relate to a Defect.
 A defect is an issue identified during the development lifecycle. 
 
 Defects must belong to a Backlog Item, and will relate to at least one task.
+
+## Toolkit
+
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [Workflow Management] } -->
