@@ -1,5 +1,5 @@
 ---
-title: Test Scenarios with BDD
+title: BDD best practices for writing test scenarios
 authors: 
 - Mihajlo Stojanovski 
 - James Perry
