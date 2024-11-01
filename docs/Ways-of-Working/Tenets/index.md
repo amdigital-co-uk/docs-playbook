@@ -101,7 +101,7 @@ We must refine our ways of working such that we enhance our ability to adhere to
 
         ---
 
-        [Read more :octicons-arrow-right-24:](Continuous-Autonomy.md/)
+        [Read more :octicons-arrow-right-24:](Continuous-Autonomy.md)
 
     </div>
 

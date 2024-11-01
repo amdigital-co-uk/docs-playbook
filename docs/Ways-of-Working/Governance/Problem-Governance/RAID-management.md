@@ -60,7 +60,7 @@ Delivery teams are responsible for ensuring relevant stakeholders and/or colleag
 
 RAID communication plans typically include and document:
 
-1. **Communication Channels** - with **delivery teams:** via regular team meetings or RAID planning events or **with stakeholders:** via [delivery status updates and reports](../Governance/Delivery-Governance/Delivery-Status-Reporting/index.md), ad-hoc communications to address urgent or critical RAID items, 
+1. **Communication Channels** - with **delivery teams:** via regular team meetings or RAID planning events or **with stakeholders:** via [delivery status updates and reports](../Delivery-Governance/Delivery-Status-Reporting/index.md), ad-hoc communications to address urgent or critical RAID items, 
 2. **Content & Format** - RAID item summary, detailed descriptions, action items and trends in RAID data over time
 3. **Escalation Process** - defined escalation process for addressing high-priority or critical RAID items that require immediate attention or resolution 
 4. **Feedback Mechanism** - encourage feedback from stakeholders and team members on the effectiveness of RAID communication and any improvements or suggested adjustments required
@@ -70,7 +70,10 @@ RAID communication plans typically include and document:
     Not all RAID items need to be communicated to all stakeholders, and in some situations can confuse rather than inform a stakeholder. Reporting on RAID should be tailored for the appropriate audiences, focussing on the key items of most concern or perceived impact.
 
 
-## Considerations
+## Toolkit
 
-- Review the [toolkit](../../Ways-of-Working/Toolkit/index.md) section for documented approaches, or perform your own research.
+!!! toolkit "Toolkit"
+
+    <!-- material/tags { include: [RAID] } -->
+
 - Review the tooling section of the Knowledgebase for current [default document templates](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/AMPFlow-Governance/).

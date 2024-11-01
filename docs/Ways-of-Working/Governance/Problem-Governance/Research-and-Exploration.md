@@ -19,7 +19,7 @@ For any piece of work, research and exploration should include activities from t
 
 ## Discovery Plan
 
-The [Problem Owner](../Problem-Ownership.md#problem-owner) should start to create a discovery plan as soon as the problem is identified. It should describe the activities needed to understand the problem, and will evolve as understanding develops. 
+The [Problem Owner](../Problem-Ownership/Problem-Owner.md) should start to create a discovery plan as soon as the problem is identified. It should describe the activities needed to understand the problem, and will evolve as understanding develops. 
 
 As they are identified, technical discovery activities should be added to the discovery plan, so capture work needed to explore potential solutions. 
 
