@@ -171,7 +171,8 @@ For a Bug to be marked as Ready, all Primary Fields must be populated
 
 ### Ready Criteria
 
-Following fields populated: 
+Following fields must be populated for a Backlog Item to be marked as Ready: 
+
 - Owners, 
 - Estimate, 
 - Estimate Confidence, 
@@ -181,7 +182,8 @@ Following fields populated:
 
 ### Done Criteria
 
-Fields populated: 
+Following fields must be populated for a Backlog Item to be marked as Done: 
+
 - Design and implementation notes
 - Test Plan
  
