@@ -25,7 +25,7 @@ Anyone can create a hit squad, at any time. However, the following principles mu
 - Priority is determined:
     - Key stakeholders, typically including members of the department leadership, agree that this problem needs solving and should take priority over other problems
     - There are enough team members interested, able, and committed solving this problem as a priority, taking into consideration their other work commitments.
-- Membership and sponsorship must be identified (see [Ownership](#Ownership))
+- Membership and sponsorship must be identified (see [Ownership](#ownership))
 - Documentation must be maintained: the purpose, plan, and status of the hit squads activities must be kept updated.
 
 ## Creating Solutions
@@ -54,7 +54,7 @@ A Hit Squad may conclude (come to an end) for several reasons, such as:
 
 The members of a hit squad are responsible for reaching a conclusion and ending their activities. They are also responsible for documenting the hit squad activities and outcomes, and communicating the conclusion to the department. 
 
-The [sponsor](#Ownership) can support the team in reaching a conclusion, and may request that the hit squad concludes if they become aware of concerns or issues with or surrounding the hit squad's activities.
+The [sponsor](#ownership) can support the team in reaching a conclusion, and may request that the hit squad concludes if they become aware of concerns or issues with or surrounding the hit squad's activities.
 
 ## Ownership
 
@@ -78,7 +78,7 @@ Between each stage, consult with stakeholders and evaluate priority and viabilit
          - the value of solving the problem
          - impact and urgency, and priority
          - stakeholders
-         - [membership, ownership, and sponsorship](#Ownership)
+         - [membership, ownership, and sponsorship](#ownership)
     2. Document and seek feedback from stakeholders. 
 
 2.	Determine an objective and simple success measures

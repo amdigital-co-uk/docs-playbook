@@ -8,12 +8,12 @@ The objective of Delivery Modelling is to generate a "point in time" alignment b
 
 - the order in which problems will be addressed in the medium-term (e.g. 9-18 months). 
 - dependencies between problems and with other business objectives, and their know time-frames.
-- [ownership of problems](../../Problem-Ownership/).
+- [ownership of problems](../Problem-Ownership/index.md).
 - our perception of the scale and types of the work required.
 
 ## Performing Delivery Modelling
 
-During the event, the [Problem Owner](../../Problem-Ownership/#problem-owner) will share problem value propositions and any relevant information - this will vary depending on the "maturity" of the problem (how far through the lifecycle it is).
+During the event, the [Problem Owner](../Problem-Ownership/Problem-Owner.md) will share problem value propositions and any relevant information - this will vary depending on the "maturity" of the problem (how far through the lifecycle it is).
 
 Participants will consider and discuss dependencies, work involved for all disciplines (such as product management, design, engineering) and the likely "rough order of magnitude" of the work, and the Problem Lead will document these details.
 
@@ -24,7 +24,7 @@ Participants will use information from up-to-date [delivery plans](Delivery-Plan
 
     Where clearer estimates are available, these should be used in place of, or as part of ROM estimates.
 
-The [problem ownership](../../Problem-Ownership/) will be assigned (or re-assigned), in doing so the [delivery team is determined](../../Problem-Ownership/#delivery-team). This may change at a later time (e.g. future modelling session).
+The [problem ownership](../Problem-Ownership/index.md) will be assigned (or re-assigned), in doing so the [delivery team is determined](../Problem-Ownership/Delivery-Team.md). This may change at a later time (e.g. future modelling session).
 
 ## Delivery Models
 

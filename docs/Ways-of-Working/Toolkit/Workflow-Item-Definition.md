@@ -7,7 +7,7 @@ tags:
 
 This document outlines the way in which our [workflow management](../Governance/Delivery-Governance/Workflow-Management.md) item types are defined and configured.
 
-![workflow relationships](../../assets/workflow-relationships.png)
+![workflow relationships](../assets/workflow-relationships.png)
 
 ## Workflow Item Configuration Guidelines
 

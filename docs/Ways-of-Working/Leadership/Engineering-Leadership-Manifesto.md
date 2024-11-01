@@ -32,7 +32,7 @@ I am never going to know less than I know right now, so learning is at the heart
 
 ## Duties
 
-Each specific leadership role has specific duties (see the [competency matrix](../../Progression-Framework/engineering-progression-framework.md/#competency-matrix)), and **AMPFlow** carries further duties for certain roles within the problem lifecycle (see [Problem Ownership](../Governance/Problem-Ownership/)). 
+Each specific leadership role has specific duties (see the [competency matrix](../../Progression-Framework/engineering-progression-framework.md/#competency-matrix)), and **AMPFlow** carries further duties for certain roles within the problem lifecycle (see [Problem Ownership](../Governance/Problem-Ownership/index.md)). 
 
 These are generic duties that apply to everyone in any engineering leadership role: 
 

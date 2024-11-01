@@ -10,7 +10,7 @@ Problem Governance helps ensure problems are approached thoughtfully, with a cle
 
 Before considering a solution, every problem should:
 
- -	Have a dedicated [Problem Owner](../../Problem-Ownership/#problem-owner)
+ -	Have a dedicated [Problem Owner](../Problem-Ownership/Problem-Owner.md)
  -	Be [**explored**](Research-and-Exploration.md), and all supporting evidence collated (e.g. customer and colleague feedback, user research, relevant data,  support issues).
  -	Be [**defined**](Problem-Definition.md), describing why it is a problem to the business, who is impacted by it, and the benefits that solving the problem will bring.
  -	Be [**validated**](Problem-Definition.md#components-of-defining-a-problem) as a genuine problem that’s aligned with business and department objectives, such that Platform Development should consider solving in the foreseeable future

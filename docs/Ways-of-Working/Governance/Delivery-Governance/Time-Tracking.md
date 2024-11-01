@@ -2,11 +2,11 @@
 title: Time Recording
 ---
 
-Time tracking is the act of recording the time spent performing work. The objective is to ensure that it is possible to understand the amount of time that has been spent delivering an item of any level within the [workflow hierarchy](workflow-management.md#workflow-hierarchy).
+Time tracking is the act of recording the time spent performing work. The objective is to ensure that it is possible to understand the amount of time that has been spent delivering an item of any level within the [workflow hierarchy](Workflow-Management.md#workflow-hierarchy).
 
 ## Why it matters:
 
-There a several reasons why it is important to record the time spent by teams performing work:#
+There a several reasons why it is important to record the time spent by teams performing work:
 
 ### Financial Regulatory Needs, and Understanding and Amortising Costs
 
@@ -30,7 +30,7 @@ While there are a number of ways to achieve or at least work towards the above w
 
 ## Approaches
 
-By the end of each sprint, all [tasks](Workflow-Management.md/tasks) marked as done must have the time spent recorded against them.
+By the end of each sprint, all [tasks](Workflow-Management.md#task) marked as done must have the time spent recorded against them.
 
 The team can chose how they wish to record hours. For example:
 

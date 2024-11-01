@@ -8,7 +8,7 @@ The objective of architectural designs is to:
 
 -  ensure that good practice is adhered to
 -  ensure that alignment is created between the team and other technical stakeholders
--  support [reliability impact](Reliability-Impact-Assessment.md) and [security impact](Security-Impact-Assessments.md) assessments.
+-  support [reliability impact and security impact](Security-and-Reliability-Impact-Assessment.md) assessments.
 
 
 ## Architectural Design

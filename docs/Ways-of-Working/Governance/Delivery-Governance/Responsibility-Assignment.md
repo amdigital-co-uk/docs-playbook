@@ -1,18 +1,17 @@
 ---
 title: Responsibility Assignment 
 tags:
-    - draft
 ---
 
 Responsibility assignment is a procedure that defines and ensures continuous validation of roles, delineating clear responsibilities and accountability throughout the full problem lifecycle.
 
 The objective of Responsibility Assignment is to ensure ownership, roles and accountability are clearly and continuously defined and communicated throughout the full project lifecycle.
 
-Responsibility assignment includes the assignment and continuous review of [Problem Ownership](../../Problem-Ownership/) and stakeholder responsibilities stored in a responsibility matrix commonly referred to as a RACI.
+Responsibility assignment includes the assignment and continuous review of [Problem Ownership](../Problem-Ownership/index.md) and stakeholder responsibilities stored in a responsibility matrix commonly referred to as a RACI.
 
 ## Responsibility Matrix
 
-A responsibility matrix is a single artefact produced and maintained by the delivery team, and is used to clarify, continuoulsy monitor and review the roles and responsibilities of individuals or groups involved in the delivery of a solution. 
+A responsibility matrix is a single artefact produced and maintained by the delivery team, and is used to clarify, continuously monitor and review the roles and responsibilities of individuals or groups involved in the delivery of a solution. 
 
 A responsibility matrix should detail key information that enables more effective collaboration with stakeholders and includes: a list of stakeholders, clarity on their type of involvement, potential impact on project, availability and any other additional details that help optimise collaboration.
 
@@ -29,7 +28,7 @@ A responsibility matrix should detail key information that enables more effectiv
 
 ## Triggers
 
-The responsibility matrix must remain valid throughout the full problem solving lifecycle, and therefore should be routinely reviewed and updated when any change occurs that impacts problem ownership or any individuals or groups involved in the deliveery of a solution.
+The responsibility matrix must remain valid throughout the full problem solving lifecycle, and therefore should be routinely reviewed and updated when any change occurs that impacts problem ownership or any individuals or groups involved in the delivery of a solution.
 
 Problem ownership must be defined as soon as enough is known or early in the discovery zone. The team responsible for delivering a solution will need to determine and document when a responsibility matrix should be produced, reviewed and updated, and therefore when any responsibility assignment events should occur. 
 
