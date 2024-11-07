@@ -40,12 +40,12 @@ Workflow items will evolve over time. Keep the following guidelines in mind when
 - Outcome Summary 
 - Description
 - Ownership: 
-  - Problem Owner, 
-  - Engineering Owner, 
-  - Product Lead, 
-  - Delivery Owner, 
-  - UX Lead, 
-  - Delivery Team
+    - Problem Owner, 
+    - Engineering Owner, 
+    - Product Lead, 
+    - Delivery Owner, 
+    - UX Lead, 
+    - Delivery Team
 - Estimate
 - Roadmap Item: link
 - Maintenance Period (Weeks): Number 
@@ -73,11 +73,11 @@ Workflow items will evolve over time. Keep the following guidelines in mind when
 - Estimate
 - Owners: Item Assignee is Problem Owner
 - Purpose Type: 
-  - New development, 
-  - Perfective, 
-  - Corrective, 
-  - Preventative, 
-  - Adaptive
+    - New development, 
+    - Perfective, 
+    - Corrective, 
+    - Preventative, 
+    - Adaptive
 - Outcome: Parent Item Link
 
 ### Additional Fields
@@ -270,10 +270,10 @@ Following fields must be populated for a Backlog Item to be marked as Done:
 
 - Numeric Estimate: decimal
 - Numeric Estimate Type: 
-  - Points
-  - Hours
-  - Days
-  - Weeks
+    - Points
+    - Hours
+    - Days
+    - Weeks
 - Remaining: integer
 
 ### Done Criteria
