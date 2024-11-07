@@ -29,7 +29,7 @@ By repeating this exercise at regular intervals, a team can maintain a clear run
 Where available:
 
 - Backlog of work, including context (*readiness*, priority, estimate)
-- [Challenge map](../../Ways-of-Working/Governance/Problem-Governance/Challenge-Mapping.md)
+- [RAID Management](../../Ways-of-Working/Governance/Problem-Governance/RAID-management.md)
 - Existing runway
 - [Delivery plans](../../Ways-of-Working/Governance/Delivery-Governance/Delivery-Planning.md) including context (such as a critical path map)
 

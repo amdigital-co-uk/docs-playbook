@@ -7,7 +7,7 @@ tags:
 
 This document outlines the way in which our [workflow management](../Governance/Delivery-Governance/Workflow-Management.md) item types are defined and configured.
 
-![workflow relationships](../../assets/workflow-relationships.png)
+![workflow relationships](../assets/workflow-relationships.png)
 
 ## Workflow Item Configuration Guidelines
 
@@ -171,7 +171,8 @@ For a Bug to be marked as Ready, all Primary Fields must be populated
 
 ### Ready Criteria
 
-Following fields populated: 
+Following fields must be populated for a Backlog Item to be marked as Ready: 
+
 - Owners, 
 - Estimate, 
 - Estimate Confidence, 
@@ -181,7 +182,8 @@ Following fields populated:
 
 ### Done Criteria
 
-Fields populated: 
+Following fields must be populated for a Backlog Item to be marked as Done: 
+
 - Design and implementation notes
 - Test Plan
  
