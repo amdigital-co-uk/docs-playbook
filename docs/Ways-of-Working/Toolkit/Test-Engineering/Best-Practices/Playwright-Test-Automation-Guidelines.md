@@ -46,23 +46,42 @@ We **NEVER** use CSS or XPath locators.  CSS and XPath are not recommended as th
 **Keep selectors up-to-date:** Regularly review and update your selectors to ensure they are still accurate and efficient. When the application under test changes, be proactive in updating the selectors in your page files to prevent your tests from breaking
 
 
-## Use of annotations for skipping tests
+## Use of annotations for skipping tests with Native Playwright
 
-When writing tests, it is important to use the correct annotations to skip or fail tests as required.  This is to ensure that the test suite is not unnecessarily run and to prevent false negatives. Integrating annotations into our Playwright workflow can dramatically improve our testing efficiency and enable us to gain precise control over which tests run and how they behave.
+This relates to working on these repo's:
+- Eden (DAM E2E tests)
+- Qts-Clients (Cliend Manager E2E Tests)
+- Qtui-front-end (Front-End E2E Tests)
 
-For whichever annotation we use, it is imperative that we put a comment above the text to justify why the annotation is being used. This is to ensure that the annotation is not forgotten about and that it is clear to other team members why the annotation is being used.
+When maintaining tests, it is important to use the correct annotations to handle test logic effectively as required, ie, skipping tests.  This is to ensure that the entire test suite is not unnecessarily run and to prevent false negatives. Integrating annotations into our Playwright workflow can dramatically improve our testing efficiency and enable us to gain precise control over which tests run and how they behave.
 
-For further examples of these annotations, please follow the Playwright documentation found [here](https://playwright.dev/docs/test-annotations)
+For whichever annotation we use, it is imperative that we put a comment above the annotation to justify why it's being used, to ensure it's clear to other team members.
 
-In summary:
+For further examples of annotations playwright support, please follow the Playwright documentation found [here](https://playwright.dev/docs/test-annotations)
 
-- Use `test.only` to run a single test. Playwright will only run the test with the `test.only` annotation. This should be used in instances where we want to focus on a single test and ignore all other tests. We should **NEVER** merge tests with `test.only` annotations into the main branch.
+**In summary:**
 
-- Use `test.skip` to skip a test that is not yet implemented or is not relevant to the current test run. Playwright will not run the test and it will be skipped. 
+- Use `test.only` to run a single test. (Playwright will only run the test with the `test.only` annotation applied to it).
 
-This should be used in instances where we want to bypass a test temporarily in order to focus on other tests. For example, the logic in the test would fail at this particular instance in time because its a work in progress and not ready for testing yet, but we want to keep the test in the codebase for future reference. We can merge tests with `test.skip` annotations into the main branch, but it is important that we review these tests frequently to ensure they are not forgotten. 
+This should be used in instances where we want to focus on a single test and ignore all other tests. 
 
-It's also worth noting that we can skip a test under certain conditions if we require, such as not running the test on a specific browser if it is flaky. For example:
+**We should **NEVER** merge tests with `test.only` annotations into the main branch, but it has it's uses when executing tests locally or on work / feature branches at times.**
+
+- Use `test.fixme` to mark a test that is known to be failing and requires a fix. (Playwright will not run the test and it will be skipped).
+
+This should be used in instances where the test logic is fine but the test is failing due to a known defect. There should be a BLI in place to fix this within the next 2 sprints and we are aware a fix is in the works. Its imperative we include a comment above the `test.fixme` annotation to explain why the test is failing, along with a reference ID of the DevOps BLI. 
+
+**We can merge tests with `test.fixme` annotations into the main branch, but only temporarily. This should then be reverted back to `test` once the test is fixed.**
+
+- Use `test.skip` to skip a test. (Playwright will not run the test and it will be skipped).
+
+There are 2 main instances why we would use this annotation:
+
+1 - To skip a test temporarily in order to focus on other tests. This can be beneficial when running tests *locally* or on work / feature branches, but shouldnt be merged to main in these instances. 
+
+2 - To skip a work in progress test, whereby the logic in the test would fail at this particular instance in time because it's not ready for testing yet, but we want to keep the test in the codebase for future reference or enhancement.
+
+3 - To skip a test under certain conditions, such as not running the test on a specific browser if it is flaky. For example:
 
             import { test, expect } from '@playwright/test';
 
@@ -71,10 +90,22 @@ It's also worth noting that we can skip a test under certain conditions if we re
             // ...
             });
 
-- Use `test.fixme` to mark a test that is known to be failing and needs to be fixed. Playwright will not run the test and it will be skipped.
+4 - To skip a failing test, under instances when we do not have a BLI in place to fix the test and we are unsure of the timframe of the fix. In the instance of a failing test with a known fix in the works, we should use `test.fixme` instead, explained further below.
 
-This should be used in instances where we have a problem with the test that needs to be fixed. For example, there is BLI in place tofix this within the next sprint and we are aware a fix is in the works. Its imperative we include a comment above the `test.fixme` annotation to explain what the issue is with the test and what need's to be fixed, along with a reference ID of the DevOps BLI. We can merge tests with `test.fixme` annotations into the main branch, but only temporarily. This should then be reverted back to `test` once the test is fixed, or to `test.fail` if the test is known to fail.
+**We can merge tests with `test.skip` annotations into the main branch, but it is important that we review these tests frequently to ensure they are not forgotten.**
 
-- Use `test.fail` to mark a test that is known to be failing and should fail. Playwright will run the test and it will fail.
+!!! " Use of `test.fail` or `@fail` "
+     We do **NOT** support the use `test.fail` or `@fail` to mark a test that is known to be failing. Playwright will run the test and it will fail in this instance but we put emphasis on fixing the test rather than marking it as a failure. Instead we use SKIP or FIXME annotations dependent on the circumstances, as explained above.
 
-This should be used in instances where we have a known bug in the test that needs to be fixed but we are not sure on the timeframe of when that fix will be. Its imperative we include a comment above the `test.fail` annotation to explain why the test is failing and include the reference ID of the Halo ticket. We can merge tests with `test.fail` annotations into the main branch, as when the test is fixed and no longer fails, playwright will complain and it will be obvious we need to revert this back to `test`. 
+## Use of annotations for skipping tests with Playwright BDD (Cucumber)
+
+This relates to working on these repo's:
+- Eden (regression tests)
+- Qtui-front-end (Front-End regression Tests)
+
+The theory is the same as explained above, however the logic works slightly differently:
+- Instead of `test.only`, we use the `@only` tag in the feature file
+- Instead of `test.skip`,  we use the `@skip` tag in the feature file
+- we do **NOT** support the use of `@fail` to mark a test that is known to be failing.
+
+![Example](1.png)  
