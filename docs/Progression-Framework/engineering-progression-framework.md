@@ -1,20 +1,17 @@
 ---
 title: Engineering Progression Framework 
-authors: 
-    - Ed Earle
-reviewed: 
-reviewer:
-next-review: 2024-02-01
 ---
 
 This framework is designed to offer engineers clarity on the competencies expected within their role, and guide their career progression.
 
 This should be used by engineers and their managers to guide training and personal development needs.
 
-Hiring manager should use this framework to help inform hiring decisions.
+Hiring managers should use this framework to help inform hiring decisions.
 
 Role applicants can also use this information to understand what would be expected, and also gain clarity on the future opportunities within AM. 
 
+!!! info "Updates"
+    This framework will be updated annually, as roles and business needs evolve.
 
 ## Role Types and Levels
 
@@ -24,10 +21,7 @@ _Role Levels_ represent the level of the engineer, there are 6 levels.
 
 The levels are represented E0-E5, where E5 is most senior.
 
-!!! Warning "WIP Notice - September 2024"
-    Not all role types and role levels have been completed in the competency matrix at present. Updates are being made and published as soon as they are ready.
-
-!!! note "Apprenticeships"
+!!! info "Apprenticeships"
     The competency matrix places apprentices and junior engineers together: i.e. the expected behaviours are the same. This is because an apprentice is in training for the junior role. 
 
     **An apprentice is not expected to perform at the level of a junior, but they are expected to work towards this level.**
@@ -42,6 +36,9 @@ While this diagram presents a linear progression path, it is not expected or imp
 
 This progression path demonstrates the current and near-future role types and levels, but it is expected that this will evolve alongside AM's changing needs.
 
+!!! Info "Progression beyond E4"
+    Progression beyond E4 level engineers has not been defined, due to the current and planned structure of the department. However, E5 competencies are partially outlined to provide guided progression for E4 engineers.
+
 ``` mermaid
 flowchart TD
 E0
@@ -51,17 +48,20 @@ S-E1 --> S-E2([S-E2: Software Engineer])
 S-E2 --> S-E3([S-E3: Senior Software Engineer])
 S-E3 --> S-E4a([S-E4: Staff Engineer])
 S-E3 --> S-E4([S-E4: Lead Engineer])
-S-E4 --> S-E5([S-E5: Principal Engineer])
+S-E4a --> E5
+S-E4 --> E5
 
 E0 --> T-E1([T-E1: Junior Test Engineer])
 T-E1 --> T-E2([T-E2: Test Engineer])
 T-E2 --> T-E3([T-E3: Senior Test Engineer])
 T-E3 --> T-E4([T-E4: Lead Test Engineer])
+T-E4 --> E5
 
 E0 --> DO-E1([DO-E1: Junior DevOps Engineer])
 DO-E1 --> DO-E2([DO-E2: DevOps Engineer])
 DO-E2 --> DO-E3([DO-E3: Senior DevOps Engineer])
 DO-E3 --> DO-E4([DO-E4: Lead DevOps Engineer])
+DO-E4 --> E5
 
 subgraph E1
 S-E1
@@ -89,7 +89,7 @@ DO-E4
 end
 
 subgraph E5
-S-E5
+TBD
 end
 ```
 
