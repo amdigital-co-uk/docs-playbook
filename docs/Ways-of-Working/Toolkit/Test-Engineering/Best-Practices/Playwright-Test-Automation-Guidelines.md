@@ -1,9 +1,7 @@
 ---
 title: Playwright Test Automation Guidelines
 authors: 
-- Jees Mathew 
 - Karen Farrell 
-- Mihajlo Stojanovski 
 - James Perry
 tags:
     - Default
@@ -16,7 +14,7 @@ This document outlines best practices to follow when writing Playwright test scr
 
 ## Locating selectors
 
-When planning testing at the readying phase of a work item, locators must be considered.  This allows Software Engineers to plan any additional work needed in order to enable our best practices.
+When planning testing at the readying phase of a work item, locators must be considered.  This allows Engineers to plan any additional work needed in order to enable our best practices.
 
 It is important to use a locator that is robust and does not depend on the DOM structure.
 
@@ -32,7 +30,9 @@ Playwright recommended built-in locators:
 - page.getByTitle() to locate an element by its title attribute.
 
 
-If an element cannot be located by any of these, then we look for data-test IDs (for more info click [here](https://playwright.dev../../locators#locate-by-test-id)).  **Software Engineers will support creating the data-test-IDs where needed.**
+If an element cannot be located by any of these, then we look for data-test IDs (for more info click [here](https://playwright.dev../../locators#locate-by-test-id)). 
+ 
+ **Some Test Engineers can support creating the data-test-IDs where needed, otherwise a Software Engineer can assist.**
 
 Playwright recommended built-in locators when using data-test-IDs:
 
@@ -69,17 +69,17 @@ This should be used in instances where we want to focus on a single test and ign
 
 - Use `test.fixme` to mark a test that is known to be failing and requires a fix. (Playwright will not run the test and it will be skipped).
 
-This should be used in instances where the test logic is fine but the test is failing due to a known defect. There should be a BLI in place to fix this within the next 2 sprints and we are aware a fix is in the works. Its imperative we include a comment above the `test.fixme` annotation to explain why the test is failing, along with a reference ID of the DevOps BLI. 
+This should be used in instances where the test logic is fine but the test is failing due to a known defect. There should be a BLI in place to fix this within the next 2 sprints and we are aware a fix is in the works. Its imperative we include a comment above the `test.fixme` annotation to explain why the test is failing, along with a reference ID of the DevOps BLI or the halo ticket ID so there is some form of traceability.
 
 **We can merge tests with `test.fixme` annotations into the main branch, but only temporarily. This should then be reverted back to `test` once the test is fixed.**
 
 - Use `test.skip` to skip a test. (Playwright will not run the test and it will be skipped).
 
-There are 2 main instances why we would use this annotation:
+There are 4 main instances why we would use this annotation:
 
 1 - To skip a test temporarily in order to focus on other tests. This can be beneficial when running tests *locally* or on work / feature branches, but shouldnt be merged to main in these instances. 
 
-2 - To skip a work in progress test, whereby the logic in the test would fail at this particular instance in time because it's not ready for testing yet, but we want to keep the test in the codebase for future reference or enhancement.
+2 - To skip a work in progress test, whereby the logic in the test would fail at this particular instance in time because it's not ready for testing yet, but we want to keep the test in the codebase for future reference or enhancement. (Instances of this are rare and we should be wary of merging incomplete work into the main branch, therefore its important to review the skipped test frequently and to have a plan of action to complete the test logic so it can be included in the test suite).
 
 3 - To skip a test under certain conditions, such as not running the test on a specific browser if it is flaky. For example:
 
@@ -90,7 +90,7 @@ There are 2 main instances why we would use this annotation:
             // ...
             });
 
-4 - To skip a failing test, under instances when we do not have a BLI in place to fix the test and we are unsure of the timframe of the fix. In the instance of a failing test with a known fix in the works, we should use `test.fixme` instead, explained further below.
+4 - To skip a failing test, under instances when we are unsure of the timeframe of the fix. Again, its imperative we include a comment above the `test.skip` annotation to explain why the test is failing, along with a reference ID of the associated created DevOps BLI on our test engineer minmi board [here](https://dev.azure.com/AMDigitalTech/Platform%20Development/_boards/board/t/Minmi/Backlog) so there is some form of traceability. In the instance of a failing test with a known fix in the works, we should use `test.fixme` instead, explained above.
 
 **We can merge tests with `test.skip` annotations into the main branch, but it is important that we review these tests frequently to ensure they are not forgotten.**
 
