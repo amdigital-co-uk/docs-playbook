@@ -30,13 +30,15 @@ The above should be run against the relevant repo, in GitHub actions:
 
 [EDEN - DAM E2E Tests](https://github.com/amdigital-co-uk/eden/actions/workflows/dam-e2e-tests.yml)
 
-[EDEN - Clients manager E2E Tests](https://github.com/amdigital-co-uk/eden/actions/workflows/clients-e2e-tests.yml)
+[Qts-clients - Clients manager E2E Tests](https://github.com/amdigital-co-uk/qts-clients/actions/workflows/run-e2e-tests.yml)
 
 [qtui front end - Front End / CMS E2E Tests](https://github.com/amdigital-co-uk/qtui-front-end/actions/workflows/e2e-tests.yml)
 
+[qtui front end - Front End / CMS Regression Tests](https://github.com/amdigital-co-uk/qtui-front-end/actions/workflows/scheduled-nightly-regression-tests.yml)
+
 [qtms-oai - OAI Open Archives Initiative (API) E2E Tests](https://github.com/amdigital-co-uk/qtms-oai/actions)
 
-For more information, please also see the following document: [Process to follow when running E2E tests after releases](https://adammatthewdigital.sharepoint.com/:w:/s/Quartex/EQ9WdpmT6N5Om-iRay91EbIBXDjWW88nFHGPTX-ugRSAkw?e=NGIqpj)
+For more information, please also see the following document: [Process to follow when running E2E tests after releases](https://knowledgebase.platformdev.amdigital.co.uk/Platforms/Quartex/Release/Process-to-follow-when-running-E2E-tests/)
 
 
 ## What is the triage Loop?
