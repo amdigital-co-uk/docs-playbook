@@ -49,8 +49,11 @@ We **NEVER** use CSS or XPath locators.  CSS and XPath are not recommended as th
 ## Use of annotations for skipping tests with Native Playwright
 
 This relates to working on these repo's:
+
 - Eden (DAM E2E tests)
-- Qts-Clients (Cliend Manager E2E Tests)
+
+- Qts-Clients (Client Manager E2E Tests)
+
 - Qtui-front-end (Front-End E2E Tests)
 
 When maintaining tests, it is important to use the correct annotations to handle test logic effectively as required, ie, skipping tests.  This is to ensure that the entire test suite is not unnecessarily run and to prevent false negatives. Integrating annotations into our Playwright workflow can dramatically improve our testing efficiency and enable us to gain precise control over which tests run and how they behave.
@@ -94,18 +97,25 @@ There are 4 main instances why we would use this annotation:
 
 **We can merge tests with `test.skip` annotations into the main branch, but it is important that we review these tests frequently to ensure they are not forgotten.**
 
-!!! " Use of `test.fail` or `@fail` "
-     We do **NOT** support the use `test.fail` or `@fail` to mark a test that is known to be failing. Playwright will run the test and it will fail in this instance but we put emphasis on fixing the test rather than marking it as a failure. Instead we use SKIP or FIXME annotations dependent on the circumstances, as explained above.
+
+!!! info "Use of `test.fail` or `@fail`"
+    We do **NOT** support the use `test.fail` or `@fail` to mark a test that is known to be failing. Playwright will run the test and it will fail in this instance but we put emphasis on fixing the test rather than marking it as a failure. Instead we use SKIP or FIXME annotations dependent on the circumstances, as explained above.
+
 
 ## Use of annotations for skipping tests with Playwright BDD (Cucumber)
 
 This relates to working on these repo's:
+
 - Eden (regression tests)
+
 - Qtui-front-end (Front-End regression Tests)
 
 The theory is the same as explained above, however the logic works slightly differently:
+
 - Instead of `test.only`, we use the `@only` tag in the feature file
+
 - Instead of `test.skip`,  we use the `@skip` tag in the feature file
-- we do **NOT** support the use of `@fail` to mark a test that is known to be failing.
+
+- We do **NOT** support the use of `@fail` to mark a test that is known to be failing.
 
 ![Example](1.png)  
