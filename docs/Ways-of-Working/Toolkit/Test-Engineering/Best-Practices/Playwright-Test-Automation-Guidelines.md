@@ -99,7 +99,7 @@ There are 4 main instances why we would use this annotation:
 
 
 !!! info "Use of `test.fail` or `@fail`"
-    We do **NOT** support the use `test.fail` or `@fail` to mark a test that is known to be failing. Playwright will run the test and it will fail in this instance but we put emphasis on fixing the test rather than marking it as a failure. Instead we use SKIP or FIXME annotations dependent on the circumstances, as explained above.
+    We do **NOT** support the use of `test.fail` or `@fail` to mark a test that is known to be failing. Playwright will run the test and it will fail in this instance but we put emphasis on fixing the test rather than marking it as a failure. Instead we use SKIP or FIXME annotations dependent on the circumstances, as explained above.
 
 
 ## Use of annotations for skipping tests with Playwright BDD (Cucumber)
@@ -113,6 +113,8 @@ This relates to working on these repo's:
 The theory is the same as explained above, however the logic works slightly differently:
 
 - Instead of `test.only`, we use the `@only` tag in the feature file
+
+- Instead of `test.fixme`,  we use the `@fixme` tag in the feature file
 
 - Instead of `test.skip`,  we use the `@skip` tag in the feature file
 
