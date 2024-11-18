@@ -34,7 +34,8 @@ Examples of places where an engineer member may take a lead:
 
 ## Servant Leadership
 
-Those in senior and or management positions ...
+Those in senior and or management positions point the spotlight away from themselves and onto their team, and are never a single point of failure. 
+They continiously challenge themselves to answer the questions “How can I best serve my team?” and "How can I help my team thrive?".
 
 ## Leadership Behaviours
 
