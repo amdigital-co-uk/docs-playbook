@@ -1,11 +1,5 @@
 ---
 title: Engineering Leadership Guide
-authors: 
-    - Ed Earle
-    - Rhodri Hewitson
-reviewed: 
-reviewer:
-next-review: 2024-04-01
 ---
 
 ## Distributed Leadership
@@ -34,8 +28,9 @@ Examples of places where an engineer member may take a lead:
 
 ## Servant Leadership
 
-Those in senior and or management positions point the spotlight away from themselves and onto their team, and are never a single point of failure. 
-They continiously challenge themselves to answer the questions “How can I best serve my team?” and "How can I help my team thrive?".
+Those in senior and or management positions point the spotlight away from themselves and onto their team, and are never a single point of failure.
+
+They continuously challenge themselves to answer the questions "How can I best serve my team?" and "How can I help my team thrive?".
 
 ## Leadership Behaviours
 
