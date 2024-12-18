@@ -101,7 +101,6 @@ There are 4 main instances why we would use this annotation:
 !!! info "Use of `test.fail` or `@fail`"
     We do **NOT** support the use of `test.fail` or `@fail` to mark a test that is known to be failing. Playwright will run the test and it will fail in this instance but we put emphasis on fixing the test rather than marking it as a failure. Instead we use SKIP or FIXME annotations dependent on the circumstances, as explained above.
 
-
 ## Use of annotations for skipping tests with Playwright BDD (Cucumber)
 
 This relates to working on these repo's:
@@ -121,3 +120,13 @@ The theory is the same as explained above, however the logic works slightly diff
 - We do **NOT** support the use of `@fail` to mark a test that is known to be failing.
 
 ![Example](1.png)  
+
+## Visibility of skipped tests through reporting & how to implement
+
+It's important that we have visibility of our skipped tests through our reporting accross our multiple workflows. Therefore we **MUST** add a **brief** explanation within the test title itself to explain why the test is being skipped. This will then be visible in the test report and will provide context to the reader. Note, this is in addtion to the comment above the test title that can provide more detail if necessary. 
+
+![Example](skipped1.png)  
+
+It will therefore look like this through the reporting:
+
+![Example](skipped2.png)  
