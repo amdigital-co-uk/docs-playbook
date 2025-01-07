@@ -20,6 +20,10 @@ It is important to use a locator that is robust and does not depend on the DOM s
 
 To make our tests resilient, we prioritise user-facing attributes and explicit contracts when locating elements on a page.  This could be text, a button name, an element's aria-label etc.
 
+We **NEVER** use CSS or XPath locators.  CSS and XPath are not recommended as the DOM can often change leading to non resilient tests. Instead, we use a locator that is close to how the user perceives the page such as role locators or define an explicit testing contract using test ids as described above.
+
+**Keep selectors up-to-date:** Regularly review and update your selectors to ensure they are still accurate and efficient. When the application under test changes, be proactive in updating the selectors in your page files to prevent your tests from breaking
+
 Playwright recommended built-in locators:
 
 - page.getByRole() to locate by explicit and implicit accessibility attributes.
@@ -31,8 +35,6 @@ Playwright recommended built-in locators:
 
 
 If an element cannot be located by any of these, then we look for data-test IDs (for more info click [here](https://playwright.dev../../locators#locate-by-test-id)). 
- 
- **Some Test Engineers can support creating the data-test-IDs where needed, otherwise a Software Engineer can assist.**
 
 Playwright recommended built-in locators when using data-test-IDs:
 
@@ -40,11 +42,11 @@ Playwright recommended built-in locators when using data-test-IDs:
 
 For further examples of these locators, please follow the Playwright documentation found [here](https://playwright.dev../../locators)
 
+## Adding data-test-IDs to code
 
-We **NEVER** use CSS or XPath locators.  CSS and XPath are not recommended as the DOM can often change leading to non resilient tests. Instead, we use a locator that is close to how the user perceives the page such as role locators or define an explicit testing contract using test ids as described above.
+ **Some Test Engineers can support creating the data-test-IDs where needed, otherwise a Software Engineer can assist.**
 
-**Keep selectors up-to-date:** Regularly review and update your selectors to ensure they are still accurate and efficient. When the application under test changes, be proactive in updating the selectors in your page files to prevent your tests from breaking
-
+When adding data-test-IDs to code, it is important to follow these guidelines on the knowledgebase, please click [here](https://knowledgebase.platformdev.amdigital.co.uk/Tools-and-Providers/Engineer-Tooling/Test-Engineering/Adding-Test-Data-IDs/).
 
 ## Use of annotations for skipping tests with Native Playwright
 
