@@ -25,13 +25,14 @@ A scheduled calendar event where people come together to figure something out, m
 
 - **Use the 25/50 Rule**: Schedule meetings to last no longer than 25 or 50 minutes to ensure focus and to provide breaks between meetings.
 - **Breaks for Long Meetings**: If you have to go over an hour, include a 5-10 minute break every 45-60 minutes. Stretch, grab a hot drink, get away from the computer for a few minutes. 
-
+- **Accept/Decline Meetings**: Remember to "Accept and send response" so people know to expect you and so the event updates. Alternatively, if you cannot make a meeting due to annual leave or for another reason please try to decline the invite ahead of time.
 
 ### Before the Meeting
 
 #### Involve the right people
 
 - Make it clear if attendance is required or optional.
+- Specify if the meeting is "in-person" or not, this is now a function in Outlook.
 - Establish roles where needed, if a facilitator or minute-taker is needed, ask someone to take on the role beforehand and outline it in the invite.
 
 #### Set an Agenda (and share it early):
