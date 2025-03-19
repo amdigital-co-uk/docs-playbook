@@ -3,3 +3,4 @@ docs/.obsidian/*
 Lib/*
 Scripts/*
 .cache/*
+.vs/*
