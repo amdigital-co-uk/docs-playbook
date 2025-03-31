@@ -1,34 +1,27 @@
 ---
 title: Meeting Guidelines
-authors: 
-  - James Warner
-  - Karen Farrell
-reviewed: 
-reviewer:
-next-review:
 ---
 
-
-## Meetings & Types
+## Meetings & meeting types
 
 ### What is a meeting?
 
 A meeting is a scheduled calendar event where people come together to figure something out, make decisions, or align on important matters.
 
-### What *is not* a Meeting?
+### What *is not* a meeting?
 
 - Hopping on a quick call to collaborate or brainstorm.
 - Pair programming or working through code together. That’s just teamwork.
 
-### Meeting Types
+### Meeting types
 
 There are many different types of meeting, which influence their nature. They can broadly be grouped into the following categories:
 
-1. **Decision Making**
+1. **Decision making**
       - Where a specific decision needs to be made as the primary outcome.
-2. **Design & Problem Solving**
+2. **Design & problem solving**
       - Where the outcome is to identify possible solutions to problems 
-3. **Communication, Learning & Alignment**
+3. **Communication, learning & alignment**
       - Where information is shared to and the outcome is to create alignment or improve group knowledge
 4. **Connection**
       - Where the outcome is to strengthen relationship and build culture
@@ -43,18 +36,18 @@ In addition, meetings have other common qualities, such as:
 - Pre-read required
 - Synchronous or asynchronous
 
-## Guidelines for Meetings
+## Guidelines for meetings
 
-### General Guidance
+### General guidance
 
 - **Objective oriented**: Meetings should always state their objective(s), so that everyone is clear what the group aims to achieve.
-- **End 5 minutes early**: Meetings longer than 30 minutes should end 5 minutes early by default.
+- **End 5 minutes early**: Meetings of 30 minutes or more should end 5 minutes early by default.
 - **Breaks for long meetings**: If your meeting goes beyond an hour, include a 5-10 minute break every 45-60 minutes.
 - **Accept/decline meetings**: Respond to invites promptly ("Accept and send response"). If you can't make it, decline so people aren't left guessing.
 
-### Before the Meeting
+### Before the meeting
 
-#### Objective & Format
+#### Objective & format
 
 1. An objective should be shared when the meeting is initially booked.
 
@@ -80,13 +73,13 @@ In addition, meetings have other common qualities, such as:
  - Establish roles where needed, if a facilitator or minute-taker is needed, ask someone to take on the role beforehand and outline it in the invite.
 
 
-#### Agenda & Flexibility
+#### Agenda & flexibility
 
 - Agendas are useful for many meeting types, especially tactical ones.
 - Where possible, allow agendas to be flexible to enable real-time adjustments.
 - Sharing agendas in advance can help everyone prepare effectively.
 
-#### Pre-Meeting Materials
+#### Pre-meeting materials
 
 - Share relevant documents, data, or context well in advance if possible.
 - For meetings with deep context (strategy, planning), consider a short read-ahead memo.
@@ -94,14 +87,14 @@ In addition, meetings have other common qualities, such as:
 - Be considerate of the time and context switching burden, your priorities aren't the same as others.
 
 
-### During the Meeting
+### During the meeting
 
-#### Start Strong
+#### Start strong
 
 - Restate the meeting objective.
 - Summarise the purpose and any key background points.
 
-#### Chairs, Facilitators and Note Takers
+#### Chairs, facilitators and note takers
 
 - Assign a chair or facilitator to:
     - keep the meeting focused and on track.
@@ -114,7 +107,7 @@ In addition, meetings have other common qualities, such as:
     - Keep a record of the conversation, to provide context for actions and decisions
   - Consider using transcriptions instead of a note taker, as it is hard to participate in fluid conversations while capturing notes. 
 
-#### Encourage Healthy Conflict and Foster Inclusion
+#### Encourage healthy conflict and foster inclusion
 
 - Actively seek out diverse perspectives and healthy ideological conflict by mining for conflict.
     - For example, ask: "What’s the counterpoint to this idea?" or "Is there a risk we’re overlooking?"
@@ -124,32 +117,32 @@ In addition, meetings have other common qualities, such as:
 - Psychological safety leads to better outcomes. Debate ideas, not people.
 - Encourage colleagues to contribute in ways that work for them. Sometimes typing something in the chat is easier.
 
-#### Minimise Slides
+#### Minimise slides
 
 - Use PowerPoint or slides sparingly. Prioritise discussion over presentation.
 - Slides often shift attention away from discussion. Use them to support, not lead, the conversation.
 - If slides are needed, keep them short and sharp. Don't read from them.
 
-#### Action-Oriented Mindset
+#### Action-oriented mindset
 
   - Apply a bias towards action. Keep discussions time bound and move to decisions and determining actions:
       - Identify clear decisions.
       - Assign actions and owners.
       - Clarify targets and deadlines.
 
-#### Stay Focused
+#### Stay focused
 
 - Stick to the objective. If tangents arise, note them and return to them later.
 - Park non-urgent or off-topic discussions for follow-up.
 
-#### Finish on Time
+#### Finish on time
 
 - Respect people's calendars and energy.
 - If needed, schedule a follow-up rather than overrunning.
 
-### After the Meeting
+### After the meeting
 
-#### Record Outcomes, Decisions & Actions
+#### Record outcomes, decisions & actions
 
 - Summarise and share with attendees promptly after the meeting:
   - the outcome and key takeaways
@@ -157,23 +150,29 @@ In addition, meetings have other common qualities, such as:
   - meeting notes (if taken)
 - Capture important decisions in the Decision Log
 
-#### Feedback and Improvement
+#### Feedback and improvement
 
 - Gather feedback to help improve future meetings of this nature
 - Regularly evaluate if recurring meetings are:
     - Still required
     - Still effective
 
-## Tips for Effective Meetings in a Remote-First Environment
+## Hybrid and virtual meetings
 
-### Use Video Thoughtfully
+Check out [AM's guidelines for effective virtual and hybrid meetings](https://adammatthewdigital.sharepoint.com/:w:/s/AMDigital/EUC72cjgvfZPqo_JOdVXJ_sBi5-Viq1n6RXXioUtlDDLdA?e=TZGzR0). 
+
+In addition, as a department we suggest the bellow: 
+
+### Use video thoughtfully
     
-      Cameras are encouraged to help foster better collaboration, but not always required. Certain types of meetings and conversations benefit from visual cues more than others.
-        - Attendees should be considerate of their colleagues ability to engage.  
-        - Meeting organisers should be considerate of camera fatigue. 
-        - Where appropriate, it is great to let individuals choose. Where cameras are essential, it is best to make this clear in advance.
+  Cameras are encouraged to help foster better collaboration, but not always required. Certain types of meetings and conversations benefit from visual cues more than others.
+
+  - Attendees should be considerate of their colleagues ability to engage.  
+  - Meeting organisers should be considerate of camera fatigue. 
+  - Where appropriate, it is great to let individuals choose. Where cameras are essential, it is best to make this clear in advance.
   
 ### Use collaboration tools
-    - **Whiteboards (e.g. MS Whiteboard or Miro)** for collaboration
-    - **Notes & Lists** (e.g. Loop, Azure DevOps, MS To Do, or MS Planner) for tracking tasks and actions.
-    - **MS Teams reactions and hand raises** for participation and energy
+
+  - **Whiteboards (e.g. MS Whiteboard or Miro)** for collaboration.
+  - **Notes & lists** (e.g. Loop, Azure DevOps, MS To Do, or MS Planner) for tracking tasks and actions.
+  - **MS Teams reactions and hand raises** for participation and energy.
