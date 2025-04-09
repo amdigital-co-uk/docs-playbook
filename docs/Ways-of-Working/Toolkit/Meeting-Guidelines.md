@@ -100,9 +100,9 @@ In addition, meetings have other common qualities, such as:
     - keep the meeting focused and on track.
     - capture and share outcomes, decisions, and actions
     - Tips:
-      - Use time-boxing to ensure each topic gets appropriate attention.
-      - If decisions are needed, allocate time for debate and resolution.
-      - Record the meeting if appropriate.
+       - Use time-boxing to ensure each topic gets appropriate attention.
+       - If decisions are needed, allocate time for debate and resolution.
+       - Record the meeting if appropriate.
   - Assign a note taker if required to:
     - Keep a record of the conversation, to provide context for actions and decisions
   - Consider using transcriptions instead of a note taker, as it is hard to participate in fluid conversations while capturing notes. 
@@ -145,9 +145,9 @@ In addition, meetings have other common qualities, such as:
 #### Record outcomes, decisions & actions
 
 - Summarise and share with attendees promptly after the meeting:
-  - the outcome and key takeaways
-  - actions including owners and timelines.
-  - meeting notes (if taken)
+   - the outcome and key takeaways
+   - actions including owners and timelines.
+   - meeting notes (if taken)
 - Capture important decisions in the Decision Log
 
 #### Feedback and improvement
