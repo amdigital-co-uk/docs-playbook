@@ -23,7 +23,8 @@ This is a single test case for downloading a PDF file.
 
 ## Scenario Outline:
 - Used for parameterized testing.
-- Allows you to define a template for a test case with placeholders
+- Allows you to define a template for a test case with placeholders (using angle brackets) for dynamic data.
+- The placeholders are replaced with actual values from the Examples table during execution
 - Requires an Examples table to provide multiple sets of data for the placeholders.
 - Each row in the Examples table generates a separate test case.
 
@@ -31,7 +32,7 @@ Example: Scenario Outline:
 
 ![Example](outline.png)  
  
-Notice how , <download format> is passed in the scenario outline title and it MUST be.
+Notice how , 'download format' is passed in the scenario outline title with angle brackets and it MUST be.
  
 - This generates two test cases:
     
