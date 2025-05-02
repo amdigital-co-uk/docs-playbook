@@ -23,7 +23,7 @@ This is a single test case for downloading a PDF file.
 
 ## Scenario Outline:
 - Used for parameterized testing.
-- Allows you to define a template for a test case with placeholders (e.g., <placeholder>).
+- Allows you to define a template for a test case with placeholders
 - Requires an Examples table to provide multiple sets of data for the placeholders.
 - Each row in the Examples table generates a separate test case.
 
@@ -42,4 +42,7 @@ And it is here through the reporting (much clearer)
 
 ![Example](reporting.png)  
  
-In summary, use Scenario for single test cases and Scenario Outline when you need to test the same steps with multiple data sets.
+In summary:
+
+- use Scenario for single test cases
+- use Scenario Outline when you need to test the same steps with multiple data sets.
