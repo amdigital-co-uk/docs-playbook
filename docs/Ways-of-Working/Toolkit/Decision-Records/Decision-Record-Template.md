@@ -34,7 +34,7 @@ This is the outcome of the research process. The decision being made is whether 
 !!! note "Request for Comments"
         When submitting RFCs, you may propose multiple options in order to gain feedback, and ideally clarify your preference (and why).
 
-### Consequences
+### Considerations
 
 What is the impact of this proposal?
 
@@ -47,3 +47,7 @@ List the main options considered and why they weren’t chosen. For each alterna
 
 - Each alternative's pros/cons
 - Why it was rejected
+
+## Decision conclusion
+
+[Once a decision has been made, briefly summarise the decision and any deciding factors. Ensure that the Resolved Date and status are updated.]

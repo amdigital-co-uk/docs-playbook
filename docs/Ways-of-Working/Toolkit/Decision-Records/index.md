@@ -35,7 +35,9 @@ The [Decision Log](https://adammatthewdigital.sharepoint.com/sites/Technology/Si
 
 Decision Records are individual documents that describe a decision in full, including the context, research, alternatives, and final choice.
 
-As a default, decision records should be saved in the [decisions library](https://adammatthewdigital.sharepoint.com/sites/Technology/Decisions/Forms/AllItems.aspx), ensuring tha the document is accessible to all staff and retained for future reference. 
+Defaults:
+  - decision records should be saved in the [decisions library](https://adammatthewdigital.sharepoint.com/sites/Technology/Decisions/Forms/AllItems.aspx), ensuring tha the document is accessible to all staff and retained for future reference. 
+  - use the [template format](./Decision-Record-Template.md), and the [document template](https://adammatthewdigital.sharepoint.com/:f:/s/Technology/ErSjnjprhOdOsxiMEh3CnqkBgAjB92ryx3Oa72WgCR6uLw?e=E9DQIw) provided in the decision library.
 
 There are guides available for creating records for each decision type.
  - [Architecture Decision Record guide](./Architectural-Decision-Records.md)
@@ -43,10 +45,10 @@ There are guides available for creating records for each decision type.
 !!! success "Use appropriate tools"
       Records must have the following capabilities:
 
-      [x] Access control: Accessible to all staff, but not to the public
-      [x] Commenting
-      [x] Change history and revision control
-      [x] Discoverable: can be found easily
+      - [x] Access control: Accessible to all staff, but not to the public
+      - [x] Commenting
+      - [x] Change history and revision control
+      - [x] Discoverable: can be found easily
 
 !!! failure "Avoid collaboration tools"
       Collaborative tools are often designed for transient documentation, do not effectively track changes, and usually encourage formal structures. Avoid tools such as Microsoft Loop and Miro for documentation such as this. 
