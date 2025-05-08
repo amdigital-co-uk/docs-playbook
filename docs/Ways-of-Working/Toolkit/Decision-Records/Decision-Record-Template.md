@@ -32,7 +32,7 @@ This is the outcome of the research process. The decision being made is whether 
 - Use declarative language "We will do x" rather than "we could do x"
 
 !!! note "Request for Comments"
-        When submitting RFCs, you may propose multiple options in order to gain feedback, and ideally clarify your preference (and why).
+    When submitting RFCs, you may propose multiple options in order to gain feedback, and ideally clarify your preference (and why).
 
 ### Considerations
 

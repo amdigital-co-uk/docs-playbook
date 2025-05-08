@@ -36,10 +36,12 @@ The [Decision Log](https://adammatthewdigital.sharepoint.com/sites/Technology/Si
 Decision Records are individual documents that describe a decision in full, including the context, research, alternatives, and final choice.
 
 Defaults:
+
   - decision records should be saved in the [decisions library](https://adammatthewdigital.sharepoint.com/sites/Technology/Decisions/Forms/AllItems.aspx), ensuring tha the document is accessible to all staff and retained for future reference. 
   - use the [template format](./Decision-Record-Template.md), and the [document template](https://adammatthewdigital.sharepoint.com/:f:/s/Technology/ErSjnjprhOdOsxiMEh3CnqkBgAjB92ryx3Oa72WgCR6uLw?e=E9DQIw) provided in the decision library.
 
-There are guides available for creating records for each decision type.
+The general guidance for all decision records is the same, however where appropriate specific guidance is available for creating records for each decision type.
+
  - [Architecture Decision Record guide](./Architectural-Decision-Records.md)
 
 !!! success "Use appropriate tools"
