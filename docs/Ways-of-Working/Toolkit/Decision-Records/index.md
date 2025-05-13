@@ -1,7 +1,6 @@
 ---
 title: Decision Logs & Records 
 tags: 
-   - draft
    - Design
    - Architectural Design
 ---
@@ -27,11 +26,11 @@ There are five primary decision types:
 
       Decisions relating to specifications would not normally require a decision record - unless there is a meaningful design or architectural decision to be made.
 
-## Decision Log
+## Decision log
 
-The [Decision Log](https://adammatthewdigital.sharepoint.com/sites/Technology/SitePages/Decision-Logs.aspx) is a list of all the past and current decisions. It presents key information and signposts to the full Decision Record documents and is accessible to all staff via the intranet.
+The [Decision log](https://adammatthewdigital.sharepoint.com/sites/Technology/SitePages/Decision-Logs.aspx) is a list of all the past and current decisions. It presents key information and signposts to the full Decision Record documents and is accessible to all staff via the intranet.
 
-## Decision Records
+## Decision records
 
 Decision Records are individual documents that describe a decision in full, including the context, research, alternatives, and final choice.
 
@@ -55,7 +54,7 @@ The general guidance for all decision records is the same, however where appropr
 !!! failure "Avoid collaboration tools"
       Collaborative tools are often designed for transient documentation, do not effectively track changes, and usually encourage formal structures. Avoid tools such as Microsoft Loop and Miro for documentation such as this. 
 
-## Process Flow Overview
+## Process overview
 
 In its most simple form, an individual or team puts forward a proposal and then the individuals with the correct authority decide if that proposal should be accepted. There are some additional nuances to how this works in practice.
 
@@ -75,7 +74,7 @@ The lifecycle of a decision follows these steps:
 
 5. **Create the Decision Record and log entry** 
    
-      A formal Decision Record is created, capturing the essential [fields](#decision-record-fields) 
+      A formal Decision Record is created, capturing the essential [fields](#decision-log-fields) 
 
       - Add the Decision to the Decision Log, ensuring it is linked to the document
       - Set the status to "*Draft*"
@@ -104,7 +103,7 @@ The lifecycle of a decision follows these steps:
       Decision records added to the Decisions library in SharePoint will automatically be added to the decision log and remain in sync. Changes to the record will be reflected in the log and vice-versa. 
 
 
-??? Info "Flow Diagram"
+??? Info "Flow diagram"
       ``` mermaid
       flowchart TD
          A(Identify need for decision) --> B(Assign Problem Owner)
@@ -121,7 +120,7 @@ The lifecycle of a decision follows these steps:
          H --> I(Finalise decision<br><b>Status:Approved or Rejected<b>)
       ```
 
-## Decision Log Fields
+## Decision log fields
 
 The following fields are stored in the decision log. Decision records created in the decisions library will also have these fields as metadata.
 
@@ -171,7 +170,7 @@ Requires cross-department agreement, or executive team sponsorship. This is most
 !!! Tip 
       Break issues down into small decisions to prevent decisions that could be devolved being swept up in more complex strategic issues. 
 
-## Request for Comments Process
+## Request for Comments process
 
 The Request for Comments process is a tool to enable devolved decision making. 
 

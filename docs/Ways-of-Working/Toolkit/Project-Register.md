@@ -17,7 +17,7 @@ It lives within the Technology SharePoint site and is accessible to all AM staff
 
 ## Process
 
-**Problem Owner** must ensure that when a project or objective enters the [Design Stage]() ensure that it is added to the Project Register and include:
+**Problem Owner** must ensure that when a project or objective enters the [Design Stage](../AMPFlow/index.md#design-zone) ensure that it is added to the Project Register and include:
 
 - Title and Project/Objective Summary
 - Delivery Owner
@@ -40,9 +40,9 @@ The Delivery Owner is thereafter responsible for ensuring that the Register is k
 - Stage: 
     - Planning - Design Stage has commenced
     - In progress - Implementation Stage has commenced
-    - In Warranty - Implementation is complete and the solution is released but within [warranty]()
+    - In Warranty - Implementation is complete and the solution is released but within [warranty](../Governance/Delivery-Governance/Warranty.md)
     - Complete - Design, implementation, and release, is complete, and the warranty period has finished. 
-- Ownership, as outlined in [Problem Ownership](). Not all ownership fields are included for brevity.
+- Ownership, as outlined in [Problem Ownership](../Governance/Problem-Governance/index.md). Not all ownership fields are included for brevity.
     - Problem Owner
     - Delivery Owner
     - Engineering Owner
