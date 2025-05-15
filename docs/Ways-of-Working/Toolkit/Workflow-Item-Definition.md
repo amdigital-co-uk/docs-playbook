@@ -106,26 +106,29 @@ For Feature to be marked as Ready, the following fields must populated:
 - In Refinement
 - Ready
 - In Progress
-- Resolved
+- Done
 
 ### Primary Fields
 
-- Bug Summary
-- Estimate: Feature Size
-- Steps to replicate 
-- Requirements and Specifications affected 
-- Requirements data
-- Test Data
-- Reported By
-- Feature: Related Item Link
-- Outcome: Parent Item Link
-- Priority: integer
+- **Summary:** A short description of the bug.
+- **Requirements and Specifications affected:** A summary of the expected behaviour, with links to documentaton that specify this where possible.
+- **Requirements delta:** A summary of the observed/actual behavior that, where useful, highlights specific specs that are not met .
+- **Numeric Estimate:** A number representing the estimated effort to fix the bug.
+- **Numeric Estimate Type:** The units used for the numeric estimate, must be from the following list... 
+    - Points, 
+    - Hours, 
+    - Days, 
+    - Weeks
+- **Steps to replicate:** A list of steps that can be followed to reproduce the bug.
+- **Test Data:** Any data or set-up required to reproduce the bug.
+- **Reported By:** Individual who reported the bug. If the bug originates from the service desk, this will be the service-desk co-oridnator.
+- **Feature:** Link to the parent feature the work is covered by.
 
 ### Additional Fields
 
-- Service desk ticket: Link
-- Rough Order of Magnitude: Feature Size
-- Root Cause
+- **Service desk ticket**: A link to the original service desk ticket. If the bug originates from the service desk,this field MUST be populated.
+- **Root Cause:** A summary of the root cause of the bug, if known.
+- **Fix Summary:** A summary of the fix that was applied.
 
 ### Ready Criteria
 
