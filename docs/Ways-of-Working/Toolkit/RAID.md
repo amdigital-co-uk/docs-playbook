@@ -16,10 +16,8 @@ tags:
 
 ## RAID Subject Matter Experts
 
-- **Alex Rae** / Agile Delivery Manager: alex.rae@amdigital.co.uk 
 - **Carol Webb** / Senior Business Analyst: carolw@amdigital.co.uk   
-- **Matt Braisher** / Product Manager: mattb@amdigital.co.uk  
-
+- **Yasmin Burton-Lawl** / Senior UX Designer: yasminbl@amdigital.co.uk  
 
 ## Raid Reporting Mechanisms 
 
