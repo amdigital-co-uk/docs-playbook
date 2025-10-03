@@ -16,8 +16,7 @@ tags:
 
 ## RAID Subject Matter Experts
 
-- **Carol Webb** / Senior Business Analyst: carolw@amdigital.co.uk   
-- **Yasmin Burton-Lawl** / Senior UX Designer: yasminbl@amdigital.co.uk  
+- **Carol Webb** / Senior Business Analyst: carolw@amdigital.co.uk
 
 ## Raid Reporting Mechanisms 
 
