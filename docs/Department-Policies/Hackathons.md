@@ -82,9 +82,9 @@ Use the Hackathon Proposal template, found in the [Proposals library in SharePoi
    - Add further context in appendices and linked docs as required.
    - Work with others to refine your proposal.
 
-Once you have prepared a proposal, share it with the DMT for review and approval. Be prepared for feedback and to adapt you proposal.
+Once you have prepared a proposal, share it with the DMT for review and approval. Be prepared for feedback and to adapt your proposal.
   
-**Minihacks do not require full proposals or approval**, however you must still ensure you have a clear clear singular, relevant objective.
+**Minihacks do not require full proposals or approval**, however you must still ensure you have a clear singular, relevant objective.
 
 !!! tip
      Proposals will be more likely to be approved if:
@@ -101,7 +101,7 @@ Every hackathon must have a DMT sponsor. They will support in enabling alignment
 
 The coordinator is responsible for facilitating the event and ensuring it runs smoothly. 
 
-The must take responsibility for:
+They must take responsibility for:
 
 - Planning and facilitating any pre-event communications, workshops etc.
 - Ensuring the plan is clear and well understood.
@@ -125,7 +125,7 @@ The must take responsibility for:
 
 #### Planning a Great Hackathon
 
-- **Keep teams small:** and enable focus and agility.
+- **Keep teams small:** enable focus and agility.
 - **Encourage junior colleagues:** or those new to the topic to join for learning, with clear roles (e.g. research, scribing, interviews).  
 - **Adapt or cancel:** if the plan becomes unlikely to succeed.
 - **Focus on small iterations and enhancements:** Consider possible eventual ideals and vision, but design for tangible and achievable gains.
