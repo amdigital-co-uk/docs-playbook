@@ -50,12 +50,12 @@ An Outcome is a generic term for a sub goal of a product roadmap objective. The 
 
 Outcomes must belong to a roadmap item.
 
-An Outcome should describe an end goal framed in terms of business or user value. It should **not** describe an output. The audience for an Outcome is Leadership, Product Managers, UX and Engineering Leads. Engineers should be aware of outcomes, but they are not the main target audience.
+An Outcome should describe a manageable target centered on the user value and describes the **impact** that the business desires from the completion of the Outcome. It should **not** describe an output. The primary audience for an Outcome is Leadership, Product Managers, UX and Engineering Leads, however all members of the team should read and understand Outcomes.
 
 The following fields exist on an Outcome:
 
-- **Summary** - This should be a short (1-2 sentences) narrative of the value this outcome will deliver. It is an extension of the title and should outline the business outcome and user impact.
-- **Description** - More detailed information of the business outcome and/or user impact of this change. Outlining success criteria and any measurable ways of knowing when this outcome is complete should be included in the description.
+- **Summary** - This should be a short (1-2 sentences) narrative of the value this outcome will deliver. It is an extension of the title and should outline the user impact and outcome.
+- **Description** - More detailed information of the user impact and/or outcome of this change. Outlining success criteria and any measurable ways of knowing when this outcome is complete should be included in the description.
 - **ROM Rationale** - Information that explains why the ROM Outcome Size has been set to the value it is. This field is mainly used for technical notes describing things that need to be implemented or tested that provide some reasoning.
 
 In addition to these fields, any RAID (Risks, Assumptions, Issues and Dependencies) should be added as child items to an Outcome.
@@ -66,7 +66,7 @@ In addition to these fields, any RAID (Risks, Assumptions, Issues and Dependenci
 A feature is a generic term for a sub-goal of an Outcome. Features must be independently usable and valuable. 
 Features may require changes to many platforms/repositories.
 
-A feature is not necessarily a functional or user-centric value improvement. While some features may be well described as “user stories”, a feature can also describe non-functional improvements. 
+A feature is not necessarily a functional or user-centric value improvement. Whilst some features may be described as “user stories”, a feature can also describe non-functional improvements. 
 
 Features can be categorised by the type of investment or purpose, i.e. is this maintenance or added value? If this is maintenance then which type: perfective, preventative, adaptive, or corrective (bugs are generally corrective maintenance).
 
@@ -78,7 +78,7 @@ The following fields exists on a Feature:
 
 - **Description** - Describes what the feature is, what capability is being added and who it is for.
 - **Requirements and Specifications** - What is required for this Feature to be considered **done**. They should **not** be overly detailed or even following Given, When, Then syntax, this detail belongs in Backlog Item. For example, "Cross Site Scripting Attack Vulnerability tests pass" would be an acceptable requirement in a Feature.
-- **Design and Implementation Plan** - Any information related to the technical work that needs to be done for this feature. Often links to ADRs, designs or other pieces of documentation would be included in this field.
+- **Design and Implementation Plan** - Any information related to the technical work that needs to be done for this feature. Often links to ADRs, designs or other pieces of documentation would be included in this field. Low-level design and implementation details should be written in individual Backlog Items.
 
 When a Feature is viewed, it should be clear how far the feature has progressed by glancing at the child items and seeing their status.
 
