@@ -71,7 +71,7 @@ Some disadvantages of Exploratory testing are:
 
 ## Tooling
 Here are the tools we use to support Exploratory Testing
-- Test Charters – TestRail
+- Test Charters – TestMo
 - Defect Management – Azure DevOps
 
 
