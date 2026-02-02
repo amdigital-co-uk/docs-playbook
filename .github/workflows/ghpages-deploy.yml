@@ -31,13 +31,13 @@ jobs:
             mkdocs-material-
 
       - run: |
-          pip install git+https://${{ secrets.GH_KEY }}@github.com/squidfunk/mkdocs-material-insiders.git
+          pip install mkdocs-material
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-glightbox
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-git-committers-plugin-2
-      
-      - name: Build automated responsabilites 
+
+      - name: Build automated responsabilites
         working-directory: 'utils'
         run: python responsibilities-aggregator.py --folder docs/Ways-of-Working/Governance
 
