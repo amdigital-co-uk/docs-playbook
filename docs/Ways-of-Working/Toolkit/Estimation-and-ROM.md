@@ -44,6 +44,7 @@ It is possible in some situations that estimating Outcomes directly is impractic
 > We express strong confidence in the accuracy of the estimate, grounded in the information available and the team's expertise. We expect the actual time spent delivering this to be no more than 25% over the estimate provided, given the scope as it is stated.
 
 Ready to Estimate Status indicates the item's readiness. A traffic light (RAG) value is used, where:
+
 -  Red indicates little design progress has been made. 
 -  Amber indicates a solution has been determined and agreed, with limited detailed specifications.
 -  Green indicates there is enough detail to perform an estimate. 
@@ -111,4 +112,4 @@ Backlog Items and Tasks contain a ***Numeric Estimation*** field which can be us
 
 Backlog items also include a ***Backlog Item Size*** field, as a possible alternative to the numeric estimate options.
 
- Teams can use whichever approach they like, being mindful that consistency will enable better analysis. Other types of estimate can be added later, and a unified approach may be considered.
+Teams can use whichever approach they like, being mindful that consistency will enable better analysis. Other types of estimate can be added later, and a unified approach may be considered.
