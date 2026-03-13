@@ -2,9 +2,9 @@
 title: Training Booking
 authors: 
     - Ed Earle
-reviewed: 
+reviewed: Karen Farrell
 reviewer:
-next-review: 2022-01-04
+next-review: 2027-03-13
 ---
 
 !!! note "Policy for AM Staff Only"
@@ -18,7 +18,7 @@ __3 of these days__ are fixed and planned by the department leads. This may be u
 
 The __remaining 10 days__ should be booked by team members. As with annual leave, they should book them with suitable advanced notice wherever possible and they will require approval from their manager.
 
-When booking training, a plan must be submitted (this could be at any point in advance of the booked days), this should include the training objectives and any planned outcomes. This must be accompanied by performance and personal development objectives in Clear Review.
+When booking training, a plan must be submitted (this could be at any point in advance of the booked days), this should include the training objectives and any planned outcomes. This must be accompanied by performance and personal development objectives in Cezanne.
 
 ## Flow
 
@@ -35,11 +35,11 @@ E(Review & Share)
 
 | :material-check-all: Step | Detail |
 |-|-|
-| :material-check: Plan              | - Determine training objectives and create high level plan, working with line manager </br> - Document in ClearReview |
+| :material-check: Plan              | - Determine training objectives and create high level plan, working with line manager </br> - Document in Cezanne |
 | :material-check: Book              | - Book time to perform training, including specific outcomes of that time </br> - Line manager reviews and authorises |
 | :material-check: Communicate       | - Communicate planned absence to team, and block out in Outlook calendar as Out Of Office |
 | :material-check: Training Time     | - Carefully plan how you will spend your time. </br> - Notify the department and your team at the start of the sprint in which the training time falls. </br> - Set your status to unavailable/out of office. |
-| :material-check: Review  & Share   | - Provide an update to your manager about the outcome of your training. </br> - Document outcomes in clear review </br> - Plan and book any valuable knowledge sharing with the wider team|
+| :material-check: Review  & Share   | - Provide an update to your manager about the outcome of your training. </br> - Document outcomes in Cezanne </br> - Plan and book any valuable knowledge sharing with the wider team|
 
 ## Notes
 
@@ -60,12 +60,10 @@ E(Review & Share)
 !!! warning
     A training booking should only be made after a training objective has been set, and you have checked that the dates you wish to use do not conflict with other planned absences, work deadlines, or critical team events.
 
-Booking is performed via the HR system much like annual leave:
+Booking is performed via the HR system:
 
-1. Start an absence request
-1. Select the type of "Other"
-1. Select reason "Training"
+1. Add a new Calendar Event
+1. Select the event type of "Training"
 1. Enter the start and end dates (end date is the first day back in work)
-1. Enter a comment that describes the training you intend to perform, so that you line manager can easily identify the training objectives which should already be outlined.
+1. Enter a comment that describes the training you intend to perform, so that your line manager can easily identify the training objectives which should already be outlined.
 1. Submit your request. Your line manager will be automatically be notified.
-
