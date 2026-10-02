@@ -1,14 +1,24 @@
 This is a documentation repository for the department's playbook.
 
-The Playbook is a public-facing guide to the fundamental ways we work. This sits alongside the internal-facing [Knowledgebase](https://knowledgebase.platformdev.amdigital.co.uk/), which contains specific details of how our technologies and toolkits are built and configured.
+The Playbook is the public statement of how AM's Technology department works: what we value, how we turn ideas into released software, and the standards we hold ourselves to. It sits alongside the internal [Knowledgebase](https://knowledgebase.platformdev.amdigital.co.uk/), which holds the procedures, tooling and platform detail behind it.
 
 ## Structure
 
-The Playbook is structured into sections to promote a clear and simple narrative to the reader.
+The Playbook has five sections, each a folder under `docs/`:
 
-Playbook settings, including look and feel, plugins etc, are defined in the mkdocs.yml at the root.
+| Section | Folder | What it covers |
+|---|---|---|
+| How we work | `How-we-work/` | The operating model: roadmap and objectives, discovery, design, delivery, release, operation and support, teams and roles |
+| Quality | `Quality/` | Shared quality, testing, engineering standards, security, privacy and accessibility, reliability, decision records |
+| Culture | `Culture/` | Values and tenets, collaboration, autonomy and guardrails, continuous improvement, leadership, meetings, hackathons |
+| People | `People/` | Onboarding, the buddy guide, the progression framework, hybrid working, training |
+| Glossary | `Glossary.md` | The vocabulary, defined once |
 
-The Playbook documentation resides in the /docs folder. This includes markdown files and assets such as images or supporting documents. Additionally styling overrides are included in CSS files in the ../../stylesheets folder, and the .pages file outlines the navigation structure. 
+Navigation is defined by a `.pages` file in `docs/` and in each section folder (the awesome-pages plugin). Site settings, theme and plugins are in `mkdocs.yml`. Styling overrides are in `docs/stylesheets/extra.css`.
+
+Every page carries the same frontmatter: `title`, `authors`, `reviewed` and `next-review`. Pages state principle and shape; procedures, templates and tooling detail belong in the Knowledgebase, not here.
+
+The design and plan for the 2026 rewrite, including where every earlier page went, is in `plans/`.
 
 ## Tooling & Technologies
 
@@ -16,7 +26,7 @@ This Playbook is written using [Markdown](https://www.markdownguide.org/), a sim
 
 More specifically, it is built on [MKDocs](https://www.mkdocs.org/), using the [Material for MKDocs](https://squidfunk.github.io/) theme. MKDocs and Material for MKDocs extend the functionality of Markdown, allowing you to include visually richer content.
 
-It is stored and version controlled using Git in GitHub, and published with using GitHUb actions into an Azure WebApp.
+It is version controlled in GitHub and published to GitHub Pages by a GitHub Actions workflow on every push to `main`.
 
 ## Contributing
 
