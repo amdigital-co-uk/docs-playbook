@@ -194,7 +194,7 @@ Updated 2026-10-02.
 | 8 Review | Done | Sonnet checker against the SharePoint extracts (36 content, 7 leak, 11 vocabulary, ~45 style findings) and Codex (GPT-6 Sol) cold read (28 findings). All resolved or consciously kept; see the review notes below. Added a `Working-with-Us` page for colleagues in other departments as a result. 30 pages, about 17,000 words. |
 | 9 PR | Awaiting go | Nothing committed on either repository. Knowledgebase changes are in the worktree, branch `docs/playbook-migration`. |
 
-Open items: retire `Tools-and-Providers/AMPFlow-Governance.md` in the Knowledgebase; decide whether the old Playbook URLs need redirects.
+Open items: decide whether the old Playbook URLs need redirects. What the Knowledgebase must now hold, and the wider tidy it needs, is in [knowledgebase-handover.md](knowledgebase-handover.md).
 
 ### Review notes
 
