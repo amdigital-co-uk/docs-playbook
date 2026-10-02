@@ -6,7 +6,7 @@ The public statement of how AM's Technology department works, published at <http
 
 The Playbook describes how the department turns ideas into released software, the quality standards it holds itself to, the culture it expects, and what it is like to work here. It is written for anyone in the department, colleagues elsewhere in AM, candidates, and anyone curious. It is public on purpose: publishing it lets us be held to it.
 
-It states principle and shape, not procedure. Thirty pages, about 17,000 words, five sections: How we work, Quality, Culture, People and a Glossary. Anything that names a tool, a repository, a step or a person belongs somewhere else.
+It includes: How we work, Quality, Culture, People and a Glossary. Anything that names a tool, a repository, a specific procedure, or a person belongs somewhere else.
 
 ### Where things belong
 
