@@ -37,10 +37,6 @@ jobs:
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-git-committers-plugin-2
 
-      - name: Build automated responsabilites
-        working-directory: 'utils'
-        run: python responsibilities-aggregator.py --folder docs/Ways-of-Working/Governance
-
       - name: Enable insiders-only config
         run: |
           sed -i mkdocs.yml -e "s/#insiders-only#//g"
