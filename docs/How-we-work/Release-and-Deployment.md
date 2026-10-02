@@ -22,11 +22,7 @@ Every production change is recorded in the deployment log: what changed, when, a
 
 Notice is proportional to risk. A low-risk deployment, with no expected downtime, low complexity and no cross-team dependency, needs no advance notice, though it is welcome. A higher-risk deployment is one that could cause downtime on a critical or high-tier service, interfere with another team's work, or has a real chance of failure. It states its expected impact, gives notice in advance, keeps stakeholders updated as it happens, and actively seeks their feedback rather than waiting for it.
 
-| Deployment | Minimum notice |
-|---|---|
-| Critical or urgent fix during an incident | 20 minutes, with stakeholders told directly |
-| Short downtime, under 15 minutes | 24 hours |
-| Downtime of 15 minutes or more | One week |
+Detailed notice periods and communication procedures are maintained in the internal Knowledgebase.
 
 ## Planning a release
 
