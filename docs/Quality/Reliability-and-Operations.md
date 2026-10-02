@@ -21,7 +21,7 @@ Our service catalogue tiers services by how critical they are to the business. T
 
 ## Continuous deployment
 
-We aim to deploy every change automatically, as soon as it is merged, with releases controlled separately through configuration. Automated deployment removes the manual steps where mistakes happen, makes rollback routine, and keeps each change small enough to understand. Infrastructure is defined as code and reviewed like code. Pipelines run the tests, measure coverage, and write the deployment log entry.
+We aim to deploy every change automatically, as soon as it is merged, with releases controlled separately through configuration. Automated deployment removes the manual steps where mistakes happen, makes rollback routine, and keeps each change small enough to understand. Infrastructure is defined as code and reviewed like code. Pipelines run the tests and measure coverage; every deployment is recorded in the deployment log, automatically where the platform supports it.
 
 ## Flow, feedback and learning
 
