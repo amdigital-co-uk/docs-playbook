@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" width="100%" role="img" aria-labelledby="lifecycle-title lifecycle-desc">
+  <title id="lifecycle-title">An idea becomes released software through four lifecycle phases.</title>
+  <desc id="lifecycle-desc">Ideas progress through proposals, validation, candidates, a roadmap, an objective, features and backlog items, and releases, while learning from operation feeds the next discovery proposal.</desc>
+  <defs>
+    <marker id="lifecycle-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M1 1 L7 4 L1 7" fill="none" stroke="currentColor" stroke-width="1.3"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="currentColor" stroke-width="1.4">
+    <path d="M898 84 V51 Q898 45 892 45 H278 Q272 45 272 51 V84" marker-end="url(#lifecycle-arrow)"/>
+  </g>
+  <text x="585" y="28" text-anchor="middle" font-family="inherit" font-size="14" fill="currentColor">what we learn feeds the next proposal</text>
+  <g fill="#56002a">
+    <rect x="12" y="90" width="520" height="54" rx="10"/>
+    <rect x="544" y="90" width="116" height="54" rx="10"/>
+    <rect x="672" y="90" width="164" height="54" rx="10"/>
+    <rect x="848" y="90" width="100" height="54" rx="10"/>
+  </g>
+  <g fill="white" font-family="inherit" font-size="16" text-anchor="middle">
+    <text x="272" y="123" font-family="inherit">Discovery</text>
+    <text x="602" y="123" font-family="inherit">Design</text>
+    <text x="754" y="123" font-family="inherit">Implementation</text>
+    <text x="898" y="123" font-family="inherit">Operation</text>
+  </g>
+  <g fill="#e4e3e0" fill-opacity="0.25" stroke="currentColor" stroke-width="1.2">
+    <rect x="12" y="186" width="68" height="84" rx="8"/>
+    <rect x="92" y="186" width="82" height="84" rx="8"/>
+    <rect x="186" y="186" width="124" height="84" rx="8"/>
+    <rect x="322" y="186" width="86" height="84" rx="8"/>
+    <rect x="420" y="186" width="112" height="84" rx="8"/>
+    <rect x="672" y="186" width="164" height="84" rx="8"/>
+    <rect x="848" y="186" width="100" height="84" rx="8"/>
+  </g>
+  <rect x="544" y="186" width="116" height="84" rx="8" fill="#C30046"/>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" marker-end="url(#lifecycle-arrow)">
+    <path d="M81 228 H90"/>
+    <path d="M175 228 H184"/>
+    <path d="M311 228 H320"/>
+    <path d="M409 228 H418"/>
+    <path d="M533 228 H542"/>
+    <path d="M661 228 H670"/>
+    <path d="M837 228 H846"/>
+  </g>
+  <g fill="currentColor" font-family="inherit" font-size="14" text-anchor="middle">
+    <text x="46" y="233" font-family="inherit">Ideas</text>
+    <text x="133" y="233" font-family="inherit">Proposals</text>
+    <text x="248" y="218" font-family="inherit">Validation</text>
+    <text x="248" y="241" font-family="inherit" font-size="13">viability, feasibility</text>
+    <text x="365" y="233" font-family="inherit">Candidates</text>
+    <text x="476" y="218" font-family="inherit">Roadmap</text>
+    <text x="476" y="241" font-family="inherit" font-size="13">Now, Next, Later</text>
+    <text x="754" y="221" font-family="inherit">Features and</text>
+    <text x="754" y="241" font-family="inherit">backlog items</text>
+    <text x="898" y="233" font-family="inherit">Releases</text>
+  </g>
+  <g fill="white" font-family="inherit" text-anchor="middle">
+    <text x="602" y="218" font-family="inherit" font-size="15">Objective</text>
+    <text x="602" y="241" font-family="inherit" font-size="13">about 3 months</text>
+  </g>
+</svg>
