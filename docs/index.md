@@ -1,18 +1,16 @@
 ---
-Authors: 
-- Ed Earle
-Created: 2022-01-19
-Updated: 
-Review-Date: 2022-04-19
+title: Home
+authors:
+  - Ed Earle
+reviewed: 2026-10-02
+next-review: 2027-04-01
 ---
 
-Welcome to our Playbook. This document aims help our engineering, product, and design teams to operate within a clear framework of practices and achieve [our mission](#our-mission).
+Welcome to the AM Technology Playbook. AM publishes primary-source collections for academic and research libraries around the world. Quartex is the platform we deliver them through, and the Technology department designs, builds and runs it. This Playbook describes how our engineering, product, test, design and operations people work together to do that, and the standards we hold ourselves to while we do it.
 
-This is for anyone in our team, anyone working with our team with an interest in how we work, anyone thinking about working in our team, or anyone with a passing interest in our values.
+It is for anyone in the department, anyone elsewhere in AM who works with us, anyone thinking of joining, and anyone curious about how we work. We publish it so that we can be held to it.
 
-We have made this document public, so that we can be held to the standards set out.
-
-## Our Mission
+## Our mission
 
 <div class="grid-container">
     <div class="grid-item impact">
@@ -22,9 +20,9 @@ We have made this document public, so that we can be held to the standards set o
     </div>
 </div>
 
-The Platform Development Mission sits alongside [AM's Core Mission](https://www.amdigital.co.uk/about/mission/){:target="_blank"}
+The Technology department's mission sits alongside [AM's mission](https://www.amdigital.co.uk/about/mission/){:target="_blank"}.
 
-## Our Values
+## Our values
 
 <div class="grid-container">
     <div class="grid-item"><h3>Be bold</h3> Bravely putting ideas forwards, trying new things even if they fail</div>
@@ -33,13 +31,23 @@ The Platform Development Mission sits alongside [AM's Core Mission](https://www.
     <div class="grid-item"><h3>Be accountable</h3> Proactively taking responsibility for outcomes, driven to succeed</div>
 </div>
 
-## Join Our Team
+## How to read this Playbook
 
-Current opportunities in Engineering, Design, and Product management:
+- [How we work](How-we-work/index.md): the operating model, from an idea on the roadmap to software in use and supported.
+- [Quality](Quality/index.md): how we make quality everyone's responsibility, and the standards behind it.
+- [Culture](Culture/index.md): the tenets, principles and leadership behaviours we hold each other to, and hackathons.
+- [People](People/index.md): onboarding, progression, working patterns and training.
+- [Glossary](Glossary.md): the words we use, defined once.
+
+The Playbook describes the shape of how we work. Procedures, templates, tooling and platform detail live in our internal Knowledgebase.
+
+## Join our team
+
+Current opportunities in engineering, design and product management:
 
 <div class="am-jobs">
     <script src="https://scripts.teamtailor-cdn.com/widgets/production/jobs.js" async charset="utf-8"></script> 
     <div class="teamtailor-jobs-widget" data-teamtailor-limit="20" data-teamtailor-pagination="true" data-teamtailor-popup="true" data-teamtailor-department="121872" data-teamtailor-api-key="3Y59uz-R07qH3Cs3_wMHuLkNnGfxIgDKkNEWUpSs"></div>
 </div>
 
-And take a look at [our careers site](https://careers.amdigital.co.uk/){: target=_blank} for more information about life at AM.
+See [our careers site](https://careers.amdigital.co.uk/){: target=_blank} for more about life at AM.
